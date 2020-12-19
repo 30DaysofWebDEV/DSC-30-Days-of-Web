@@ -10,7 +10,7 @@ Today we will be starting with our journey in JavaScript. We will be starting wi
 * [Hello World in Javascript](https://javascript.info/hello-world)
 * [Comments in Javascript](https://www.w3schools.com/js/js_comments.asp)
 
-##### You can also use node Js to run your JavaScript code in your terminal. 
+##### You can also use Node.js to run your JavaScript code in your terminal. 
 
   * [Node JS Installation](https://nodejs.org/en/download/)
   * [Running JS code in Terminal](https://www.youtube.com/watch?v=BPBdgd1BgEA)
