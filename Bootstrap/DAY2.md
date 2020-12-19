@@ -1,6 +1,6 @@
 # DAY2
 
-### We will look into more advanced concepts of Bootstrap.
+We will look into more advanced concepts of Bootstrap.
 
 
    <ol>
