@@ -27,11 +27,14 @@ The main **objective behind this program is to provide you with access to top-no
 We have designed **beginner-friendly** lessons covering up **HTML, CSS, JavaScript, Bootstrap & Firebase 💛**. 
 Furthermore, there are **quizzes and projects** to help you sharpen your basics in a fun and riveting way.
 
-- [Bootstrap](/Bootstrap/ReadME.md)
-- [CSS](/CSS/ReadME.md) 
-- [Firebase](/Firebase/ReadME.md)
 - [HTML](/HTML/ReadME.md)
+- [CSS](/CSS/ReadME.md) 
+- [Bootstrap](/Bootstrap/ReadME.md)
 - [JavaScript](/JavaScript/ReadME.md)
+- [Hosting](/Hosting/ReadME.md)
+- [Firebase](/Firebase/ReadME.md)
+
+
 
 ## How it works?
 
@@ -71,7 +74,7 @@ We have segment the resources into topics and inside each topic the content is a
 ├── [Hosting](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/Hosting)<br>
 ├<br>
 ├── [Firebase](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/Firebase)<br>
-├<br>
+
 
 
 
