@@ -1,4 +1,4 @@
-# DAY4
+# DAY1
 
 Today we will be starting with our journey in JavaScript. We will be starting with what browser-side scripting is, what JS is, how we can work with js, and a hello world program in JS. We have provided you with the content which you can go through and practice things out.
 
