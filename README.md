@@ -40,43 +40,51 @@ Furthermore, there are **quizzes and projects** to help you sharpen your basics 
 
 We have segment the resources into topics and inside each topic the content is avialable in _DAY#.md_ files. You can use the links below to navigate or use the GitHub navigator.<br>
 
-.<br>
-├<br>
+<br>
 ├── [HTML](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/HTML)<br>
-├ - - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY1.md)<br>
-├ - - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY2.md)<br>
-├ - - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY3.md)<br>
-├ - - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY4.md)<br>
-├ - - ├── [DAYOptional.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAYOptional.md)<br>
-├ - - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/ReadME.md)<br>
+├ - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY1.md)<br>
+├ - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY2.md)<br>
+├ - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY3.md)<br>
+├ - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY4.md)<br>
+├ - ├── [DAYOptional.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAYOptional.md)<br>
+├ - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/ReadME.md)<br>
 ├<br>
 ├── [CSS](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/CSS)<br>
-├ - - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY1.md)<br>
-├ - - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY2.md)<br>
-├ - - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY3.md)<br>
-├ - - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY4.md)<br>
-├ - - ├── [Optional.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/Optional.md)<br>
-├ - - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/ReadME.md)<br>
+├ - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY1.md)<br>
+├ - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY2.md)<br>
+├ - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY3.md)<br>
+├ - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY4.md)<br>
+├ - ├── [Optional.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/Optional.md)<br>
+├ - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/ReadME.md)<br>
 ├<br>
 ├── [Bootstrap](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/CSS)<br>
-├ - - - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/DAY1.md)<br>
-├ - - - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/DAY2.md)<br>
-├ - - - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/ReadME.md)<br>
+├ - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/DAY1.md)<br>
+├ - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/DAY2.md)<br>
+├ - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/ReadME.md)<br>
 ├<br>
 ├── [JavaScript](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/JavaScript)<br>
-├ - - - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY1.md)<br>
-├ - - - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY2.md)<br>
-├ - - - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY3.md)<br>
-├ - - - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY4.md)<br>
-├ - - - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY5.md)<br>
-├ - - - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY6.md)<br>
-├ - - - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/ReadME.md)<br>
+├ - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY1.md)<br>
+├ - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY2.md)<br>
+├ - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY3.md)<br>
+├ - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY4.md)<br>
+├ - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY5.md)<br>
+├ - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY6.md)<br>
+├ - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/ReadME.md)<br>
 ├<br>
 ├── [Hosting](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/Hosting)<br>
 ├<br>
 ├── [Firebase](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/Firebase)<br>
-├<br>
 
 
+<!-- CONTRIBUTING GUIDELINES -->
+## Contributing Guidelines
+
+- **Plagiarism is strictly not allowed**. Any work that is found to be suspicious of plagiarized work will not be merged.
+- Issues will be assigned on a _first come, first serve_ basis. You just have to comment on the issue, asking to be assigned, and it will be done if found fit.
+- Preferably, you cannot work on any issue that is not assigned to you.
+- In case you want to submit an improvement to an existing algorithm, we prefer that you create an issue, describing in details your improvement. This will help others to analyze your contribution. 
+- If you have anything else in mind, create an issue and please wait for it to be assigned to you. You can then start working on it and create a PR.
+- All PRs must be made from a Branch. Create a separate branch for every Issue you are working upon and once found fit, make a PR.
+Make sure your code works before submitting it :D
 
 
