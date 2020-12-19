@@ -39,8 +39,8 @@ Furthermore, there are **quizzes and projects** to help you sharpen your basics 
 ## How it works?
 
 We have segment the resources into topics and inside each topic the content is avialable in _DAY#.md_ files. You can use the links below to navigate or use the GitHub navigator.<br>
-.<br>
-├<br>
+
+<br>
 ├── [HTML](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/HTML)<br>
 ├ - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY1.md)<br>
 ├ - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY2.md)<br>
@@ -48,7 +48,7 @@ We have segment the resources into topics and inside each topic the content is a
 ├ - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY4.md)<br>
 ├ - ├── [DAYOptional.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAYOptional.md)<br>
 ├ - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/ReadME.md)<br>
-├<br>
+<br>
 ├── [CSS](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/CSS)<br>
 ├ - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY1.md)<br>
 ├ - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY2.md)<br>
