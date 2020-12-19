@@ -1,9 +1,6 @@
-# HTML
+# ![alt](https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png "text")
 
 ## What is HTML?
-
-![alt](https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png "text")
-
 * HTML stands for Hyper Text Markup Language
 * HTML is the standard markup language for creating Web pages
 * HTML describes the structure of a Web page
