@@ -2,7 +2,7 @@
 
 ## What is CSS?
 
-
+[comment]: <> (Delete this line and write here)
 
 ## DAY-wise resources:
 
