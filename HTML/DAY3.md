@@ -1,4 +1,4 @@
-# DAY2
+# DAY3
 
 We'll focus on **debuging our HTML code effectively and work on creating forms**. The content is linked below you can go through and practice things out. Don’t forget to do the exercises if there are any:)
 
