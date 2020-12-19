@@ -1,8 +1,8 @@
-# CSS
+# ![CSS LOGO](https://www.logolynx.com/images/logolynx/s_db/dbef5539884535031b032b49dcccf89e.png)
 
 ## What is CSS?
 
-![CSS LOGO](https://www.logolynx.com/images/logolynx/s_db/dbef5539884535031b032b49dcccf89e.png)
+
 
 ## DAY-wise resources:
 
