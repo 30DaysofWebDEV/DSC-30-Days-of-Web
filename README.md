@@ -38,8 +38,7 @@ Furthermore, there are **quizzes and projects** to help you sharpen your basics 
 
 ## How it works?
 
-We have segment the resources into topics and inside each topic the content is avialable in _DAY#.md_ files. You can use the links below to navigate or use the GitHub navigator.<br>
-
+We have segment the resources into topics and inside each topic the content is avialable in _DAY#.md_ files. You can use the links below to navigate or use the GitHub navigator.
 <br>
 ├── [HTML](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/HTML)<br>
 ├ - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY1.md)<br>
