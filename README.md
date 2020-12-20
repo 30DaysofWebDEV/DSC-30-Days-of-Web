@@ -5,11 +5,13 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Overview](#Overview)
-* [Contents](#Contents)
-* [Contributing Guidelines](#Contributing-Guidelines)
-* [Code Of Conduct](#Code-Of-Conduct)
-* [License](#License)
+* [Overview](#overview)
+* [Contents](#contents)
+* [Contributing Guidelines](#contributing-guidelines)
+* [Code Of Conduct](#code-of-conduct)
+* [License](#license)
+* [Resources](#resources)
+* [Reach Us](#reach-us)
 
 
 <!-- OVERVIEW -->
@@ -36,7 +38,7 @@ Furthermore, there are **quizzes and projects** to help you sharpen your basics 
 
 
 
-## How it works?
+## Resources
 
 We have segment the resources into topics and inside each topic the content is avialable in _DAY#.md_ files. You can use the links below to navigate or use the GitHub navigator.
 <br>
@@ -86,4 +88,7 @@ We have segment the resources into topics and inside each topic the content is a
 - All PRs must be made from a Branch. Create a separate branch for every Issue you are working upon and once found fit, make a PR.
 Make sure your code works before submitting it :D
 
+<!-- Reach Us -->
+## Reach Us
+<img src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-icon-flat-style-available-svg-png-eps-10.png" alt="Discord" width=50 height=50 /> <a href="https://discord.com/invite/TCvEVb94p9" target="_blank">
 
