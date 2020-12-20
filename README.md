@@ -7,10 +7,10 @@
 
 * [Overview](#overview)
 * [Contents](#contents)
+* [Resources](#resources)
 * [Contributing Guidelines](#contributing-guidelines)
 * [Code Of Conduct](#code-of-conduct)
 * [License](#license)
-* [Resources](#resources)
 * [Reach Us](#reach-us)
 
 
@@ -87,6 +87,8 @@ We have segment the resources into topics and inside each topic the content is a
 - If you have anything else in mind, create an issue and please wait for it to be assigned to you. You can then start working on it and create a PR.
 - All PRs must be made from a Branch. Create a separate branch for every Issue you are working upon and once found fit, make a PR.
 Make sure your code works before submitting it :D
+
+<!-- pls add license and CoC here -->
 
 <!-- Reach Us -->
 ## Reach Us
