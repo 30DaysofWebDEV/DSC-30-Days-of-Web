@@ -35,6 +35,7 @@ Furthermore, there are **quizzes and projects** to help you sharpen your basics 
 - [JavaScript](/JavaScript/ReadME.md)
 - [Hosting](/Hosting/ReadME.md)
 - [Firebase](/Firebase/ReadME.md)
+- [Github](/Github/GITHUB.md)
 
 
 
@@ -71,6 +72,8 @@ We have segment the resources into topics and inside each topic the content is a
 ├ - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY5.md)<br>
 ├ - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY6.md)<br>
 ├ - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/ReadME.md)<br>
+├<br>
+├── [Github](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Github/GITHUB.md)<br>
 ├<br>
 ├── [Hosting](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/Hosting)<br>
 ├<br>
