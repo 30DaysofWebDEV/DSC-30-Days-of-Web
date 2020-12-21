@@ -69,8 +69,8 @@ We have segment the resources into topics and inside each topic the content is a
 ├ - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY2.md)<br>
 ├ - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY3.md)<br>
 ├ - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY4.md)<br>
-├ - ├── [DAY3.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY5.md)<br>
-├ - ├── [DAY4.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY6.md)<br>
+├ - ├── [DAY5.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY5.md)<br>
+├ - ├── [DAY6.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY6.md)<br>
 ├ - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/ReadME.md)<br>
 ├<br>
 ├── [Github](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Github/GITHUB.md)<br>
