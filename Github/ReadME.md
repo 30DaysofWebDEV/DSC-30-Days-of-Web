@@ -2,7 +2,9 @@
 
 
 ## What is GitHub?
-<!-- pls add here -->
+* Github.com is software hosting service for version control systems like Git. In simple language it is based on open source version control system Git which allow to track changes in the repository (collection of files and folders).
+
+* It is a code hosting platform for version control systems and collaborations. It allows you and others to work together from anywhere.
 
 ## DAY-wise resources:
 
