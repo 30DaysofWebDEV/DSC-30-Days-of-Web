@@ -35,7 +35,7 @@ Furthermore, there are **quizzes and projects** to help you sharpen your basics 
 - [JavaScript](/JavaScript/ReadME.md)
 - [Hosting](/Hosting/ReadME.md)
 - [Firebase](/Firebase/ReadME.md)
-- [Github](/Github/GITHUB.md)
+- [Github](/Github/ReadME.md)
 
 
 
