@@ -94,6 +94,7 @@ We have segment the resources into topics and inside each topic the content is a
 Make sure your code works before submitting it :D
 
 <!-- pls add license and CoC here -->
+**First Day of HTML-1**
 
 <!-- Reach Us -->
 ## Reach Us
