@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Chit-Chat</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+
+  <script src="js/jquery.cookie.js" type="text/javaScript"></script>
+  <script type="text/javascript">
+    if ($.cookie("username")) {
+      window.location = "chat-room.html"
+    }
+  </script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row" >
+        <div class="col-md-6 col-md-offset-3">
+          <h4>Login to chat</h4>
+          <input type="text" autocomplete="off" name="username" id="username" class="form-control"
+            placeholder="Enter your username">
+          <div class="clear"></div>
+          <p><a class="btn btn-lg btn-success" href="#" role="button" id="enterChat">Enter chat</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      $('#enterChat').click(function () {
+        if ($('#username').val() == '') {
+          alert('Please enter your username');
+        } else {
+          $.cookie("username", $('#username').val());
+          window.location = "chat-room.html";
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
