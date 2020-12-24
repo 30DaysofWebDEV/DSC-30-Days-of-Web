@@ -8,3 +8,4 @@
 ## DAY-wise Resources:
 * [DAY1](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/DAY1.md)
 * [DAY2](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/DAY2.md)
+* [Bootstrap_Quiz](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/Bootstrap_Quiz.md)
