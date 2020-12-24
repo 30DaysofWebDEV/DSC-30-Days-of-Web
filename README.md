@@ -82,6 +82,9 @@ We have segment the resources into topics and inside each topic the content is a
 ├ - - └── [GITHUB.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Github/GITHUB.md)<br>
 ├<br>
 ├── [Hosting](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/Hosting)<br>
+├ - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Hosting/DAY1.md)<br>
+├ - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Hosting/DAY2.md)<br>
+├ - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Hosting/ReadME.md)<br>
 ├<br>
 ├── [Firebase](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/Firebase)<br>
 
