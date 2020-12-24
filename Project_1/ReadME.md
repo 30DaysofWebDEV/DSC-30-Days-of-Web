@@ -4,8 +4,8 @@
 
 * Header
 * Footer
-* Contact form with buttons, email input, number input, first name and last name
-* A table with a 
-* Add a video
-* Add your picture
+* Contact form with **buttons, email input, number input, first name and last name**
+* Table 
+* Video
+* Images
 
