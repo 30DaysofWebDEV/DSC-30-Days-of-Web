@@ -1,7 +1,6 @@
-# Quiz Time!!!
+## Quiz Time!!!
 
-## Test what you have learnt ?
+### Test what you have learnt ?
 
-  <ol>
-   <li>  <a href="https://www.w3schools.com/css/css_quiz.asp"></a>Start the CSS Quiz</li>
-  </ol>
+
+   <li>  <a href="https://www.w3schools.com/css/css_quiz.asp">Start the CSS Quiz</a>
