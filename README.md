@@ -63,7 +63,8 @@ We have segment the resources into topics and inside each topic the content is a
 ├── [Bootstrap](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/CSS)<br>
 ├ - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/DAY1.md)<br>
 ├ - ├── [DAY2.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/DAY2.md)<br>
-├ - └── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/ReadME.md)<br>
+├ - ├── [ReadME.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/ReadME.md)<br>
+├ - └──[Bootstrap_Quiz](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/Bootstrap/Bootstrap_Quiz.md)<br>
 ├<br>
 ├── [JavaScript](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/tree/main/JavaScript)<br>
 ├ - ├── [DAY1.md](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/JavaScript/DAY1.md)<br>
