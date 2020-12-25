@@ -11,8 +11,8 @@
 
 ## I have completed this task/project successfully.
 
-Harshita Verma
-Github : ineffable23
+Harshita Verma <br>
+Github : ineffable23 <br>
 Email : harshitav111@gmail.com
 
 ## Harshita's Project 1
