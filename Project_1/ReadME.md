@@ -1,7 +1,12 @@
 Completed Task And Project 1
+=======
+# Project 1: HTML Project (Barebones Portfolio)
 
-Aryan Garg
+### Create a barebones HTML portfolio website of your own using the following features: 
 
-gargaryan82000gmail.com
-
-GitHub Username - code08-ind
+* Header
+* Footer
+* Contact form with **buttons, email input, number input, first name and last name**
+* Table 
+* Video
+* Images
