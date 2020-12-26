@@ -52,7 +52,7 @@
             <button type="button">Reset</button>
         </form>
         <hr>
-        <h2 style="font-family:sans-serif">Contact information (in tabular format)</h2>
+        <h2 style="font-family:sans-serif">Contact information(in tabular format)</h2>
         <table style="width:30%">
             <tr>
                 <th>FirstName</th>
