@@ -29,3 +29,5 @@
 * Video - Recomended Videos (1 Youtube & 1 Other source)
 
 * Images - Profile Logo
+
+* I've Used Some Inline Css for Proper Alignments and Stuffs
