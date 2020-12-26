@@ -10,5 +10,5 @@
 * Images
 
 # Project-1: Successfully added.
-Name- Moumita Das.
+Name - Moumita Das.
 
