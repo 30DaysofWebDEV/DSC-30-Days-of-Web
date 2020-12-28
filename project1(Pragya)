@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Pragya Dadhich Portfolio</title>
+</head>
+<body background="C:\Users\sony\Desktop\pragya\markus-spiske-hwqWxHoH2wk-unsplash.jpg">
+	<header>
+		<div class="container">
+			<nav>
+				<a href="index.html">
+					<img src="2fdea8f9-34df-416d-bcd3-b800ae921483_200x200.png" alt="Dadhich-logo">
+				</a>
+				<div class="menu-icon">
+					<div class="line1"></div>
+					<div class="line2"></div>
+				    <div class="line3"></div>
+				</div>
+			</nav>
+		</div>
+	</header>
+    <main>
+		<center><h1 style="font-style: arial;" color: #ff0000;>PRAGYA DADHICH</h1>
+		<h3>{Front-End Web Developer}</h3>
+		<p>
+			HTML. CSS. JavaScript. Bootstrap
+		</p>
+		<!--<a href="about" class="scroll-down">
+			<i class="fa fa-chevron-down" aria-hidden="=true">
+			 	::down
+			</i>
+		</a> -->
+	</center>
+	<div class="container">
+		<div class="about-image">
+			<img src="IMG-20200221-WA0123.jpg"  alt="Pragya Dadhich" style="width:200px; height: 200px;" align="right">
+		</div>
+		<h2>Hey There!</h2>
+		<div class="header-list">
+			<ul>
+			  <li>Front-end Web Developer</li>
+			  <li>NCC Cadet</li>
+			  <li>Curious to learn new skills.</li>
+			</ul>
+		  </div>
+	</div>
+	<center>
+        <h1 style=font-family: Lucida Grande; color:#239b76; font-size:32px;>Learn to be creative.<br>Let's learn to code.</h1></center>
+    <div class="main">
+        <table align="center">
+            <tr>
+              <th>Course Name</th>
+              <th>Days</th>
+              <th>Platform</th>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>14</td>
+               <td>Progate</td>
+            </tr>
+            <tr>
+              <td>Css</td>
+              <td>14</td>
+       
+              <td>Progate</td>
+            </tr>
+            <tr>
+              <td>Machine Learning</td>
+              <td>30</td>
+              <td>Internship - studio</td>
+            </tr>
+            <tr>
+                <td>Web development</td>
+                <td>30</td>
+                <td>Skillenza</td>
+              </tr>
+          </table>
+
+      <div class="contact-form">
+        <h3 class="section-title">Get In Touch</h3>
+        <p>Email (Required)</p>
+        <input>
+        <p>Message (Required)</p>
+        <textarea></textarea>
+        <p>* Required fields must be filled</p>
+        <input class="contact-submit" type="submit" value="Send">
+      </div>
+    </div>
+
+    <div class="footer">
+        <div class="btn-wrapper">
+             <a href="#" class="btn signup">Sign up with Email</a><br>
+            <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</a><br>
+            <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</a>
+          </div>
+    </div>
+	</main>
+</body>
