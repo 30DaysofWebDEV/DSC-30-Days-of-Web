@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1-HTML</title>
+</head>
+<body>
+
+     <em><h1>Project1 ---> HTML Skeleton</h1></em>
+     <h2>Absolute URLs</h2>
+     <p><a href="https://www.w3.org/" target="_blank">W3C</a></p>
+     <p><a href="https://www.google.com/" target="_blank">Google</a></p>
+
+     <h2>Relative URLs</h2>
+     <p><a href="charge.png" target="_blank">Currency Image</a></p>
+     <p><a href="book.jpg" target="_blank">Book Image</a></p>
+     
+     <h2>Using image and gifs as a link</h2>
+     <a href="https://www.wordstream.com/blog/ws/2015/12/03/google-maps-marketing" target="_blank"><img src="locationgif.gif" alt="Location" style="width:100px;height:100px; padding: 30px;"></a>
+     <a href="https://www.facebook.com/App-collection-576120919732517" target="_blank"><img src="fb.png" alt="Facebook" style="width:100px;height:100px;padding: 30px;"></a>
+     <a href="https://devpost.com/anjali1361?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank"><img src="dev.png" alt="Devpost" style="width:100px;height:100px;padding: 30px;"></a>
+     <a href="https://www.linkedin.com/in/anjali1361/" target="_blank"><img src="linkedin.jpg" alt="Likedin" style="width:100px;height:100px;padding: 30px;"></a>
+     <a href="https://github.com/anjali1361" target="_blank"><img src="github.png" alt="Github" style="width:100px;height:100px;padding: 30px;"></a>
+     <a href="https://voiceanswer.com/" target="_blank"><img src="assistant.gif" alt="Voice assistant" style="width:100px;height:100px; padding: 30px;"></a>
+    <h1>The header element represents a container for introductory content or a set of navigational links.</h1>
+    <p>A header element typically contains:one or more heading elements (h1 - h6)logo or iconauthorship information
+        
+        Note: You can have several header elements in one HTML document. However, header cannot be placed within a footer, address or another header element.</p>
+    <article>
+        <header>
+          <h1>A heading here</h1>
+          <p>Posted by John Doe</p>
+          <p>The header tag also supports the Global Attributes in HTML</p>
+          <p>The header tag also supports the Event Attributes in HTML.</p>
+        </header>
+        <p>Default CSS Settings
+          Most browsers will display the <header> element with the following default <br>
+             header {<br>
+              display: block;<br>
+              }</p>
+      </article>
+
+      <h1>Block and Inline element</h1>
+      <p>Grouping HTML Elements
+        <h2>The div tag</h2>
+        <ul>
+          <li>This is the very important block level tag which plays a big role in grouping various other HTML tags and applying CSS on group of elements. </li>
+          <li>Even now div tag can be used to create webpage layout where we define different parts (Left, Right, Top etc.) of the page using 
+            div tag. This tag does not provide any visual change on the block but this has more meaning when it is used with CSS.</li>
+        </ul>
+        <h2>The span tag</h2>
+        <ul>
+          <li>The HTML <span> is an inline element and it can be used to group inline-elements in an HTML document. This tag also does not provide any 
+            visual change on the block but has more meaning when it is used with CSS</li>
+          <li>The difference between the <span> tag and the <div> tag is that the <span> 
+            tag is used with inline elements whereas the <div> tag is used with block-level elements.</li>
+        </ul>
+     </p>
+
+     <h2>Div tag illustration</h2>
+     <div style = "color:red">
+      <h4>This is first group</h4>
+      <p>Following is a list of vegetables</p>
+      
+      <ul>
+         <li>Beetroot</li>
+         <li>Ginger</li>
+         <li>Potato</li>
+         <li>Radish</li>
+      </ul>
+   </div>
+
+   <div style = "color:green">
+    <h4>This is second group</h4>
+    <p>Following is a list of fruits</p>
+    
+    <ul>
+       <li>Apple</li>
+       <li>Banana</li>
+       <li>Mango</li>
+       <li>Strawberry</li>
+    </ul>
+ </div>
+
+ 
+ <h2>Span tag illustration</h2>
+ 
+ <p>This is <span style = "color:red">red</span> and this is
+  <span style = "color:green">green</span></p>
+
+      <h1>Semantic elements</h1>
+      <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank"><img src="img_sem_elements.gif" alt="Semantic elements" title="Click me to know more" style="width:300px;height:300px;"></a>
+
+    <h1>HTML Tables</h1>
+   <table>
+        <tr>
+          <th style="border: 1px solid #000000;">Format</th>
+          <th style="border: 1px solid #000000;">File</th>
+          <th style="border: 1px solid #000000;">Description</th>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #000000;">MPEG</td>
+          <td style="border: 1px solid #000000;">.mpg/.mpeg</td>
+          <td style="border: 1px solid #000000;">MPEG. Developed by the Moving Pictures Expert Group. The first popular video format on the web. Not supported anymore in HTML.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #000000;">AVI</td>
+          <td style="border: 1px solid #000000;">.avi</td>
+          <td style="border: 1px solid #000000;">AVI (Audio Video Interleave). Developed by Microsoft. Commonly used in video cameras and TV hardware. Plays well on Windows computers, but not in web browsers.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #000000;">WMV</td>
+          <td style="border: 1px solid #000000;">.wmv</td>
+          <td style="border: 1px solid #000000;">WMV (Windows Media Video). Developed by Microsoft. Commonly used in video cameras and TV hardware. Plays well on Windows computers, but not in web browsers.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #000000;">QuickTime</td>
+          <td style="border: 1px solid #000000;">.mov</td>
+          <td style="border: 1px solid #000000;">QuickTime. Developed by Apple. Commonly used in video cameras and TV hardware. Plays well on Apple computers, but not in web browsers.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #000000;">RealVideo</td>
+          <td style="border: 1px solid #000000;">.rm/.ram</td>
+          <td style="border: 1px solid #000000;">RealVideo. Developed by Real Media to allow video streaming with low bandwidths. Does not play in web browsers.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #000000;">Flash</td>
+          <td style="border: 1px solid #000000;">.swf/.flv</td>
+          <td style="border: 1px solid #000000;">Flash. Developed by Macromedia. Often requires an extra component (plug-in) to play in web browsers.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000000;">Ogg</td>
+            <td style="border: 1px solid #000000;">.ogg</td>
+            <td style="border: 1px solid #000000;">Theora Ogg. Developed by the Xiph.Org Foundation. Supported by HTML.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000000;">WebM</td>
+            <td style="border: 1px solid #000000;">.webm</td>
+            <td style="border: 1px solid #000000;">WebM. Developed by Mozilla, Opera, Adobe, and Google. Supported by HTML.</td>
+        </tr>
+        <tr>
+        <td style="border: 1px solid #000000;">MPEG-4 or MP4</td>
+        <td style="border: 1px solid #000000;">.mp4</td>
+        <td style="border: 1px solid #000000;">MP4. Developed by the Moving Pictures Expert Group. Commonly used in video cameras and TV hardware. Supported by all browsers and  recommended by YouTube.</td>
+        </tr>
+      </table><br>
+
+      <h1>Forms in HTML</h1>
+
+      <form action="post" target="_blank" method="POST">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <i><h2>Radio</h2></i>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+        <i><h2>Checkbox</h2></i>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <i><h2>Numeric steps</h2></i>
+        <label for="quantity">Quantity:</label><br>
+         <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30"><br><br>
+         <i><h2>Range in forms</h2></i>
+         <label for="vol">Volume (between 0 and 50):</label><input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+         <i><h2>Search field</h2></i>
+         <label for="gsearch">Search Google:</label>
+         <input type="search" id="gsearch" name="gsearch">
+         <i><h2>Telephone field</h2></i>
+         <label for="phone">Enter a phone number:</label><br>
+         <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+         <i><h2>Time input control</h2></i>
+         <label for="appt">Select a time:</label><input type="time" id="appt" name="appt"><br><br>
+         <i><h2>URL input field</h2></i>
+         <label for="homepage">Add your homepage:</label><input type="url" id="homepage" name="homepage"><br><br>
+         <i><h2>Week input control</h2></i>
+         <label for="week">Select a week:</label><input type="week" id="week" name="week"><br><br>
+         <input type="submit" value="Submit"><br><br>
+      
+    </form>
+
+    <p>Tip: The default value of the type attribute is "text"</p>
+
+    <h1>Input restriction in Forms</h1>
+    <ul>
+    <li>checked	->Specifies that an input field should be pre-selected when the page loads (for type="checkbox" or type="radio")</li>
+    <li>disabled->	Specifies that an input field should be disabled</li>
+    <li>max	-> Specifies the maximum value for an input field</li>
+    <li>readonly ->	Specifies that an input field is read only (cannot be changed)</li>
+    <li>required->	Specifies that an input field is required (must be filled out)</li>
+    <li>size ->	Specifies the width (in characters) of an input field</li>
+    <li>step->	Specifies the legal number intervals for an input field</li>
+    <li>value->	Specifies the default value for an input field--></li>
+    <li>min	->Specifies the minimum value for an input field</li>
+  </ul>
+
+  <Strong><h1 style="text-align: center;">The footer section</h1></Strong>
+      <footer style="text-align: center;">
+        <i>Author: Hege Refsnes</i>
+        <a href="mailto:hege@example.com">hege@example.com</a>
+      </footer><br>
+      
+</body>
+</html>
