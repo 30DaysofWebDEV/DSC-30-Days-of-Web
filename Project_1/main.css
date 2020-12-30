@@ -1,4 +1,51 @@
+*{
+    color: ivory;
+    margin: 0px;
+}
 body{
     background-color:rgba(223, 222, 222, 0.8);
     margin: 0px;
+    background-image:url("../Project_1/images/stars.jpg");
+    background-position: top;
+    background-size:cover;
+    background-repeat: repeat-x;
+
 }
+header{
+    position:-webkit-sticky;
+    color: snow;
+    position: sticky;
+    top: 0px;  
+    background-image:url("../Project_1/images/stars.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    padding-bottom: 2px;
+    
+}
+
+#nav{
+    list-style-type: none;
+    display: inline-flex;
+    flex: 0 0 100px;
+    float:right;
+    padding: 0px 5px 10px;
+    margin: 0px;
+    
+}
+li{
+    display: inline;
+    padding: 8px;
+    
+}
+.flex-container {
+    display: flex;
+    flex: 1 1 100%; 
+    
+  }
+  
+  .flex-container > div {
+     flex:0 1 100%; 
+  }
+  .flex-item{
+      flex: 0 0 100%;
+  }
