@@ -1,0 +1,116 @@
+nav li{
+  float: left;
+  padding-left: 110px;
+}
+.about_me{
+    padding-top: 30px;
+    text-align: center;
+}
+header-main h3{
+    text-align: center;
+}
+header-main h4{
+    text-align: center;
+}
+.header-main{
+    padding-top: 30px;
+    position: relative;
+}
+.first_txt{
+   position: absolute;
+   top: 30%;
+   left: 40%;
+}
+   
+.second_txt{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    right: 10%;
+    
+}
+.third_txt{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    
+}
+.tabHead{
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+table#proj{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+
+}
+
+#proj tr:nth-child(even) {
+    background-color: #EBDEF0;
+
+}
+#proj tr:nth-child(odd) {
+    background-color: #D6EAF8 ;
+
+}
+#proj th {
+    background-color: #D7DBDD;
+}
+
+.video h4{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    font-size: 32px;
+}
+
+iframe{
+    position: absolute;
+    padding-left: 700px;
+    margin-top: -100px;
+}
+.form{
+    position: relative;
+    top: 180px;
+    left: 25%;
+    width: 50%;
+}
+fieldset{
+    height: 180px; 
+    padding: 20px 160px;
+    background-color: #eeeeee;
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+    background-color: gray;
+     color: white;
+     padding: 5px 10px;
+}
+
+input{
+    margin: 5px;
+    padding-right: 30px;
+}
+footer{
+    position: relative;
+    top: 190px;
+    background-color: beige;
+    height: 200px;
+}
+footer h4{
+    padding-top: 30px;
+}
+
+footer a{
+    margin-left: 90px;
+}
+
+
