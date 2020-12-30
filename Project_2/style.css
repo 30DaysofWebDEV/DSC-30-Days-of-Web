@@ -1,0 +1,178 @@
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fira+Sans+Condensed:ital,wght@1,300&display=swap');
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        font-family: 'Caveat', cursive;
+        font-family: 'Fira Sans Condensed', sans-serif;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    #header {
+        background: url("https://cdn.wallpapersafari.com/16/2/dyrlvz.jpg") no-repeat top;
+        background-size: cover;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 30px;
+        color: white;
+    }
+    
+    #menubar {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px black;
+    }
+    
+    #menubar a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    
+    #menubar ul {
+        list-style: none;
+    }
+    
+    #menubar ul li {
+        margin: auto;
+        padding: auto;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    #aboutme {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: url("https://cutewallpaper.org/21/white-background-wallpaper/72+-Hd-White-Wallpapers-on-WallpaperPlay.jpg");
+        background-size: cover;
+        margin-top: 3px;
+    }
+    
+    .amdesp {
+        width: 80% !important;
+        float: left;
+        font-size: 28px;
+        margin: auto;
+    }
+    
+    .amimg {
+        width: 20%;
+        float: left;
+    }
+    
+    .amimg img {
+        border-radius: 50%;
+    }
+    
+    .prt {
+        margin: 1%;
+        padding-top: 100px;
+        text-align: center;
+    }
+    
+    .prtall {
+        width: 20%;
+        margin: 1%;
+        padding: 1%;
+        display: inline-block;
+        box-shadow: 2px 3px 15px -3px gray;
+        border-radius: 5%;
+    }
+    
+    .prtalldimg {
+        width: 200px;
+        height: 100px;
+        position: relative;
+    }
+    
+    .prtall img {
+        position: absolute;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        top: -120%;
+        left: 28%;
+    }
+    
+    .prtall p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .prtall .button {
+        padding: 8px;
+        font-size: 22px;
+        background-color: #006ce8;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        margin-top: 10px !important;
+    }
+    
+    #contact {
+        box-shadow: 2px 12px 12px -13px grey;
+    }
+    
+    .cntmap {
+        width: 70%;
+        float: left;
+    }
+    
+    .cntform {
+        width: 30%;
+        float: left;
+        padding-top: 30px;
+    }
+    
+    .cntform form {
+        text-align: center;
+    }
+    
+    .cntform hr {
+        width: 30%;
+        margin-bottom: 40px;
+    }
+    
+    .frominputall {
+        display: inline-block;
+        width: 90%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .frominputmsg {
+        display: inline-block;
+        width: 90%;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    #footer ul li {
+        display: inline-block;
+    }
