@@ -1,0 +1,75 @@
+header{
+    background-image: url('bg6.jpg');
+    background-size: cover;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+h1{
+    text-align: center;
+}
+.box{
+  background-color: rgb(204, 204, 211);  
+  text-align: center;
+  opacity: 0.8;
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.container{
+  background-image: linear-gradient(to bottom right, rgb(233, 224, 224), rgb(250, 250, 198));
+  padding: 5px;
+}
+input[type=text], select, textarea { 
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid rgb(0, 0, 0); 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+}
+
+h2{
+  color: rgb(245, 228, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  background-color:rgb(3, 56, 200) ;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,th,td{
+  border: 2px solid rgb(78, 78, 78) ;
+  font-style: italic;
+  color: rgb(3, 56, 200);
+  padding: 5px;
+}
+
+th{
+  height: 70px;
+}
+
+img{
+  border:5px solid rgb(97, 95, 95);
+  width: 220px;
+  height:400px;
+  margin:50px;
+  padding: 3px;
+}
+
+video{
+border:5px solid rgb(186, 230, 157);
+  width: 220px;
+  height:400px;
+  margin:50px;
+  padding: 3px;
+}
