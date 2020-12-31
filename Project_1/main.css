@@ -1,14 +1,14 @@
 *{
     color: ivory;
-    margin: 0px;
+    margin: 0px auto;
 }
 body{
     background-color:rgba(223, 222, 222, 0.8);
-    margin: 0px;
     background-image:url("../Project_1/images/stars.jpg");
     background-position: top;
     background-size:cover;
     background-repeat: repeat-x;
+    background-blend-mode:luminosity;
 
 }
 header{
@@ -19,8 +19,12 @@ header{
     background-image:url("../Project_1/images/stars.jpg");
     background-size: cover;
     background-repeat: repeat-x;
-    padding-bottom: 2px;
+    padding-bottom: 5pt;
+    padding-top: 4pt;
     
+}
+h1{
+    margin-left: 2rem;
 }
 
 #nav{
@@ -28,8 +32,9 @@ header{
     display: inline-flex;
     flex: 0 0 100px;
     float:right;
+    margin-right: 2rem;
     padding: 0px 5px 10px;
-    margin: 0px;
+
     
 }
 li{
@@ -40,6 +45,7 @@ li{
 .flex-container {
     display: flex;
     flex: 1 1 100%; 
+    padding: 1vh;
     
   }
   
@@ -49,3 +55,42 @@ li{
   .flex-item{
       flex: 0 0 100%;
   }
+  img{
+    display:flex;
+    flex:0 1 100%
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    
+  }
+  img:hover {
+    box-shadow: 0 0 5px 2px rgb(255, 255, 255);
+  }
+.moto{
+       padding: 10px 10px;
+       margin:11vw;
+       font-size: 3vw;
+     
+}
+#intro{
+    padding-top: 2rem;
+}
+
+.line1{
+    height: 1px;
+    background-color: white;
+    margin-top: 3vw;
+}
+
+
+p{
+    font-size: 5vh;
+    padding:5pt;
+    margin: 1vw 0vw 2vw;
+    text-align: center;
+}
+
+h3{
+  
+    text-align: center;
+}
