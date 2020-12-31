@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montaga', serif;
+  font-size: 25px;
+}
+
+h1 {
+  font-family: 'Clicker Script', cursive ;
+  font-size: 5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #cd5d7d;
+  /*  width: 10%;
+  margin: 0 auto ;
+  */
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #6155a6;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #949cdf;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  color: #949cdf;
+  font-size: 20px;
+}
+
+.top-container {
+  background-color: #ffffff;
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.middle-container {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.bottom-container {
+  background-color: #a7c5eb;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.img-1 {
+  border-radius: 50%;
+  height: 300px;
+}
+.img-2 {
+
+  height: 200px;
+}
+.img-3 {
+
+  height: 80px;
+}
+.img-4{
+
+  height: 50px;
+}
+.img-5 {
+  height: 500px;
+}
+.Hr{
+  width: 100%;
+  display:block ;
+  margin: 50px auto;
+  height: 120px;
+  background: url(https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c043629a-857f-41c4-9e82-4fbc52be4496/hr-abhijit-sagade-02.gif) no-repeat center top;
+  border: 0;
+
+
+}
+
+#navbar{
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+
+nav{
+  width: 100%;
+  height: 80px;
+  background-color: #0002;
+}
+
+nav ul{
+  float: right;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  line-height: 10px;
+  margin-right: 30px;
+  transition: 0.8s all;
+}
+
+nav ul li:hover{
+  background-color: #949cdf;
+ 
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px;
+}
