@@ -598,4 +598,49 @@ img{
     padding: 0 2rem;
   }
 
+  .contact__inputs{
+    display: grid;
+    column-gap: 1.5rem;
+  }
+
+  .contact__info{
+    padding-left: 3rem;
+  }
+
+}
+
+@media screen and (min-width:1024px){
+  body{
+    margin: 0;
+    padding-left: var(--nav-width);
+  }
+
+  .l-header{
+    width: 0;
+  }
+
+  .nav__toggle,.nav__logo,.nav__close{
+    display: none;
+  }
+
+  .nav__menu{
+    left: 0;
+  }
+
+  .home__container{
+    height: 100vh;
+  }
+
+  .section{
+    padding:3rem 0 2rem ;
+  }
+
+  .bd-grid{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project__container{
+    grid-template-columns: repeat(3,1fr);
+  }
 }
