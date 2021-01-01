@@ -3,21 +3,113 @@
 <head>
     <title>WELCOME TO HOMEPAGE</title>
 </head>
+<style>
+    body {
+        background-color: ghostwhite;
+    }
 
-<BODY bgcolor="GhostWhite">
+    #menu ul {
+        list-style-type: none;
+        margin: 0;
+        /* padding: 0; */
+        float: left;
 
-    <table BORDER=2 WIDTH="100%" ALIGN="left">
-        <tr style="color:cyan; background-color: darkmagenta;">
-            <th width="20%"><a href="home.html" style="color:ghostwhite">HOME</a></th>
-            <th width="20%"><a href="about.html" style="color:ghostwhite">ABOUT</a></th>
-            <th width="20%"><a href="contact.html" style="color:ghostwhite">CONTACT</a></th>
-            <th width="40%">&nbsp;</th>
-        </tr>
-    </table>
-    <h1 align="center" style="color:indigo">CONTACT ME</h1>
+    }
+
+    #menu ul li {
+        float: left;
+        margin-right: 20px;
+        margin-top: 9px;
+        margin-left: 150px;
+    }
+
+    #menu ul li a {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 20px;
+    }
+
+    #menu {
+        width: auto;
+        background-color: #5f5f5f;
+        height: 40px;
+    }
+
+    #head {
+        color: crimson;
+        text-align: center;
+        font-size: 20;
+        font-family: auto;
+        margin-top: 20px;
+
+    }
+
+    #table {
+        float: left;
+        margin-left: 100px;
+    }
+
+    #table table tr {
+        height: 64px;
+    }
+
+    #table table td {
+        width: 300px;
+    }
+
+    #skills ul li {
+        color: dimgray;
+        width: 420px;
+    }
+
+    #skills ul li progress {
+        float: right;
+    }
+
+    .font-color {
+        color: dimgray;
+    }
+
+    #menu ul li:hover {
+        background-color: #000;
+        padding: 10px;
+    }
+
+    .education {
+        list-style-type: none;
+    }
+
+    .education li {
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    h3 {
+        color: crimson;
+    }
+    .contact tr {
+        height: 40px;
+    }
+</style>
+</head>
+
+<body>
+<div id="menu">
+    <ul>
+        <li>
+            <a href="index.html">HOME</a>
+        </li>
+        <li>
+            <a href="about.html">ABOUT</a>
+        </li>
+        <li>
+            <a href="contact.html">CONTACT</a>
+        </li>
+    </ul>
+</div>
+    <h3 align="center">CONTACT ME</h1>
 
     <form align="center">
-        <table align="center">
+        <table align="center" class="form">
             <tr>
                 <td>
                     <label for="fname"></label>First name:</label>
@@ -71,7 +163,7 @@
     </form>
 
     <h2 align='center'>FEEL FREE TO CONTACT ME-</h2>
-    <table align="center">
+    <table align="center" class="contact">
     <tr>
         <td align="center">
             <strong>E-MAIL-</strong>&nbsp;&nbsp;&nbsp;&nbsp;
