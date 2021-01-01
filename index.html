@@ -12,84 +12,173 @@
  <!--  <p>My supercool header</p> -->
 </div>
 
-<center>
-<h3>CONTACT FORM</h3>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<center>
+<h3>Contact Form</h3>
+</center>
 <div class="container">
   <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="fname">Email id:</label>
-    <input type="text" id="fname" name="" placeholder="Your email id">
-    <br>
-    <br>
-    <label for="lname">Number:</label>
-    <input type="text" id="lname" name="" placeholder="Your number">
-    <br>
-    <br>
-    <label for="fname">First Name:</label>
-    <input type="text" id="fname" name="" placeholder="Your first name">
-     <br>
-     <br>
-    <label for="fname">Last Name:</label>
-    <input type="text" id="fname" name="" placeholder="Your last name">
-     <br>
-     <br>
-     
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
     <input type="submit" value="Submit">
-  </center>
   </form>
+</div>
+
 </div>
 <br>
 <br>
 <center>
-<table>
-  <tr>
-    <th>COMPANY</th>
-   <td>
-    <th>EXPERIENCE(Months)</th>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
     
-  </tr>
-  <tr>
-    <td>Skill Safari</td>
-    <td>
-    <td>2 months</td>
+    #myInput {
+      background-image: url('/css/searchicon.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      width: 50%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
     
-  </tr>
-  <tr>
-    <td>HTML</td>
-    <td>
-    <td>3 months</td>
-   
-  </tr>
-  <tr>
-    <td>Microsoft</td>
-    <td>
-    <td>2 months</td>
+    #myTable {
+      border-collapse: collapse;
+      width: 50%;
+      border: 1px solid #ddd;
+      font-size: 18px;
+    }
     
-  </tr>
-  <tr>
-    <td>IBM</td>
-    <td>
-    <td>4 months</td>
+    #myTable th, #myTable td {
+      text-align: left;
+      padding: 12px;
+    }
     
-  </tr>
-  <tr>
-    <td>Google</td>
-    <td>
-    <td>5 months</td>
+    #myTable tr {
+      border-bottom: 1px solid #ddd;
+    }
     
-  </tr>
- 
-</table>
-</center>
+    #myTable tr.header, #myTable tr:hover {
+      background-color: #f1f1f1;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>My Customers</h2>
+    
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    
+    <table id="myTable">
+      <tr class="header">
+        <th style="width:60%;">Company</th>
+        <th style="width:40%;">Experience</th>
+      </tr>
+      <tr>
+        <td>Skill Safari</td>
+        <td>3 months</td>
+      </tr>
+      <tr>
+        <td>Hind Tech Mind labs</td>
+        <td>1 month</td>
+      </tr>
+      <tr>
+        <td>Google</td>
+        <td>3 months</td>
+      </tr>
+     
+    </table>
+    
+    <script>
+    function myFunction() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }       
+      }
+    }
+    </script>
 <br>
 <br>
+<style>
+  video {
+    width: 50%;
+    height: 30%;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <video width="100" controls>
+  
+    <source src="Girls x tech.mp4" type="video/mp4">
+      <source src="Girls x tech.ogg" type="video/ogg">
+  </video>
 <center>
-<video width="400" controls>
-  <source src="Girls x tech.mp4" type="video/mp4">
-  <source src="Girls x tech.ogg" type="video/ogg">
-  Your browser does not support HTML video.
-</video>
+
 
 <p>
 Video courtesy of 
