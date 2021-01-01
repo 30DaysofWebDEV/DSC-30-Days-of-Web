@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <style>
+      body{
+        background-color: beige;
+      }
+      h1{
+        text-align: center;
+        font-size: xxx-large;
+        font-family: cursive;
+        padding: 5%;
+        margin:0px;
+        text-shadow:8px 8px 5px green ;
+      }
+      div{
+          text-align: center;
+      }
+      section {
+        background-color: blanchedalmond;
+        border: 8px solid black;
+        margin:15px;
+        overflow: hiddenSS;
+      }
+      h2 {
+        font-size: 40px;
+        color: blue;
+        text-decoration: underline;
+        text-decoration-color: black;
+        padding: 10px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        text-align: center;
+        border-spacing: 1px;
+        padding:0px;
+        margin-left: 50px;
+      }
+      th,td{
+        padding: 15px;
+      }
+      nav {
+        text-decoration: none;
+        background-color: rgb(13, 14, 12);
+        font-size: x-large;
+        padding: 2%;
+        text-decoration-color: #e2d9d9;
+      }
+      nav a {
+        text-decoration: underline;
+        color: beige;
+        padding: 18px;
+      }
+      img{
+          border: 40px double black; border-radius: 50px;
+          margin:20px;
+      }
+      
+      a:hover{
+          color: blue;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header style="background-color: rgb(67, 225, 236)">
+      <h1><em>MY PORTFOLIO</em></h1>
+    </header>
+    <nav>
+      <a href="portfolio.html"> Home </a>
+      <a href="#About"> About </a>
+      <a href="#Education"> Education </a>
+      <a href="#Skills"> Skills </a>
+      <a href="#Contact"> Contact</a>
+    </nav>
+    <main>
+      <div>
+        <img src="Namrata.png" alt="Profile picture" style="margin-bottom: 0px;" width="200" height="250">
+        <h1>Namrata Bose</h1>
+      </div>
+      <section>
+        <h2 id="About">About</h2>
+        <p style="font-size: 150%;">
+          My name is Namrata Bose and I'm from Ranchi, Jharkhand. I'm a
+          1st year Information Technology student of BP Poddar Institute of Management and
+          Technology.
+        </p>
+        <br>
+      </section>
+      <br>
+      <section>
+        <h2 id="Education">Education</h2>
+        <table class ="table">
+          <thead>
+            <th>Sl No.</th>
+            <th>Institute</th>
+            <th>Qualification</th>
+            <th>Year of passing</th>
+            <th>Marks Obtained</th>
+          </thead>
+          <tr>
+            <td>1.</td>
+            <td>
+              Bishop Westcott Girls's School,<br />
+              Doranda, Ranchi
+            </td>
+            <td>10th</td>
+            <td>2018</td>
+            <td>88.8%</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Kairali School, Dhurwa, Ranchi</td>
+            <td>12th</td>
+            <td>2020</td>
+            <td>92%</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>
+              BP Poddar Institute of Management <br />
+              & Technology, Kolkata
+            </td>
+            <td>B. Tech</td>
+            <td>2024</td>
+            <td>----</td>
+          </tr>
+        </table>
+        <br />
+      </section>
+      <br>
+      <section>
+        <h2 id="Skills">Skills</h2>
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <br />
+          <li>
+            Hackkerrank
+            <a href="https://www.hackerrank.com/namratabose" target="_blank"
+              >Profile</a
+            >
+          </li>
+          <li>
+            GreeksForGreeks
+            <a
+              href="https://auth.geeksforgeeks.org/user/namratabose32"
+              target="_blank"
+              >Profile</a
+            >
+          </li>
+        </ul>
+        <br />
+      </section>
+      <br />
+      <section>
+        <h2 id="Contact">Contact</h2>
+        <p>
+          LinkedIn
+          <a
+            href="https://www.linkedin.com/in/namrata-bose-8574541bb/"
+            target="_blank"
+          >
+            Profile</a
+          ><br />
+          E-mail : <a href=" namratabose32@gmail.com">namratabose32@gmail.com</a>
+        </p><br>
+        <form action="" style="background: burlywood;" >
+          <b><br>
+          <h2 style="color: darkgreen; margin-top: 0px;">Contact me for further information</h3>
+          <label for="fname"> First name:*</label>
+          <input type="text" id="fname" name="fname" required><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br>
+          <p> <label for="gender">Gender : </label></b>Male <input type="radio" name="gender" id="male" > Female <input type="radio" name="gender" id="female">Other <input type="radio" name="gender" id="other"> </p>
+          <b>
+          <label for="DOB">Date of birth:</label>
+          <input type="date" name="DOB" id="DOB"><br><br>
+          <label for="email" >E-mail : *</label>
+          <input type="email" id="email" name="email" required><br><br>
+          <label for="phnNo">Phone No. :*</label>
+          <input type="tel" id="PhnNo" name="PhnNo" required><br><br>
+          </b>
+          <input type="submit" value="Submit">
+      </form>
+      </section>
+    </main>
+    <br>
+    <footer>
+      <p style="padding-left: 500px ;">Copyright @ Namrata Bose</p>
+    </footer>
+  </body>
+</html>
