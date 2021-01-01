@@ -14,27 +14,27 @@
 
     <header>
         <ul id="nav">
+            <li class="border2"><a href="#image-Head">My Projects</a> </li>
+            <li class="border1"><a href="#contact1">contact</a></li>
             <li class="border">Resume</li>
-            <li class="border1">contact</li>
-            <li class="border2">About</li>
         </ul>
 
         <h1>ShubhamZope</h1>
-        
+
     </header>
-    
+
     <div class="moto">
-        <p style="text-align:center">we bring ideas to reality</p>
+        <p class="startingptag" style="text-align:center">we bring ideas to reality</p>
         <div class="line1"></div>
         <h2 id="intro" style="text-align:center">Hi, I am ShubhamZope, </h2>
         <h3 style="text-align:center">we learn we develope, i am here to learn and polish my skills </h3>
         <div class="line1"></div>
     </div>
-  
 
 
 
-    <h2>Images</h2>
+
+    <h2 id="image-Head">My Projects</h2>
     <div class="flex-container">
         <div class="flex-item"> <img src="../Project_1/images/resume.png" alt="resume" width="410" height="333"></div>
         <div class="flex-item"> <img src="../Project_1/images/heart.png" alt="Folio" width="410" height="333"></div>
@@ -45,10 +45,10 @@
 
 
 
-    <h3>We designs</h3>
-    <table>
-        <tr style="width: 100%;">
-            <th style="width: 50%;">Types of websites</th>
+    <h3 class="tebale-heading">We designs</h3>
+    <table id="web-teble">
+        <tr>
+            <th>Types of websites</th>
             <th>Description</th>
         </tr>
         <tr>
@@ -91,31 +91,32 @@
 
     </table>
 
-    <h2>Contact Forms</h2>
+  
+    <div id="contact1" class="form-div">
+        <h2 id="contact">Contact Forms</h2>
 
-    <form>
-        <label>First name:<input type="text" value="Shubham"></label>
-        <br><br>
-        <label>Last name:<input type="text" value="Zope"></label>
-        <br>
-        <br>
-        <label>ph.Number:<input type="tel" maxlength="10"></label>
-        <br>
-        <br>
-        <label>User ID : <input type="text" name="user_id" value="example@gmail.com" /></label>
-        <br><br>
-        <label>Password: <input type="password" name="password" value="********" minlength="5 " /></label>
-        <br><br>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Clear">
-    </form>
-    <center>
+        <form>
+            <label>First name:<input type="text" onfocus="this.value=''"  value="Shubham"></label>
+            <br><br>
+            <label>Last name:<input type="text"  onfocus="this.value=''"  value="Zope"></label>
+            <br>
+            <br>
+            <label>ph.Number:<input type="tel"  onfocus="this.value=''" value="999999999" maxlength="10"></label>
+            <br>
+            <br>
+            <label>User ID : <input type="text" name="user_id"  onfocus="this.value=''"  value="example@gmail.com" /></label>
+            <br><br>
+            <label>Password: <input type="password" name="password" onfocus="this.value=''"  value="********" minlength="5 " /></label>
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </form>
+    </div>
+   
         <video width="320" height="180" controls>
             <source src="code.mp4" type="video/mp4">
 
         </video>
-
-    </center>
 
     <footer>
         <p>Designer:Shubham zope<br>
