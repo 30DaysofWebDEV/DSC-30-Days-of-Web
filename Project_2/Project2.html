@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+</head>
+<body>
+    <section>
+        <ul class="navibar">
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+        <div id="aboutme">
+            <center>
+                <h2>About Me</h2>
+                <h3>Name: Shubham Patel</h3>
+                <h3>Address: Gandhinagar, Gujarat, India</h3>
+                <center><p style="font-size: large;">Hello, I am Shubham Patel from Ahmedabad University. I am student 2nd year student in Btech Computer Science and Engineering branch. My intersets are in Web Development and Competivtive Coding. I love playing cricket and badminton.</p></center>
+            </center>
+        </div>
+        <div id="projects">
+            <table id="projectstable" width="100%" border="1px">
+                <caption><h2>My Projects</h2></caption>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Project Name</th>
+                    <th>Project Image or Videos</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Image Compressor for color images using Power Method</td>
+                    <td><center><img src="images/ImageComp.PNG" title="Image Compressor"</center></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Audio Compressor using principle of Linear Predictive Coding</td>
+                    <td><center><img src="images/AudioComp.jpg" title="Audio Compressor"></center></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>For video</td>
+                    <td>
+                        <center>
+                            <video width="450" height="340" controls>
+                                <source src="videos/video1.mp4" type="video/mp4">
+                                <source src="videos/video1.mp4" type="video/ogg">
+                                Your browser does not support HTML video.
+                            </video>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="contactme">
+            <center><h2>Contact Me</h2></center>
+            <center>
+                <form action="#" method="post" autocomplete="on">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="em">E-mail Id.: </label>
+                    <input type="text" id="em" name="em"><br><br>
+                    <label for="phone">Phone No.:</label>
+                    <input type="text" id="phone" name="phone"><br><br>
+                    <label for="desc">Description:</label>
+                    <textarea id="desc" name="desc" placeholder="Type here.."></textarea><br><br>
+                    <input type="submit" onclick="alert('Do you want to submit your details')" Submit>
+                    <input type="reset" onclick="alert('Do you want to reset your details')" Reset><br>
+                </form>
+            </center>
+        </div>
+    </section>
+    <footer>
+        <center>
+            <p>Developed by <a href="#">Shubham Patel</a></p>
+        </center>
+    </footer>
+</body>
+</html>
