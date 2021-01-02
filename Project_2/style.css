@@ -1,0 +1,497 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/******************* navigation bar ********************/
+
+.nav{
+    background-color:rgb(100, 100, 100,0.3) ;
+    padding-top:17px;
+    padding-bottom:17px;
+}
+.nav-items{
+    display:inline;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:20px;
+}
+.nav-items a{
+    text-decoration: none;
+    color:rgb(140, 0, 255);
+    font-family: 'Ubuntu', sans-serif;
+}
+/******************** background-image ********************/
+#header{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url(/Project_2/images/background.jpg) center center no-repeat fixed;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    z-index:-1; 
+}
+/******************** home section ********************/
+.home-container{
+    width: 60%;
+    height: 60vh;
+    position: absolute;
+    top:20%;
+    left:20%;
+    right:20%;
+}
+#home .home-container h4{
+    font-size:22px;
+    margin-top:100px;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(140, 0, 255);
+}
+#home .home-container h1{
+    font-size:70px;
+    margin-top:10px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+#home .home-container p{
+    font-size:15px;
+    display: inline;
+    color:white;
+    margin-right:10px;
+    margin-top:50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#home .home-container .info{
+    margin-top: -50px;
+}
+#home .home-container hr{
+    display:hidden;
+}
+#home .home-container .seperator{
+    color:rgb(140, 0, 255);
+    margin-right:10px;
+}
+#home .home-container .button{
+    border: 2px solid rgb(219, 219, 219);
+    text-decoration: none;
+    border-radius:3px;
+    padding: 10px 20px;
+    position:absolute;
+    bottom:20px;
+    left:42%;
+    color:rgb(131, 31, 212);
+    font-family: 'Ubuntu', sans-serif;
+}
+/******************** social menu ********************/
+#socials{
+    height:60px;
+    width:372px;
+    padding-top:5px;
+    background-color:rgba(128, 128, 128, 0.192);
+    margin:auto;
+    margin-top:-100px;
+    border-radius:5px;
+    color:whitesmoke;
+}
+.fa {
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-twitter {
+    color: white;
+    margin:0px 10px;
+}
+  
+.fa-google {
+    color: white;
+    margin:0px 10px;
+}
+  
+.fa-linkedin {
+    margin:0px 10px;
+    color: white;
+}
+.fa-instagram {
+    color: white;
+    margin:0px 10px;
+}
+.fa-reddit {
+    color: white;
+    margin:0px 10px;
+}
+  /******************** introduction-area ********************/
+#introduction{
+    height:156vh;
+    width:100%;
+    background-color:rgb(255, 255, 255);
+    margin-top:40px;
+    margin-bottom: 100px;
+} 
+#introduction .intro{
+    margin:auto;
+    width:70%;
+    height:120vh;
+    background-color:rgb(255, 255, 255);
+}
+#introduction .intro h1{
+    color:blueviolet;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top:100px;
+    font-size: 22px;
+}
+#introduction .intro h2{
+    color:rgb(31, 30, 30);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top:30px;
+    font-size: 32px;
+    margin-bottom:20px;
+}
+#introduction .intro .about-me{
+    display:flex;
+}
+#introduction .intro .about-me img{
+    width:100px;
+    border-radius:50%;
+    margin-top:20px;
+    margin-left:130px;
+    float:left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#introduction .intro .about-me p{
+    margin-top:25px;
+    margin-left:40px;
+    margin-right:40px;
+    font-size:18px;
+    line-height: 1.8;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(31, 30, 30);
+}
+.me{
+    margin-top:70px;
+    display:flex;
+    width:100%;
+    height:100vh;
+}
+/* profile */
+.profile{
+    padding:20px;
+    width:50%;
+    height:100vh;
+}
+.me .profile h5{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    margin-bottom:15px;
+}
+.me .profile p{
+    margin-top:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:17px;
+    color:rgb(78, 77, 77);
+}
+.me .profile .profile-list{
+    margin-top:30px;
+    list-style-type: none;
+}
+.me .profile .profile-list li h5{
+    font-family: 'Poppins', sans-serif;
+    font-size:17px;
+    margin-bottom:0px;
+    margin-top:20px;
+}
+.me .profile .profile-list li h6{
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    color:rgb(71, 71, 71);
+    margin-bottom:10px;
+    margin-top:0px;
+}
+/* skills */
+.skills{
+    padding:20px;
+    width:50%;
+    height:100vh;
+}
+.me .skills h5{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    margin-bottom:15px;
+}
+.me .skills p{
+    margin-top:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:17px;
+    color:rgb(78, 77, 77);
+}
+.me .skills .skills-list{
+    margin-top:30px;
+    list-style-type: none;
+}
+.me .skills .skills-list li h5{
+    font-family: 'Poppins', sans-serif;
+    font-size:17px;
+    margin-bottom:0px;
+    margin-top:36px;
+}
+/******************** Work Experience ********************/
+#work-experience{
+    width:100%;
+    height: 125vh;
+    background-color:rgb(233, 233, 233);
+}
+#work-experience .work{
+    position:relative;
+    margin:auto;
+    width:70%;
+    height:90vh;
+}
+#work-experience .work h1{
+    color:blueviolet;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding-top: 100px;
+}
+#work-experience .work table{
+    background-color:rgb(233, 233, 233);
+    width:100%;
+    height:90vh;
+    margin-top:-10px;
+}
+#work-experience .work table h2{
+    font-size:20px;
+}
+#work-experience .work table td{
+    width:50%;
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+#work-experience .work table .work-title{
+    text-align: right;
+    padding-right:50px;
+    padding-top:15px;
+}
+#work-experience .work table .work-title h2{
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+#work-experience .work table .work-title h6{
+    margin-top:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:15px;
+    color:rgb(78, 77, 77);
+}
+#work-experience .work table .work-info h2{
+    font-size:19px;
+    font-family: 'Poppins', sans-serif;
+}
+#work-experience .work table .work-info p{
+    margin-top:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:17px;
+    color:rgb(78, 77, 77);
+}
+#work-header{
+    margin-top:0px;
+    margin-bottom:0px;
+    border-top: 2px solid rgb(156, 156, 156);
+    width:33%;
+    margin:auto;
+}
+/********************* education section *********************/
+#education {
+    width: 100%;
+    height: 125vh;
+    background-color: rgb(233, 233, 233);
+    margin-top: -10px;
+}
+#education .edu{
+    position:relative;
+    margin:auto;
+    width:70%;
+    height:90vh;
+}
+#education .edu h1{
+    color:blueviolet;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding-top: 100px;
+}
+#education .edu table{
+    position:relative;
+    background-color:rgb(233, 233, 233);
+    width:100%;
+    height:90vh;
+    margin-top:-10px;
+}
+
+#education .edu table h2{
+    font-size:20px;
+}
+#education .edu table td{
+    width:50%;
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+#education .edu table .edu-title{
+    text-align: right;
+    padding-right:50px;
+    padding-top:15px;
+}
+#education .edu table .edu-title h2{
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+#education .edu table .edu-title h6{
+    margin-top:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:15px;
+    color:rgb(78, 77, 77);
+}
+#education .edu table .edu-info h2{
+    font-size:19px;
+    font-family: 'Poppins', sans-serif;
+}
+#education .edu table .edu-info p{
+    margin-top:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:17px;
+    color:rgb(78, 77, 77);
+}
+/********************* contact section *********************/
+#contact-me{
+    background-color:#151515;
+    width: 100%;
+    height: 170vh;
+    margin-top:-10px;
+}
+#contact-me .contact{
+    position:relative;
+    margin:auto;
+    width:70%;
+    height:130vh;
+}
+#contact-me .contact .contact-para{
+    margin:auto;
+    width:100%;
+    height:55vh;
+}
+#contact-me .contact .contact-para h1{
+    padding-top:100px;
+    color:rgb(140, 0, 255);
+    font-size:22px;
+    font-family: 'Poppins', sans-serif;
+}
+#contact-me .contact .contact-para h2{
+    padding-top:10px;
+    color:rgb(255, 255, 255);
+    font-size:35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#contact-me .contact .contact-para p{
+    padding-top:10px;
+    color:rgb(255, 255, 255);
+    font-size:16px;
+    padding: 10px 23%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/************* contact form *************/
+
+.contact-form {
+    border-radius: 5px;
+    background-color: rgba(58, 58, 58, 0.274);
+    padding: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color:#151515;
+    color:white;
+}
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 22px;
+    resize: vertical;
+    background-color:#151515;
+    color:white;
+}
+input[type=submit] {
+    background-color: #8f38c2;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    width:100%;
+    margin-top:15px;
+}
+/* find-me/contact me */
+#contact-me .find-me{
+    width: 90%;
+    height:35vh;
+    margin:auto;
+    display:flex;
+}
+#contact-me .find-me .find-container{
+    width:33.333%;
+    margin:5px;
+}
+#mail-img{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width:60px;
+}
+#pin-img{
+    width:46px;
+}
+#phone-img{
+    width:40px;
+}
+#contact-me .find-me .find-container h1{
+    font-size: 20px;
+    padding-top:15px;
+    color:rgb(140, 0, 255);
+    font-family: 'Poppins', sans-serif;
+}
+#contact-me .find-me .find-container h2{
+    font-size: 14px;
+    padding-top:10px;
+    color:rgb(116, 115, 115);
+    font-family: 'Poppins', sans-serif;
+}
+
+/************************ footer *************************/
+#footer{
+    width: 100%;
+    height:14vh;
+    background-color:#151515;
+}
+#footer .footer-container{
+    display:flex;
+    width: 25%;
+    height:14vh;
+    margin:auto;   
+}
+#footer .footer-container  h1{
+    font-size: 16px;
+    /* padding-top:10px; */
+    color:rgb(66, 66, 66);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
