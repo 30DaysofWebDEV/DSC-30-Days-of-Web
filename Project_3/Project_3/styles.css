@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    line-height: 1.2cm;
+    font-weight: 900;
+    background: url("../images/tic-tac-toe.png");
+}
+.content{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.active{
+    background-color: salmon;
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:black;
+}
+h3{
+    padding-top: 50px;
+    max-width: 200px;
+    margin: auto;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+.bookmarks{
+    width: 500px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    display: block;
+    left:50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+.col-md-4{
+    width: 900px!important;
+    padding: none!important;
+}
+.site{
+    width: 120px;
+    height:120px;
+    border-radius: 5px;
+
+}
+.site:hover{
+    background-color:#f5f5f5;
+    cursor: pointer;
+}
+.site p{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.site .fa{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 35px;
+    text-align: center;
+    background-color: burlywood;
+    padding: 12px;
+}
+.fa-envelope-o{
+    color:brown;
+}
+.fa-linkedin{
+    color:yellow;
+}
+.fa-github-square{
+    color: black;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;    
+}
+  
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            
+}
