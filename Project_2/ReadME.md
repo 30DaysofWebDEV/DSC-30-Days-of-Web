@@ -1,4 +1,4 @@
-CssProject Done by
+Css Project Done by
 Utkarsh Goel
 goelutkarsh7u@gmail.com
 
