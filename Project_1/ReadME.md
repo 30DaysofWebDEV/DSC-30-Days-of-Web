@@ -20,15 +20,13 @@
             <header>
                 <h3>A bit of what Seemant did in Web Development</h3>
                 <p>First of all, I really thank to DSC team. As I had keen interest in web development but did not know where to and how to start, in this DSC team helped me a lot.</p>
-            </header>
+            </header><br>
         </article>
-        
-        <video width="300" height="240" controls>
+         <video width="300" height="240" controls>
             <source src="E:\\video\\DSC.mp4" type="video/mp4">
-                video not available
-        </video>
-
-        <p>This is from where I started my journey with DSC.Today, I know much about HTMl.</p>
+               <strong> video not available</strong>
+        </video><br>
+       <p>This is from where I started my journey with DSC.Today, I know much about HTMl.</p>
         <table style=100% >
             <tr>
                 <th>
