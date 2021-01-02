@@ -1,0 +1,261 @@
+body {
+	font-size: 25px;
+	font-family: 'Times New Roman', Times, serif;
+	background-image: url('../images/qbkls.png');
+}
+.list1{ 
+	list-style: square; 
+} 
+.list2{ 
+	list-style: square; 
+	margin-left: 280px;
+	text-indent: initial;
+} 
+
+.list1{
+	font-size: 22px;
+	margin-left: 105px;
+}
+
+
+.img-fluid {
+	max-width: 100%;
+}
+
+.main-wrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: space-between;
+}
+
+.nav-wrap {
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+}
+
+nav {
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 10px 10px;
+	margin: 0;
+}
+header {
+    height: 150px;
+    padding: 10px 10px;
+    background: #2d6360 50% 0 url(huntington.jpg) no-repeat;
+    /* background-attachment: fixed, fixed, fixed, scroll; */
+    /* background-image: url(contours.png), url(noise.png), url(gridlines.png), url(huntington.jpg); */
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+	text-align: center;
+	margin-left: 0px;
+	max-width: 400px;
+}
+
+.ent{
+	margin-left: 30px;
+}
+
+
+
+h1 {
+	margin-bottom: 20px;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+h3{
+	text-align: left;
+	
+	color: #4aaaa5;padding: 0px; margin-bottom: 0px;
+}
+h4{
+	text-align: left;
+	
+	color: #4aaaa5;padding: 0px; margin-bottom: 0px;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+nav .nav-items {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding-right: 10px;
+	list-style: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+nav .nav-items li {
+	padding-left: 30px;
+}
+
+nav .nav-items li a {
+	text-decoration: none;
+	color: blue;
+	border-style:groove;
+	border-color: red;
+}
+
+nav .nav-items li a:hover {
+	color: cyan;
+}
+
+.entertainmentBG{
+
+
+	margin: 0px;
+	text-align: justify;
+	background-color: rgba(138,188,159,0.5);
+	background-size: auto, auto, cover;
+	padding: 20px 30px;
+}
+.entertainment{
+	text-indent: 280px;
+}
+.main-content {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: justify;
+	background-color: #ffffff;
+	border: #dddddd;
+	padding: 20px 30px;
+}
+
+section.projects {
+	margin: 30px auto;
+	display: flex;
+}
+
+.card {
+	margin: 10px;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-body {
+	padding: 1.25rem;
+}
+
+.card-title {
+	margin-bottom: 10px;
+}
+
+.btn-primary {
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 4px;
+	color: #ffffff;
+	padding: 10px 20px;
+	margin: 10px;
+	background-color: #4aaaa5;
+}
+
+.Profile {
+	float: left;
+	padding-right: 20px;
+}
+
+p {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-bottom: 20px;
+	font-size: 1.2rem;
+	line-height: 1.5em;
+}
+
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+input,
+textarea {
+	font-size: 0.89em;
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+input {
+	box-sizing: border-box;
+	margin: 10px 0px;
+	padding: 10px;
+}
+
+form input[type=submit] {
+	background-color: #4aaaa5;
+	border: none;
+	color: white;
+	margin-top: 10px;
+	font-size: 1.2rem;
+	padding: 15px;
+	width: 200px;
+}
+
+footer {
+	width: 100%;
+	padding: 25px 0px;
+	text-align: center;
+	background-color: grey;
+	border-top: 8px solid #cf0733;
+	color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+	nav {
+		display: block;
+	}
+
+	#logo {
+		text-align: center;
+	}
+
+	nav .nav-items {
+		padding: 20px;
+		justify-content: center;
+	}
+
+	nav .nav-items li {
+		padding: 0px 10px;
+	}
+
+	.main-content {
+		margin: 50px auto;
+	}
+
+	.Profile {
+		width: 100%;
+		margin: 15px auto;
+	}
+
+	section.projects {
+		flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.Profile {
+		max-width: 30%;
+		margin: 0 auto;
+	}
+
+	section.projects {
+		flex-direction: row;
+	}
+}
