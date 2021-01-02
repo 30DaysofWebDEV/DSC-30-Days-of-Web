@@ -1,0 +1,88 @@
+body
+{
+    margin : 0;
+    padding : 0; 
+}
+body:before
+{
+    content: '';
+    position:fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(4.jpg);
+    
+}
+.Data-Form
+{
+    position :absolute;
+    top : 50%;
+    left : 50%;
+    -webkit-transform: translate(-50%,50%);
+    -moz-transformation: translate(-50%,50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 500px;
+    padding : 80px 40px;
+    background : rgba(0,0,0,0.6);
+}
+.avatar
+{
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-80px/2);
+    left: calc(50% - 40px);
+}
+.Data-Form h2
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+.Data-Form p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color:#fff;
+}
+.Daata-Form input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Data-Form input[type=text],
+.Data-Form input[type=text],
+.Data-Form input[type=email],
+.Data-Form input[type=number]
+{
+    border:none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.336);
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color:#fff;
+    font-size: 15px;
+}
+.Data-Form input[type=submit]
+{
+    height : 30px;
+    color: #fff;
+    font-size: 15px;
+    background: rgb(0, 255, 191);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 15%;
+}
+input [type=checkbox]
+{
+    width: 20%;
+}
