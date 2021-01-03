@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact me!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #eee;
+            font-family: 'Langar', cursive;
+        }   
+
+        .wrapper {
+            text-align: center;
+            width: 430px;
+            margin: 0px auto;
+            background-color: #ffffff;
+            padding: 10px;
+        }
+
+        header, footer {
+            background-color: ghostwhite;
+            padding: 5px;
+            margin: 5px 5px;
+        }
+
+        input {
+            border: none;
+            border-bottom: 1px solid black;
+        }
+
+        textarea {
+            border-radius: 5px;
+            padding: 8px;
+        }
+
+        button {
+            border: 1px solid dodgerblue;
+            padding: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: dodgerblue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1 class="text-center"><span class="badge bg-danger">Contact me!</span></h1>
+        </header>
+    
+        <section>
+            <form action="">
+                <input type="text" placeholder="First Name: "> &nbsp;
+                <input type="text" placeholder="Last Name: "> <br><br>
+                <input type="email" placeholder="Email Address"> <br><br>
+                <input type="number" placeholder="Mob no."> <br><br>
+                <textarea cols="30" rows="7" placeholder="Enter Message"></textarea><br><br>
+    
+                <button type="submit">Submit</button>
+            </form>
+    
+            <h3 class="text-center my-3"><span class="badge bg-success">Reach me!</span></h3>
+            <a href="#">
+                <img src="images/insta.png" alt="Insta Logo" width="50px">
+            </a>
+            <a href="#">
+                <img src="images/fb.png" alt="Facebook Logo" width="50px">
+            </a>
+    
+        </section>
+    
+        <footer>
+            <h5 class="text-center"><span class="badge bg-secondary">Copyright ©</span></h5>
+        </footer>
+    </div>
+</body>
+
+</html>
