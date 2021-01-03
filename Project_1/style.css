@@ -92,6 +92,8 @@ table,th,td{
 	border: solid #555753 2px;
 	width: fit-content;
 	height: 50px;
+	align-content: center;
+	margin-top: 100px;
 }
 
 video{
