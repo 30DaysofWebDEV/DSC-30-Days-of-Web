@@ -56,9 +56,10 @@ nav li a{
 }
 
 .main-header{ 
+	          background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
 			  padding: 30px;
 			  margin-top: 60px
-}
+            }
 
 p { 
 	margin-top: 0; 
@@ -84,6 +85,13 @@ h1 {
 img{
 	border: 5px solid #7D775C;
 	margin-left: 20px;
+}
+
+table{
+	border-style: solid;
+	border: #555753 2px;
+	width: fit-content;
+	height: 50px;
 }
 footer { 
 	text-align: left; 
