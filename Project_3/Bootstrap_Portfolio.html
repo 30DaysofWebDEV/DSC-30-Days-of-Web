@@ -6,13 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio of Aman Sharma</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
-<body>
-    <nav align="center">
-        <a href="Portfolio.html" >Home</a>
-        <a href="#" style=" margin-left:5px;">Blank</a>        
-    </nav>
+<body class="d-flex h-100 text-center text-white bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="/Project_3/Bootstrap_Portfolio.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
     <div class="container">
 
@@ -58,21 +77,29 @@
     </div>
 
     <hr>
-    <div class="projects">
-    <h2 align="center">PROJECTS</h2>
-    <h4 style="margin: 30px 275px 0px; display: inline;">MY CRAIGLIST</h4> 
-        <a href="https://github.com/isharrma/VP">Source Code</a>
     
-    <p style="margin: 30px 305px 20px;">Deve loped an interactive and more visually appealing
-        craigslist that returns the result of query after scrapping
-        through craigslist.
-    </p>
-    <h4 style="margin: 30px 275px 0px; display: inline;">AIR CANVAS</h4>
-    <a href="https://github.com/isharrma/craigClone">Source Code</a>
-    <p style="margin: 30px 305px 20px;">Designed a fun way to draw doodles and shape by
-        showing different color of pens to the webcam using
-        python library -OpenCV.
-    </p>
+    <div class="projects">
+        <h2 align="center">Projects</h2>
+            <div class="card-inline shadow-lg p-3 mb-5" style="width: 25rem;">
+                <div class="card-body">
+                  <h5 class="card-title">VIRTUAL PAINT</h5>
+                  <p class="card-text">Designed a fun way to draw doodles and shape by
+                    showing different color of pens to the webcam using
+                    python library -OpenCV.</p>
+                  <a href="https://github.com/isharrma/VP" class="btn btn-primary">Source Code</a>
+                </div>
+              </div>
+
+              <div class="card-inline shadow-lg p-3 mb-5" style="width: 25rem;">
+                <div class="card-body">
+                  <h5 class="card-title">MY CRAIGLIST</h5>
+                  <p class="card-text">Developed an interactive and more visually appealing
+                    craigslist that returns the result of query after scrapping
+                    through craigslist.</p>
+                  <a href="https://github.com/isharrma/craigClone" class="btn btn-primary">Source Code</a>
+                </div>
+              </div>
+    
     </div>
     <hr>
     <div class="relax">
@@ -93,11 +120,12 @@
         <label for="query">Query </label>
         <textarea id="query" rows="4" cols="50"></textarea>
         <br><br>
-        <button type="submit">Submit</button>
+        <button type="button" class="btn btn-primary">Submit</button>
     </form>
     </div>
 
-    <footer>
+
+    <footer class="text-white bg-dark">
         <img src="ig.png" width="50" height="50">
         <img src="git.png" width="50" height="50">
         <img src="in.png" width="50" height="50">

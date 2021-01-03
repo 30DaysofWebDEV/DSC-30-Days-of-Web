@@ -1,0 +1,75 @@
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+hr{
+    background-image: url("pattern.jpg");
+    height: 8px;
+    /* border: solid; */
+
+}
+
+h4,h3,h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+h2:hover{
+    color: LightSeaGreen;
+    font-weight: 500;
+}
+
+footer{
+    /* background-color:	#08080; */
+    width: 80%;
+    height: 45px;
+    padding:5%;
+    margin: auto;
+    text-align: center;
+}
+
+footer img{
+    padding: 10px;
+}
+
+
+.intro{
+    padding: 5%;
+    text-align: center;
+}
+
+.name:hover{
+    color: LightSeaGreen;
+    font-weight: 500;
+}
+
+.relax{
+    padding: 5%;
+    text-align: center;
+}
+
+.form{
+    /* padding: 1%; */
+    text-align: center;
+}
+
+
+.projects{
+    margin:auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.projects p,h5,btn{
+    padding-top: 5%;
+}
+
+.card-inline{
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-inline: 5%;
+
+}
