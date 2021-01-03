@@ -179,3 +179,7 @@ footer a:link, footer a:visited {
 	margin-bottom: 10px; 
 	color:turquoise;
 	}
+
+footer a:hover{
+	color:red;
+}
