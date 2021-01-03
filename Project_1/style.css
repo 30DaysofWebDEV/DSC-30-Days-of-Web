@@ -38,7 +38,7 @@ nav ul{
 	list-style-type: none;
 	padding: 0;
 	flex-direction: row;
-	text-align: left;
+	flex: 15;
 }	
 
 nav li{
@@ -82,9 +82,6 @@ h1 {
 	justify-content: space-between;
 }
 
-.flex > div{
-            flex:1;
-}
 footer { 
 	text-align: right; 
 	}
