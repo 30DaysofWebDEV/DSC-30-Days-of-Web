@@ -41,7 +41,7 @@ nav ul{
 }	
 
 nav li{
-       margin-left: 32px;
+       margin-left: 180px;
 }
 
 nav li a{
@@ -68,18 +68,12 @@ p {
 	}
 
 h1 { 
-	background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
 	font: italic normal 4em georgia, sans-serif;
 	letter-spacing: 2px; 
 	padding-top: 50px;
 	color: #7D775C;
 	letter-spacing: 2px;
 	line-height: 1;
-	display: block;
-	float: left;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
 	}
 
 .flex{
@@ -93,7 +87,7 @@ h1 {
 }
 
 footer { 
-	text-align: center; 
+	text-align: right; 
 	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
