@@ -170,10 +170,12 @@ button[type=button]:hover {
 
 footer { 
 	text-align: center; 
-	font-size: 25px;
-	color: turquoise;
+	font-size: 50px;
+	color:tomato;
 	}
 footer a:link, footer a:visited { 
+	font-size: 25px;
 	margin-right: 20px;
 	margin-bottom: 10px; 
+	color:turquoise;
 	}
