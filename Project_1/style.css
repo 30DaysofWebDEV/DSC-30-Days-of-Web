@@ -88,6 +88,7 @@ img{
 }
 
 table,th,td{
+	font-size: 20px;
 	border: solid #555753 2px;
 	width: fit-content;
 	height: 50px;
