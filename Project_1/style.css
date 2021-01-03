@@ -95,8 +95,8 @@ table,th,td{
 }
 
 video{
-	  width:max-content;
-	  height:100px;
+	  width:600px;
+	  height:400px;
 	  border:thistle solid 2px;
 	  margin: 10px 15px 10px 15px;
 	  
