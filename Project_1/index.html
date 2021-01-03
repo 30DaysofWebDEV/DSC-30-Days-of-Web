@@ -3,21 +3,25 @@
 <head>
  <meta charset="utf-8">
  <title>My Webpage</title>
- <link rel="stylesheet" href="../Project_2/index.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../Project_3/indexB.css">
+
 </head>
 <body>
 <header> 
-<h1>My Portfolio</h1>
-<div class="box">
-			<div id="hey">
-			    <p>Hey! I am Manali</p>
-		    </div>
-		    <div id="name">
-		    	<p>Do fill the contact form below and welcome to my website.</p>
-            </div>
-</header>
-
 <div class="container">
+    <h1 class="text-center">My Portfolio</h1> 
+    
+     <div class="box">
+     <p><br>Hey! I am Manali.</br> Do fill the contact form below and welcome to my website.</p>
+     </div>
+</div>
+</head>
+
+<div class="container form">
   <form action="action_page.php">
 <label for="firstname">First name</label><br>
 <input type="text" id="firstname" name="firstname" placeholder="Add name...."><br>
@@ -34,33 +38,46 @@
 <button type="button">Submit </button>
 </form>
 </div>
-<table>
-<h2><center>My Favourite</center</h2>
-  <tr>
-    <th><center>Food</center></th>
-    <th><center>Song</center></th>
-    <th><center>Colour</center></th>
-  </tr>
-  <tr>
-    <td><center>Pizza</center></td>
-    <td><center>Perfect</center></td>
-    <td><center>Black</center></td>
-  </tr>
-  <tr>
-    <td><center>Sandwich</center></td>
-    <td><center>Playdate</center</td>
-    <td><center>White</center</td>
-  </tr>
-</table>
 
-<br><img src="Shinchan.jpeg" alt="My Dog"</br>
+<div class="container table">
+ <h2>My Favourite</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Food</th>
+        <th>Song</th>
+        <th>Colour</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="info">
+        <td>Pizza</td>
+        <td>Perfect</td>
+        <td>Black</td>
+      </tr>      
+      <tr class="warning">
+        <td>Sandwich</td>
+        <td>Playdate</td>
+        <td>White</td>
+      </tr>
+    </tbody>
+  </table>
+
+<div class="gradient">
+<br><img src="Shinchan.jpeg" alt="My Dog"></br>
+
 <video controls>
   <source src="Video.mp4" type="video/mp4">
 </video>
 
+<audio controls>
+  <source src="Alan Walker vs Coldplay - Hymn For The Weekend [Remix].mp3" type="audio/mpeg">
+  </audio>
+
 <footer>
 <p>Feel free to connect with me</p> 
-<a href="https://www.linkedin.com/in/manali-chaudhari-019b731ab/">LinkdIN profile</a>
+<center><a href="https://www.linkedin.com/in/manali-chaudhari-019b731ab/">LinkdIN profile</a></center>
 </footer>
+</div>
 </body>
 </html>
