@@ -118,7 +118,7 @@ video{
 }
 
 input[type=text], select {
-  width: 100%;
+  width: 100px;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -128,7 +128,7 @@ input[type=text], select {
 }
 
 input[type=number], select {
-	width: 100%;
+	width: 100px;
 	padding: 12px 20px;
 	margin: 8px 0;
 	display: inline-block;
@@ -170,8 +170,9 @@ button[type=button]:hover {
 
 footer { 
 	text-align: center; 
-	font-size: 50px;
+	font-size: 60px;
 	color:tomato;
+
 	}
 footer a:link, footer a:visited { 
 	font-size: 25px;
