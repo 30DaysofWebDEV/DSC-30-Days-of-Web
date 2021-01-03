@@ -38,7 +38,8 @@ nav ul{
 }	
 
 nav li{
-       margin-left: 10px;
+	   margin-left: 10px;
+	   margin-right: 20px;
 }
 
 nav li a{
@@ -82,7 +83,6 @@ h1 {
 img{
 	border: 5px solid #7D775C;
 	margin-left: 20px;
-	padding-left: 10px;
 }
 footer { 
 	text-align: left; 
