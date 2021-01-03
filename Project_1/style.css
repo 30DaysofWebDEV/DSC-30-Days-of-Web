@@ -41,7 +41,8 @@ nav ul{
 }	
 
 nav li{
-       margin-left: 180px;
+	   align-content: flex-end;
+       margin-left: 10px;
 }
 
 nav li a{
@@ -79,10 +80,6 @@ h1 {
 	display: flex;
 	align-items:center;
 	justify-content: space-between;
-}
-
-.flex > div{
-	flex: 5;
 }
 
 footer { 
