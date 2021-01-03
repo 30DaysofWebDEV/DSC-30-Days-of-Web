@@ -3,26 +3,38 @@
 <head>
     <meta charset ="UTF-8">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="../Project_2/Project_2.css">
     <link rel="icon" href="logo.jpg" type="image/gif" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Project_3/Project_3.css">
 </head>
+
 <body>
-    <h1>My Portfolio</h1>
     <header>
-        <nav>
-            <a href="#me">About me</a> 
-            <a href="#Achievements">Achievements</a> 
-            <a href="#MyPlaylist">My Playlist</a> 
-            <a href="#contact">Reach out to me</a>
+        <nav class="navbar navbar-default .navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">My Portfolio</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="#me">About me</a></li>
+                    <li><a href="#achievements">Achievements</a></li> 
+                    <li><a href="#myPlaylist">My Playlist</a></li> 
+                    <li><a href="#contact">Reach out to me</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <div class="me">
-        <h3>Meh...</h3>
+    <div class="container-me" id="me">
+        <div class="container-h3"><h3>Meh...</h3></div>
         <p>I am Tejaswi Chaudhari. I am an outgoing person with sarcasm. Okay...don't worry! I will not roast you. But, I love to chat with people about all the things under the sky. If you offer me food I'll be the happiest. I don't like drama in my life, I would rather prefer to be a spectator. I love playing but, I like keeping it entertaining than competitive. I have a heart for art and music. I would rather like to hear back from you than just talking about me. So, let's connect!</p> 
         <img src="https://media.makeameme.org/created/i-would-roast-c042786432.jpg" alt="meme">
-    <div>
-    <div class="Achievements">
-        <h3>Some things where I could be really amazing/terrible</h3>
+    </div>
+    <div class="container-achievements" id="achievements">
+        <h3>Some things where I could be really amazing/terrible</h3><br>
         <table>
             <tr>
                 <th>Qualities</th>
@@ -30,44 +42,55 @@
             </tr>
             <tr>
                 <td>Leadership</td>
-                <td><progress value="95" max="100">95%</progress></td>
+                <td><div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div></td>
             </tr>
             <tr>
                 <td>Communication</td>
-                <td><progress value="90" max="100">90%</progress></td>
+                <td><div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div></td>
             </tr>
             <tr>
                 <td>Sensitivity</td>
-                <td><progress value="40" max="100">40%</progress></td>
+                <td><div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div></td>
             </tr>
             <tr>
                 <td>Entertaining</td>
-                <td><progress value="80" max="100">80%</progress></td>
+                <td><div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div></td>
             </tr>
         </table>
-    <div>
-    <div class="MyPlaylist">
+    </div>
+    <div class="container-myPlaylist" id="myPlaylist">
         <h3>My current fav songs...</h3>
         <ul>
             <li><iframe src="https://www.youtube.com/embed/MWASeaYuHZo"></iframe></li>
             <li><iframe src="https://www.youtube.com/embed/pkCyfBibIbI"></iframe></li>
             <li><iframe src="https://www.youtube.com/embed/dhYOPzcsbGM"></iframe></li>
         </ul>
-    <div>
-    <h3>Feel free to reach out...</h3>
-    <form id="contact">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="Phone_no">Phone Number:</label><br>
-        <input type="Number" id="Phone_no" name="Phone_no"><br>
-        <label for="email">Email Id</label><br>
-        <input type="text" id="email" name="email"><br>
-        <button type="submit" value="Submit">Submit</button>
+    </div>
+    <form class="container-contact" id="contact">
+        <div class="form-group">
+            <label for="formGroupExampleInput">Full Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your Full name">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Contact Number</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your Contact Number">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Email-ID</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Your Email ID">
+        </div>
+        <button type="button" class="btn btn-outline-primary">Submit</button>
     </form>
     <footer>
-        <p>-with love by Tejaswi<p>
+        <p>-- with <i class="fa fa-heart" style="color:red;"></i> by Tejaswi</p>
     </footer>
 </body>
 </html>

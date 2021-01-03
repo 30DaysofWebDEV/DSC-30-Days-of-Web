@@ -1,0 +1,73 @@
+.navbar{
+    background-color: #C7F2FF;
+    width: 100%;
+    height: 60px;
+    font-size: larger;
+    padding-left: 30px;
+}
+.navbar-brand{
+    font-size: x-large;
+}
+img{
+    display: none;
+}
+.container-h3 {
+    float: left;
+    padding-right: 30px;
+}
+.container-me{
+    background-color: rgba(228, 241, 254, 0.8);
+    margin: 50px;
+    text-align: right;
+    padding: 80px;
+    font-size: medium;
+    padding-left: 70px;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/2014697/pexels-photo-2014697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+}
+table,th,td{
+    text-align: center;
+    padding-left: 90px;
+}
+th{
+    padding-bottom: 10px;
+}
+.container-myPlaylist li {
+    padding: 13px;
+}
+iframe{
+    width: 100px;
+    height: 50px;
+}
+.container-achievements{
+    float: left;
+    background-color: rgba(228, 241, 254, 0.8);
+    margin: 50px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: medium;
+}
+.container-myPlaylist{
+    float: right;
+    background-color: rgba(228, 241, 254, 0.8);
+    margin: 50px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 120px;
+    padding-top: 40px;
+}
+.container-contact{
+    clear: both;
+    margin: 50px;
+}
+footer{
+    background-color: #C7F2FF;
+    padding: 40px;
+    text-align: right;
+    font-size: medium;
+}
