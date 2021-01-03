@@ -76,6 +76,12 @@ h1 {
     line-height: 1;
 	}
 
+h2{
+	font-family: "Karla";
+	font-size: 20px;
+	margin-top:10px;
+}	
+
 .flex{
 	display: flex;
 	align-items:center;
