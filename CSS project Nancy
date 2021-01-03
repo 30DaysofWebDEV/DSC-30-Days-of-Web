@@ -1,0 +1,72 @@
+
+
+.second {
+  text-align: center; 
+}
+* {
+  box-sizing: border-box;
+}
+
+.coloumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px; 
+}
+
+footer {
+    text-align: center;
+
+    color:red ;
+    font-size: large;
+    padding: 2px; 
+
+    /* font-style: inherit; */ 
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h5 {
+  color: brown;
+  font-size: medium;
+  text-align: center; 
+}
+h1 {
+  border: 5px outset darkseagreen;
+  background-color: aliceblue;
+}
+p{
+  text-align: center;
+}
+
+
+body {  
+  /* background-image: url('puneimg.jpg'); */
+  /* background-size: 48px; */
+
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+
+} 
+table, th, td {
+ border: 1px solid black; 
+ border-collapse: collapse; 
+
+} 
+.left {
+  text-align: left;
+  font-size: medium;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  /* z-index: 1; */
+  top: auto;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
