@@ -96,10 +96,10 @@ img{
 table,th,td{
 	font-size: 20px;
 	border: solid #555753 2px;
-	width:max-content;
+	width:600px;
 	height: 50px;
 	align-content: center;
-	margin-left: 10px;
+	margin-left: 20px;
 }
  
 table, td{
