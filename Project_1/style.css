@@ -93,6 +93,15 @@ table,th,td{
 	width: fit-content;
 	height: 50px;
 }
+
+video{
+	  width:max-content;
+	  height:100px;
+	  border:thistle solid 2px;
+	  margin: 10px 15px 10px 15px;
+	  
+}
+
 footer { 
 	text-align: left; 
 	font-size: 25px;
