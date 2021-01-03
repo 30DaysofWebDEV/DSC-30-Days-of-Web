@@ -72,8 +72,7 @@ h1 {
 	letter-spacing: 2px; 
 	padding-top: 50px;
 	color: #7D775C;
-	letter-spacing: 2px;
-	line-height: 1;
+    line-height: 1;
 	}
 
 .flex{
@@ -83,7 +82,7 @@ h1 {
 }
 
 .flex > div{
-	flex: 2;
+	flex: 5;
 }
 
 footer { 
