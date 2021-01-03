@@ -66,7 +66,7 @@ p {
 	margin-top: 0; 
 	text-align: justify;
 	line-height: 1.7em;
-	font-size: 2.5;
+	font-size: 20px;
 	}
 
 h1 { 
@@ -84,7 +84,8 @@ h1 {
 }
 
 footer { 
-	text-align: right; 
+	text-align: left; 
+	font-size: 10px;
 	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
