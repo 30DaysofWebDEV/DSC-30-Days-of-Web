@@ -8,9 +8,19 @@
 
 <body style="padding: 0 30px 0 30px;">
 
+  <nav>
+    <ul>
+      <li><a href="#header">Home</a></li>
+      <li><a href="#Image-Videos">Image-Videos</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <h1 style="font-size:2rem;">Barbones-Portfolio-Project</h1>
   <h1>In association with <em>DSC's 30 Days of Web Devlopement</em></h1>
-  <div class="header" style="background-color:#364f6b; color:white;">
+
+  <div id="header">
     <h2>This is header section</h2>
     <table cellspacing="10" border="3px solid blue">
       <tr>
@@ -25,21 +35,9 @@
     </table>
   </div>
   <br>
-  <div class="contact-form" style=" background-color:powderblue;">
-    <h2>Contact Form</h2>
-    <label for="">Email:</label>
-    <input type="email" name="" value="" placeholder="youremail@.com" required> <br> <br>
-    <label for="">Phone No:</label>
-    <input type="phone" name="" value="" placeholder="123490####" required> <br> <br>
-    <label for="">First Name:</label>
-    <input type="text" name="" value="" placeholder="firstname" required> <br> <br>
-    <label for="">Last Name:</label>
-    <input type="text" name="" value="" placeholder="lastname" required> <br> <br>
-    <textarea name="" rows="16" cols="40" placeholder="Your message to me">Message:</textarea> <br> <br>
-    <button type="button" name="button">Click to send</button>
-  </div>
+
   <br>
-  <div class="tables" style=" background-color:yellow">
+  <div id="Skills">
     <h2>Tables</h2>
     <table cellspacing="10" border="3px solid blue">
       <tr>
@@ -83,11 +81,11 @@
 
   <br>
 
-  <div class="Image-Videos" style="background-color:#364f6b; color:white;">
+  <div id="Image-Videos">
     <h2>The Image Element</h2>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtE0fRWIb-jcPr7BA5rFkJEPcfooL4bOe4A&usqp=CAU" alt="Grogu from star wars">
     <h2>The video element</h2>
-    <video width="640" height="480" controls>
+    <video width="580" height="420" controls>
       <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -95,8 +93,29 @@
 
   <br>
 
-  <div class="footer">
-    
+  <div id="Contact">
+    <h2>Contact Form</h2>
+    <p><a href="mailto:someone@example.com">Send email</a></p>
+    <label for="">Email:</label>
+    <input type="email" name="" value="" placeholder="youremail@.com" required> <br> <br>
+    <label for="">Phone No:</label>
+    <input type="phone" name="" value="" placeholder="123490####" required> <br> <br>
+    <label for="">First Name:</label>
+    <input type="text" name="" value="" placeholder="firstname" required> <br> <br>
+    <label for="">Last Name:</label>
+    <input type="text" name="" value="" placeholder="lastname" required> <br> <br>
+    <textarea name="" rows="16" cols="40" placeholder="Your message to me">Message:</textarea> <br> <br>
+    <button type="button" name="button">Click to send</button>
   </div>
+
+  <br>
+
+  <div class="footer">
+    <a class="footer-link" href="https://linkedin.com/in/rajnish-pandey-5491081a5/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/rajnish_038">Twitter</a>
+    <a class="footer-link" href="https://facebook.com/rk1234rk/">Facebook</a>
+    <p class="copyright">© 2020 Rajnish Pandey.</p>
+  </div>
+
 </body>
 </html>
