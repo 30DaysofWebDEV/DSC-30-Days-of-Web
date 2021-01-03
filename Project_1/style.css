@@ -95,10 +95,13 @@ table,th,td{
 }
 
 video{
-	  width:1000px;
-	  height:300px;
+	  width:max-content ;
+	  height:400px;
 	  border:thistle solid 2px;
-	  margin: 10px 30px 10px 30px;
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+	  margin-left: 25px;
+	  margin-right: 25px;
 	  
 }
 
