@@ -5,7 +5,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="Project_3\styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/forms/input-group/">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -14,11 +14,11 @@
         <div id="content-wrap">
             <div>
                 <ul class="ul">
-                    <li class="active"><a href="home">Home</a></li>
-                    <li><a href="skills">Skills</a></li>
-                    <li><a href="video">Videos</a></li>
-                    <li><a href="feedback">Feedback</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Contact</a></li>
                   </ul>
             </div>
             <div class="content">
@@ -71,19 +71,32 @@
                 <h3>Videos</h3><iframe width="40%" height="200" src="https://www.youtube.com/embed/BLeOcCeqsfI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="50%" height="50%"></iframe>
                 <iframe width="40%" height="200" src="https://www.youtube.com/embed/utc8bwTDjLk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div class="h3"><h3>Feedback</h3></div>
-                    <div class="mb-3 row">
-                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
-                          <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
-                        </div>
-                      </div>
-                      <div class="mb-3 row">
-                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                        <div class="col-sm-10">
-                          <input type="password" class="form-control" id="inputPassword">
-                        </div>
-                    </div>
-                    <input class="btn btn-primary" type="submit" value="Submit">
+                <div class="input-group">
+                    <span class="input-group-text">First and last name</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control">
+                </div>
+                <div class="padding"></div>
+                <div class="input-group mb-3">
+                    <select class="form-select" id="inputGroupSelect02">
+                      <option selected>Choose..</option>
+                      <option value="1">Male</option>
+                      <option value="2">Female</option>
+                      <option value="3">Other</option>
+                    </select>
+                    <label class="input-group-text" for="inputGroupSelect02">Gender</label>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Suggestion</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  
+                  
+                    
                 
                 <div><h3 class="h3">Contact</h3>
                     <div class="bookmarks">
