@@ -1,3 +1,7 @@
+Project 3 Done by:
+Utkarsh Goel
+goelutkarsh7u@gmail.com
+
 # Project 3: Bootstrap to recreate your old portfolio website
 
 Now that you have added style to your portfolio site, it **lacks the modern feel** of a website made in 2020.
