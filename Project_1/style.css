@@ -96,10 +96,14 @@ img{
 table,th,td{
 	font-size: 20px;
 	border: solid #555753 2px;
-	width:100%;
+	width:max-content;
 	height: 50px;
 	align-content: center;
 	margin-left: 10px;
+}
+ 
+table, td{
+	padding: 5px 10px 5px 10px
 }
 
 video{
