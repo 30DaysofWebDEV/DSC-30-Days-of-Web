@@ -122,7 +122,27 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type=number], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+
+  input[type=email], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+
+button[type=button] {
   width: 100%;
   background-color: #4CAF50;
   color: white;
@@ -133,7 +153,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+button[type=button]:hover {
   background-color: #45a049;
 }
 .main-form{
