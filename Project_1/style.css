@@ -169,9 +169,11 @@ button[type=button]:hover {
 }
 
 footer { 
-	text-align: left; 
+	text-align: center; 
 	font-size: 25px;
+	color: turquoise;
 	}
 footer a:link, footer a:visited { 
-	margin-right: 20px; 
+	margin-right: 20px;
+	margin-bottom: 10px; 
 	}
