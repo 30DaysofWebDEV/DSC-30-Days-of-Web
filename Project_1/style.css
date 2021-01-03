@@ -127,7 +127,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=number], select {
+input[type=tel], select {
 	width: 200px;
 	padding: 12px 20px;
 	margin: 8px 0;
