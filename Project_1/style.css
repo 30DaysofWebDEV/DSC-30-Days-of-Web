@@ -3,11 +3,6 @@
 
 
 
-
-*{
-	box-sizing: border-box;
-}
-
 :root{
 	--dark-violet: hsl(256, 26%, 20%)
 }
@@ -25,6 +20,7 @@ body {
 	margin: 0; 
 	padding: 0;
 	}
+
 nav{
 	position: fixed;
 	top: 0;
@@ -38,7 +34,7 @@ nav ul{
 	list-style-type: none;
 	padding: 0;
 	flex-direction: row;
-	flex: 15;
+	float: right;
 }	
 
 nav li{
@@ -83,6 +79,11 @@ h1 {
 	justify-content: space-between;
 }
 
+img{
+	border: 5px solid #7D775C;
+	margin-left: 20px;
+	padding-left: 10px;
+}
 footer { 
 	text-align: left; 
 	font-size: 25px;
