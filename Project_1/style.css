@@ -96,7 +96,7 @@ img{
 table,th,td{
 	font-size: 20px;
 	border: solid #555753 2px;
-	width:100%;
+	width:max-content;
 	height: 50px;
 	align-content: center;
 }
@@ -147,7 +147,8 @@ button[type=button] {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
-  margin: 500px 0;
+  margin: 8px 0px;
+  margin-left: 500px ;
   border: none;
   border-radius: 4px;
   cursor: pointer;
