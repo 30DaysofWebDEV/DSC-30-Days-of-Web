@@ -35,7 +35,7 @@ We will be starting with the basics of CSS and we will be seeing how colors, bac
     <li>  <a href="https://www.w3schools.com/css/css_border_width.asp"> Border width </a>  </li>
     <li>  <a href="https://www.w3schools.com/css/css_border_color.asp"> Colorful borders</a>  </li>
     <li>  <a href="https://www.w3schools.com/css/css_border_sides.asp"> Sides Styling</a>  </li>
-    <li>  <a href="https://www.w3schools.com/css/css_border_sides.asp">Rounding borders (Border with radius)</a>  </li>
+    <li>  <a href="https://www.w3schools.com/css/css_border_rounded.asp">Rounding borders (Border with radius)</a>  </li>
   </ol>
   
   * Margins
