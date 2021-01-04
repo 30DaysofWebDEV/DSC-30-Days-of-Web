@@ -21,8 +21,8 @@ We will be starting with the basics of CSS and we will be seeing how colors, bac
   * Backgrounds (session)
 
  <ol>
-   <li>  <a href="https://www.w3schools.com/cssref/css_units.asp"> Background color </a>  </li>
-    <li>  <a href="https://www.w3schools.com/css/css_colors_hsl.asp"> Background images </a>  </li>
+   <li>  <a href="https://www.w3schools.com/css/css_background.asp"> Background color </a>  </li>
+    <li>  <a href="https://www.w3schools.com/css/css_background_image.asp"> Background images </a>  </li>
     <li>  <a href="https://www.w3schools.com/css/css_background_repeat.asp"> Background repeat</a>  </li>
     <li>  <a href="https://www.w3schools.com/css/css_background_attachment.asp"> Background attachment</a>  </li>
     <li>  <a href="https://www.w3schools.com/css/css_background_shorthand.asp">Shortening background</a>  </li>
