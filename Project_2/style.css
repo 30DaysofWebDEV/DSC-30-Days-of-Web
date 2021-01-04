@@ -1,0 +1,47 @@
+body
+{
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+#one
+{
+    /* background-color: rgba(0, 0, 255, 0.788); */
+    background-color: navy;
+    margin: -5px;
+    padding: 1px;
+    color: white;
+}
+
+#three
+{color: navy;
+    
+}
+#gh
+{
+    background-color: navy;
+    color: white;
+}
+/* #link
+{
+    /* margin-left: -677px; */
+/* } */ 
+
+
+
+#rit
+{
+    color: navy;
+}
+#ar
+{
+    color: navy;
+}
+#id
+{
+    color: navy;
+}
+#skills
+{
+    padding: 26px;
+    margin: 0px;
+}
