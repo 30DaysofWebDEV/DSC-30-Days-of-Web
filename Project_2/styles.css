@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: 'Hanalei Fill', cursive;
+}
+
+p {
+  font-family: 'Yellowtail', cursive;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%
+}
+
+.navitem {
+  float: left;
+}
+
+.navitem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navitem a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.top-container {
+  margin-top: 48.67px;
+  text-align: center;
+}
+.top-cloud {
+  padding-top: 10px;
+  position: absolute;
+  right: 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 60px;
+}
+
+.top-container {
+  background-color: deepskyblue;
+}
+
+.About-me-Images{
+  text-align: right;
+  padding-right: 90px;
+}
+
+.About-me-text {
+  text-align: left;
+  padding-left: 30px;
+}
+.tables {
+  padding-left: 90px;
+}
+
+.Image-Videos {
+  background-color: deepskyblue;
+  text-align: right;
+  padding-right: 90px;
+}
+
+.contact {
+  text-align: left;
+  padding-left: 90px;
+}
+
+.contact a {
+  color: Black;
+  text-align: center;
+  padding: 10px 30px;
+  border-style: double;
+  background-color: deepskyblue;
+  text-decoration: none;
+}
+
+.footer {
+  padding:15px 20px 10px 20px;
+  background-color: #333;
+  text-align: center;
+  line-height: 0.5;
+}
+.footer a {
+  padding-right: 15px;
+}
+.footer-text {
+  font-size: 20px;
+  color: #fff;
+}
