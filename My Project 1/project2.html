@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h2{
+        background-color: tomato;
+      }
+      table, th, td {
+  border: 1px solid black;
+}
+      body, html {
+  height: 100%;
+  margin: 0;
+}
+.author{
+  background-image: url("back.webp");
+  color: white;
+  font-size: large;
+}
+      .bg {
+  /* The image used */
+     background-image: url("back.webp");
+      height: 100%; 
+   
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.forms{
+  color:white;
+  font-size: large;
+}
+    </style>
+</head>
+<body>
+  <div class="bg">
+    <article>
+        <header>
+            <h2 align="center" >This is the header part</h2>
+            <p style ="color:white;font-size: 60px;">
+                This is posted by Neha Yadav
+            </p>
+        </header>
+    </article>
+    <br><br><br><br><br>
+    <h2 align="center">Form </h2><div class="forms">
+    <form action="/action_page.php">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+        <input type="submit" value="Submit"><br><br>
+        <label for="Number">Number :</label>
+        <input type="number" id="Number" name="Number" ><br><br>
+        <label for="Firstname">Firstname:</label><br><br>
+        <input type="text" id="Firstname" name="Firstname"><br><br>
+        <label for="Lastname">Lastname:</label><br><br>
+        <input type="text" id="Lastname" name="Lastname"><br><br>
+        <input type="submit" value="Submit"><br>
+        <input type="reset"><br>
+    </form>
+  </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 align="center">Table</h2>
+    <table style="width:100%;background-color:lightseagreen">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Neha</td>
+          <td>Yadav</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>James</td>
+          <td>bond</td>
+          <td>25</td>
+        </tr>
+        <tr>
+            <td>Sabita</td>
+            <td>Singh</td>
+            <td>25</td>
+        </tr>
+      </table>
+      <br><br><br><br><br>
+      <h2 align="center">Video</h2>
+      <div align=center style ="background-color:greenyellow"><video width="1000" height="1000" controls>
+        <source src="video.mp4" type="video/mp4" align="center" >
+          </div>
+      </video>
+      <h2 align="center">Image</h2>
+      <div align="center" style ="background-color:tomato">
+      <img src="image.jpg" alt="Beautiful night" align="center">
+      </div>
+    <footer>
+        <p align="center" class="author">Author: Neha Yadav<br>
+        </p>
+      </footer>
+    </div>
+</body>
+</html>
