@@ -1,0 +1,359 @@
+/* GLobal Setting */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-margin: 2px;
+  transition: all 0.5s ease;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Ubuntu", san-serif;
+  color: #fff;
+  font-size: 1.75rem;
+}
+hr {
+  border-radius: 50%;
+  width: 50%;
+  margin: auto;
+}
+h1 {
+  font-family: "Great Vibes", cursive;
+}
+ul {
+  list-style: none;
+}
+/* Scroll Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d4d4d4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ec004f;
+  border-radius: 35px;
+  width: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e8175d;
+}
+body {
+  background: url("./images/portfolio.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+}
+
+/* Navbar Styling */
+header {
+  min-height: 10vh;
+  position: fixed;
+  width: 100%;
+  background: #474747;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+.nav-container h2 {
+  font-size: 3rem;
+  letter-spacing: 2;
+  color: #ffffff;
+  font-family: "Great Vibes", cursive;
+}
+.nav-container nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container nav ul li {
+  padding: 2.5rem 2rem;
+}
+.nav-container nav ul li a {
+  color: #ffffff;
+}
+.nav-container nav ul li a:hover,
+.navbar-container ul li a:focus {
+  color: #e8175d;
+  transform: scale(1.5);
+}
+/* Main Styling */
+main {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* Home Styling */
+#home {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container h1 {
+  font-size: 6rem;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-weight: 300;
+}
+.home-container h1 span {
+  font-family: "Great Vibes", cursive;
+  font-size: 6.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.home-container h1 span:hover {
+  color: #e8175d;
+  transform: scale(4rem);
+}
+.home-container h3 {
+  font-size: 4rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+}
+/* About Styling */
+#about {
+  min-height: 50vh;
+  padding-top: 35px;
+  background: #363636;
+}
+.about-container {
+  display: flex;
+}
+.about-text {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  flex: 2 1 40rem;
+  order: 2;
+}
+.about-image {
+  margin-top: 50px;
+  flex: 1 1 40rem;
+  order: 1;
+}
+.about-image img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.2);
+  inset: 12px 12px 15px 12px;
+}
+.about h1 {
+  font-size: 3.5rem;
+}
+/* Hobbies Styling */
+#hobbies {
+  min-height: 50vh;
+  padding-top: 35px;
+}
+.hobbies h1 {
+  font-size: 3.5rem;
+}
+
+.hobbies .hobby-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+.hobby-list .hobby1 {
+  padding: 2rem 5rem;
+  flex: 1 1 40rem;
+}
+.hobby-list .hobby1 img:hover {
+  transform: scale(3.25rem);
+}
+.hobby-list .hobby2 {
+  flex: 1 1 40rem;
+}
+.hobby-list .hobby3 {
+  flex: 1 1 40rem;
+}
+.hobby-list li {
+  padding-top: 1.5rem;
+  font-weight: 500;
+}
+
+/* Skills Styling */
+#skills {
+  min-height: 50vh;
+  background-color: #363636;
+}
+.skills h1 {
+  font-size: 3.5rem;
+}
+.skills table {
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 1rem;
+  height: auto;
+}
+
+.skills-container {
+  background-color: #474747;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.skill {
+  background-color: #e8175d;
+  color: white;
+  padding: 0.25%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.skills table tbody td {
+  padding-top: 5px;
+  padding-left: 2px;
+}
+.skills table tbody td .html {
+  width: 90%;
+}
+.css {
+  width: 80%;
+}
+.js {
+  width: 70%;
+}
+.cpp {
+  width: 40%;
+}
+/* Contact Styling */
+#contact {
+  min-height: 50vh;
+}
+.contact h1 {
+  font-size: 3.5rem;
+}
+.contact-container {
+  border-radius: 5px;
+  background-color: #a8a7a7;
+  padding: 20px;
+  margin-top: 50px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cc527a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Ubuntu", sans-serif;
+}
+input[placeholder] {
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-container textarea {
+  height: 200px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  outline: 1px solid #e8175d;
+}
+.contact-btn {
+  padding: 1rem 2.5rem;
+  background: #cc527a;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  text-shadow: 2px 2px 3px #e8175d;
+  color: #ffffff;
+  border-radius: 40px;
+  box-shadow: 5px 2px 5px #474747;
+}
+.contact-btn:hover {
+  background-color: #ffffff;
+  color: #e8175d;
+  text-shadow: none;
+}
+/* FOOTER STYLING*/
+footer {
+  min-height: 10vh;
+
+  width: 100%;
+  background: #363636;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.copyright p {
+  font-size: 1.5rem;
+  padding: 2rem 3.5rem;
+}
+.copyright p:hover {
+  color: #e8175d;
+}
+
+.social-media a img {
+  color: #ffffff;
+  padding: 2rem 3.5rem;
+  height: 40px;
+  width: 40px;
+}
+/* FONT FAMILY:
+
+font-family: 'Great Vibes', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+/* COLOR CODES:
+/* #a8a7a7   #cc527a  #e8175d  #474747 #363636 */
+
+@media screen and (max-width: 800px) {
+  .about-container {
+    display: block;
+  }
+  .about-text {
+    order: 2;
+  }
+  .hobbies .hobby-list {
+    display: block;
+    margin: 1.5rem auto;
+  }
+  .footer-container {
+    display: block;
+  }
+  .footer-container .copyright p {
+    margin: 1.5rem auto;
+  }
+} ;

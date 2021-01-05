@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="./images/profile.ico" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;500;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main-head">
+      <div class="nav-container">
+        <a href="./index.html">
+          <h2>Santy</h2>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <div class="home-container">
+          <h1>I'm <span>Santhosh</span></h1>
+          <h3>Web Developer</h3>
+        </div>
+      </section>
+      <!-- About Section -->
+      <section class="about" id="about">
+        <h1>About Me:</h1>
+        <hr />
+        <div class="about-container">
+          <div class="about-text">
+            <p>
+              I'm 21 years old I'm currently pursuing my B.E in Mechanical
+              Engineering(3rd Year).I like to design Wevsite during my free time
+              and read on CSStricks or Dev.to .
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="./images/dp.jpg" alt="fake dp" />
+          </div>
+        </div>
+      </section>
+      <!-- Hobbies Section -->
+      <section class="hobbies" id="hobbies">
+        <h1>My Hobbies:</h1>
+        <hr />
+        <ul class="hobby-list">
+          <div class="hobby1">
+            <img
+              src="./images/music.jpg"
+              alt="Person listening to Music"
+              height="250"
+              width="400"
+            />
+            <li>Listening to Music</li>
+          </div>
+          <div class="hobby2">
+            <video
+              src="./images/videogames.mp4"
+              controls
+              autoplay
+              loop
+              height="250px"
+            ></video>
+            <li>Playing Video Games</li>
+          </div>
+          <div class="hobby3">
+            <img
+              src="./images/reading.jpg"
+              alt="Reading"
+              height="250px"
+              width="400px"
+            />
+            <li>Reading Medium Articles</li>
+          </div>
+        </ul>
+      </section>
+      <section class="skills" id="skills">
+        <h1>My Skills:</h1>
+        <hr />
+        <table>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>
+                <div class="skills-container">
+                  <div class="skill html">90%</div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>
+                <div class="skills-container">
+                  <div class="skill css">80%</div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>
+                <div class="skills-container">
+                  <div class="skill js">70%</div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>
+                <div class="skills-container">
+                  <div class="skill cpp">40%</div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="contact" id="contact">
+        <h1>Contact Me:</h1>
+        <hr />
+        <div class="contact-container">
+          <form action="#" method="GET">
+            <label for="first-name">First Name:</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="Enter Your First Name"
+              required
+            /><br /><br />
+            <label for="last-name">Last Name:</label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Enter Your Last Name"
+              required
+            /><br /><br />
+            <label for="user-email">Email:</label>
+            <input
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Enter Your Email"
+              required
+            /><br /><br />
+            <label for="cell-number">Phone Number:</label>
+            <input
+              type="text"
+              name="cell-number"
+              id="cell-number"
+              placeholder="Enter Your Contact Number"
+              pattern="/(7|8|9)\d{9}/"
+            />
+            <br /><br />
+            <label for="random-number">Random Number:</label>
+            <input
+              type="number"
+              name="random-number"
+              placeholder="Enter some random number"
+              id="random-number"
+            />
+            <br /><br />
+            <label for="msg">Your Message</label>
+            <textarea
+              id="msg"
+              name="msg"
+              placeholder="Write something.."
+            ></textarea>
+            <button class="contact-btn">Contact Me!</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="copyright">
+          <p>&copy;Santhosh Pai H,2020</p>
+        </div>
+        <div class="social-media">
+          <a href=""><img src="./images/instagram.svg" alt="instagram" /></a>
+          <a href=""><img src="./images/twitter.svg" alt="twitter" /></a>
+          <a href=""><img src="./images/github.svg" alt="github" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
