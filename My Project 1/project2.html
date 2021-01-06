@@ -7,6 +7,8 @@
     <style>
       h2{
         background-color: tomato;
+        padding: 10 px;
+        border: 15px solid black;
       }
       table, th, td {
   border: 1px solid black;
@@ -14,6 +16,11 @@
       body, html {
   height: 100%;
   margin: 0;
+}
+h1{
+    padding: 20 px;
+    border: 20px solid black;
+    text-decoration: blue;
 }
 .author{
   background-image: url("back.webp");
@@ -33,6 +40,16 @@
 .forms{
   color:white;
   font-size: large;
+   
+}
+input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }
     </style>
 </head>
@@ -40,7 +57,7 @@
   <div class="bg">
     <article>
         <header>
-            <h2 align="center" >This is the header part</h2>
+            <h1 align="center" >This is the header part</h2>
             <p style ="color:white;font-size: 60px;">
                 This is posted by Neha Yadav
             </p>
@@ -88,7 +105,7 @@
       </table>
       <br><br><br><br><br>
       <h2 align="center">Video</h2>
-      <div align=center style ="background-color:greenyellow"><video width="1000" height="1000" controls>
+      <div align=center style ="background-color:greenyellow"><video width="1000" height=100%>
         <source src="video.mp4" type="video/mp4" align="center" >
           </div>
       </video>
@@ -103,3 +120,4 @@
     </div>
 </body>
 </html>
+
