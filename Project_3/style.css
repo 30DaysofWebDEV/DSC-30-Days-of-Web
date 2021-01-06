@@ -3,14 +3,72 @@ body,
 header,
 #intro{
     height: 100%;
+    
 }
 .navbar{
     background-color: rgba(0, 0, 0, 0.658)!important;
 }
-#intro{
-    background: url(desktop.jpg);
-    -webkit-backgroubd-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+
+hr{
+    width: 600px;
+}
+.h2{
+    padding-left: 2rem;
+    margin-top: 15rem;
+}
+#project{
+    margin: 7rem 0 1rem;
+}  
+#lol{
+    margin-top: 5rem;
+}
+
+#grid{
+    margin-bottom: 3rem;
+}
+
+.col-sm{
+    padding-bottom: 6rem;
+    
+}
+#text{
+    padding-left: 1rem;
+}
+#contact {
+    padding-top: 6rem;
+}
+.container-fluid{
     background-size: cover;
+}
+
+#bgvid{
+    max-height: 100%;
+    max-width: 100%;
+}
+.video-background{
+    position: relative;
+    
+}
+.caption{
+    position: absolute;
+    top: 38%;
+    align-content: center;
+    margin-left: 15rem;
+}
+.input-group{
+    padding-left: 6.5rem;
+    margin-top: -2rem;
+}
+#btn{
+    padding-left: 10px;
+}
+.display-4{
+    padding-bottom: 3rem;
+   
+}
+footer{
+    margin: 3rem 0;
+}
+.tebale-heading{
+    margin: 10rem 0 2rem;
 }
