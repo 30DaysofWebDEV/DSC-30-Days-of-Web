@@ -52,13 +52,12 @@ div ul li a{
   color: #5fcf80;
 }
 .content{
-  width: 70%;
-  height:60%;
+  
+  margin-left: auto;
+  margin-right: auto;
   background-color: #eaeaea;
   font-family: cursive;
   letter-spacing: 1pxs;
-  position: absolute;
-  left: 15%;
   text-align:justify;
   line-height: 30px;
   border-style: solid double;
@@ -90,6 +89,10 @@ table tr:hover
   border: solid;
 
 }
+.text-name
+{
+  text-align: center;
+}
 .card:hover,.content .a:hover,.content .b:hover,.hov:hover
 {
   color: #5fcf80;
@@ -106,7 +109,6 @@ color: chartreuse;
 }
 .social ul li a{
 
-  align-items:flex-start;
   text-transform: uppercase;
   font-size: large;
 }
