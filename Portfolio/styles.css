@@ -1,0 +1,128 @@
+body
+{
+   
+    font-family: "Karal";
+    text-align: center;
+}
+element.style
+{
+    background-color: ghostwhite;
+    padding:10px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding:10px;
+}
+h1
+{
+    font-family:"DM Serif Display";
+    font-size: 2rem;
+    letter-spacing:2px;
+    font-size:100%;
+    color:black ;
+    
+}
+.flex
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:125%;
+
+}
+.flex>div
+{
+    flex:1;
+}
+.header
+{
+    font-size:250%;
+}
+h3
+{
+    font-size:300%; 
+  
+}
+.header3
+{
+    font-size:300%; 
+   
+}
+p
+{
+    font-size:150%;
+     color:black;
+}
+div
+{
+    text-align:centre ;
+    font-size:150%;
+}
+{
+    box-sizing:border-box ;
+}
+
+td
+{
+    font-size:150%; 
+    color:black;
+}
+:root
+{
+    --dark-blue:rgb(33, 8, 66);
+   --grayish-blue:rgb(51, 51, 92);
+}
+body {
+    color: var(--dark-blue);
+    
+  }
+  nav
+  {
+      position: fixed;
+      top:0%;
+      padding:10px;
+      left:0;
+      width:100%;
+      background-color: whitesmoke;
+     
+  }
+  nav ul
+  {
+      display:flex;
+      list-style-type: none;
+      padding:0;
+      flex-direction: row;
+     
+  }
+  nav li
+  {
+   margin-left:30px;
+
+  }
+  nav li a 
+  {
+  text-transform: : uppercase;
+  text-decoration:none ;
+  color:var(--dark-blue);
+  }
+.Info1
+{
+    font-size: 300%;
+    border:10;
+    margin:10;
+}
+.Info2
+{
+    font-size: 150%;
+    border:10;
+    margin:10;
+}
+
+
+
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
