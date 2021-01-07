@@ -5,16 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portfolio</title>
+    <style>
+        body
+        {
+            background: fixed black ;
+            color: slategrey;
+        }
+        aside
+        {
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 15%;
+            background: fixed gray ;
+        }
+        table
+        {
+            height: 100%;
+            min-width: 100%;
+            margin: auto;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <header>
     <h1> personal portfolio </h1>
 </header>
 
-<body align="center">
+<body align="center" >
     <!-- About me -->
-    <aside id="sideNav" style="width: 20%;height: 100%;">
-        <table style="height: 100%;" height="100%" border="4">
+    <aside id="sideNav">
+        <table>
+            <tr>
+                <td>
+                    <img src="" alt="image of the author">
+                </td>
+            </tr>
             <tr>
                 <td>
                     <a href="#home">HOME</a></li>
@@ -22,7 +53,12 @@
             </tr>
             <tr>
                 <td>
-                    <a href="#portfolio">PORTFOLIO</a></li>
+                    <a href="#about">ABOUT</a></li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href=""#skills">SKILLS</a>
                 </td>
             </tr>
             <tr>
@@ -58,7 +94,7 @@
 
         <!-- skills -->
         <h3><u>Skills</u></h3>
-        <table align="center">
+        <table id="skills" style="min-width: 30%; margin: 0 38%;">
             <tr>
                 <td><strong>C</strong></td>
                 <td>⭐⭐⭐⭐ </td>
@@ -93,7 +129,7 @@
             </video>
         </section>
         <!-- contact me -->
-        <section id="contact">
+        <section id="contact" style="margin-left: 31%;max-width: 50%;">
             <h2>Contact Me</h2>
             <form action="mailto:prabanjan.m@outlook.com"></form>
             <table align="center" cellpadding="10">
@@ -124,7 +160,7 @@
 
 <footer>
     <h4>By : PrabanjanRaja</h4>
-    <table align="center" cellspacing="20">
+    <table align="center" cellspacing="20" style="min-width:0%">
         <tr>
             <td>
                 <a href="https://www.instagram.com/prabanjan.raja/">
