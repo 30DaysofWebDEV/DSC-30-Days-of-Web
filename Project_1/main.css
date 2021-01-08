@@ -1,59 +1,31 @@
-.navi{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #666;
-    
+#navigation{
+    padding: 20px;
+    text-align: right;
 }
-
-.navi li{
-    float: right;
-    display: inline;
-    border-right: 1px solid #bbb;
-}
-
-li:last-child {
-    border-left: 1px solid #bbb;
-}
-
-li a:hover:not(.active) {
-    background-color: #444;
-}
-  
-.active {
-    background-color: #4CAF50;
-}
-
-.navi li a{
-    display: block;
-    padding: 14px 16px;
-    color: seashell;
-    text-decoration: none;
-    
-}
-
 header{
-    text-align: center;
+    text-align: right;
     text-decoration: solid;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgb(170, 252, 255);
     padding-top: 100px;
     padding-bottom: 50px;
-    border-bottom: dotted;
-    border-radius: 4px;
 }
 
 body {
-    background-image: url('background.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    color:rgb(170, 252, 255);
     text-align: center;
+}
+
+.carousel-control-prev{
+    color: black;
+}
+
+.carousel-inner img {
+    width: 10%;
+    height: 10%;
+    background-color: white;
+}
+
+#yt{
+    padding: 50px 20px;
 }
 
 .column {
@@ -64,8 +36,6 @@ body {
 
 .row{
     padding-bottom: 50px;
-    border-bottom: dotted;
-    border-radius: 4px;
 }
 
 .row::after {
@@ -74,17 +44,10 @@ body {
     display: table;
 }
 
-.yt{
-    padding-bottom: 50px;
-    border-bottom: dotted;
-    border-radius: 4px;
+.info-table{
+    padding: 50px;
 }
 
-.info-table{
-    padding-bottom: 50px;
-    border-bottom: dotted;
-    border-radius: 4px;
-}
 #co-table{
     margin:0 auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -99,16 +62,14 @@ body {
     padding: 10px;
 }
 
-#co-table a, footer a{
+#co-table a{
     color:deeppink;
     text-decoration: none;
 }
 
 .feedback{
     text-align: left;
-    padding-bottom: 50px;
-    border-bottom: dotted;
-    border-radius: 4px;
+    padding: 70px 20px;
 }
 
 textarea{
