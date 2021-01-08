@@ -23,6 +23,10 @@ h1
     color:black ;
     
 }
+.div1
+{
+    padding: 40px;
+}
 .flex
 {
     display:flex;
@@ -118,7 +122,26 @@ body {
     border:10;
     margin:10;
 }
+/* Navigation Bar */
+  
 
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+    color: black;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: black;
+  }
 
 
 
@@ -126,3 +149,4 @@ body {
 .topnav-right {
   float: right;
 }
+

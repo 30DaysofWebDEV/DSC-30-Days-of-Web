@@ -2,7 +2,7 @@
 Create a barebones HTML portfolio website of your own using the following features:
 Header
 Footer
-Contact form with buttons, email input, number input, first name and last name
+ form with buttons, email input, number input, first name and last name
 Table
 Video
 Images
@@ -35,30 +35,126 @@ Images
 <link media="all" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <header>
+   
 
 <body>
-    <nav>
-       
-        <div class="dropdown">
-                <ul class="topnav-right">
-                    <li><a class="btn" href="#">HOW WE WORK</a></li>
-                    <li><a class="btn" href="#">RESOURCES</a></li>
-                    <li><a class="btn" href="#">ARTICLES</a></li>
-                    <li><a class="btn" href="#">BLOG</a></li>
-                    <li><a class="btn" href="#">VIEW PLANS</a></li>
-                    <li><a class="btn" href="#">ACCOUNT</a></li>
-                </ul>
-   
-              </div>
-    </nav>
-    <div class="flex">
+    <section  class="coloured-section" id="title">
+        <div class="container-fluid">
+            <!-- Nav Bar-->
+            <div class="background-color:dark"></div>
+            <nav class="navbar navbar-expand-md navbar-dark">
+              <a class="navbar-brand" style=" color: black;" href="">TechnoWorld</a>
+              <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+              <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" style=" color: black;" href="">HOW WE WORK</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" style=" color: black;"  href="">RESOURCES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style=" color: black;" href="">ARTICLES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style=" color: black;" href="">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style=" color: black;" href="">VIEW PLANS</a>
+                </li>
+                  <li class="nav-item">
+                      <a class="nav-link"style=" color: black;"  href="">ACCOUNT</a>
+                  </li> 
+               
+                    
+         
+ <!-- A grey horizontal navbar that becomes vertical on small screens -->
+ <nav class="navbar navbar-expand-sm bg-light fixed-top">
+    <!-- Brand -->
+  <a class="navbar-brand" href="#"></a>
+
+    <!-- Links 
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOW WE WORK</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">RESOURCES</a>
+      </li>
+      <li class="nav-item">
+        <a  class="nav-link" href="#">ARTICLES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">VIEW PLANS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ACCOUNT</a>
+      </li>-->
+      <!-- Toggler/collapsibe Button 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+-->
+  <!-- Navbar links 
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>-->
+  </div>
+      <!-- Search 
+      <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>-->
+      <!-- Dropdown 
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">MORE</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">SUBSCRIPTION</a>
+          <a class="dropdown-item" href="#">MY COURSES</a>
+          <a class="dropdown-item" href="#">WISHLIST</a>
+          <a class="dropdown-item" href="#">CART</a>
+          <a class="dropdown-item" href="#">HELP</a>
+        </div>
+      </li>-->
+      <form class="form-inline" action="/action_page.php">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">  @</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Username">
+        </div>
+      </form>
+    </ul>
+  
+  </nav>
+ 
+    
+    <div class="div1" class=" col-md-6 col-lg-12">
     <table cellspacing="50">
         <tr>
            
-            <td><img src="images/Robot.jpg" width="600" height="600"></td>
-            <td><h1 style="color:whitesmoke"><strong>Portofolio</strong></h1>
-                
-               <h1  style="color:whitesmoke;font-size:300%">Full of Tech Senses</h1>>
+            <td><img class="img-fluid" src="images/Robot.jpg" width="600" height="600"></td>
+            <td><img class="img-fluid" src="images/robot3.jpg" width="600" height="600"></td>
+            <td><img class="img-fluid" src="images/robots2.jpg" width="600" height="600"></td>
+               <h1  style="color:whitesmoke;font-size:300%">Full of Tech Senses</h1>
                 <p style="color:whitesmoke"><strong>Once a new technology rolls over you, if you're not part of the steamroller, you're part of the road.</strong>.</p>
                <p style="color:whitesmoke"><strong>If future generations are to remember us more with gratitude than sorrow, we must achieve more than just the miracles of technology. We must also leave them a glimpse of the world as it was created, not just as it looked when we got through with it.</strong></p>          
              </td>
