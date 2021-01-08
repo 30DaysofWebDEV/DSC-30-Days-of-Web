@@ -2,35 +2,215 @@
 <html lang="en">
 <head>
     <title>My Portfolio</title>
-<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+<style>
+    body{
+        background-image: url("../Project_3/Bg6.jpg");
+        margin:0%;
+    }
+    caption{
+        text-align: center;
+    }
+    header{
+        background-image: linear-gradient(to right,#660066,#9900CC);
+        padding-top:1%;
+        padding-bottom: 3%;
+    }
+    nav{
+        padding-top:3%;
+        text-decoration: none;
+        
+    }
+    h1{
+        font-size:50px;
+        font-family: Georgia, serif;
+        color:#ffffff;
+        text-align:center;
+        text-shadow: 3px 3px 5px #000000;
+    }
+    h2{
+        text-align: center;
+    }
+    h2{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    ul{
+        align-self: center;
+    }
+    li{
+        display:block;
+        padding-right:3%;
+        text-align:center;
+        list-style-position: none;
+        font-size: 15px;
+    }
+    nav a{
+        font-style: 'Times New Roman';
+        font-size:20px;
+        text-decoration: none;
+        padding-bottom: 2%;
+        padding-left:3%;
+        padding-right:3%;
+        padding-top: 2%;
+        color:#ffffff;
+    }
+    nav a:hover{
+        border-radius: 10px;
+        border-style:ridge;
+        border-color:#000000;
+        text-decoration:none;
+        color:#ffffff;
+        }
+    p{
+        font-style:italic; 
+    }
+    .about{
+        font-size:20px;
+    }
+    table{
+        width:100%;
+        table-layout: auto;
+    }
+    table,th,td{
+        border: 1px dotted;
+        border-collapse: collapse;
+    }
+    th{
+        font-size:20px;   
+        background-color: #555;
+        color:#ffffff;
+        text-align: center;
+    }
+    td{
+        padding-top:0.5%;
+        font-size: 18px;
+    }
+    
+    tr{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    span{
+        display:inline;
+    }
+    img{
+        width:47%;
+        border-image:5px 10px black;
+        padding-left:2%;
+        padding-right:2%;
+        border-radius: 5%;
+    }
+    .C{
+        float:right;
+        padding-right: 9%;
+    }
+    .P{
+        float:left;
+        padding-left: 9%;
+    }
+    .ul{
+        text-decoration: underline;
+    }
+    input[type=text]:focus {
+        border: 3px solid #555;
+    }
+    label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    button{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    form{
+        text-align: center;
+        padding-bottom:3%;
+        padding-right:30%;
+        padding-left:30%;
+    }
+    .form{
+        font-size: 30px;
+        padding-top:3%;
+        text-align: center;
+    }
+    video{
+        padding-right:35%;
+        padding-left:40%;
+        padding-top:4%;
+        width:98%;
+    }
+    footer{
+        width: 100%;
+        background-color: #000000;
+        padding: 5%;
+    }
+    .foot {
+        display:inline;
+        color:white;
+    }
+    li a{
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(204, 154, 154);
+    }
+    li a:hover{
+        text-decoration: dotted;
+        background-color: rgb(138, 134, 126);
+        color:#000000;
+    }
+    .Hobby{
+        font-size:20px;
+    }
+    #Contact{
+        font-size: 20px;
+    }
+    #alert{
+        font-size: 25px;;
+        text-align: center;
+    }
+  </style>
 </head>
 <body>
     <header>
-        <center><h1>My Portfolio</h1></center>
-    </header>
-    <center><nav>
+        <div id='alert' class="alert alert-success alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Welcome!</strong> to my page.
+          </div>
+    <center>
+        <h1>My Portfolio</h1>
+        <nav >
         <a href="#1">About Me</a>
         <a href="#2">Hobbies</a>
-        <a href="#3">Achievements</a>
+        <a href="#3">Academic Results</a>
         <a href="#4">Certifications</a>
         <a href="#5">Others</a>
-            </nav></center>
-        <center><div class="1">
-            <h1>About Me</h1>
-            <p>"A self motivated and hardworking student who always love to explore new things. I love to try out new things and take risks"
+        <a href="#6">Registration</a>
+        </nav>
+    </center>
+        </header>
+    </div>
+        <center><div id='1'>
+            <h2 class="ul">About Me</h2>
+            <p class="about">"A self motivated and hardworking student who love to explore new things. Come! <mark>Let's Connect</mark>"</p>
         </div></center>
-        ><div class='2'>
-            <h1>Hobbies</h1>
+        <div id='2'>
+            <h2 class="ul">Hobbies</h2>
             <ul>
-                <li>Singing</li>
-                <li>Instruments</li>
-                <li>Dance</li>
-                <li>Technology</li>
+                <li class="Hobby">Singing ♫♪♪</li>
+                <li class="Hobby">Instrument 🎸 </li>
+                <li class="Hobby">Dance 💃</li>
+                <li class="Hobby">Technology 👨‍💻</li>
             </ul>
         </div>
-        <div class="3">
-            <center><table width="50%" >
-                <h2><caption>Academic Results</caption><h2>
+        <div id='3' class="container table-responsive">
+            <center><table class="table table-dark table-hover">
+                <h2 class="ul">Academic Results</h2>
                 <tr>
                     <th>SSC</th>
                     <th>HSC</th>
@@ -44,43 +224,42 @@
               </table>
             </center>
             </div>
-</div>
-<span class="4">
-    <h1>Cerifications</h1>
-    <h2>Python Certificate</h2>
-    <span><img src="CertificatePython.png" alt="certificatepython" width="30%" height="50%">
-    <h2>C Certificate</h2>
-    <img src="CertificateC.png" alt="certificatec" width="30%" height="50%">
-    </span>
-<div class="5">
-    <h2>Listem to my song!</h2>
-    <video width="30%" controls>
+    </div>
+    <div id='4' class="container">
+    <h2 class="ul">Certifications</h2>
+        <img src="CertificatePython.png" class="P"   alt="certificatepython" >
+        <img src="CertificateC.png"  class="C"  alt="certificateClanguage" >
+    </div>
+    <div id='5' class="container">
+        <h2 class="ul">Listen to my song!</h2>
+        <video controls>
         <source src="MyVideo.mp4" type='video/mp4'>
     </div>
-    <div>
-        <p>Register yourself here!</p>
-        <div class>
-            <form>
-            <label for='fname'>First Name:</label>
-            <input type="text" id="fname" name="fname"><br><br>
+    <div id='6' class="container-fluid">
+        <p class="form">Register yourself here!</p>
+        <div>
+            <form action="/action_page.php">
+            <label for='fname' >First Name:</label>
+            <input type="text" class="form-control" id="fname" placeholder="First Name" name="fname" required><br>
             <label for='lname'>Last Name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
+            <input type="text" class="form-control" id="lname" placeholder="Last Name" name="lname" required><br>
             <label for='email'>Email Id:</label>
-            <input type="text" id="email" name="email"><br><br>
-            <label for='contact number'>Contact No.:-</label>
-            <input type="text" id="contact number" name="contact number"><br><br>
-            <button type="button">Register</button>
+            <input type="text" class="form-control" id="email" placeholder="Email" name="email"><br>
+            <label for='contact number'>Contact No.:</label>
+            <input type="text" class="form-control" id="contact number" placeholder="Contact" name="contact number"><br>
+            <input type="button" class="btn btn-primary" value="Register">
+            <input type="button" class="btn btn-secondary" value="Skip">
             </form>
         </div>
+        
     
-    <footer>
-        <p>Contact : 4563746565<br>
-        <a href='https://www.facebook.com/shrutii2110'>Connect with me on Facebook<br>
-        <a href='https://www.instagram.com/__shruu___/'>Connect with me on Instagram<br>
-        <a href='https://www.linkedin.com/in/shruti-gavali-6010401b0'>Connect with me on LinkedIn<br>
-    </p>
-
-
+    <footer class="container-fluid">
+        <ul>
+            <li class='foot' id='Contact'>Contact Me: 4563746565</li>
+            <li class='foot'><a href="https://www.facebook.com/shrutii2110" >Connect with me On <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class='foot'><a href="https://www.instagram.com/__shruu___/">Connect with me On <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li class='foot'><a href="https://www.linkedin.com/in/shruti-gavali-6010401b0">Connect with me On <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
     </footer>
     </body>
     </html>
