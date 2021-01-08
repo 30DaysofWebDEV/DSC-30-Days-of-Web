@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--attribute language ,this website will work in any part of world in terms of language-->
+    <meta charset="UTF-8">
+    <!--tells that the website takes the width and height according to system(pc,phone...) dimensions-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>website using bootstrap</title>
+    <style>
+      /* Make the image fully responsive */
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+      *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Josefin Sans', sans-serif;;
+      }
+      /* .col-12,.col-lg-6{
+        margin-right: 0px;
+        padding-right: 0px;
+      } */
+      </style>
+</head>
+<body>
+    <!-- using inline css -->
+    <!-- <h1 style="text-align: center; color: green; text-transform: capitalize; font-weight: bold;">Welcome to my school :)</h1>
+    <hr> -->
+
+    <!-- using bootstrap classes -->
+    <!-- <h1 class="text-center text-success text-capitalize font-weight-bold">Welcome to my school :)</h1> -->
+
+    <!-- nav start -->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Anjali</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item  active">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!--jumbotron-->
+      <div class="jumbotron">
+        <h1>About us section</h1>      
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas adipisci earum deserunt possimus cum tempore minus placeat explicabo nemo porro perferendis similique quaerat mollitia ea, blanditiis quisquam excepturi nulla error!.</p>
+      </div>   
+      <!--jumbotron end-->
+    </div>    
+    </header>
+<!--about-us start-->
+    <section>
+        <div class="container-fluid">
+        <h1 class="text-center text-capitalize pt-5">about us</h1>
+        <hr class="w-25 mx-auto pt-5">
+        <div class="row mb-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="/images/bg6.jpeg" style="width: 90%; height: 80%; " class="img-fluid" alt="">
+          </div>
+  
+          <div class="col-lg-6 col-md-6 col-12">
+          <h1>Who am I?</h1>
+          <hr>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+           exercitationem eveniet vero sint laudantium, deserunt nulla ratione unde
+           ut expedita blanditiis, minus quas esse, aut maxime recusandae vel similique 
+           tenetur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+           dolorem dignissimos aliquam facilis ex nihil voluptate, vitae repudiandae
+           blanditiis nesciunt itaque eveniet vero iure aperiam optio nulla et atque 
+           obcaecati!</p>
+           <button class="btn btn-primary text-white">Wanna know me</button>
+          </div>
+        </div>
+      </section>
+<!--about-us close-->
+
+    <!--footer part-->
+   <footer style="margin: 20px;">
+    <p class="text-center bg-dark text-white">@copyright ThapaTechnical.com 2019</p>
+  </footer>
+  <!--footer end-->
+</body>
+</html>

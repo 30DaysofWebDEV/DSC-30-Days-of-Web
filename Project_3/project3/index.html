@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--attribute language ,this website will work in any part of world in terms of language-->
+    <meta charset="UTF-8">
+    <!--tells that the website takes the width and height according to system(pc,phone...) dimensions-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>website using bootstrap</title>
+    <style>
+      /* Make the image fully responsive */
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+      *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Josefin Sans', sans-serif;;
+      }
+      /* .col-12,.col-lg-6{
+        margin-right: 0px;
+        padding-right: 0px;
+      } */
+      </style>
+</head>
+<body>
+    <!-- using inline css -->
+    <!-- <h1 style="text-align: center; color: green; text-transform: capitalize; font-weight: bold;">Welcome to my school :)</h1>
+    <hr> -->
+
+    <!-- using bootstrap classes -->
+    <!-- <h1 class="text-center text-success text-capitalize font-weight-bold">Welcome to my school :)</h1> -->
+
+    <!-- nav start -->
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Anjali</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/bg1.jpeg" alt="Los Angeles" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Los Angeles</h3>
+              <p>We had such a great time in LA!</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="/images/bg2.jpeg" alt="Chicago" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Chicago</h3>
+              <p>Thank you, Chicago!</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="/images/bg4.jpeg" alt="New York" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>New York</h3>
+              <p>We love the Big Apple!</p>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>     
+    </header>
+    <!-- nav close -->
+    <!-- about section -->
+    <section>
+      <div class="container-fluid">
+      <h1 class="text-center text-capitalize pt-5">about us</h1>
+      <hr class="w-25 mx-auto pt-5">
+      <div class="row mb-5">
+        <div class="col-lg-6 col-md-6 col-12">
+          <img src="/images/bg6.jpeg" style="width: 90%; height: 80%; " class="img-fluid" alt="">
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-12">
+        <h1>Who am I?</h1>
+        <hr>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+         exercitationem eveniet vero sint laudantium, deserunt nulla ratione unde
+         ut expedita blanditiis, minus quas esse, aut maxime recusandae vel similique 
+         tenetur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+         dolorem dignissimos aliquam facilis ex nihil voluptate, vitae repudiandae
+         blanditiis nesciunt itaque eveniet vero iure aperiam optio nulla et atque 
+         obcaecati!</p>
+         <button class="btn btn-primary text-white">Wanna know me</button>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+<!-- service part -->
+<section>
+  <div class="container">
+      <h1 class="text-center text-capitalize">service</h1>
+      <hr class="w-25 mx-auto pt-5">
+
+      <div class="row">
+        <div class="col-lg-4 clo-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" src="/images/bg3.jpeg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 clo-md-4 col-12">
+        <div class="card">
+          <img class="card-img-top" src="/images/bg3.jpeg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 clo-md-4 col-12">
+      <div class="card">
+        <img class="card-img-top" src="/images/bg3.jpeg" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">John Doe</h4>
+          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+</section>
+<!-- service part end -->
+<!--want to join part-->
+<section class="bg-primary mb-5">
+  <article class="py-5 text-center">
+    <div>
+      <h3 class="display-4 text-white">+91 1234567890</h3>
+      <p>If you want best service Call us now.</p>
+      <button class="btn btn-warning">Contact Now</button>
+  </div>
+  </article>
+</section>
+<!--want to join part end-->
+
+<!--gallery part-->
+
+<section>
+  <div class="container">
+    <h1 class="text-center text-capitalize">gallery</h1>
+    <hr class="w-25 mx-auto pt-5">
+
+    <div class="row">
+      <div class="col-lg-4 col-md-2 col-12 mb-4">
+        <img src="/images/bg5.jpeg" style="width: 100%;" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-4 col-md-2 col-12 mb-4">
+        <img src="/images/bg5.jpeg"  style="width: 100%;" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-4 col-md-2 col-12 mb-4">
+        <img src="/images/bg5.jpeg"  style="width: 100%;" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-4 col-md-2 col-12 mb-4">
+        <img src="/images/bg5.jpeg"  style="width: 100%;" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-4 col-md-2 col-12 mb-4">
+        <img src="/images/bg5.jpeg"  style="width: 100%;" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-4 col-md-2 col-12 mb-4">
+        <img src="/images/bg5.jpeg"  style="width: 100%;" class="img-fluid" alt="">
+      </div>
+    </div>
+    </div>
+</section>
+<!-- gallery-end -->
+
+<!-- register start -->
+<section class="bg-primary mb-5">
+  <article class="py-5 text-center">
+    <div>
+      <h3 class="display-4 text-white">Want To Join</h3>
+      <p>Be a part of Hackathon & Coding Club</p>
+      <button class="btn btn-warning " data-toggle="modal" data-target="#myModal">Join Now</button>
+  </div>
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Signup</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" autocomplete="off">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" autocomplete="off">
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>     
+      </div>
+    </div>
+  </div>
+  </article>
+</section>
+<!--register end-->
+
+<!--contact-us start-->
+<section>
+  <div class="container">
+      <h1 class="text-center text-capitalize">contact us</h1>
+      <hr class="w-25 mx-auto pt-5">
+
+     <div class="w-50 mx-auto">
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label for="mobile">Mobile:</label>
+          <input type="number" class="form-control" id="mobile" placeholder="Enter mobile" name="mobile" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label for="textarea">Textarea</label>
+          <textarea class="form-control"></textarea>
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+     </div>
+  </div>
+</section>
+<!--contact-us end-->
+
+<!--footer part-->
+<footer style="margin: 20px;">
+  <p class="text-center bg-dark text-white">@copyright ThapaTechnical.com 2019</p>
+</footer>
+<!--footer end-->
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
