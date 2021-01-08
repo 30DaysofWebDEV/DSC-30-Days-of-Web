@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-track {
+  background-color: #363636;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Fira Code", monospace;
+}
+.navbar {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff !important;
+  letter-spacing: 0.2rem;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  padding: 25px 0;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  padding-left: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link:active,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #1ebba3;
+  transform: scale(1);
+}
+.background img {
+  height: 100vh;
+  object-fit: cover;
+}
+.heading-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  max-width: 100%;
+}
+.heading-content h5 {
+  font-size: 4em;
+  font-weight: 300;
+  color: #ffffff;
+  font-family: "Fira Code", monospace;
+}
+.heading-content h1 {
+  font-size: 7em;
+  font-weight: bolder;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+.heading-content p {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #cccccc;
+  font-family: "Fira Code", monospace;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+#about .btn {
+  border: 3px solid transparent;
+  width: 50%;
+  padding: 15px 22px;
+  background: #000000;
+  box-shadow: 5px 5px 2px rgba(43, 80, 55, 0.2);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#about .btn a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#about .btn:hover {
+  border: 3px solid #1ebba3;
+  cursor: pointer;
+}
+
+#skills .btn {
+  border: 3px solid transparent;
+  width: 50%;
+  padding: 15px 22px;
+  background: #000000;
+  box-shadow: 5px 5px 2px rgba(43, 80, 55, 0.2);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#skills .btn .know-more {
+  width: 30%;
+}
+#skills .btn a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#skills .btn:hover {
+  border: 3px solid #1ebba3;
+  cursor: pointer;
+}
+footer {
+  color: #ffffff;
+}
+footer .name a:hover {
+  color: #1ebba3;
+}
+/* FONT STYLING:
+font-family: 'Fira Code', monospace;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
