@@ -1,16 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <title>My html project</title>
+        <meta name="description" content="Project 1: HTML Project" />
+        <meta name="author" content="Prasad Desai" />
+        <style>
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+                text-align: center;
+                padding: 5px;
+            }
+        </style>
     </head>
     <body>
         <header>
-            This is header made by me.
+            <h1>HTML Project 1 of 30 Days of Web Developement</h1>
         </header>
+
+        <h3>Contact Form:-</h3>
+        <form autocomplete="on">
+            <label for="fname">First Name:</label><br />
+            <input type="text" name="fname" id="fname" /> <br /><br />
+            <label for="lname">Last Name:</label><br />
+            <input type="text" name="lname" id="lname" /> <br /><br />
+            <label for="number">Mb. No.:</label><br />
+            <input type="tel" name="number" id="number" /> <br /> <br />
+            <label for="email">Email:</label> <br />
+            <input type="email" name="email" id="email" /> <br /> <br />
+            <input type="submit" value="Submit" />
+        </form>
+        <hr />
+
+        <h3>Table:-</h3>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Country</th>
+                <th>Sales</th>
+            </tr>
+
+            <tr>
+                <td>Steve</td>
+                <td>Johns</td>
+                <td>22</td>
+                <td>UK</td>
+                <td>&#36;16733</td>
+            </tr>
+
+            <tr>
+                <td>Rob</td>
+                <td>Smith</td>
+                <td>27</td>
+                <td>USA</td>
+                <td>&#36;9213</td>
+            </tr>
+
+            <tr>
+                <td>Bran</td>
+                <td>Williams</td>
+                <td>54</td>
+                <td>AUS</td>
+                <td>&#36;7433</td>
+            </tr>
+
+            <tr>
+                <td>Jack</td>
+                <td>Brown</td>
+                <td>32</td>
+                <td>UK</td>
+                <td>&#36;14867</td>
+            </tr>
+
+            <tr>
+                <td>Henry</td>
+                <td>Smith</td>
+                <td>40</td>
+                <td>USA</td>
+                <td>&#36;19302</td>
+            </tr>
+        </table>
+        <hr />
+
+        <h3>Images:-</h3>
+        <img src="cute_cat.jpg" alt="A cute cat" title="A cute cat"/>
+        <img src="nature.jpg" alt="A beautiful photo of nature" title="Beatiful nature" /> <hr />
+
+        <h3>Video:-</h3>
+        <video autoplay="autoplay" controls="controls" width="60%" >
+            <source src="nature.mp4" type="video/mp4" />
+            <source src="snake.mp4" type="video/mp4" />
+            Your Browser don't support video...!
+        </video>
+
+        <hr />
         <footer>
-            This footer is also made by me.
+            <p title="Copyright by Prasad Desai">&#169; 2021 Prasad Desai</p>
         </footer>
-        
+
     </body>
 </html>
