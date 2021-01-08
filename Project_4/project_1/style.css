@@ -403,7 +403,7 @@ footer{
 
 /* ================================ M E D I A ================================= */
 
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 900px){
     .nav button{
         display:block;
     }
