@@ -9,9 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <style>
-        @media only screen and (max-width : 900px){
+      @media only screen and (max-width : 780px){
     .nav button{
         display:block;
+    }
+
+    header button a,.nav span{
+        font-size: 1rem;
     }
 
     .td ins{
@@ -19,19 +23,19 @@
     }
 
     .flowdiv .flow{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .flowdiv span{
-        font-size: 2rem;
+        font-size: 1.5rem;
         top:-8px;
     }
 
     .task input{
-        width:320px;
+        width:280px;
     }
 
     @keyframes text{
-        100%{width:92%;}
+        100%{width:100%;}
     }
 
     @keyframes ins{
@@ -43,7 +47,10 @@
 
     .taskmanager{
         grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        padding:20px;
     }
+
 
 
 }
