@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<style>
+    body {
+         background-image: url("texture.jpg");
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+    }
+    h1{
+        color: indigo;
+        text-decoration: underline;
+        text-shadow:2px 2px 5px indigo;
+    }
+    form{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 3px;
+        margin: 5px;
+    }
+    legend{
+        font-family:'Courier New', Courier, monospace;
+        color:darkmagenta;
+    }
+    .l1{
+        font-family:'Times New Roman', Times, serif;
+        font-size:18px;
+    }
+    .l2{
+        font-size:1.2vw;
+        border-radius:4px;
+        border:2px solid black;
+    }
+    .l3{
+        font-size:1.2vw;
+        resize:none;
+        border-radius:4px;
+        border:2px solid black;
+    }
+    .p1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:20px;
+        color:darkmagenta;
+        margin:5px;
+        margin-left:10px;
+        text-decoration:underline;
+    }
+    .p2{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:1.3vw;
+        margin-left:10px;
+    }
+    table,tr,td,th{
+        border:2px solid darkviolet;
+        border-collapse:collapse;
+        margin-left:5px;
+        background-color:whitesmoke;
+    }
+    td,th{
+        padding:10px;
+    }
+    div{
+        display:inline-block;
+    }
+    .d1{
+        padding-left:40px;
+    }
+    .d2{
+        padding-left:200px;
+    }
+    span{
+        color:blue;
+        text-decoration:underline;
+    }
+    .p3{
+        color:red;
+        font-size:25px;
+        font-weight:bold;
+        text-align:center;
+    }
+    .p4{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:1.3vw;
+    }
+    .i1{
+        padding-left:5px;
+        border-radius:25%;
+    }
+</style>
+</head>
+<meta charset="UTF-8">
+<title>
+project 2
+</title>
+
+<body>
+
+<article>
+<header>
+<h1><center>STUDENT PORTFOLIO</center></h1>
+</header>
+</article>
+
+<form>
+<fieldset>
+<legend><strong>Personalia:</strong></legend>
+<lable class="l1" for="fname"><b>First Name:</b></label>
+<input class="l2"type="text" id="fname" name="first name" value="Sreya" size="20">
+<br><br>
+<label class="l1" for="lname"><b>Last Name:</b></label>
+<input class="l2" type="text" id="lname" name="last name" value="Lenka" size="20">
+<br><br>
+<label class="l1"  for="desc"><b>Description:</b></label>
+<textarea class="l3" name="desc" rows="4" cols="100">
+Hardworking individual with core values of Trust, Excellence and Entrepreneurship. 
+Dedicated to my work where I strive for development of my work along with mutual development of the society and keen to learn and explore the new horizons in my field.
+</textarea>
+<br><br>
+<label class="l1" for="clg"><b>College Name:</b></label>
+<input class="l2" type="text" id="clg" name="College name" value="Kalinga Institute of Industrial Technology" size="50">
+</fieldset>
+</form>
+<br>
+
+<p class="p1"><b>Knowledge About:</b></p>
+<table width="50%">
+<tr>
+<th>COURSES</th>
+<th>DURATION</th>
+</tr>
+<tr>
+<td>C<img class="i1" src="C.jpeg" alt="C logo" width="40" height="40"></td>
+<td>July 2019 - Dec 2019</td>
+</tr>
+<tr>
+<td>Python<img class="i1" src="python.jpeg" alt="Python logo" width="40" height="40"></td>
+<td>June 2020 - July 2020</td>
+</tr>
+<tr>
+<td>Data Structure<img class="i1" src="data structure.jpeg" alt="data structure logo" width="40" height="40"></td>
+<td>July 2020 - Dec 2020</td>
+</tr>
+<tr>
+<td>HTML<img class="i1" src="HTML.jpeg" alt="HTML logo" width="40" height="40"></td>
+<td>Dec 2020 - Jan 2021</td>
+</tr>
+<tr>
+<td>CSS<img class="i1" src="CSS.jpeg" alt="CSS logo" width="40" height="40"></td>
+<td>Jan 2021 - Present</td>
+</tr>    
+</table>
+<br>
+
+<p class="p1"><b>Certificates:</b></p>
+<figure>
+    <div>
+    <figcaption class="p4">a.Python Training</figcaption><br>
+    <img src="certificate/python.png" alt="certificate" width="320" height="240">
+    </div>
+    <div class="d2">
+    <figcaption class="p4">b.Workshop on Git, Distributed Networking and Java</figcaption><br>
+    <img src="certificate/workshop.png" alt="certificate" width="320" height="240">
+    </div>
+</figure>
+
+<p class="p1"><b>Hobbies:</b></p>
+<div class="d1" align="left">
+<p class="p2" align="left">a.Dancing</p>
+<video width="320" height="240" controls>
+    <source src="videos/dancing.mp4" type="video/mp4">
+    <source src="videos/dancing.ogg" type="video/ogg">
+</video>
+</div>
+<div class="d2" align="right">
+<p class="p2" align="left">b.Reading<br></p>
+<video width="320" height="240" controls>
+    <source src="videos/reading.mp4" type="video/mp4">
+    <source src="videos/reading.ogg" type="video/ogg">
+</video></p>
+</div>
+<br><br>
+
+<p class="p3"><strong>A BEGINNER: a long way to go</strong></p>
+
+<footer>
+<p>Contact no.:<span>+91-6372854262</span></p>
+<p>email-id:<a href="mailto:1905645@kiit.ac.in">1905645@kiit.ac.in</a></p>
+</footer>
+
+</body>
+
+</HTML>
