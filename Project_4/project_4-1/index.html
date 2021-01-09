@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>TO-DO List</title>
+</head>
+
+<body>
+    <div class="container-fluid formtoadd">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <center>
+                        <h3>TO-DO List</h3>
+                        <hr>
+                        <legend>Add your Task in To-Do List</legend>
+                    </center>
+                </div>
+                <div class="input-group">
+
+                    <input type="search" class="form-control" placeholder="Add Task" id="mytask" maxlength="30" autofocus>
+                    <div class="input-group-append">
+                        <button class="btn btn-dark" type="button" onclick="addlist()">+</button>
+                    </div>
+                </div>
+                <div class="col-12" id="altdiv">
+                    <p id="alert" class="alert alert-danger">Task is Empty</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid Listtask">
+        <div class="container">
+            <div class="row">
+                <ul id="mylist">
+                    <li class="checked">Item 1</li>
+                    <li> Item 2</li>
+                    <li>Item 3</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Create a "close" button and append it to each list item
+        var tlist = document.getElementsByTagName("LI");
+        var i;
+        for (i = 0; i < tlist.length; i++) {
+            var span = document.createElement("SPAN");
+            var txt = document.createTextNode("\u00D7");
+            span.className = "close";
+            span.appendChild(txt);
+            tlist[i].appendChild(span);
+        }
+
+        // Click on a close button to hide the current list item
+        var close = document.getElementsByClassName("close");
+        var i;
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function() {
+                var div = this.parentElement;
+                div.style.display = "none";
+            }
+        }
+
+        // Add a "checked" symbol when clicking on a list item
+        var list = document.querySelector('ul');
+        list.addEventListener('click', function(ev) {
+            if (ev.target.tagName === 'LI') {
+                ev.target.classList.toggle('checked');
+            }
+        }, false);
+
+        // Create a new list item when clicking on the "Add" button
+        function addlist() {
+            var li = document.createElement("li");
+            var inputValue = document.getElementById("mytask").value;
+            var t = document.createTextNode(inputValue);
+            li.appendChild(t);
+            if (inputValue === '') {
+                document.getElementById("alert").style.display = 'block';
+            } else {
+                document.getElementById("alert").style.display = 'none';
+                document.getElementById("mylist").appendChild(li);
+            }
+            document.getElementById("mytask").value = "";
+
+            var span = document.createElement("SPAN");
+            var txt = document.createTextNode("\u00D7");
+            span.className = "close";
+            span.appendChild(txt);
+            li.appendChild(span);
+
+            for (i = 0; i < close.length; i++) {
+                close[i].onclick = function() {
+                    var div = this.parentElement;
+                    div.style.display = "none";
+                }
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
