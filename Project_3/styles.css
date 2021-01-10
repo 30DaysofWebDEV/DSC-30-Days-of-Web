@@ -1,0 +1,43 @@
+.navbar {
+  background-color:black;
+}
+.myimage {
+  margin: 15px;
+  height: 361px;
+  width: 244px;
+  border-radius: 5%
+}
+
+.home {
+  padding: 95px 20px 95px 45px;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  line-height: 1.5;
+}
+
+.aboutme {
+  color:black;
+  line-height: 1.5;
+  padding: 90px 25px;
+  background-color: white;
+}
+
+.education {
+  background-color:black;
+  color:white;
+  text-align: center;
+  padding: 62px 10px;
+}
+
+.education-images {
+  height: 368px;
+  width: 716.8px;
+}
+
+.contact {
+  color: white;
+  padding-bottom: 20px;
+  background-color:black;
+  text-align: center;
+}
