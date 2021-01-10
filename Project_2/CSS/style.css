@@ -99,14 +99,14 @@ nav ul li a:active{
     top:60%;
     transform: translate(-13%,-42%);
 }
-.photo{
+/* .photo{
     height: 35%;
     position: absolute;
     left: 95px;
     bottom: 46%;
     border: 3px solid black;
     border-radius: 8px;
-}
+} */
 .about-header{
     font-family: Geneva, Tahoma, sans-serif;
     text-align:center;
