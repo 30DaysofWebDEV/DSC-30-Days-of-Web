@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		#body {
+	        background-image: url("bg.jpg");
+	        background-repeat: no-repeat;
+	        background-attachment: fixed;
+	        color: white;
+    	}
+		#head {
+			text-align: center;
+			color: white;
+			text-decoration: bold;
+        	text-shadow:2px 2px 5px magenta;
+		}
+		#table {
+			font-family:'Courier New', Courier, monospace;
+        	color:magenta;
+        	text-align: center;
+		}
+		#form {
+			padding: 40px;
+			text-align: center;
+		}
+		#video {
+			padding: 40px;
+			text-align: center;
+		}
+		.button {
+			background-color: green;
+			color: black;
+		}
+
+		.button:hover {
+  			background-color: green;
+  			color: white;
+		}
+		
+	</style>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+</head>
+<body>
+<div id="body">
+	<header>
+		<div id="head">
+		<h1>Barebones Portfolio</h1>
+		<h2>Hi! My name is Shaheer Hasan.</h2>
+		<h3>I am a Web Developer.</h3>
+		</div>
+	</header>
+	<div align="center">
+		<img src="me.jpg" height="200" width="200">
+	</div>
+	<div id="table">
+        <h3><i>Here are my skills: </i></h3>
+        <table border="1" align="center">
+            <tr><th>Domain</th><th>Skills</th>
+            <tr><td>Front-end</td><td>HTML,CSS,Bootstrap</td>
+            <tr><td>Back-end</td><td>Django</td>
+            <tr><td>Database</td><td>MySQL</td>
+            <tr><td>Programming</td><td>C,C++,Python</td>
+            <tr><td>Others</td><td>Github and Linux</td>
+        </table>
+    </div>
+    <h3 style="text-align: center;"><i>Checkout CSS tutorial of 30 days of Web Development here: </i></h3>
+    <div id="video">
+        <iframe width="460" height="315" src="https://www.youtube.com/watch?v=ecpQFUFswr0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="form">
+        <form action="">
+            <h3><i>Fill out the Contact Form here: </i></h3><br>
+            <label for="firstname">First name: </label>
+            <input type="text" name="firstname"><br><br>
+            <label for="lastname">Last name: </label>
+            <input type="text" name="lastname"><br><br>
+            <label for="email">Email id: </label>
+            <input type="text" name="email"><br><br>
+            <label for="number">Contact no:</label>
+            <input type="number" name="number"><br><br>
+            <button class="button">Submit<br><br>
+        </form>
+    </div>
+	 <footer style="padding-top: 20px;padding-left: 20px;" align= "center">
+        <h3><b>Social Networks:</b></h3>
+        <a href="#">Gmail</a><br>
+        <a href="#">Github</a><br>
+        <a href="#">Linkedin</a><br>
+        <h4>Developed by Shaheer</h4>
+    </footer>
+</div>
+</body>
+</html>
