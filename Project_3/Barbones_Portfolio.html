@@ -4,12 +4,20 @@
 <head>
   <meta charset="utf-8">
   <title>Portfolio Website</title>
+  <!-- You can use open graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url"           content="https://rajnish-pandey.github.io/Portfolio/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="PortFolio" />
+  <meta property="og:description"   content="Rajnish Pandey, CSE Student at KIIT University, Bhubaneshwar.I code, build and design websites. Open-source contributor"/>
+  <meta property="og:image"         content="https://rajnish-pandey.github.io/Images/myImage.jpg" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Potta+One&display=swap" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="bg: hotpink;">
     <a class="navbar-brand" href="#">PortFolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,6 +27,7 @@
       <div class="navbar-nav">
         <a class="nav-link active" href="#home">Home</a>
         <a class="nav-link" href="#aboutme">About me</a>
+        <a class="nav-link" href="#skills">Tools I Use</a>
         <a class="nav-link" href="#education">Education</a>
         <a class="nav-link" href="#contact">Contact</a>
       </div>
@@ -26,26 +35,57 @@
   </nav>
 
   <div class="home" id="home">
-    <img class="myimage" src="myImage.jpg" alt="My picture while travelling">
-    <h1>I'm Rajnish</h1>
-    <h1>And I'm a <u>Pro</u>grammer</h1>
+    <img class="home-image" src="Images/myImage.jpg" alt="My picture while travelling">
+    <h1 class="home-h1"> <i>I'm Rajnish <br/>
+    And I'm a <u>Pro</u>grammer</i> </h1>
+    <br>
+
+      <a href="https://www.instagram.com/rajnish_038/"><img src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"></a>
+      <a class="footer-link" href="https://linkedin.com/in/rajnish-pandey-5491081a5/"><img src="https://img.icons8.com/color/48/fa314a/linkedin.png"/></a>
+      <a class="footer-link" href="https://twitter.com/rajnish_038"><img src="https://img.icons8.com/color/48/000000/twitter--v2.png"/></a>
+      <a class="footer-link" href="https://facebook.com/rk1234rk/"><img src="https://img.icons8.com/color/48/000000/facebook-circled--v5.png"/></a>
+      <a class="footer-link" href="https://github.com/rajnish-pandey"><img src="Images/icons8-github-48.png"></a>
+    </p>
   </div>
 
   <div class="aboutme" id="aboutme">
-    <h3>About Me</h3>
+    <h1><i><u>About Me</u></i></h1>
     <p>Computer Science and Engineering student at Kalinga Institute of Industrial Technology. I do coding especially Python, make websites(front-end), and machine learning with python, and learning new technologies.</p>
-    <h3>Mini-Projects -</h3>
+    <p><strong>Mini-Projects -</strong></p>
     <p>
       <a href="https://repl.it/@rajrajnish038/higher-lower-start?embed=1&output=1#main.py" target="_blank">Higher-Lower Game</a> <br>
       <a href="https://repl.it/@rajrajnish038/password-generator-start?embed=1&output=1#main.py" target="_blank">Password-Generator</a> <br>
       <a href="https://repl.it/@rajrajnish038/blackjack-start?embed=1&output=1#main.py" target="_blank">Black-Jack Game</a>
     </p>
-    <h3>Future learning goals -</h3>
+    <p><strong>Future learning goals -</strong></p>
     <p>Machine Learning/Artificial Intelligence/Full-stack web developer.</p>
-    <h3>Life moto -</h3>
-    <p>be nice, take less stress, help others and yourself in the best possible way you can, do what you love, hang out, explore yourself.
-      Feel free to talk to me using any one of the 21st-century telegrams <br>
-      Instagram Github Facebook LinkedIn</p>
+    <p><strong>Life moto -</strong></p>
+    <p>be nice, take less stress, help others and yourself in the best possible way you can, do what you love, hang out, explore yourself.</p>
+  </div>
+
+  <div class="skills">
+    <div class="row">
+      <div class="col-sm">
+        <img class="skills-image" src="Images/python.png" alt="pyhton logo">
+      </div>
+      <div class="col-sm">
+        <img class="skills-image" src="Images/html_logo.png" alt="html logo">
+      </div>
+      <div class="col-sm">
+        <img class="skills-image" src="Images/css.png" alt="css logo">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <img class="skills-image" src="Images/c.png" alt="C logo">
+      </div>
+      <div class="col-sm">
+        <img class="skills-image" src="Images/C++.png" alt="C++ logo">
+      </div>
+      <div class="col-sm">
+        <img class="skills-image" src="Images/ds.png" alt="Ds logo">
+      </div>
+    </div>
   </div>
 
   <div class="education" id="education">
@@ -61,21 +101,21 @@
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active" data-interval="10000">
-          <img class="education-images" src="dav.jpg" alt="myschool">
+          <img class="education-images" src="Images/dav.jpg" alt="myschool">
           <div class="carousel-caption">
             <h3>Upto Class 10th</h3>
             <p>DAV Public School Mathurapur, Bihar</p>
           </div>
         </div>
         <div class="carousel-item" data-interval="200" data-interval="10000">
-          <img src="12 schoool.jpg" class="education-images" alt="12th school">
+          <img src="Images/12 schoool.jpg" class="education-images" alt="12th school">
           <div class="carousel-caption">
             <h3>12th</h3>
             <p>Adwaita Mission High School, Banka</p>
           </div>
         </div>
         <div class="carousel-item"  data-interval="10000">
-          <img class="education-images" src="kiitsce.png" alt="kiitsce">
+          <img class="education-images" src="Images/kiitsce.png" alt="kiitsce">
           <div class="carousel-caption">
             <h3>B.Tech</h3>
             <p>Currently studying CSE 2019-2023 batch at KIIT DU</p>
@@ -96,11 +136,14 @@
   </div>
 
   <div class="contact" id="contact">
+    <h2>Hey there. Do you like new friends?<br/>Me too...</h2>
+    <h3>Join me now on your favorite social network and let's talk.<br>Please use LinkedIn and github for educational/professional purpose.</h3>
+    <p>
     <a href="https://www.instagram.com/rajnish_038/"><img src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"></a>
     <a class="footer-link" href="https://linkedin.com/in/rajnish-pandey-5491081a5/"><img src="https://img.icons8.com/color/48/fa314a/linkedin.png"/></a>
     <a class="footer-link" href="https://twitter.com/rajnish_038"><img src="https://img.icons8.com/color/48/000000/twitter--v2.png"/></a>
     <a class="footer-link" href="https://facebook.com/rk1234rk/"><img src="https://img.icons8.com/color/48/000000/facebook-circled--v5.png"/></a>
-    <a class="footer-link" href="https://github.com/rajnish-pandey"><img src="https://img.icons8.com/fluent-systems-filled/48/000000/github.png"/></a>
+    <a class="footer-link" href="https://github.com/rajnish-pandey"><img src="Images/icons8-github-48.png"></a>
     <p class="footer-text">© 2021 Rajnish Pandey.</p>
   </div>
 
