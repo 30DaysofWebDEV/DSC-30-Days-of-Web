@@ -221,10 +221,10 @@ nav {
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 5s steps(27), blink 1s ease-in-out 8s infinite;
+  animation: typing 10s steps(32), blink 1s ease-in-out 5s infinite;
   border-right: 4px solid #fafafa;
   margin: auto;
-  width: 27ch;
+  width: 30ch;
 }
 
 @keyframes typing {
@@ -255,7 +255,8 @@ nav {
     rgba(249, 105, 14, 1) 0%,
     rgba(102, 51, 153, 1) 100%
   );
-
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main-message p {
@@ -299,7 +300,6 @@ nav {
   color: rgba(189, 72, 0);
 }
 
-/* About */
 
 .about {
   width: 100%;
@@ -351,7 +351,7 @@ hr {
   height: 1px;
 }
 
-/* services */
+
 .services {
   padding: 0;
   padding: 3rem 0;
@@ -401,7 +401,7 @@ hr {
     rgba(249, 105, 14, 1) 0%,
     rgba(102, 51, 153, 1) 100%
   );
-  
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -412,8 +412,6 @@ hr {
 .tier-item i {
   font-size: 3.5rem;
 }
-
-/* Projects */
 .has-margin-right {
   margin: 0 3rem 0 0;
 }
@@ -449,7 +447,7 @@ hr {
     rgba(249, 105, 14, 1) 0%,
     rgba(102, 51, 153, 1) 100%
   );
- 
+  -webkit-background-clip : text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -463,7 +461,6 @@ hr {
   margin: 2rem 0;
   font-size: 1.4rem;
 }
-/* Contact */
 
 .contact {
   width: 100%;
@@ -492,7 +489,7 @@ hr {
   align-items: center;
 }
 
-/* Footer */
+
 
 footer {
   width: 100%;
@@ -522,7 +519,6 @@ footer a {
   font-size: 2rem;
 }
 
-/* @media queries */
 
 @media (max-width: 750px) {
   .main-message h3 {
@@ -607,4 +603,23 @@ footer a {
   }
 }
 
+.contact-submit:hover{
+  cursor: pointer;
+}
+.section-title{
+  font-size: 40px;
+}
+table{
+	margin-top: 50px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+}
 
+#show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+}
