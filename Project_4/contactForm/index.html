@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <style>
+        .card:hover {
+            box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="border rounded p-4 my-4">
+            <h1 class="text-center">
+                <span class="badge badge-danger">Contact Form</span>
+            </h1>
+
+            <form id="contact-form">
+                <div class="form-row my-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" id="fname" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" id="lname" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email Address" id="email" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" placeholder="Mob no." id="mob" required>
+                </div>
+                <div class="form-group">
+                    <textarea cols="30" rows="5" class="form-control" placeholder="Enter Message( Optional)"
+                        id="textMsg"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </div>
+            </form>
+
+            <hr>
+
+            <h2 class="text-center">
+                <span class="badge badge-secondary">Data Will be Shown here</span>
+            </h2>
+
+            <div id="formData" class="form-row">
+                <h5 class="text-center my-4">
+                    <span class="badge badge-info">No Data!</span>
+                </h5>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
