@@ -1,0 +1,222 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+ }
+header {
+    height:100vh;
+	background-image:url('code.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+color: #007bff;
+}
+.navbar .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: .5px;
+    margin: 15px 5px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    position: relative;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+h1{
+    font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    font-size: 20px;
+}
+.lead{
+   margin-left: 8%;
+   font-weight: bold;
+}
+.lead+a{
+    margin-top: 5%;
+	margin-left: 12%;
+	border-radius: 50px;
+	background: #007bff;
+	border: 1px solid #007bff;
+	padding: 11px 30px;
+}
+.lead+a:hover{
+	background-color: transparent;
+	color: #007bff;
+	border: 1px solid #007bff;
+}
+.nav-contact {
+    background: #007bff;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    padding: 8px 24px !important;
+    border-radius: 50px;
+    border: 1px solid #007bff !important;
+    transition: 0.5s;
+}
+.nav-contact:hover{
+    background-color: transparent;
+	color: #007bff !important;
+	border: 1px solid #007bff;
+}
+#about{
+    margin-top: 5%;
+}
+.para{
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table{
+    font-weight: 500;
+}
+#tool ,#edu ,#reach , footer{
+    margin-top: 5%;
+}
+.btn.btn-rounded {
+    border-radius: 50px;
+    font-size: larger;
+}
+.container1 {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    
+ }
+ 
+ .container1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #CCD1D9;
+    z-index: 1
+ }
+ 
+ .timeline-block {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+ }
+ 
+ .timeline-block-right {
+    float: right;
+ }
+ 
+ .timeline-block-left {
+    float: left;
+    direction: rtl
+ }
+ 
+ .marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: #4FC1E9;
+    margin-top: 10px;
+    z-index: 9999
+ }
+ 
+ .timeline-content {
+    width: 95%;
+    padding: 0 15px;
+    color: #666
+ }
+ 
+ .timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 500
+ }
+ 
+ .timeline-content span {
+    font-size: 15px;
+    color: #a4a4a4;
+ }
+ 
+ .timeline-content p {
+    font-size: 16px;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    color: #888;
+ }
+ 
+ 
+ @media screen and (max-width: 768px) {
+    .container:before {
+       left: 8px;
+       width: 2px;
+    }
+    .timeline-block {
+       width: 100%;
+       margin-bottom: 30px;
+    }
+ 
+    .timeline-block-left {
+       float: none;
+       direction: ltr;
+    }
+ }
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.contact {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+.form{
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
