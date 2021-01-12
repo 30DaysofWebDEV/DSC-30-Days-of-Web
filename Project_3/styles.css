@@ -1,15 +1,28 @@
+h1, h2, h3 {
+  font-family: 'Potta One', cursive;
+}
+
+p, a {
+  font-family: 'Poppins', sans-serif;
+}
+
 .navbar {
   background-color:black;
 }
-.myimage {
+
+.home-image {
+  float: left;
   margin: 15px;
-  height: 361px;
-  width: 244px;
+  height: 415px;
+  width: 280px;
   border-radius: 5%
 }
 
+.home-h1 {
+  font-size: 6rem;
+}
 .home {
-  padding: 95px 20px 95px 45px;
+  padding: 90px 30px 90px 40px;
   text-align: center;
   color: #fff;
   background-color: black;
@@ -19,15 +32,28 @@
 .aboutme {
   color:black;
   line-height: 1.5;
-  padding: 90px 25px;
+  padding: 95px 25px 85px 25px;
   background-color: white;
 }
 
+.row {
+  text-align: center;
+}
+
+.skills {
+  background-color: black;
+  color: #fff;
+  padding: 80px 25px;
+}
+.skills-image {
+  padding-bottom: 15px;
+  width: 150px;
+}
 .education {
   background-color:black;
   color:white;
   text-align: center;
-  padding: 62px 10px;
+  padding: 100px 10px 0 30px;
 }
 
 .education-images {
@@ -37,7 +63,34 @@
 
 .contact {
   color: white;
-  padding-bottom: 20px;
+  padding: 67px 20px 35px 20px;
   background-color:black;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .home {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .home-image {
+    float: none;
+    height: 296px;
+    width: 200px;
+  }
+
+  .home-h1{
+    font-size: 3.5rem;
+  }
+
+  .education-images {
+    height: 231px;
+    width: 450px;
+  }
+
+  .contact-text {
+    font-size: 1.5rem;
+  }
 }
