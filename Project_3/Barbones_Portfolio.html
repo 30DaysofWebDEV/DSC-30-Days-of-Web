@@ -18,7 +18,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="bg: hotpink;">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#">PortFolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
       <div class="navbar-nav">
         <a class="nav-link active" href="#home">Home</a>
         <a class="nav-link" href="#aboutme">About me</a>
-        <a class="nav-link" href="#skills">Tools I Use</a>
+        <a class="nav-link" href="#skills">Skills</a></a>
         <a class="nav-link" href="#education">Education</a>
         <a class="nav-link" href="#contact">Contact</a>
       </div>
@@ -63,7 +63,8 @@
     <p>be nice, take less stress, help others and yourself in the best possible way you can, do what you love, hang out, explore yourself.</p>
   </div>
 
-  <div class="skills">
+  <div class="skills" id="skills">
+    <h1>Skills:</h1>
     <div class="row">
       <div class="col-sm">
         <img class="skills-image" src="Images/python.png" alt="pyhton logo">
@@ -83,12 +84,16 @@
         <img class="skills-image" src="Images/C++.png" alt="C++ logo">
       </div>
       <div class="col-sm">
-        <img class="skills-image" src="Images/ds.png" alt="Ds logo">
+        <img style="padding-top: 45px;" class="skills-image" src="Images/data-structures.jpg" alt="Ds logo">
       </div>
     </div>
   </div>
 
   <div class="education" id="education">
+    <h1> <u> <i>Education</i> </u></h1>
+    <p></p>
+    <br>
+    <br>
     <div id="demo" class="carousel slide" data-ride="carousel">
 
       <!-- Indicators -->
@@ -103,22 +108,22 @@
         <div class="carousel-item active" data-interval="10000">
           <img class="education-images" src="Images/dav.jpg" alt="myschool">
           <div class="carousel-caption">
-            <h3>Upto Class 10th</h3>
+            <h4>Upto Class 10th</h4>
             <p>DAV Public School Mathurapur, Bihar</p>
           </div>
         </div>
         <div class="carousel-item" data-interval="200" data-interval="10000">
           <img src="Images/12 schoool.jpg" class="education-images" alt="12th school">
           <div class="carousel-caption">
-            <h3>12th</h3>
+            <h4>12th</h4>
             <p>Adwaita Mission High School, Banka</p>
           </div>
         </div>
         <div class="carousel-item"  data-interval="10000">
           <img class="education-images" src="Images/kiitsce.png" alt="kiitsce">
           <div class="carousel-caption">
-            <h3>B.Tech</h3>
-            <p>Currently studying CSE 2019-2023 batch at KIIT DU</p>
+            <h4>B.Tech</h4>
+            <p>Computer Science and Engineering at KIIT</p>
           </div>
         </div>
       </div>
@@ -135,16 +140,36 @@
     <br> <br>
   </div>
 
+  <div style="text-align:center;">
+    <br><br>
+    <h1>Watch!!!!!</h1>
+    <video src="Images/project3.mp4" height="480" width=70% autoplay poster="" controls>
+    </video>
+    <!-- <iframe width=100% height="720" class="video" -->
+      <!-- src="Images/project3.mp4" type="video/mp4"> -->
+    <!-- </iframe> -->
+    <br><br>
+  </div>
+
   <div class="contact" id="contact">
-    <h2>Hey there. Do you like new friends?<br/>Me too...</h2>
-    <h3>Join me now on your favorite social network and let's talk.<br>Please use LinkedIn and github for educational/professional purpose.</h3>
+    <h2 class="contact-text">Hey there. Do you like new friends?<br/>Me too...</h2>
+    <form class="" action="index.html" method="post">
+      <label for="">Your Name:</label>
+      <input type="text" name="" value=""> <br>
+      <label for="">Your Email:</label>
+      <input type="email" name="" value=""> <br>
+      <textarea name="name" rows="5" cols="50">Your Message: </textarea> <br>
+      <button type="button" name="button">Send</button>
+    </form>
+    <br>
+    <h3 class= "contact-text">Join me now on your favorite social network and let's talk.<br>Please use LinkedIn and github for educational/professional purpose.</h3>
     <p>
     <a href="https://www.instagram.com/rajnish_038/"><img src="https://img.icons8.com/color/48/000000/instagram-new--v2.png"></a>
     <a class="footer-link" href="https://linkedin.com/in/rajnish-pandey-5491081a5/"><img src="https://img.icons8.com/color/48/fa314a/linkedin.png"/></a>
     <a class="footer-link" href="https://twitter.com/rajnish_038"><img src="https://img.icons8.com/color/48/000000/twitter--v2.png"/></a>
     <a class="footer-link" href="https://facebook.com/rk1234rk/"><img src="https://img.icons8.com/color/48/000000/facebook-circled--v5.png"/></a>
     <a class="footer-link" href="https://github.com/rajnish-pandey"><img src="Images/icons8-github-48.png"></a>
-    <p class="footer-text">© 2021 Rajnish Pandey.</p>
+  </p><p> © 2021 Rajnish Pandey.</p>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
