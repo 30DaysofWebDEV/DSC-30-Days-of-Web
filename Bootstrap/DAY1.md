@@ -1,10 +1,5 @@
 # DAY1
 
-## What is Bootstrap ?
- * Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. 
- * It contains CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
-
-
 We will be starting up with understanding the difference between Bootstrap version 3 and Bootstrap version 4 and then go on to understand the Installation steps and other feautres of Bootstrap 
 
 

@@ -13,3 +13,4 @@
 3. [DAY3](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY3.md)
 4. [DAY4](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/DAY4.md)
 5. [Optional / Misc.](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/Optional.md)
+6. [CSS_Quiz](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/CSS/CSS_Quiz.md)

@@ -14,3 +14,4 @@
  3. [DAY3](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY3.md)
  4. [DAY4](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAY4.md)
  5. [_Optional_](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/DAYOptional.md)
+ 6. [Html_Quiz](https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/blob/main/HTML/Html_Quiz.md)
