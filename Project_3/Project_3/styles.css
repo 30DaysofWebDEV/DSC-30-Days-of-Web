@@ -45,15 +45,7 @@ h3{
     padding-bottom: 20px;
     text-decoration: underline;
 }
-.bookmarks{
-    width: 500px;
-    margin-top: 30px;
-    font-family: sans-serif;
-    display: block;
-    left:50%;
-    transform: translate(-50%);
-    position: absolute;
-}
+
 .col-md-4{
     width: 900px!important;
     padding: none!important;
@@ -92,6 +84,15 @@ h3{
 }
 .fa-github-square{
     color: black;
+}
+.bookmarks{
+    width: 500px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    display: block;
+    left:50%;
+    transform: translate(-50%);
+    position: absolute;
 }
 #page-container {
     position: relative;
