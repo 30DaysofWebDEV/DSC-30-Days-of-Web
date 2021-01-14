@@ -3,13 +3,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="Project_3\styles.css">
+    <link rel="stylesheet" href="Project_4\PROJECT 4(2)\styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://getbootstrap.com/docs/5.0/forms/input-group/">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    
     <div id="page-container">
         <div id="content-wrap">
             <div>
@@ -70,54 +71,74 @@
                 </table>
                 <h3>Videos</h3><iframe width="40%" height="200" src="https://www.youtube.com/embed/BLeOcCeqsfI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="50%" height="50%"></iframe>
                 <iframe width="40%" height="200" src="https://www.youtube.com/embed/utc8bwTDjLk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="w3-container w3-center w3-animate-opacity">
                 <div class="h3"><h3>Feedback</h3></div>
-                <div class="input-group">
-                    <span class="input-group-text">First and last name</span>
-                    <input type="text" aria-label="First name" class="form-control">
-                    <input type="text" aria-label="Last name" class="form-control">
-                </div>
-                <div class="padding"></div>
-                <div class="input-group mb-3">
-                    <select class="form-select" id="inputGroupSelect02">
-                      <option selected>Choose..</option>
-                      <option value="1">Male</option>
-                      <option value="2">Female</option>
-                      <option value="3">Other</option>
-                    </select>
-                    <label class="input-group-text" for="inputGroupSelect02">Gender</label>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Suggestion</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                  
-                  
-                    
-                
-                <div><h3 class="h3">Contact</h3>
-                    <div class="bookmarks">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="site" title="Gmail">
-                                    <i class="fa fa-envelope-o"></i>
-                                    <p class="h3">Gmail</p>
-                                </div>
+                <center>
+                    <form id="myForm">
+                        <table border="4">
+                            <thead>
+                                <tr>
+                                    <th>First Name</th>
+                                    <td><input type="text" name="fname" id="fname"></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Last Name</th>
+                                    <td><input type="text" name="lname" id="lname"></td>
+                                </tr>
+                                <tr>
+                                    <th>Email</th>
+                                    <td><input type="text" name="email" id="email"></td>
+                                </tr>
+                                <tr>
+                                    <th>Phone</th>
+                                    <td><input type="number" name="phone" id="phone"></td>
+                                </tr>
+                                <tr id="btna">
+                                    <td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+                                    
+                                </tr>
+                                <tr id="btna">
+                                    <td colspan="2"><input type="button" id="btn" name="button" onclick="myFunction()" value="Reset form"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                        <table border="4" id="show">
+                            <thead>
+                                <tr>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </form>
+                </center>
+            </div>
+        
+            <script src="Project_4\home.js"></script>
+            <div><h3 class="h3">Contact</h3>
+                <div class="bookmarks">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="site" title="Gmail">
+                                <i class="fa fa-envelope-o"></i>
+                                <p class="h3">Gmail</p>
                             </div>
-                            <div class="col-md-4">
-                                <div class="site" title="Linkedin">
-                                    <i class="fa fa-linkedin"></i>
-                                    <p class="h3">Linkedin</p>
-                                </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="site" title="Linkedin">
+                                <i class="fa fa-linkedin"></i>
+                                <p class="h3">Linkedin</p>
                             </div>
-                            <div class="col-md-4">
-                                <div class="site" title="Github">
-                                    <i class="fa fa-github"></i>
-                                    <p class="h3">Github</p>
-                                </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="site" title="Github">
+                                <i class="fa fa-github"></i>
+                                <p class="h3">Github</p>
                             </div>
                         </div>
                     </div>
@@ -125,11 +146,6 @@
             </div>
         </div>
         <footer id="footer"></footer>
-      </div>
-        
-
- 
-    
-    
+    </div>
 </body>
 </html>

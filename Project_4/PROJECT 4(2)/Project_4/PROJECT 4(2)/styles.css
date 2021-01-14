@@ -111,3 +111,17 @@ h3{
 .padding{
     padding: 2%;
 }
+table{
+	margin-top: 50px;
+	text-align: center;
+	background:lightsalmon;
+	color: black;
+}
+
+#show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+}
