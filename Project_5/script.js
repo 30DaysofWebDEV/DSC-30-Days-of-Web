@@ -1,7 +1,16 @@
 setTimeout(function () {
   $(".loader_bg").fadeToggle();
 }, 1500);
+window.addEventListener("load", () => {
+  const params = new URL(document.location).searchParams;
+  const name = params.get("Name");
+  const email = params.get("Email");
+  const project = params.get("Project-desc");
 
+  document.getElementById("result-name").innerHTML = name;
+  document.getElementById("result-email").innerHTML = email;
+  document.getElementById("result-proj").innerHTML = project;
+});
 $(document).ready(function () {
   $(window).scroll(function () {
     if (this.scrollY > 50) {

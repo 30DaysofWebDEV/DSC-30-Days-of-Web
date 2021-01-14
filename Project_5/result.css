@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  background-color: #000000;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #e8175d;
+  border-radius: 55px;
+}
+body {
+  background: url("./images/portfolio.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffff;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.goback {
+  margin: 1.25rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ffff;
+  display: inline;
+}
+.goback:hover {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.subs {
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #474747;
+  box-shadow: 5px 5px 20px 5px #474747 inset;
+  border: 2px red solid;
+}
+.subs h2 {
+  padding: 20px;
+}

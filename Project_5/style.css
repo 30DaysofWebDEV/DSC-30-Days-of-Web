@@ -56,6 +56,17 @@
 html {
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+  background-color: #000000;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #e8175d;
+  border-radius: 55px;
+}
+.social-footer a {
+  display: hidden;
+}
 /* body{
     
 }  */
@@ -98,6 +109,23 @@ section .title::after {
 }
 footer {
   font-family: "Ubuntu", sans-serif;
+}
+aside {
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+aside a {
+  padding: 20px 0;
+  transition: all 1s ease;
+}
+aside a:hover {
+  transform: scale(1.5);
+  padding-left: 1.75rem;
+
+  text-align: center;
 }
 
 /* NAVBAR STYLING */
@@ -510,6 +538,7 @@ footer {
 footer {
   background: #474747;
   color: #ffffff;
+
   padding: 20px 23px;
   font-size: 20px;
   text-align: center;
@@ -522,8 +551,12 @@ footer span a {
 footer span a:hover {
   text-decoration: underline;
 }
+
 /* RESPONSIVE MEDIA QUERY STYLING */
 @media (max-width: 1300px) {
+  .social-footer {
+    opacity: 0;
+  }
 }
 
 @media (max-width: 1104px) {
@@ -623,6 +656,28 @@ footer span a:hover {
   }
 }
 @media (max-width: 660px) {
+  aside {
+    position: fixed;
+    bottom: 50%;
+    left: 5px;
+    display: none;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-footer {
+    display: flex;
+    left: 50%;
+    justify-content: center;
+  }
+  .social-footer a img {
+    padding: 2rem;
+    display: inline;
+  }
   .max-width {
     padding: 0 23px;
   }

@@ -24,6 +24,22 @@
     ></script>
   </head>
   <body>
+    <aside class="social">
+      <a href="https://www.instagram.com">
+        <img
+          src="./images/instagram.svg"
+          alt=""
+          class="insta"
+          height="30px"
+          width="30px"
+      /></a>
+      <a href="https://twitter.com"
+        ><img src="./images/twitter.svg" alt="" height="30px" width="30px"
+      /></a>
+      <a href="https://github.com"
+        ><img src="./images/github.svg" alt="" height="30px" width="30px"
+      /></a>
+    </aside>
     <!-- Loader -->
     <div class="loader_bg">
       <div class="loader"></div>
@@ -59,7 +75,7 @@
           <div class="text-1">Hi, I'm</div>
           <div class="text-2">Santhosh Pai</div>
           <div class="text-3">I'm a <span class="typing"></span></div>
-          <a href="#">Hire Me!</a>
+          <a href="#name-form">Hire Me!</a>
         </div>
       </div>
     </section>
@@ -223,22 +239,39 @@
           </div>
           <div class="column right">
             <div class="text">Message Me</div>
-            <form action="#" id="name-form">
+            <form action="./result.html" id="name-form" method="GET">
               <div class="fields">
                 <div class="field name">
-                  <input type="text" placeholder="Enter your Name" required />
+                  <input
+                    id="user-name"
+                    type="text"
+                    name="Name"
+                    placeholder="Enter your Name"
+                    required
+                  />
                 </div>
                 <div class="field email">
-                  <input type="email" placeholder="Enter your Email" required />
+                  <input
+                    id="user-mail"
+                    type="email"
+                    name="Email"
+                    placeholder="Enter your Email"
+                    required
+                  />
                 </div>
               </div>
               <div class="field">
-                <input type="text" placeholder="Subject" required />
+                <input
+                  id="user-text"
+                  type="text"
+                  placeholder="Subject"
+                  required
+                />
               </div>
               <div class="field textarea" required>
                 <textarea
-                  name=""
-                  id=""
+                  name="Project-desc"
+                  id="Project-desc"
                   cols="50"
                   rows="20"
                   placeholder="Describe the Project..."
@@ -254,13 +287,21 @@
     </section>
 
     <footer>
-      <div class="social">
-        <a href="www.instgram.com/clasher-santy"
-          ><i class="far fa-instagram"></i
-        ></a>
-
-        <i class="far fa-twitter"></i>
-        <i class="far fa-facebook"></i>
+      <div class="social-footer">
+        <a href="https://www.instagram.com">
+          <img
+            src="./images/instagram.svg"
+            alt=""
+            class="insta"
+            height="30px"
+            width="30px"
+        /></a>
+        <a href="https://twitter.com"
+          ><img src="./images/twitter.svg" alt="" height="30px" width="30px"
+        /></a>
+        <a href="https://github.com"
+          ><img src="./images/github.svg" alt="" height="30px" width="30px"
+        /></a>
       </div>
       <span
         >Created by <a href="#">Santhosh Pai</a>
