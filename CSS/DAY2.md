@@ -20,11 +20,11 @@ You will learn about **padding, height, widths of an element**. We have provided
   5. [Video-5](https://drive.google.com/file/d/1FcXy_Ui1vZ2yT8fSmGWdBPOVti4uD0tv/view?usp=sharing)
   6. [Video-6](https://drive.google.com/file/d/1OVI1_uHjXlyN5E0uOsex8TTNDm7aOjZM/view?usp=sharing)
 * Text
-  * [Colouring]()
-  * [Alignment]()
-  * [Decoration]()
-  * [Spacing]()
-  * [Shadows]()
+  * [Colouring](https://www.w3schools.com/css/css_text.asp)
+  * [Alignment](https://www.w3schools.com/css/css_text_align.asp)
+  * [Decoration](https://www.w3schools.com/css/css_text_decoration.asp)
+  * [Spacing](https://www.w3schools.com/css/css_text_spacing.asp)
+  * [Shadows](https://www.w3schools.com/css/css_text_shadow.asp)
   * Exercises:
     1. [Ex-1](https://www.w3schools.com/css/exercise.asp?filename=exercise_text1)
     2. [Ex-2](https://www.w3schools.com/css/exercise.asp?filename=exercise_text2)
