@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+</head>
+<body>
+    <h1>Instagram Clone</h1>
+
+    <h3>Upload Images</h3>
+    <input id="caption" type="text" placeholder="Caption"/>
+    <input id="username" type="text" placeholder="Username"/>
+    <input id="fileUpload" type="file" />
+    <button id="uploadButton">Upload</button>
+    
+    <div class="posts"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>    
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-storage.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
