@@ -44,23 +44,20 @@ nav {
 #logo {
 	background-color: #4aaaa5;
 	color: #ffffff;
-	padding: 10px 10px;
+	padding: 30px 30px;
 	margin: 0;
 }
 header {
-    height: 150px;
-    padding: 10px 10px;
+    height: 100px;
+    padding: 20px 20px;
     background: #2d6360 50% 0 url(huntington.jpg) no-repeat;
     /* background-attachment: fixed, fixed, fixed, scroll; */
     /* background-image: url(contours.png), url(noise.png), url(gridlines.png), url(huntington.jpg); */
     background-position: 0 0, 0 0, -5px -25px, 0 50%;
     background-repeat: repeat, repeat, repeat, no-repeat;
     background-size: auto, auto, auto, cover;
-	text-align: center;
-	margin-left: 0px;
-	max-width: 400px;
+    text-align: center;
 }
-
 .ent{
 	margin-left: 30px;
 }
@@ -93,7 +90,6 @@ hr {
 
 nav .nav-items {
 	display: flex;
-	flex-direction: row-reverse;
 	align-items: center;
 	padding-right: 10px;
 	list-style: none;
@@ -106,13 +102,11 @@ nav .nav-items li {
 
 nav .nav-items li a {
 	text-decoration: none;
-	color: blue;
-	border-style:groove;
-	border-color: red;
+	color: #777777;
 }
 
 nav .nav-items li a:hover {
-	color: cyan;
+	color: #4aaaa5;
 }
 
 .entertainmentBG{
