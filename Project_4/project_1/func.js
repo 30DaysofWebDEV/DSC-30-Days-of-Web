@@ -96,7 +96,7 @@ add_btn.addEventListener("click",()=>{
          }
      });
    }
-   }
+   
 });
 
 
