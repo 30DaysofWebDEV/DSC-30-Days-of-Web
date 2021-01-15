@@ -1,0 +1,28 @@
+.containerone
+{
+    background-color: black;
+    height: 300px;
+    padding: 150px;
+    color: azure;
+}
+
+.containertwo
+{
+    padding: 20px;
+}
+
+.icon
+{
+    margin: 0 auto;
+    padding-left: 30px;
+    color: black;
+}
+.social-media
+{
+    width: 300px;
+    padding: 15px;
+}
+.socialmedia
+{
+    align-content:center;
+}
