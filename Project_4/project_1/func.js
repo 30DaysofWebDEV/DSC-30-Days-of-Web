@@ -14,7 +14,6 @@ const flow = document.querySelector(".dup");
 const tasks = document.querySelector(".task input");
 const clearall= document.querySelector(".fa");
 
-
 start_btn.addEventListener("click",()=>{
         card.setAttribute('style','animation:card 0.3s reverse ease; z-index:2');
         setTimeout(()=>{
@@ -50,6 +49,8 @@ about.addEventListener('click',()=>{
 
 var task_name;
 
+
+
 add_btn.addEventListener("click",()=>{
     if(tasks.value == "") alert("Enter a Task to Add !");
     else{
@@ -79,7 +80,6 @@ add_btn.addEventListener("click",()=>{
     var div = document.getElementsByClassName('task_item');
     var body = document.getElementsByClassName('div2');
 
-    console.log(done_btn.length);
     for(let i=0;i<done_btn.length;i++){
         done_btn[i].addEventListener("click",()=>{
            body[i].setAttribute('style','text-decoration:line-through');
@@ -90,13 +90,12 @@ add_btn.addEventListener("click",()=>{
            div[i].setAttribute('style','display:none');
       });
      }
-      clearall.addEventListener('click',()=>{
+     clearall.addEventListener('click',()=>{
          for(i=0;i<rem_btn.length;i++){
              div[i].setAttribute('style','display:none');
          }
      });
    }
-   
 });
 
 
