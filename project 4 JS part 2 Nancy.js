@@ -1,0 +1,53 @@
+(function($) {
+  $.fn.nan = function(order,fn) {
+  const sv = "savy-";  if (order == "load") {
+    $(this).each(function() 
+    if ($(this).is(":radio")) {
+   if(localStorage.getItem(sv+$(this).attr("name"))){
+    if (localStorage.getItem(sv+$(this).attr("name")) == this.id) {
+              this.checked = true;
+            }else{
+              this.checked = false
+            }
+          }
+          $(this).change(function() {
+            localStorage.setItem(sv+$(this).attr("name"), this.id);
+          });
+        
+        }else if($(this).is("input") || $(this).is("textarea")) {
+          if(localStorage.getItem(sv+this.id)){
+            this.value = localStorage.getItem(sv+this.id);
+          }
+          $(this).on( 'focus', function(){
+            var intervalDuration = 500,
+                interval = setInterval( () => {
+                  localStorage.setItem(sv+this.id, this.value);
+                  if(!$(this).is(":focus")) clearInterval(interval);  
+                }, intervalDuration );
+          } );
+        }
+          }else{
+            if(localStorage.getItem(sv+this.id)){
+              $(this).val(localStorage.getItem("savy-"+this.id));
+            }else{
+              localStorage.setItem(sv+this.id, $(this).val());
+            }
+            $(this).change(function() {
+              localStorage.setItem(sv+this.id, $(this).val());
+            });
+          }
+        }
+      });
+      if ($.isFunction(fn)){fn();}
+    }else if (order == "destroy") {
+      $(this).each(function() {
+      if(localStorage.getItem(sv+this.id)){
+          localStorage.removeItem(sv+this.id)
+        }
+      });
+      if ($.isFunction(fn)){fn();}
+    }else{
+      console.error("nan action not defined please use $('.classname').nan('load') to trigger nan to save all inputs")
+    }
+  };
+})(jQuery);
