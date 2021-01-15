@@ -1,11 +1,14 @@
-var firebaseConfig = {
-    apiKey: "AIzaSyCDIQnM2FpwjLJmRrPMYaWuAWcslv3_f1M",
-    authDomain: "chit-chat-441e5.firebaseapp.com",
-    projectId: "chit-chat-441e5",
-    storageBucket: "chit-chat-441e5.appspot.com",
-    messagingSenderId: "518469651918",
-    appId: "1:518469651918:web:9c982618b291608b0f2f9f",
-    measurementId: "G-Q7KE7KJW9N"
+// @Dsc web development for 30 Days - Firebase Final Project By Pranav Agarwal-DSC MRIIRS 
+
+
+var firebaseConfig = {  // your details go here
+    apiKey: "#",
+    authDomain: "#",
+    projectId: "#",
+    storageBucket: "#",
+    messagingSenderId: "#",
+    appId: "#",
+    measurementId: "#"
   };
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
