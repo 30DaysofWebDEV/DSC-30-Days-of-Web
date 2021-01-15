@@ -1,0 +1,143 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.topContentImg::before{
+   
+
+    content: "";
+    background: url('../images/images.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.88;
+
+}
+
+
+ section.topContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+   
+    flex-wrap: wrap;
+    
+    
+}
+
+section.topContent .main-content {
+    
+    
+    color: white;
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+
+ section.topContent .sub-content {
+    color:white;
+    font-size: 20px;
+}
+
+
+
+
+.img{
+    width:100px;
+    margin: auto;
+    margin-top: 20px;
+}
+.heading{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin: 40px;
+    padding-top: 40px;  
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+.text{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 25px;
+   
+    
+}
+#about{
+    margin-top: 200px;
+}
+
+
+.text-copy{
+    text-align: center;
+    padding: 25px 0;
+   font-family: sans-serif; 
+   display: flex;
+   justify-content: center;
+   color: rgb(206, 194, 194);
+   
+   margin: 0px;
+
+   
+}
+.card:hover{
+    box-shadow: 5px 10px whitesmoke;
+}   
+.social{
+    margin-top: 10px;
+}
+.social a {   
+    display: inline-block;   
+    text-align: center;   
+    padding: 8px;   
+    
+    color: white;   
+    font-size: 15px;   
+    }         
+    .social a:hover {   
+    color: #000;   
+      }       
+    .facebook {   
+    background: #3b5998;   
+    color: white;  
+    }         
+    .twitter {   
+    color: white;   
+    background: #00acee;   
+    }   
+    .linkedin {   
+    background:#0e76a8;   
+    color: white;   
+    }          
+    .instagram {   
+    background: #3f729b;   
+    color: white;   
+     }
+
+footer{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+   font-family: sans-serif; 
+   color: whitesmoke;
+   background-color:black;
+   margin: 0px;
+   margin-top: 50px;
+   padding-top: 25px;
+}
+#contact{
+    width: 600px;
+}
+@media only screen and (max-width: 600px) {
+    #contact {
+      width: 400px;
+    }
+  }
