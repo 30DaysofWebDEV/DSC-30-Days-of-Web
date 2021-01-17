@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Barebones Portfolio</title>
+	<style>
+		body {
+			background-image: url(https://onlyvectorbackgrounds.com/wp-content/uploads/2018/09/Abstract-Ambient-Light-Background-Day-Blue.jpg);
+			-webkit-background-size: cover;
+  			-moz-background-size: cover;
+  			-o-background-size: cover;
+  			background-size: cover;			
+		}
+
+		html {
+			scroll-behavior:smooth;
+		}
+
+		.navi {
+  			overflow: hidden;
+  			background-color:red;
+		}	
+
+		.navi a:link { 
+			color: whitesmoke;
+			font-weight: bold;
+		}
+
+		.navi a {
+		float: right;
+		color:whitesmoke;
+		text-align: center;
+		padding: 10px 15px;
+		font-weight: 500;
+		text-decoration:white;
+		font-size: 20px;
+		}
+
+		.navi a:hover {
+			font-weight: bolder;
+		background-color:aquamarine ;
+		color: black;
+		}
+
+		.name {
+			background-color: white;
+			color: darkgreen;
+			font-size: 25px;
+		}
+		.comm_col {
+			font-size: large;
+			color: darkblue;
+			-moz-text-size-adjust: auto;
+			font-style: normal;
+		}
+
+
+
+		img {
+			margin-left: auto;
+            margin-right: auto;
+			border: 2px solid #dddddd;
+			border-radius: 20px;
+		}
+
+		.profile{
+			display: block;
+ 			 margin-left:10px ;
+  			width: 50%;
+		}
+
+		.pictures {
+ 	 		float: left;
+  			width: 33.33%;
+  			padding: 5px;
+		}
+
+		a:link {
+			color:orangered; 
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: indianred;
+			text-decoration: underline;
+			background-color: cyan;
+		}
+		a:visited {
+			color: navy;
+			text-decoration: none;
+		}
+
+		.submit {
+			font-size: large;
+			font-weight:bold;
+			color:aliceblue;
+			cursor: pointer;
+			background-color: green;
+			padding: 15px 30px;
+		}
+
+		.submit:hover{background-color: yellowgreen;}
+
+		.Reset {
+			font-size: large;
+			font-weight:bold;
+			color:aliceblue;
+			cursor: pointer;
+			background-color:red;
+			padding: 15px 30px:
+		}
+
+		.Reset:hover {background-color: yellowgreen;}
+
+		table, td, th {
+			  border: 1px solid black;
+		}
+		
+		table{
+				border-collapse: collapse;
+			}
+
+		video {
+			border: black; 
+			display: block; 
+			width: 50%; 
+			margin-left: 10px;
+		}	
+
+		iframe{
+			border: black; 
+			display: block; 
+			width: 50%; 
+			margin-right: 60px;  
+		}
+	</style>
+</head>
+<body>
+	<h1 style="font-size: 40px; color: brown; text-decoration: underline;">
+		<center> PORTFOLIO</center>
+	</h1>
+	<br>
+	<div class="navi">
+		<a  href="#MailMe">Mail Me</a>
+		<a  href="#Contact">Contact Me</a>
+		<a href="#about">About Me</a>
+	  </div>
+<p><span class="name navi" id="about"><strong>Ankita Prasad</strong></span>
+	<div><strong>A tech enthusiast, creative thinker and learner. Currently pursuing IT-Btech from Indira Gandhi Delhi T echnical University for Women, Kashmere Gate.</strong></div>
+	<div class="profile">
+	   <img  src="Pictures/Profile.jpg" alt="Hey that was me" height="220" width="250" style="float:left">
+    </div>
+</p>
+<br><br>
+
+<center>
+<table>
+	<center>
+	<tr style="font-size: xx-large ;">
+		<th> S.No.</th>
+		<th>School/University</th>
+		<th>Percentage</th>
+	</tr>
+
+	<tr class="comm_col">
+		<td>1.</td>
+		<td>Bal Bharati Public School, Noida -10th standard</td>
+		<td>94%</td>
+	</tr>
+	<tr class="comm_col">
+		<td>2.</td>
+		<td>Salwan Public School , Delhi</td>
+		<td>82%</td>
+	</tr>
+
+	<tr class="comm_col">
+		<td>3.</td>
+		<td>IGDTUW</td>
+		<td>--</td>
+	</tr>
+	</center>
+</table>
+</center>
+<br><br>
+<br><br>
+<br><br>
+<hr>
+
+<section>
+	<h2 style="color:darkred; background-color: darkseagreen;" class="navi" id="Contact">
+		Contact Me
+	</h2>
+	<form>
+		<p><strong>First Name:</strong> <input type="text" Name="F_name"></p>
+		<p><strong>Last Name:</strong> <input type="text"  Name= "L_name"></p>
+
+		<fieldset>
+			<legend><strong>Gender</strong></legend>
+	 		<p> 
+		 		male <input type="radio" name= "Gender"   id= "male"> female <input type= "radio" name="Gender" id= "female"> 
+	 		</p>
+		</fieldset>
+
+		<p><strong> Email: </strong> <input type="email" name="email"></p>
+		<p><strong>Number=</strong> <input type="number" name="number"></p>
+
+		<button type="button" class="submit"> <strong>Submit</strong></button>
+		<button type="button" class="Reset"><strong>Reset</strong></button>
+	</form>
+</section>
+<hr>
+
+<br>
+<br>
+<video src="Video/video.mp4"  controls width="300" height="300"></video>
+<br><br><br>
+<iframe width="300" height="300" src="https://www.youtube.com/embed/FKThzxye2gk" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
+<img src="Pictures/Adobe_1.jpg" alt="Adobe workplace" width="300">
+<img src="Pictures/Adobe_2.jpg" alt="Adobe workplace" width="300">
+<img src="https://tbcdn.talentbrew.com/company/1732/4998/content/capital-one-bringing-office-home-banner.jpg" alt="workplace" height="230" width="300">
+
+
+<hr>
+<footer class="scroll" id="MailMe">
+	<center>
+  <p style="font-weight:bolder; ">Developer: Ankita Prasad</p>
+  <p><a href="mailto:ankitaprasad67@gmail.com">Contact me</a></p>
+  	</center>
+</footer>
+
+
+</body>
+</html>
