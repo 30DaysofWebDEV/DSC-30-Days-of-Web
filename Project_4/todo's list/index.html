@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo's List</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/525fd5b530.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="todos">
+        <div class="heading">
+            <h1>My Todo's List</h1>
+        </div>
+        <br>
+        <div class="todo-input-container">
+            <input class="todo_input" type="text" placeholder="What do you want to do?" required>
+            <i class="fas fa-plus add-item"></i>
+            <i class="fas fa-trash-alt add-item deleteBtn" onclick="deleteAllElements()"></i>
+        </div>  
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
