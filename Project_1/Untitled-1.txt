@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 1 | DSC 30 DAYS OF WEB DEVELOPMENT</title>
+</head>
+
+<body>
+    <!--Header Section-->
+    <header>
+        <h1>Shahad Tuglak | DSC 30 DAYS OF WEB DEVELOPMENT</h1>
+    </header>
+    <hr>
+    <!--Form Section-->
+    <h3>Contact US</h3>
+    <form>
+        <label>First Name:</label>
+        <input type="text" placeholder="Enter First Name"><br>
+        <label>Last Name:</label>
+        <input type="text" placeholder="Enter Last Name"><br>
+        <label>Enter Mobile Number:</label>
+        <input type="tel" placeholder="Enter Mobile Number"><br>
+        <label>Enter Email:</label>
+        <input type="email" placeholder="Enter E-mail"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+
+    <hr>
+    <!--Table Section-->
+    <h3>DSC WEB DEVELOPMENT CONTENT</h3>
+    <p>Table</p>
+    <table border="1px solid black">
+        <tr>
+            <td>DAY 1</td>
+            <td>DAY 2</td>
+            <td>DAY 3</td>
+            <td>DAY 4</td>
+            <td>DAY 5</td>
+            <td>DAY 6</td>
+            <td>DAY 7</td>
+            <td>DAY 8</td>
+            <td>DAY 9</td>
+            <td>DAY 10</td>
+            <td>DAY 11</td>
+            <td>DAY 12</td>
+            <td>DAY 13</td>
+            <td>DAY 13</td>
+            <td>DAY 14</td>
+            <td>DAY 15</td>
+            <td>DAY 6</td>
+            <td>DAY 17</td>
+            <td>DAY 18</td>
+        </tr>
+        <tr>
+            <td>Github</td>
+            <td>HTML DAY 1</td>
+            <td>HTML DAY 2</td>
+            <td>HTML DAY 3</td>
+            <td>HTML Project Submission</td>
+            <td>CSS DAY 1</td>
+            <td>CSS DAY 2</td>
+            <td>CSS DAY 3</td>
+            <td>CSS DAY 4</td>
+            <td>CSS Day 5</td>
+            <td>CSS QUIZ</td>
+            <td>CSS Project Submission</td>
+            <td>BOOTSTRAP DAY 1</td>
+            <td>BOOTSTRAP DAY 2</td>
+            <td>HTML & CSS & BOOTSTRAP Combined Project</td>
+            <td>JAVASCRIPT DAY 1</td>
+            <td>JAVASCRIPT DAY 2</td>
+            <td>JAVASCRIPT DAY 3</td>
+            <td>JAVASCRIPT DAY 4</td>
+
+        </tr>
+
+
+    </table>
+    <br>
+    <hr>
+
+    <!--Video Section-->
+    <h3>Video</h3>
+    <video controls>
+        <source src="../Project_1/happy_club.mp4" type="video/mp4">
+    </video>
+
+
+    <br>
+    <hr>
+    <!--Image Section-->
+    <h3>Audio</h3>
+    <img src="../Project_1/shahadtuglak.jpg">
+    <br>
+    <hr>
+    <!--Footer Section-->
+    <footer>
+        <p> &copy; Shahad Tuglak 2020 | #DSC-30-Days-of-Web</p>
+    </footer>
+
+</body>
+
+</html> 
+ 
