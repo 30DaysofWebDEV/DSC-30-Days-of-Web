@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="ToDoList.css">
+  <title>To Do LIst</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Potta+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="myDIV" class="header">
+    <h1>My To Do List</h1>
+    <input type="text" id="myInput" placeholder="Title...">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+
+  <ul id="myUL">
+    <li>Hit the gym</li>
+    <li class="checked">Pay bills</li>
+    <li>Meet Rohit</li>
+    <li>Buy eggs</li>
+    <li>Read a book</li>
+    <li>Organize bookshelf</li>
+  </ul>
+  <input type="button"  style="border: 0; width:250px;"class="addBtn" value="Remove All" onclick="removeAll()">
+  <script src="ToDoList.js"></script>
+</body>
+</html>
