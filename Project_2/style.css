@@ -1,0 +1,64 @@
+body{
+  margin:0px;
+  background-image: url('https://wallpaperplay.com/walls/full/7/3/5/48177.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Redressed', cursive;
+}
+
+.intro
+{
+  font-style: Redressed;
+  color:aliceblue;
+  font-size:20px;
+  padding:30px;
+}
+.content img
+{
+ border-radius: 20%;
+ padding:50px;
+} 
+.table{
+  color:bisque;
+  font-size:25px;
+  padding:50px;
+  padding-bottom: 50px;
+}
+.table tr th{
+  text-align: center;
+  padding-bottom:30px;
+}
+.table tr td{
+  border:1px solid rgb(153, 148, 148);
+  padding-bottom:18px;
+  text-align:center;
+  width:33%;
+  padding-right:0;
+}
+.con_form h2, .contact h2
+{
+  color:blanchedalmond;
+  padding:30px 50px 50px 30px;
+}
+.video{
+  padding: 35px 0px;
+}
+.con_form .form{
+  color:cornsilk;
+  font-size:20px;
+}
+.con_form .form .submit{
+  padding:10px;
+}
+.contact p{
+  color:gainsboro;
+  font-size: 20px;
+  }
+ .contact p a{
+   text-decoration: none;
+   color:lightslategray;
+ }
+ .contact img{
+   border-radius: 100%;
+ }
