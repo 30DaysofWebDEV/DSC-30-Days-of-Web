@@ -1,0 +1,1093 @@
+/*
+ * Template Name: Sphere - Responsive website template for CV/Resume/Portfolio
+ * Version: 2.0
+ * Author: Xiaoying Riley at 3rd Wave Media
+ * Website: http://themes.3rdwavemedia.com/
+ * Twitter: @3rdwave_themes
+*/
+/* ======= Base ======= */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #24292e;
+    background: #f5f5f5;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #444;
+    overflow-x: hidden;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+a {
+    color: #00BCD4;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #007888;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.btn,
+a.btn {
+    background: #008fa1;
+    color: #fff;
+    padding: 8px 15px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn:hover,
+a.btn:hover {
+    color: #fff;
+    background: #00a5bb;
+}
+
+#topcontrol {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    background: #008fa1;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    z-index: 30;
+    width: 36px;
+    height: 36px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#topcontrol:hover {
+    background: #007888;
+    color: #fff;
+}
+
+#topcontrol .fa {
+    position: relative;
+    top: 3px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.header {
+    background: #00BCD4;
+    color: #fff;
+}
+
+.header a {
+    color: #fff;
+}
+
+.header .top-bar {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 120px;
+}
+
+.header .social {
+    margin-bottom: 0;
+}
+
+.header .social a {
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding-top: 2px;
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.header .social a:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+.header .actions {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.header .actions .fa {
+    margin-right: 5px;
+}
+
+.header .actions a {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.header .actions a:last-child {
+    margin-right: 0;
+}
+
+.header .profile-image {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: -80px;
+    margin-left: -80px;
+    left: 50%;
+}
+
+.header .name {
+    font-size: 48px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.header .title {
+    font-size: 28px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+}
+
+.header .intro {
+    background: #00a5bb;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    position: relative;
+    font-size: 16px;
+}
+
+.header .profile {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Page Nav */
+.page-nav-space-holder {
+    height: 60px;
+    position: relative;
+}
+
+.page-nav-wrapper {
+    background: #007888;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.page-nav-wrapper.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: #00BCD4;
+}
+
+.page-nav-wrapper a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.page-nav-wrapper .page-nav {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.page-nav-wrapper .page-nav li {
+    margin-right: 30px;
+    display: inline-block;
+    background: none;
+}
+
+.page-nav-wrapper .page-nav li:hover,
+.page-nav-wrapper .page-nav li:active {
+    background: none;
+}
+
+.page-nav-wrapper .page-nav li a {
+    color: rgba(255, 255, 255, 0.6);
+    padding: inherit;
+}
+
+.page-nav-wrapper .page-nav li a:hover {
+    color: #fff;
+}
+
+.page-nav-wrapper .page-nav li a:hover,
+.page-nav-wrapper .page-nav li a:active,
+.page-nav-wrapper .page-nav li a:focus {
+    background: none;
+}
+
+.page-nav-wrapper .page-nav li a.active {
+    color: #fff;
+    background: none;
+}
+
+.page-nav-wrapper .page-nav li:last-child {
+    margin-right: 0;
+}
+
+.wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    padding: 45px;
+    background: #fff;
+    margin-bottom: 45px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.section:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.timeline {
+    border-left: 3px solid #00BCD4;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    position: relative;
+    padding: 0 30px;
+    margin-left: 280px;
+}
+
+.timeline .item {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.timeline .item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .item:before {
+    content: "";
+    position: absolute;
+    left: -43px;
+    top: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #fff;
+    border: 3px solid #00BCD4;
+}
+
+.timeline .item:after {
+    content: "";
+    position: absolute;
+    left: -37px;
+    top: 6px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #00BCD4;
+    z-index: 10;
+}
+
+.timeline .work-place {
+    position: relative;
+}
+
+.timeline .location {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    color: #8a8a8a;
+}
+
+.timeline .location .fa {
+    margin-right: 5px;
+}
+
+.timeline .place {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.timeline .job-meta {
+    position: absolute;
+    left: -280px;
+    top: 0;
+}
+
+.timeline .job-meta .title {
+    font-size: 18px;
+    color: #00BCD4;
+}
+
+.timeline .job-meta .time {
+    color: #8a8a8a;
+}
+
+.timeline .job-desc {
+    color: #24292e;
+}
+
+.skills-section .subtitle {
+    font-size: 18px;
+    color: #8a8a8a;
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-weight: 300;
+}
+
+.skills-section .top-skills {
+
+}
+
+.skills-section .top-skills .item {
+    margin-bottom: 45px;
+}
+
+.skills-section .level {
+    color: #8a8a8a;
+    margin-bottom: 15px;
+}
+
+.skills-section .desc {
+    color: #24292e;
+}
+
+.skills-section .skill-tag {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    padding: 6px 30px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #f5f5f5;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.chart-easy-pie {
+    positon: relative;
+}
+
+.chart {
+    width: 110px;
+    height: 110px;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.chart span {
+    line-height: 110px;
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.testimonials-section .testimonials-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonials-section .item {
+    padding-left: 60px;
+    margin-bottom: 45px;
+}
+
+.testimonials-section .quote {
+    border-left: none;
+    padding: 0;
+    font-size: 22px;
+    color: #24292e;
+    font-weight: 300;
+    position: relative;
+}
+
+.testimonials-section .source .name {
+    font-size: 16px;
+}
+
+.testimonials-section .source .position {
+    color: #8a8a8a;
+}
+
+.testimonials-section .fa-quote-left {
+    position: absolute;
+    left: -60px;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background: #00BCD4;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.testimonials-section .carousel-indicators {
+    bottom: 0;
+    margin-bottom: 0;
+}
+
+.testimonials-section .carousel-indicators li {
+    background-color: #bdbdbd;
+    border: none;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    margin-right: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    cursor: pointer;
+}
+
+.testimonials-section .carousel-indicators li.active {
+    background-color: #00BCD4;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+    margin-right: 8px;
+}
+
+/**
+Portfolio Section
+*/
+
+.portfolio-section .filters {
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.portfolio-section .filters .type {
+    margin-right: 30px;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 15px;
+    color: #8a8a8a;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.portfolio-section .filters .type:last-child {
+    margin-right: 0;
+}
+
+.portfolio-section .filters .type.active {
+    color: #00BCD4;
+    border-bottom: 2px solid #00BCD4;
+}
+
+.portfolio-section .item {
+    margin-bottom: 30px;
+}
+
+.portfolio-section .item .figure {
+    margin-bottom: 0;
+}
+
+.portfolio-section .item-inner {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.portfolio-section .item-inner .content {
+    padding: 30px;
+    position: relative;
+}
+
+.portfolio-section .item-inner .content .sub-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: #000000;
+}
+
+.portfolio-section .item-inner .content .meta {
+    color: #24292e;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.portfolio-section .item-inner .content .action {
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: #24292e;
+}
+
+.portfolio-section .item-inner .content .action span {
+    font-weight: 600;
+    color: #00BCD4;
+}
+
+/**
+portfolio section end here
+*/
+
+/**
+Contact section start here
+*/
+.contact-section .intro {
+    position: relative;
+    padding: 30px;
+    padding-left: 190px;
+    font-size: 16px;
+    color: #24292e;
+}
+
+.contact-section .intro .profile-image {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 30px;
+}
+
+.contact-section .intro p {
+    margin-bottom: 15px;
+}
+
+.contact-section .service-list {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-section .service-list li {
+    margin-bottom: 15px;
+}
+
+.contact-section .service-list .fa {
+    color: #00BCD4;
+}
+
+.contact-section .social {
+    margin-bottom: 0;
+}
+
+.contact-section .social li {
+    margin-right: 10px;
+}
+
+.contact-section .social li:last-child {
+    margin-right: 0;
+}
+
+.contact-section .social a {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    color: #8a8a8a;
+}
+
+.contact-section .social a:hover {
+    color: #00BCD4;
+}
+
+.footer .container {
+    /*padding: 30px;*/
+    color: #8a8a8a;
+    letter-spacing: 0.5px;
+}
+
+.footer .container a {
+    color: #8a8a8a;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    .header .social {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .header .actions {
+        position: static;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .header .actions .btn {
+        margin-bottom: 15px;
+        font-size: 12px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .header .actions .btn:last-child {
+        margin-bottom: 0;
+    }
+
+    .header .name {
+        font-size: 36px;
+    }
+
+    .header .title {
+        font-size: 22px;
+    }
+
+    .header .contact-info li {
+        margin-right: 0;
+        margin-bottom: 15px;
+        font-size: 14px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .header .contact-info li:last-child {
+        margin-bottom: 0;
+    }
+
+    .section {
+        padding: 30px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .timeline {
+        margin-left: 0;
+        padding-right: 0;
+    }
+
+    .timeline .place {
+        margin-bottom: 5px;
+    }
+
+    .timeline .job-meta {
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .book-section .item {
+        padding: 0;
+    }
+
+    .portfolio-section .filters .type {
+        font-size: 12px;
+        margin-right: 5px;
+        padding: 8px 5px;
+    }
+
+    .portfolio-section .item-inner .content {
+        padding: 15px;
+    }
+
+    .portfolio-section .item-inner .content .sub-title {
+        font-size: 14px;
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .portfolio-section .item-inner .content .meta {
+        margin-bottom: 30px;
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .portfolio-section .item-inner .content .action {
+        position: static;
+        font-size: 12px;
+    }
+
+    .contact-section .intro {
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-section .intro .profile-image {
+        position: static;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .contact-section .service-list {
+        margin-left: 0;
+    }
+
+    .contact-section .social {
+        margin: 0 auto;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/* X-Large devices (large desktops, 1400px and up) */
+/* ======= Configure Style (Remove in production) ======= */
+.config-trigger {
+    position: absolute;
+    top: 30px;
+    left: -36px;
+    width: 36px;
+    height: 36px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    text-decoration: none;
+}
+
+.config-trigger:hover {
+    background: #000;
+    text-decoration: none;
+}
+
+.config-trigger:hover .fa {
+    color: #fff;
+}
+
+.config-trigger .fa {
+    font-size: 22px;
+    padding-top: 7px;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.config-panel {
+    position: absolute;
+    top: 160px;
+    right: -190px;
+    z-index: 30;
+    width: 190px;
+}
+
+.config-panel .panel-inner {
+    position: relative;
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.config-panel .panel-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.config-panel label {
+    color: #fff;
+}
+
+.config-panel #color-options {
+    margin-bottom: 0px;
+}
+
+.config-panel #color-options li a {
+    display: block;
+    width: 28px;
+    height: 20px;
+    border: 2px solid transparent;
+    margin-bottom: 10px;
+}
+
+.config-panel #color-options li a:hover {
+    -webkit-opacity: 0.9;
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.config-panel #color-options li.active a {
+    border: 2px solid #fff;
+}
+
+.config-panel #color-options li.theme-1 a {
+    background: #00BCD4;
+}
+
+.config-panel #color-options li.theme-2 a {
+    background-color: #03A9F4;
+}
+
+.config-panel #color-options li.theme-3 a {
+    background-color: #009688;
+}
+
+.config-panel #color-options li.theme-4 a {
+    background-color: #4CAF50;
+}
+
+.config-panel #color-options li.theme-5 a {
+    background-color: #8BC34A;
+}
+
+.config-panel #color-options li.theme-6 a {
+    background-color: #C0CA33;
+}
+
+.config-panel #color-options li.theme-7 a {
+    background-color: #FFC107;
+}
+
+.config-panel #color-options li.theme-8 a {
+    background-color: #FF9800;
+}
+
+.config-panel #color-options li.theme-9 a {
+    background-color: #FF5722;
+}
+
+.config-panel #color-options li.theme-10 a {
+    background-color: #795548;
+}
+
+.config-panel #color-options li.theme-11 a {
+    background-color: #607D8B;
+}
+
+.config-panel #color-options li.theme-12 a {
+    background-color: #673AB7;
+}
+
+.config-panel #color-options li.theme-13 a {
+    background-color: #3F51B5;
+}
+
+.config-panel #color-options li.theme-14 a {
+    background-color: #2196F3;
+}
+
+.config-panel #color-options li.theme-15 a {
+    background-color: #9C27B0;
+}
+
+.config-panel #color-options li.theme-16 a {
+    background-color: #E91E63;
+}
+
+.config-panel .close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #fff;
+}
+
+.config-panel .close .fa {
+    color: #fff;
+}
+
+/************ Books section ******/
+.book-section .item {
+    margin-bottom: 45px;
+}
+
+.book-section .item-inner {
+    padding: 0 30px;
+}
+
+.book-section .category {
+    font-size: 18px;
+    color: #00BCD4;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.book-section .book-category {
+    font-weight: bolder;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.book-section .b {
+    color: #24292e;
+}
+
+/************ Education section ******/
+.education-section .item {
+    margin-bottom: 45px;
+}
+
+.education-section .item-inner {
+    padding: 0 30px;
+}
+
+.education-section .category {
+    font-size: 18px;
+    color: #00BCD4;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.education-section .title {
+    font-size: 18px;
+    color: #00BCD4;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.education-section .sub-title {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.education-section .time {
+    color: #8a8a8a;
+    margin-bottom: 15px;
+}
+
+.education-section .desc {
+    color: #24292e;
+}
