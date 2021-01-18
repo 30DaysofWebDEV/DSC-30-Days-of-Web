@@ -1,0 +1,96 @@
+h1, h2, h3, h4 {
+  font-family: 'Potta One', cursive;
+}
+
+p, a {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color:black;
+  font-size: 1.5rem;
+}
+
+.nav-link, .navbar-brand {
+  font-family: 'Potta One', cursive;
+  font-size: 25px;
+}
+
+.col {
+  font-size: 3.5rem;
+  text-align: center;
+}
+.home-image {
+  height: 415px;
+  width: 280px;
+  border-radius: 5%
+}
+
+.home-h1 {
+  padding-top: 1.5em;
+  font-size: 3.5rem;
+}
+
+.home {
+  padding: 95px 15px;
+  font-size: 3.5rem;
+  color: #fff;
+  background-color: black;
+  line-height: 1.5;
+}
+
+.aboutme {
+  color:black;
+  line-height: 1.5;
+  padding: 90px 25px;
+  background-color: white;
+  font-size: 20px;
+}
+
+.row {
+  text-align: center;
+}
+
+.skills {
+  background-color: black;
+  color: #fff;
+  padding: 80px 25px;
+}
+.skills-image {
+  padding-bottom: 15px;
+  width: 150px;
+}
+.education {
+  background-color:black;
+  color:white;
+  text-align: center;
+  padding: 80px 30px 0 30px;
+}
+
+.education-images {
+  height: 368px;
+  width: 716.8px;
+}
+
+.contact {
+  color: white;
+  padding: 67px 20px 35px 20px;
+  background-color:black;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media all and (max-width: 650px) {
+  .home-image {
+    width: 180px;
+    height: 266px;
+  }
+  .home-h1 {
+    font-size: 2.5rem;
+  }
+
+  .education-images {
+    width: 300px;
+    height: 121px;
+  }
+}
