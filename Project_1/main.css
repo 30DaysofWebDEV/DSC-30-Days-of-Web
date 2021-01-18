@@ -1,0 +1,229 @@
+*{
+    color: ivory;
+    margin: 0px auto;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 20px;
+  }
+body{
+    background-color:rgba(223, 222, 222, 0.8);
+    background-image:url("../Project_1/images/stars.jpg");
+    background-position: top;
+    background-size:cover;
+    background-repeat: repeat-x;
+    background-blend-mode:luminosity;
+
+}
+header{
+    position:-webkit-sticky;
+    color: snow;
+    position: sticky;
+    top: 0px;  
+    background-image:url("../Project_1/images/stars.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    padding-bottom: 5pt;
+    padding-top: 4pt;
+    
+}
+h1{
+    margin-left: 2rem;
+    
+}
+
+#nav{
+    list-style-type: none;
+    display: inline-flex;
+    flex: 0 0 100px;
+    float:right;
+    margin-right: 2rem;
+    padding: 0px 5px 10px;
+
+    
+}
+a{
+  text-decoration-line: none;
+}
+li{
+    display: inline;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: default;
+    
+}
+li:hover {
+    box-shadow: 0 0 5px 2px rgb(255, 255, 255);
+    
+  }
+.flex-container {
+    display: flex;
+    flex: 1 1 100%; 
+    padding: 1vh;
+    margin-bottom: 5rem; 
+  }
+  
+  .flex-container > div {
+     flex:0 1 100%; 
+  }
+  .flex-item{
+      flex: 0 0 100%;
+  }
+  img{
+    display:flex;
+    size: contain;
+    border-radius: 10px;
+    flex:0 1 100%;
+    padding: 5px;
+    
+  }
+  img:hover {
+    box-shadow: 0 0 9px 3px rgb(255, 255, 255);
+  }
+.moto{
+       padding: 10px 10px;
+       margin:11vw 11vw 9vw ;
+       font-size: 3vw;
+     
+}
+#intro{
+    padding-top: 2rem;
+}
+
+.line1{
+    height: 1px;
+    background-color: white;
+    margin-top: 3vw;
+}
+
+
+.startingptag{
+    font-size: 5vh;
+    padding:5pt;
+    margin: 1vw 0vw 2vw;
+    text-align: center;
+}
+
+h3{
+  
+    text-align: center;
+}
+#image-Head{
+    font-size: 4vw;
+    font-family: cursive;
+    padding: 1rem 2rem 3rem 2rem ;
+} 
+
+/* Table css */
+
+.tebale-heading{
+    text-align: left;
+    font-size: 5vh;
+    padding: 10px;
+    margin-top: 7rem;
+}
+#web-teble{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 8rem;
+   
+}
+#web-teble td, #web-teble th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  #web-teble tr:nth-child(odd){background-color: #65696b85;}
+
+#web-teble tr:hover {background-color: rgb(37, 12, 61);}
+
+#web-teble th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #65696b85;
+  color: white;
+}
+
+/*contact form section */
+
+.form-div {
+  border-radius: 5px;
+  size: 50vmax;
+  padding: 18px;
+  margin-top: 20px;
+  font-size: 3vh;
+}
+#contact{
+  font-size: 4vh;
+  padding: 15px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 6px 10px;
+    color:black;
+    margin: 0px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  input[type=tel], select {
+    width: 100%;
+    color:black;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    color:black;
+    padding:  6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  
+  input[type=submit] {
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 18px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  input[type=reset] {
+    display: inline;
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 15px;
+    margin: 0px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 6rem;
+  }
+  input[type=reset]:hover {
+    background-color: #45a049;
+  }
+
+  footer{
+        text-align: right;
+        margin: 0px auto;
+        padding-right: 10px;
+  }
