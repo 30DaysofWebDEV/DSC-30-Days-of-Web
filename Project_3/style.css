@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	background-image: url(background.jpeg);
+	background-size: cover;
+	font-family: Arial;
+}
+
+.back{
+	cursor: pointer;
+	color:#FFF;
+	border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+.back:hover{
+	 box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+li a:hover{
+	transform: scale(1.05);
+	transition: 0.3s;
+}
+
+span a:hover{
+	transform: scale(1.05);
+	transition: 0.3s;
+}
+
+span a,li a{
+	font-weight: bold;
+}
+.center{
+	margin: auto;
+}
+.img_container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.vid_container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img {
+	margin: 15px;
+	width: 600px;
+	height: 300px;
+	transition: all 0.7s;
+	align-self: center;
+}
+
+img:hover {
+	transform: scale(1.05);
+	transition: 1s;
+}
+
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 3em;
+	font-weight: bolder;
+	width: 400px;
+	text-align: center;
+	justify-content: center;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;S
+}
+
+h3{
+	display: flex;
+	flex-wrap: wrap;
+	color: black;
+	justify-content: center;
+}
+video{
+	margin: 20px;
+	width: 600px;
+	height: 255px;
+	transition: all 0.7s;
+	align-self: center; 
+}
