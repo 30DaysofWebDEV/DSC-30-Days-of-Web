@@ -2,3 +2,5 @@
 
 Refer [CSSZenGarden.com](http://www.csszengarden.com/) and understand how it works. Inspiring yourself from that website, add styling to your _Barebones_ HTML page from Project 1.
 
+Solution : https://geekgrave.github.io/project2-css/
+
