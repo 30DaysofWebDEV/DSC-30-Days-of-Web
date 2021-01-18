@@ -1,0 +1,90 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+    position: -webkit-sticky;
+    position: sticky;
+    padding-top: 0;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #66b3ff;
+  }
+  body {
+    background-image: url("./images/background.jpg");
+    background-color: #cccccc;
+   }
+   input[type=text] {
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 3px solid  #cceeff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  textarea {
+    width: 600px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #cceeff;
+    background-color: #f8f8f8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    resize: none;
+    outline: none;
+  }
+  input[type=text]:focus, textarea:focus {
+    border: 3px solid #33bbff;
+  }
+  #projectstable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: gold;
+  }
+  #projectstable td, #projectstable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  #projectstable tr:hover {background-color: #ddd;}
+  #projectstable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  input[type=submit]:hover, input[type=reset]:hover {
+    opacity: 1;
+  }
