@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <title>Font challenge</title>
+  <style>
+    *{
+     margin: 0px; 
+     padding: 0px;
+     box-sizing: border-box;      
+    }
+    body{
+      background: #BDC3C7;
+      line-height: 1.8em;
+    }
+    a{
+      text-decoration: none;
+    }
+    #container{
+      max-width: 400px;
+      margin: 30px auto ;
+      /* background: white; */
+      padding: 20px;
+    }
+    #vid{
+      margin: 20px auto auto 10px;
+      float: left;
+    }
+    .form-wrap{
+      background: white;
+      padding: 15px 25px;
+    }
+    .form-wrap h2, .form-wrap p{
+      /* font-family: 'Bree Serif', serif; */
+      font-family: 'Libre Baskerville', serif;
+      text-align: center;
+    }
+    .form-wrap .form-group{
+      margin-top: 15px;
+    }
+    .form-wrap .form-group label{
+      display: block;
+    }
+    .form-wrap .form-group input{
+      width: 100%;
+      border: #ddd 1px solid;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    button{
+      width: 100%;
+      background-color: #717977;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    button:hover{
+      background-color: #37a08e;
+    }
+    .button-text{
+      font-size: 15px;
+      margin-top: 20px;
+    }   
+    footer{
+      text-align: center;
+      margin-top: 10px;
+      color: white;
+    }
+    footer a{
+      color: #49c1a2;
+    }
+  </style>
+</head>
+<body>
+  <div id="vid">
+    <iframe width="450" height="300" src="https://www.youtube.com/embed/V9KLt2s6puE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  <div id="container">
+    <div class="form-wrap">
+      <h2>Sign Up</h2>
+      <p>Its free and only takes a minute!</p>
+      
+      <form action="#">
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name">
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="password">password</label>
+          <input type="password" name="password" id="password">
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" name="confirm-password" id="confirm-password">
+        </div>
+        <button type="submit">Sign Up</button>
+        <div class="button-text">
+          <p>By clicking the Sign Up button, you agree to our <a href="#">Terms & Condition</a> and <a href="#">Privacy Policy</a></p>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>Already have account? <a href="#">Login Here</a></p>
+    </footer>
+  </div>
+</body>
+</html>
