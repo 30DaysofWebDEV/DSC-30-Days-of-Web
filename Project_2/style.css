@@ -1,0 +1,61 @@
+header
+{display:block;
+text-align: center;
+color:black;
+border:solid 2px;
+font-family: 'Rock Salt', cursive;}
+   .me{float:left;}
+    li {
+      float: right;
+    }
+ul
+{padding:2em;}
+
+footer
+{
+display:block;
+border:solid 2px;
+color:black;
+text-align:center;}
+
+h1{color:white;
+text-align:center;
+font-family: 'Marck Script', cursive;
+font-family: 'Satisfy', cursive;}
+h2{color:lightblue;
+font-family: 'Dancing Script', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Satisfy', cursive;}
+.sub{color:pink;
+font-family: 'Dancing Script', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Satisfy', cursive;}
+body
+{background-image:url('are.jpg');
+background-repeat:no-repeat;
+background-size: 10000px 8000px;}
+ ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+    }
+
+      li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    background-color:black;
+    }
+ .About{text-align:center;
+width:auto;}   
+    table,th,td{border:2px solid white;
+color:white;
+font-family: 'Dancing Script', cursive;}
+
+
+
+ 
