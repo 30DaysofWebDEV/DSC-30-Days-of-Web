@@ -1,0 +1,226 @@
+.header1 {
+    overflow:visible;
+    background-color: #f1f1f1;
+}
+
+li {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+li a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111111;
+}
+
+.active {
+    background-color: #4caf50;
+}
+
+.heading {
+    box-align: center;
+    font-size: 48px;
+    background-color: rgba(138,223,189,0.5);
+    border-style: none;
+    border-width: thick;
+    height: 120px;
+    width: auto;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 4px 4px grey;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 150px;
+}
+
+ h3,p {
+     text-align: center;
+     font-style: oblique;
+     font-size: 36px;
+ }
+
+
+body{
+    background-color: seashell;
+}
+
+body,h1,h3,h2,p {
+    font-family: "Montserrat", serif;
+    color: black;
+}
+
+.imgcontainer {
+    position: relative;
+    width: 50%;
+}
+
+.img1 {
+    display: block;
+    width: 50%;
+    height: 50%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #008cba;
+    overflow: hidden;
+    width: 50%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.imgcontainer:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.intro {
+    float: right;
+}
+
+.about {
+    font-family: "Algerian", sans-serif;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 32px;
+    margin: 10px 30px;
+    padding-left: 30px;
+}
+
+.aboutheading {
+    font-family: "Algerian", bold, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display:inline-block;
+}
+
+input {
+    width: 50%;
+}
+
+input[type=text], select, textarea {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    resize: vertical;
+}
+
+input[type=text]:focus{
+    border: 3px solid #555555;
+}
+
+input[type=submit] {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 25%;
+} 
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: "Montserrat",bold, sans-serif;
+    font-size: 22px;
+    text-decoration: bold;
+}
+
+.col-25 {
+    float: left;
+    width:25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top:6px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  table {
+      border-collapse: collapse;
+      width: 50%;
+  }
+
+  th, td {
+      text-align: center;
+      padding: 8px;
+  }
+
+  tr:hover
+  {
+      background-color: #f5f5f5;
+  }
+
+  th {
+      background-color: #4caf50;
+      color: white;
+  }
