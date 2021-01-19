@@ -1,0 +1,110 @@
+*{font-family: 'Source Sans Pro ', italic;
+font0weight:bold;}
+
+header{
+width:100%;
+position:fixed;
+position:sticky;
+
+}
+.me{float:left;}
+  li {
+      float: right;
+    }
+h1{color:gainsboro;}
+h2{color:cornsilk;}
+h3,h4{color:#FFE4E1;}
+h1{
+text-align:center;
+}
+h2{
+margin:2em;
+border:5px;
+width:auto;}
+
+body
+{background-image:url('are.jpg');
+background-repeat:no-repeat;
+background-size: 10000px 8000px;
+  background-attachment: fixed;
+  background-size: cover;}
+
+navbar{color:white;}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+  position: -webkit-sticky; /* Safari */
+  position:fixed;
+  top: 0;
+}
+
+ li a {
+      display: block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+ 
+
+.About{text-align:center;
+width:auto;}   
+    
+i{color:chocolate;}
+header{background-color:black;}
+
+
+footer
+{
+background-color:black;
+display:inline-block;
+ text-align: center;
+}
+ 
+
+.carousel-inner img {
+    width: 30%;
+    height: 30%;
+  }
+
+ .row text-center
+{color:black;}
+ 
+
+form{height:20%;
+margin:2em;
+}
+
+.body{height:50px;
+width:1000px;}
+width:40%;
+}
+
+.send-btn btn btn-lg{color:white;}
+
+.card
+{background-color:#DAA520;
+background-image:url("re.jpg");
+background-attachment: fixed;
+paddng:1em;
+margin:5em;
+border:2px;
+height:60%;
+width:80%;
+}
+.card5{width:100%;
+content-align:center;
+magin:5em;}
+
+.card,card-body
+{paddng:1em;
+margin:5em;
+border:2px;
+height:60%;
+width:80%;}
+
+.Skills{text-align:center;}
+.card mb-3{width:50%;}
+
+.About i{color:white;}
