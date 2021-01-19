@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - HTML</title>
+    <style>
+        header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+h2,h3,h4{
+    text-decoration: underline;
+}
+
+body{
+    text-align: center;
+    background: yellowgreen;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+img {
+padding: 5px;
+width: 550px;
+}
+
+footer {
+    background-color: bisque;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <header><h1>Welcome to Project 1 - Barebones Portfolio </h1></header>
+    <form action="">
+        <h3>CONTACT FORM</h3>
+        <p>FIRST NAME: <input type="text" name="name" required></p>
+        <p>LAST NAME: <input type="text" name="name" required></p>
+        <fieldset><legend>Gender: </legend>
+            <p> 
+            Male <input type="radio" name="gender" required>
+            Female<input type="radio" name="gender" required>
+        </p>
+        </fieldset>
+        <p>Age <input type="number" name="number" id="number" min=1 max=100 required></p>
+        <p>Phone number <input type="number" name="number" id="number" min=10 max=13 required></p>
+        <p>
+            Email: <input type="email" name="email" id="email" required>
+        </p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+    <br>
+    <h2>TABLE</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Subject</th>
+            <th>Theory</th>
+            <th>Practical</th>
+            <th>Total</th>
+            <th>Grades</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>JAVA</td>
+                <td>80</td>
+                <td>87</td>
+                <td>90</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>90</td>
+                <td>100</td>
+                <td>95</td>
+                <td>S</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>82</td>
+                <td>75</td>
+                <td>80</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">RESULT: PASS</th>
+        </tfoot>
+
+    </table>
+    
+    <h3>IMAGES AND VIDEOS</h3>
+    <div>
+    <img src="img.jpg" alt="...">
+    <div></div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DcN_hcHXR_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+       
+</body>
+<br>
+<footer>
+    <h3>FOOTER</h3>
+    <a href="#">FAQ</a>
+    <a href="#">Contact</a>
+    <a href="#">Privacy policy</a>
+    <a href="#">&copy;Kritika</a>
+
+</footer>
+</html>
