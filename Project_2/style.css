@@ -1,39 +1,162 @@
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+
+}
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* body */
-body{
-    background: white;
-    color: black;
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: var(--primary);
 }
 
-/* header */
+p{
+  font-family: 'Lato', sans-serif;
+}
+
+/* header-start*/
+
 header{
-    width: 65%;
-    margin: 1rem;
-    margin-left: 35%;
-    border-radius: 2rem;
-    background: rgb(34, 48, 61);
-}
+  background: var(--dark);
+  padding: 1rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+ }
 
 header ul{
-    display: flex;
-    justify-content: space-evenly;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-header li{
-    list-style: none;
-    padding: 1rem;
+header ul li{
+  list-style: none;
 }
 
-header li a{
-    text-decoration: none;
-    color: white;
+header li a {
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
 header li a:hover{
-    border-bottom: 2px solid white;
+  color: black;
+  background: var(--primary);
+}
+
+/* header-end */
+
+.home{
+  background: linear-gradient(to right,var(--secondary), var(--primary));
+  padding: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home h2{
+  margin-top: 1rem;
+  font-size: 3rem;
+  color: var(--pure);
+  padding: 2rem;
+  font-weight: 400;
+}
+
+.home span{
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.home .name{
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.home .image{
+  width: 50%;
+}
+
+.image img{
+  width: 60%;
+  border-radius: 2rem;
+  margin-left: 25%;
+}
+
+.home p{
+  font-size: 1.5rem;
+  padding: 2rem;
+  font-weight: 200;
+}
+
+/* home-end */
+
+/* about-start */
+.about{
+  padding: 2rem;
+  background: var(--light);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about div{
+    width: 40%;
+    margin-top: 2rem;
+}
+
+.about h2{
+  color: var(--dark);
+  text-align: center;
+  cursor: pointer;
+}
+
+.about p{
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+video{
+  width: 50%;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+}
+
+.about span{
+    color: var(--ternary);
+}
+/* about-end */
+
+.experience{
+    padding: 2rem;
+    background: var(--pure);
+}
+
+.experience h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;  
+    color: var(--primary);
+    font-weight: bolder;
+}
+
+.experience p{
+    padding-left: 2rem;
+}
+.experience ul{
+    padding-left: 4rem;
+    padding-top: 10px;
+    list-style: inside;
 }

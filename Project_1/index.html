@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="/DSC-30-Days-of-Web/Project_2/style.css">
 </head>
 <body>
@@ -12,22 +14,25 @@
         <nav>
             <ul>
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT ME</a></li>
-                <li><a href="#">CONTACT ME</a></li>
-                <li><a href="#">FOLLOW ME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">EXPERIENCE</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">BLOGS</a></li>
+                <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="Home">
-        <hr>
+    <section class="home">
+        
         <div class="name">
             <h2>
-                I'm Peter Parker, 
+                I'm <span>Ashutosh Yadav... </span>
             </h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quia a hic nostrum doloremque accusamus molestiae, perferendis facilis cupiditate veniam illo, eos dolore reprehenderit,
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo laudantium aspernatur repellendus vitae saepe unde exercitationem aliquam et ab!
                 qui adipisci nobis voluptatum harum mollitia accusantium!
             </p>
         </div>
@@ -37,27 +42,49 @@
     </section>
 
     <!-- About Me -->
-    <section class="aboutMe">
-        <h2>ABOUT ME</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, dignissimos! Nobis, adipisci iusto, ad nostrum obcaecati minus exercitationem perspiciatis reiciendis saepe vitae commodi, expedita quos ducimus suscipit quo corrupti repellendus.
-        </p>
-        <video src="./video.mp4" controls></video>
+    <section class="about">
+        <video width="100%" autoplay controls>
+            <source src="./video.mp4" type="video/mp4">
+            <source src="./video.wav" type="video/ogg">
+        </video>
+        <div>
+            <h2>ABOUT <span> ME ...</span></h2>
+            <p>
+                Loremlit. Nesciunt error, quia quas architecto quaerat magnam suscipit doloremque ratione fuga, dolor delectus expedita perspiciatis recusandae esse repellendus sunt fugit voluptas aspernatur!<br>
+                Lorem ipsum dolor sit amet consecisicing elit. Dolor cumque sit maxime, asperiores commodi architecto molestias rerum ipsum, suscipit unde possimus non excepturi nulla expedita doloremque quasi consectetur? Atque, eius.<br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt error, quia quas architecto quaerat magnam suscipit doloremque ratione fuga, dolor delectus expedita perspiciatis recusandae esse rur!<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque sit maxime, asperiores commodi architecto molestias rerum ipsum, suscipit unde possimus non excepturi nulla expedita doloremque quasi consectetur? Atque, eius.<br>
+                ci iusto, ad nostrum obcaecati minus 
+            </p>
+        </div>
+        
+        
     </section>
 
     <section class="experience">
         <h2>Experiences</h2>
         <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem vero maxime explicabo similique. Illum, culpa animi nam deleniti ducimus cumque ad assumenda quas repellat quae, asperiores quasi rem nesciunt.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem vero maxime explicabo similique. Illum, culpa animi nam deleniti ducimus cumque ad assumenda quas repellat quae, asperiores quasi rem nesciunt
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem vero maxime explicabo similique. Illum, culpa animi nam deleniti ducimus cumque ad assumenda quas repellat quae, asperiores quasi rem nesciunt..
         </p>
+        <br>
         <p> 
              My skills include:
-             <ul>
-                 <li>Java</li>
-                 <li>Swing</li>
-                 <li>HTML5</li>
-                 <li>CSS</li>
-             </ul>
+                <table>
+                    <tr>
+                        <th>Skills</th>
+                        <th>Ratings</th>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>
+                            <div class="bar-container">
+                                <div class="bar-5"></div>
+                          </div>
+                        </td>
+                        
+                    </tr>
+                </table>
         </p>
         <hr>
     </section>
