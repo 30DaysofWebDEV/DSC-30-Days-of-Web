@@ -1,0 +1,122 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #fc00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00dbde,
+    #fc00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00dbde,
+    #fc00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  overflow-x: hidden;
+}
+
+nav.navbar {
+  border-bottom: 4px solid rgb(155, 155, 255);
+}
+
+nav.navbar a.navbar-brand {
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  margin-top: 80px;
+  font-size: 2.6em;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Times New Roman", Times, serifs;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+h3 {
+  margin: 10px 140px;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(24, 11, 211);
+  animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+h5 {
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  color: rgb(231, 0, 19);
+}
+
+h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(231, 0, 19);
+}
+
+div.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container img#one {
+  animation: 1s ease-out 0s 1 slideInFromBottom;
+  width: 60%;
+  height: 50%;
+}
+
+div.container img {
+  width: 40%;
+  height: 40%;
+  margin: 10px 0;
+}
+
+div.container p {
+  margin: 10px 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+  h1 {
+    margin-top: 120px;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
