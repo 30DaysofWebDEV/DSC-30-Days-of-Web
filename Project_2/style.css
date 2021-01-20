@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    background: white;
+    color: black;
+}
+
+/* header */
+header{
+    width: 65%;
+    margin: 1rem;
+    margin-left: 35%;
+    border-radius: 2rem;
+    background: rgb(34, 48, 61);
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header li{
+    list-style: none;
+    padding: 1rem;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+}
+
+header li a:hover{
+    border-bottom: 2px solid white;
+}
