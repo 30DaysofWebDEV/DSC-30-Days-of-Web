@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1595453417723-98fecb536625?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+div.container {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 100px 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: "Libre Baskerville", serif;
+  animation: leftMove 1s ease-in 0.1s 1 normal forwards;
+}
+
+div.container h3 {
+  font-size: 25px;
+  font-family: "Arvo", serif;
+  animation: downMove 1s ease-in 0.1s 1 normal forwards;
+}
+
+div.container button.btn {
+  color: white;
+  outline: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 0;
+  border: 2px solid white;
+  transition: all 0.3s ease-out;
+  padding: 5px 15px;
+  font-family: "Open Sans", sans-serif;
+  animation: rightMove 1s ease-in 0.1s 1 normal forwards;
+}
+
+div.container button.btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  div.container {
+    background-color: #fff;
+    margin: 100px 60px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@keyframes leftMove {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes rightMove {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes downMove {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
