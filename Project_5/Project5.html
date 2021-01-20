@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Project 3</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <style>
+        header h1 {
+            text-align: center;
+            font-size: 40px;
+            color: black;
+        }
+
+        h2,
+        h3,
+        h4 {
+            margin: 0 30% 0 30%;
+            text-decoration: underline;
+        }
+
+        body {
+            text-align: center;
+            background: linear-gradient(#b6f256, #2f80ed);
+            margin: 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .jumbotron {
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 0 30%;
+            color: #fff;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
+        img {
+            padding: 5px;
+            width: 550px;
+        }
+
+        footer {
+            background-color: bisque;
+    overflow: hidden;
+        }
+
+        .center {
+            margin: 0 30% 0 30%;
+        }
+
+        footer a {
+            text-decoration: none;
+            padding: 20px;
+            float: left;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>PORTFOLIO</h1>
+    </header>
+    <h3>CONTACT FORM</h3>
+
+    <div class="jumbotron">
+        <form action="">
+            <p>FIRST NAME: <input type="text" name="name" required></p>
+            <p>LAST NAME: <input type="text" name="name" required></p>
+            <legend>Gender: </legend>
+            <p>
+                Male <input type="radio" name="gender" required>
+                Female<input type="radio" name="gender" required>
+            </p>
+            <p>Age <input type="number" name="number" id="number" min=1 max=100 required></p>
+            <p>Mobile Number <input type="number" name="number" id="number" min=10 max=13 required></p>
+            <p>
+                Email: <input type="email" name="email" id="email" required>
+            </p>
+            <p><input class="btn btn-secondary" type="submit" value="Submit"></p>
+        </form>
+    </div>
+    <br>
+
+    <h4>IMAGES AND VIDEOS</h4>
+    <div class= "row" style="padding:0 10%;">
+        <div class="col"><img src="img.jpg" alt="..."></div>
+        <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/DcN_hcHXR_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBMjWZV9cAvr3a_x9AP45eDlmiVfeNI0TY",
+    authDomain: "dsc-project-f0eb6.firebaseapp.com",
+    projectId: "dsc-project-f0eb6",
+    storageBucket: "dsc-project-f0eb6.appspot.com",
+    messagingSenderId: "919150702409",
+    appId: "1:919150702409:web:592daad8a1984cff4c7498"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+</body>
+<br>
+<footer class="overflow-hidden">
+    <h4>FOOTER</h4>
+    <div class="center">
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">&copy;Kritika</a>
+    </div>
+</footer>
+
+</html>
