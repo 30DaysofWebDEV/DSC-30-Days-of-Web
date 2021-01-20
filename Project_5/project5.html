@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio!!</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <style>
+        header h1 {
+            text-align: center;
+            font-size: 40px;
+            color: black;
+        }
+
+        h2,
+        h3,
+        h4 {
+            background-color: #f2c94c;
+            margin: 0 30% 0 30%;
+        }
+
+        body {
+            text-align: center;
+            background: linear-gradient(#56ccf2, #2f80ed);
+            margin: 0px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .jumbotron {
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 0 30%;
+            color: #fff;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
+        img {
+            border: 1px solid #ddd;
+            border-radius: 50px;
+            padding: 5px;
+            width: 550px;
+        }
+
+        footer {
+            background-color: #333;
+        }
+
+        .center {
+            margin: 0 30% 0 30%;
+        }
+
+        footer a {
+            text-decoration: none;
+            padding: 20px;
+            text-align: center;
+            float: left;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>PORTFOLIO</h1>
+    </header>
+    <h3>CONTACT</h3>
+
+    <div class="jumbotron">
+        <form id="form" onSubmit="myFunction()">
+            <p>FIRST NAME: <input type="text" id="firstname" name="fname" required></p>
+            <p>LAST NAME: <input type="text" id="secondname" name="name" required></p>
+            <legend>Gender: </legend>
+            <p>
+                Male <input type="radio" name="gender" required>
+                Female<input type="radio" name="gender" required>
+                Other<input type="radio" name="gender" required>
+            </p>
+            <p>Age <input type="number" name="number" id="number" min=1 max=100 required></p>
+            <p>Mobile Number <input type="text" name="number" id="text" min=10 max=13 required></p>
+            <p>
+                Email: <input type="email" name="email" id="email" required>
+            </p>
+            <p><input class="btn btn-secondary" type="submit"></p>
+        </form>
+    </div>
+    <br>
+    <h2>TABLE</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Theory</th>
+                <th>Practical</th>
+                <th>Total</th>
+                <th>Grades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>English</td>
+                <td>100</td>
+                <td>95</td>
+                <td>98</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>99</td>
+                <td>100</td>
+                <td>75</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>81</td>
+                <td>90</td>
+                <td>67</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">RESULT: PASS</th>
+        </tfoot>
+
+    </table>
+
+    <h4>IMAGES AND VIDEOS</h4>
+    <div class="row" style="padding:0 10%;">
+        <div class="col"><img
+                src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                alt="oops" style="width=" 550"; height="310" ;"></div>
+        <div class="col"><iframe width="550" height="310" src="https://www.youtube.com/embed/83HS55IbiZQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyATQnC1_QJntq8XJqTI299PLjHaNons2i8",
+            authDomain: "dsc-project-e647e.firebaseapp.com",
+            projectId: "dsc-project-e647e",
+            storageBucket: "dsc-project-e647e.appspot.com",
+            messagingSenderId: "30084404948",
+            appId: "1:30084404948:web:36ae0975ccb02006d08d41"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+</body>
+<br>
+<footer class="overflow-hidden">
+    <h4>FOOTER</h4>
+    <div class="center">
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">&copy;2021 Nishant</a>
+    </div>
+</footer>
+
+
+</html>
