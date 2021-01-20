@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style copy.css">
   <title>Shubhamzope</title>
 </head>
 
@@ -154,59 +154,79 @@
   <div id="contact" class="container-fluid bg-white text-dark">
     <h2 class="display-4">Contact Us</h2>
     <br>
-    <form>
-      <div class="row">
-        <div class="col d-flex">
-          <label for="text" class="col-sm-2 row col-form-label">Name</label>
-          <input type="text" class="form-control col-sm-9 " placeholder="First name" aria-label="First name">
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-        </div>
-      </div>
-      <br>
-      <div class="mb-3 row">
-        <label for="staticEmail" class="col-sm-1 col-form-label">Email</label>
-        <input type="email" class="form-control is-invalid col-xl-8" id="floatingInputInvalid" placeholder="name@example.com"
-          value="test@example.com">
-        <label id="text" for="floatingInputInvalid">Invalid input</label>
-      </div>
-        <div class="col-xl-9 row d-flex">
-          <label class="visually-hidden d-flex" for="inlineFormInputGroupUsername">Username</label>
-          <div class="input-group d-flex ">
-            <div class="input-group-text d-flex">@</div>
-            <input type="text" class="form-control d-flex" id="inlineFormInputGroupUsername" placeholder="Username">
-          </div>
-        </div>
+    
+      <div class="row container-fluid">
+        <div  class="container-fluid col ">
+          <table class=" container-fluid ">
+            <tr class="container-fluid">
+                <td class="container-fluid">
+                    <form class="container-fluid" name="myform" onsubmit="event.preventDefault();onFormSubmit();return testDupes();">
+                      
+                      <label for="text" id="fullNameValidationError" class="col-sm-2 row col-form-label">Full Name</label>
+                      <input type="text" id="title" class="form-control col-sm-9  " placeholder="First name" aria-label="First name">
+                      
+                    </div>
+                  </div>
+                  <br>
+                  <div class="mb-3 row">
+                    <label for="staticEmail" class="col-sm-1 col-form-label">Email</label>
+                    <input type="email" id="email" class="form-control is-invalid col-xl-8"  onfocus="this.value=''" id="floatingInputInvalid" placeholder="name@example.com"
+                      value="test@example.com">
+                    <label id="text" for="floatingInputInvalid">Invalid input</label>
+                  </div>
+                  <div class="mb-1 row">
+                    <label for="inputNumber" class="col-sm-1 col-form-label">Ph.number</label>
+                    <div class="col-sm-4">
+                      <input type="tel" id="pnnum" class="form-control"  onfocus="this.value=''" value="999999999" maxlength="10" id="inputNumber">
+                    </div>
+                    <br>
+                    <div class="col d-flex">
+                      <label for="text-area" class="col-sm-2 row col-form-label">message</label>
+                      <input type="text" id="area" class="form-control" placeholder="any thing to ask/tell" aria-label="message">
+                    </div>
+                  </div>
+                    <br>
+                    <br>
+                    <div class="col-13">
+                      <button type="submit" id="submit" class="btn btn-outline-success"s>Submit</button>
+                        <button id="btn" type="reset" class="btn btn-outline-danger" onclick=" resetForm()">Clear</button>
+                    </form>
+                </td>
+                <br>
+                <div id="flexbox" class="container-fluid d-flex justify-content-evenly">
+                <td>
+                   
+                </td>
+            </tr>
+        </table>
         <br>
-        <div class="mb-1 row">
-          <label for="inputPassword" class="col-sm-1 col-form-label">Password</label>
-          <div class="col-sm-4">
-            <input type="password" class="form-control" id="inputPassword">
-          </div>
-        </div>
-        <br>
-        <div class="col-13">
-          <button type="submit" class="btn btn-outline-success">Submit</button>
-            <button id="btn" type="reset" class="btn btn-outline-danger">Clear</button>
-          
-        </div>
-        
-      </form>
- 
+        <table class="list table container-fluid table-hover" id="employeeList">
+          <thead  class="container-fluid">
+              <tr>
+              
+                  <div id="fName" class="p-2 bd-highlight d-flex justify-content-evenly"><th>Full Name</th></div>
+                <div id="Email" class="p-2 bd-highlight d-flex justify-content-evenly"><th>Email</th></div>
+                <div id="Phnumber" class="p-2 bd-highlight d-flex justify-content-evenly"><th>Ph.NUmber</th></div>
+                <div id="Dm" class="p-2 bd-highlight d-flex justify-content-evenly"><th>Message</th></div>
+                <div class="p-2 bd-highlight d-flex justify-content-evenly"><th>Date</th></div>
+                  <th></th>
+              </tr>
+          </thead>
+          <tbody  class="container-fluid" >
 
-  </div>
-  <footer>
-   
-</footer>
-<footer class="footer mt-auto py-4 bg-dark justify-content-end text-white">
-  <div class="container d-flex justify-content-end text-white">
-  <p>Designer:Shubham zope<br>
-      <a href="mailto:shubhamzope1@gmail.com">shubhamzope1@gmail.com</a>
-  </p>
-  </div>
-</footer>
- 
+          </tbody>
+      </table>
+    </div>
+      
+
+  <footer id="foot" class=" container-fluid footer mt-auto py-4 bg-dark justify-content-end text-white">
+    <div class="container-fluid d-flex justify-content-end text-white">
+    <p>Designer:Shubham zope<br>
+        <a href="mailto:shubhamzope1@gmail.com">shubhamzope1@gmail.com</a>
+    </p>
+    </div>
+  </footer>
+
 
 
 
@@ -221,6 +241,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script src="style.js"></script>
+ 
+   
 </body>
 
 </html>

@@ -3,6 +3,7 @@ body,
 header,
 #intro{
     height: 100%;
+    margin: 0 auto;
     
 }
 .navbar{
@@ -66,9 +67,10 @@ hr{
     padding-bottom: 3rem;
    
 }
-footer{
-    margin: 3rem 0;
-}
+
 .tebale-heading{
     margin: 10rem 0 2rem;
+}
+#employeeList{
+ margin-top: -6%;
 }
