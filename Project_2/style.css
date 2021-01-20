@@ -1,0 +1,50 @@
+*{
+	margin: 10;
+	padding: 50;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(bgimg.jpg);
+    height: 100vh;
+    background-size: cover;
+	background-position: center;
+}
+h1{
+    color: #e6dada;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(headerpic.jpg);
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+h3{
+    text-align: center;
+}
+table{
+    width: 100%;
+    align-self: center;
+}
+td{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+}
+
+footer{
+    float: right;
+    font-size: larger;
+}
+
+.p1{
+    text-align: right;
+}
+.Intro{
+    text-align: center;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
