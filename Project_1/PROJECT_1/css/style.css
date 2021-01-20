@@ -1,0 +1,111 @@
+body{
+    margin: 3%;
+    padding: 20px;
+    margin: 20px;
+    
+}
+header{
+    background-color:dodgerblue;
+    padding:5%;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    font-size:30px ;
+}
+p{
+    font-size: 20px;
+    text-transform: capitalize;
+    background-image: url("6649.jpg");
+}
+table{
+    border-color: blackS;
+    position: relative;
+    align-content: center;
+    
+}
+.youtube{
+  display: inline-block;
+  margin: 3%;
+  padding: 10px;
+  align-content: center;
+}
+
+
+.cal{
+  border:2px solid;
+	border-radius: 25px 25px 0px 0px;
+  background-color:rgb(63, 167, 236);
+  	border-spacing: 0;
+}
+.cal caption{
+  border:3px solid black ;
+ border-radius:25px 25px 0px 0px;
+  background-color:#4E8975;
+ text-transform:uppercase;
+ color:#FFFFFF;
+
+  font-size:200%;
+}
+
+.cal th, .cal td{
+	margin: 2px;
+	padding-bottom: 2px;
+}
+th{
+  height:20px;
+  text-transform:uppercase;
+  background:#e2b63e;
+  padding:15px ;
+}
+
+tr:nth-child(odd){
+  background:#E0FFFF;
+}
+tr:nth-child(even){
+  background:#3B9C9C;
+}
+.cal td{
+  width:75px;
+  height:75px;
+  vertical-align:top;
+  border:1px solid black;
+}
+td:active>span{
+  visibility:visible;
+}
+tr:last-child{
+  border-radius:0 0 25px 0;
+}
+tr:last-child>td:first-child {
+	-webkit-border-radius: 0 0 0 25px;
+	border-radius: 0 0 0 25px;	
+}
+tr:last-child>td:last-child{
+	-webkit-border-radius: 0 0 25px 0;
+	border-radius: 0 0 25px 0;	
+}
+td{
+    padding: 10px;
+    margin: 3px;
+}
+form{
+    background-color: lightblue;
+    padding:5%;
+    }
+button{
+    align-content:center;
+}
+.BG{
+
+  margin: 3%;
+  padding: 15px;
+  background-image:url("../8401.jpg");
+  background-size:720px 720px;
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+footer{
+  background-color:dodgerblue;
+  padding:3%;
+  border-radius: 0px 0px 25px 25px;
+}
