@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(
+    to right bottom,
+    rgba(245, 240, 240, 0.904),
+    rgba(5, 238, 44, 0.452)
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+.logo {
+  font-family: "Homemade Apple";
+  text-decoration: underline;
+  color: blue;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.avaImg {
+  width: 40%;
+  height: 70%;
+}
+.name {
+  font-family: "Yellowtail", cursive;
+}
+
+.infodiv {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+  font-family: "Audiowide", cursive;
+}
+
+.info {
+  max-width: 50%;
+}
+
+.aboutImage {
+  width: 20%;
+  height: 80%;
+}
+
+.box {
+  background: transparent;
+  margin: 2vh;
+  min-height: 50vh;
+  min-width: 20vw;
+  transition: all 1s ease;
+  border-radius: 500px;
+  box-shadow: 0 2px 50px rgb(126, 146, 128);
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(19, 51, 78);
+}
+
+.box > p {
+  display: none;
+}
+.box:hover {
+  transform: scale(1.3);
+  padding: 2rem;
+  width: fit-content;
+  backdrop-filter: blur(100px);
+  background: transparent;
+  z-index: 2;
+  box-shadow: 0 2px 40px black, 0 2px 40px rgba(161, 224, 253, 0.856) inset;
+}
+.box:hover > p {
+  display: block;
+}
+
+.contact_form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.contact_form > div > h1 {
+  font-family: "Audiowide", cursive;
+  font-size: 3em;
+  text-align: center;
+}
+.contact_form > div > div {
+  display: flex;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 25vw;
+  border: 1px solid gray;
+  border-radius: 30px;
+  margin: 2vw;
+  padding: 20px;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: 0 0 10px white;
+  font-family: "Audiowide", cursive;
+}
+textarea {
+  width: 25vw;
+  border: 1px solid gray;
+  border-radius: 30px;
+  margin: 2vw;
+  padding: 20px;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: 0 0 10px white;
+  font-family: "Audiowide", cursive;
+}
+input[type="text"]:focus,
+textarea:focus,
+input[type="submit"] {
+  outline: none;
+}
+input[type="submit"] {
+  height: 7vh;
+  width: 25vw;
+  margin: 2vw;
+  background: none;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+input[type="submit"]:hover {
+  background-color: lightblue;
+}
+
+.social {
+  width: fit-content;
+  display: grid;
+  text-align: center;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  font-family: "Audiowide", cursive;
+}
