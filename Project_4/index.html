@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+   <div id='container'>
+    <div id="content">
+      <div class="heading">
+        <h2> TO DO </h2>
+        <div class="theme-toggle">
+            <span class="grey-color" id="mode-text">Dark Mode</span>
+            <label class="switch">
+                <input type="checkbox" id="toggle-btn">
+                <span class="slider round"></span>
+            </label>
+        </div>
+      </div>
+        <header id='header' class="header-1">
+            <input type="text" id="myInput" placeholder="Create a new todo...">
+            <div onclick="newElement()" id="addBtn" title= 'Add to the list'>+</div>
+        </header>
+        <section>
+
+            <ul class='list' id="list">
+                <li class='checked'>I am a completed task</li>
+                <li>I am a task in progress</li>
+                <li class='checked' >Go to the Mall</li>
+                <li>Buy food stuff, toiletries and beverages</li>
+                <li class='checked'>Read a novel</li>
+                <li>Code for 2 hours</li>
+            </ul>
+            <div id="trackTasks">
+                <div id="taskNum"></div>
+                <div class="filters">
+                    <div class="filter-all filter active">All</div>
+                    <div class="filter-active filter">Active</div>
+                    <div class="filter-completed filter">Completed</div>
+                </div>
+                <div class="clear-completed filter" >Clear Completed</div>
+
+            </div>
+            <div id="filters-2">
+                <div class="filter-all filter active">All</div>
+                <div class="filter-active filter">Active</div>
+                <div class="filter-completed filter">Completed</div>
+            </div>
+        </section>
+
+        <div id='footer' style='color: grey;'><p>Shubham Khuntia  &copy; 2021</p></div>
+    </div>
+   </div>
+
+
+
+
+    <script  src="script.js"></script>
+    <script src="script2.js"></script>
+
+</body>
+</html>
