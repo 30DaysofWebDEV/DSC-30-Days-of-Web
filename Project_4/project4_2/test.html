@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="w3.css" rel="stylesheet"/>
+    <title>Contact Form</title>
+    <style>
+        body {  
+  /* background-image: url('puneimg.jpg'); */
+  /* background-size: 48px; */
+   
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  
+} 
+    </style>
+</head>
+<body>
+    <h1 class="w3-center w3-animate-top w3-animate-opacity">Contact Form</h1>
+    <div class="container">
+        <form class="w3-center w3-animate-top w3-animate-opacity">
+            <label class="w3-text-black">First Name</label>
+            <input type="text" id="firstname" class="w3-input w3-border w3-round"/>
+            <label class="w3-text-black">last Name</label>
+            <input type="text" id="lastname" class="w3-input w3-border w3-round"/>
+            <label class="w3-text-black">Email</label>
+            <input type="text" id="email" class="w3-input w3-border w3-round"/>
+            <label class="w3-text-black">Phone Number</label>
+            <input type="tel" id="phone " class="w3-input w3-border w3-round"/>
+            <p>
+                <button class="w3-button w3-green">submit</button>
+            </p>
+            
+        </form>
+    </div>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="savy.min.js"></script>
+        <script>
+            $(function(){
+                $('.w3-input').savy('load');
+                $('.destory').click(function(){
+                    $('.w3-input').savy('destory');
+                })
+            })
+
+        </script>        
+        
+</body>
+</html>
