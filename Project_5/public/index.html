@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My portfolio</title>
+		<!--bootstrap-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<!--font awesome-->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
+		/>
+		<!--animate.css-->
+		<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+  />
+		<link rel="stylesheet" href="responsive.css" />
+		<!--google fonts-->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			* {
+				font-family: "Poppins", sans-serif;
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			body {
+				color: #888888;
+			}
+			#top-wrapper {
+				background-image: url("windows-C6T6vr1sQI0-unsplash.jpg");
+				background-repeat: no-repeat;
+				background-attachment: scroll;
+				background-size: cover;
+				padding: 393px 0 360px 0;
+			}
+			.top-wrapper-content {
+				position: absolute;
+				content: "";
+				width: 100%;
+				z-index: 5;
+				background: rgba(23, 26, 29, 0.85);
+				height: 100%;
+				top: 0;
+				bottom: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+				color: white;
+				word-spacing: 5px;
+			}
+			.heading {
+				font-size: 40px;
+				background: -webkit-linear-gradient(#3ae010, rgb(255, 251, 32));
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+			.icon {
+				margin: 20px;
+				padding: 16px 18px;
+				color: #b4b4b4;
+				font-size: 24px;
+				border: 1px #b4b4b4 solid;
+				border-radius: 50%;
+				transition: 0.4s;
+			}
+			.fa-twitter:hover {
+				color: #1da1f2;
+				border-color: #1da1f2;
+				transform: translateY(15px) scale(0.9);
+			}
+			.fa-facebook {
+				padding: 16px 21px;
+			}
+			.fa-facebook:hover {
+				color: #43609c;
+				border-color: #43609c;
+				transform: translateY(15px) scale(0.9);
+			}
+			.fa-instagram:hover {
+				color: #e1306c;
+				border-color: #e1306c;
+				transform: translateY(15px) scale(0.9);
+			}
+			.fa-linkedin:hover {
+				color: #0077b5;
+				border-color: #1da1f2;
+				transform: translateY(15px) scale(0.9);
+			}
+			.fa-github:hover {
+				color: #000;
+				border-color: #000;
+				transform: translateY(15px) scale(0.9);
+			}
+			header {
+				height: 60px;
+				text-align: center;
+				font-weight: bold;
+				display: flex;
+				justify-content: center;
+				background-color: #e4e4e4;
+			    position: sticky;
+				z-index:1000;
+				top:0px;
+			}
+			.link {
+				color: black;
+				text-decoration: none;
+				padding: 20px 30px;
+			}
+			.link:hover {
+				color: #1df228;
+			}
+			.head1, .head3 {
+				margin: 27px;
+				font-size: 36px;
+				text-align: center;
+				color: black;
+			}
+			strong {
+				font-size: 30px;
+				padding-bottom: 10px;
+				color: black;
+			}
+			ul {
+				list-style-type: none;
+			}
+			
+			#content{
+				background-color:black;
+				padding-bottom: 30px; 
+			}
+			.head2, .head4{
+				text-align:center;
+				color:white;
+				padding:40px;
+				font-size:36px;
+			}
+			
+			.lesson{
+				width:25%;
+				float: left;
+			}
+			.txt-content{
+				margin:20px;
+			}
+			.font{
+				font-size:70px;
+				border-bottom:1px dotted #3ae010;
+				margin:40px;
+				padding-bottom: 20px;
+				width:50%;
+				background: -webkit-linear-gradient(#3ae010, rgb(255, 251, 32));
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+			.flex-list{
+				display:flex;
+				flex-wrap:wrap;
+			}	
+			.li1{
+				flex:auto;
+				width:25%;
+			}
+			.li1 img{
+				transition: 0.6s;
+			}
+			.li1 img:hover{
+				opacity:0.5;
+				transform:scale(1.08);
+			}
+			#contact-me{
+				background-color: black;
+			}
+            .para{
+				color:#fff;
+			}
+			input[type="text"], input[type="email"], textarea{
+				border:1px solid #888888;
+				padding:18px;
+				background:transparent;
+				width:60%;
+				color:white;
+			}
+			input:focus, textarea:focus{
+				outline:none;
+                border-color:#3ae010;
+                box-shadow:0 0 10px #3ae010;
+			}
+			span{
+				background: -webkit-linear-gradient(#3ae010, rgb(255, 251, 32));
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+			.button{
+				padding:8px 30px;
+				background-image: linear-gradient( 105deg,  rgba(45,223,35,1) 16.3%, rgba(242,242,28,1) 95.1% );
+				font-weight:bold;
+				color:white;
+				margin:0 0 0 320px;
+				transition: 0.3s;
+				letter-spacing:4px;
+			}
+			.button:hover{
+				letter-spacing:1px;
+				opacity:0.8;
+			}
+			.back{
+				background-color:black;
+			}
+			.btn1{
+		position: absolute;
+		top:0;
+		right:0;
+		color:white;
+		padding:10px 20px;
+		border: 2px white solid;
+		border-radius:20px;
+		margin: 20px 20px 0px 0px;
+		z-index: 100;
+		text-decoration: none;
+		transition:0.5s;
+	}
+	.btn1:hover{
+		background-color: white;
+		color:black;
+	}
+			/* For Smartphones */
+@media (max-width: 600px) {
+	.top-wrapper-content{
+		height: 108%;
+	}
+	.im{
+		width:240px;
+	}
+	pre{
+		font-size:8px;
+		text-align:center;
+	}
+	.heading{
+		font-size:30px;
+	}
+	.flex-list {
+		display: flex;
+		flex-direction: column;
+	}
+	.li1 {
+		flex: auto;
+		width: 100%;
+		margin-bottom: 18px;
+		text-align: center;
+	}
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		border: 1px solid #888888;
+		padding: 12px;
+		background: transparent;
+		width: 80%;
+		color: white;
+	}
+	input:focus, textarea:focus{
+				outline:none;
+                border-color:#3ae010;
+                box-shadow:0 0 10px #3ae010;
+			}
+	.link {
+		color: black;
+		text-decoration: none;
+		padding: 15px 8px;
+		font-size:12px;
+    }
+    .button{
+        padding:8px 30px;
+        background-image: linear-gradient( 105deg,  rgba(45,223,35,1) 16.3%, rgba(242,242,28,1) 95.1% );
+        font-weight:bold;
+        color:white;
+        margin:0 0 0 200px;
+	    text-align:center;
+        transition: 0.3s;
+        letter-spacing:4px;
+	}
+	.image{
+		width:330px;
+	}
+}
+
+		</style>
+	</head>
+	<body>
+		<div id="top-wrapper">
+			<div class="top-wrapper-content">
+				<a href="blog.html" class="btn1">Blogs</a>
+				<div class="container animated zoomIn">
+					<h1>HI, I AM DIKSHA</h1>
+					<br />
+					<h1 class="heading">FRONTEND DEVELOPER</h1>
+					<br />
+					<pre>
+Tempora exercitationem aliquam ratione error officia dolore saepe!
+ At quos incidunt eveniet autem placeat suscipit repudiandae.
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+				</pre>
+					<br />
+					<div class="icons">
+						<a href="#"><i class="fa fa-twitter icon" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook icon" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram icon" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-github icon" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header>
+			<a href="#top-wrapper" class="link">HOME</a>
+			<a href="#about us" class="link">ABOUT</a>
+			<a href="#content" class="link">SKILLS</a>
+			<a href="#projects" class="link">PROJECTS</a>
+			<a href="#team" class="link">TEAM</a>
+			<a href="#contact-me" class="link">CONTACT</a>
+		</header>
+		<section id="about us">
+			<div class="container wow fadeInLeft">
+				<h1 class="head1">Who Am I?</h1>
+				<center>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+						ipsam.
+					</p>
+				</center>
+				<div class="row">
+				<div class="col-md-6 col-lg-6 text-center my-4">
+					<img src="undraw_working_late_pukg.svg" width="450" class="image" />
+				</div>
+				<div class="col-md-6 col-lg-6 text-center my-4">
+					<strong>I am a Web Developer.</strong>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+						illum incidunt dolor dolorum et voluptatum quis aut explicabo nisi
+						natus!
+					</p>
+					<br />
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio iure
+						atque nemo rem cumque dolorem qui, earum beatae delectus non aliquam
+						libero quisquam quae at officia quasi?
+					</p>
+					<br />
+					<ul>
+						<li>
+							<i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Eum, maiores?
+						</li>
+						<li>
+							<i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing
+							elit. Asperiores!
+						</li>
+						<li>
+							<i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Explicabo, tempore quisquam.
+						</li>
+						<li>
+							<i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing
+							elit.
+						</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+			</div>
+		</section>
+	<br>
+	<br>
+	<br>
+
+	<section id="content">
+		<div class="container">
+			<h3 class="head2">SKILLS</h3>
+			<p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sed.</p>
+			<div class="row">
+			<div class="col-md-6 col-lg-3 text-center my-4">
+				<i class="fa fa-android font wow fadeIn" aria-hidden="true"></i>
+				<p class="txt-content wow fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique asperiores, accusamus tenetur perferendis aut tempora sed quos optio? Perferendis, recusandae!</p>
+				 </div>
+			<div class="col-md-6 col-lg-3 text-center my-4">
+				<i class="fa fa-html5 font wow fadeIn" aria-hidden="true"></i>
+				<p class="txt-content wow fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique asperiores, accusamus tenetur perferendis aut tempora sed quos optio? Perferendis, recusandae!</p>
+				</div>
+			<div class="col-md-6 col-lg-3 text-center my-4">
+				<i class="fa fa-css3 font wow fadeIn" aria-hidden="true"></i>
+				<p class="txt-content wow fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique asperiores, accusamus tenetur perferendis aut tempora sed quos optio? Perferendis, recusandae!</p>
+			</div>
+			<div class="col-md-6 col-lg-3 text-center my-4">
+				<i class="fa fa-code font wow fadeIn" aria-hidden="true"></i>
+				<p class="txt-content wow fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique asperiores, accusamus tenetur perferendis aut tempora sed quos optio? Perferendis, recusandae!</p>
+				</div>
+			
+		</div>
+	</div>
+	</section>
+	<section id="projects">
+		<h2 class="head3">PROJECTS</h2>
+		<p align="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, labore.</p>
+		<br>
+		<br>
+		<ul class="flex-list">
+			<li class="li1"><img src="https://media4.picsearch.com/is?ZJ2Vn60iOCXKOXVzFizB7jilglVHD6xBV_JneeRUHBc&height=250" class="im"></li>
+			<li class="li1"><img src="https://media1.picsearch.com/is?CsJ6_QrGopZv6QyCpwqnU1IdqtOmXVUa0qvZKRuBs3M&height=300" class="im"></li>
+			<li class="li1"><img src="https://media1.picsearch.com/is?CsJ6_QrGopZv6QyCpwqnU1IdqtOmXVUa0qvZKRuBs3M&height=300" class="im"></li>
+			<li class="li1"><img src="https://media5.picsearch.com/is?a-saCxroD8DgXrfnrOXOzNrngMzwJsqE5aRnhut_3C0&height=250" class="im"></li>
+			<li class="li1"><img src="https://media4.picsearch.com/is?ZJ2Vn60iOCXKOXVzFizB7jilglVHD6xBV_JneeRUHBc&height=250" class="im"></li>
+			<li class="li1"><img src="https://media1.picsearch.com/is?CsJ6_QrGopZv6QyCpwqnU1IdqtOmXVUa0qvZKRuBs3M&height=300" class="im"></li>
+			<li class="li1"><img src="https://media1.picsearch.com/is?CsJ6_QrGopZv6QyCpwqnU1IdqtOmXVUa0qvZKRuBs3M&height=300" class="im"></li>
+			<li class="li1"><img src="https://media2.picsearch.com/is?mbXXBxg_cMeVzmW6p2IQMgwKmdUpokCDQOu9Mu6RnZc&height=250" class="im"></li>
+		</ul>
+	</section>
+	<section id="team">
+		<div class="bg-dark">
+		<div class="container">
+            <div class="row">
+				<!--team member-->
+				<h1 class="display-5 text-center font-weight-bold text-white pt-5">TEAMS</h1>
+				<p class="text-center pt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, reprehenderit.</p>
+				<div class="col-md-4 col-lg-3 my-3 py-4 ">
+				  <div class="card back wow backInDown">
+		  <img src="img\pexels-photo-937481.jpeg" class="card-img-top img-fluid rounded-circle">
+		  <div class="card-body">
+			<h5 class="card-title text-capitalize">team member</h5>
+			<p class="card-text">
+			  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			</p>
+			<a href="" class="btn btn-outline-info text-uppercase">press here</a>
+			</div>
+			<div class="card-footer bg-secondary d-flex justify-content-around align-items-center">
+			  <a href="#">
+				<i class="fa fa-facebook fa-2x text-dark"></i></a>
+		  <a href="#">
+				<i class="fa fa-twitter fa-2x text-dark"></i></a>
+				<a href="#">
+				  <i class="fa fa-linkedin fa-2x text-dark"></i></a>
+				  <a href="#">
+					<i class="fa fa-google fa-2x text-dark"></i></a>
+			</div>
+			</div>
+		  </div>
+				<!--second team member-->
+				<div class="col-md-4 col-lg-3 my-3 py-4 ">
+				  <div class="card back wow backInDown">
+		  <img src="img\pexels-photo-3681591.jpg" class="card-img-top img-fluid rounded-circle">
+		  <div class="card-body">
+			<h5 class="card-title text-capitalize">team member</h5>
+			<p class="card-text">
+			  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			</p>
+			<a href="#" class="btn btn-outline-warning text-uppercase">press here</a>
+			</div>
+			<div class="card-footer bg-secondary d-flex justify-content-around align-items-center">
+			  <a href="#">
+				<i class="fa fa-facebook fa-2x text-dark"></i></a>
+		  <a href="#">
+				<i class="fa fa-twitter fa-2x text-dark"></i></a>
+				<a href="#">
+				  <i class="fa fa-linkedin fa-2x text-dark"></i></a>
+				  <a href="#">
+					<i class="fa fa-google fa-2x text-dark"></i></a>
+			</div>
+			</div>
+		  </div>
+		  <!--third team member-->
+		  <div class="col-md-4 col-lg-3 my-3 py-4 ">
+			<div class="card back wow backInDown">
+		  <img src="img\pexels-photo-2559052.jpeg" class="card-img-top img-fluid rounded-circle">
+		  <div class="card-body">
+		  <h5 class="card-title text-capitalize">team member</h5>
+		  <p class="card-text">
+		  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+		  </p>
+		  <a href="" class="btn btn-outline-success text-uppercase">press here</a>
+		  </div>
+		  <div class="card-footer bg-secondary d-flex justify-content-around align-items-center">
+		  <a href="#">
+		  <i class="fa fa-facebook fa-2x text-dark"></i></a>
+		  <a href="#">
+		  <i class="fa fa-twitter fa-2x text-dark"></i></a>
+		  <a href="#">
+			<i class="fa fa-linkedin fa-2x text-dark"></i></a>
+			<a href="#">
+			  <i class="fa fa-google fa-2x text-dark"></i></a>
+		  </div>
+		  </div>
+		  </div>
+		  <!--fourth team member-->
+		  <div class="col-md-4 col-lg-3 my-3 py-4">
+			<div class="card back wow backInDown ">
+	<img src="img\pexels-photo-937481.jpeg" class="card-img-top img-fluid rounded-circle">
+	<div class="card-body">
+	  <h5 class="card-title text-capitalize">team member</h5>
+	  <p class="card-text">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit.
+	  </p>
+	  <a href="" class="btn btn-outline-primary text-uppercase">press here</a>
+	  </div>
+	  <div class="card-footer bg-secondary d-flex justify-content-around around align-items-center">
+		<a href="#">
+		  <i class="fa fa-facebook fa-2x text-dark"></i></a>
+	<a href="#">
+		  <i class="fa fa-twitter fa-2x text-dark"></i></a>
+		  <a href="#">
+			<i class="fa fa-linkedin fa-2x text-dark"></i></a>
+			<a href="#">
+			  <i class="fa fa-google fa-2x text-dark"></i></a>
+	  </div>
+	  </div>
+	</div>
+		  </div>
+		</div>
+	</div>
+	</section>
+	<section id="contact-me">
+		<div class="container-fluid">
+		<h1 class="head4">Get In Touch</h1>
+		<center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, doloremque!</p></center>
+		<div class="row">
+		<div class="col-md-6 col-lg-6 text-center my-4 wow fadeInLeft">
+			   <p>Diksha Shukla</p>
+			   <p class="para">132, Uttar pradesh, India</p>
+			   <br>
+			   <br>
+			   <p>Call us:</p>
+			   <p class="para">+1 234567890</p>
+			   <br>
+			   <br>
+			   <p>E-mail:</p>
+			   <p class="para">support.sitename@gmail.com</p>
+			</div>
+			<div class="col-md-6 col-lg-6 text-center my-4 wow fadeInLeft" data-wow-delay="1s">
+				<form id="book-form">
+				  <p>Full Name:</p>
+			  <input type="text" id="name" name="fname" placeholder="Name" required>
+			  <br>
+			  <br>
+			  <br>
+			  <p>E-mail:</p>
+			  <input type="email" id="email"name="email" placeholder="email" required>
+			  <br>
+			  <br>
+			  <br>
+			  <p>Message:</p>
+			  <textarea name="message" id="message" cols="60" rows="9" placeholder="Add some text..." maxlength="90"></textarea>
+			  <br>
+			  <input type="submit" class="button" value="Send">
+			</form>
+			</div>
+			</div>
+		<center>
+			<div class="table-responsive-sm">
+			<table class="table mt-5" style="color:white;width:800px;">
+				<thead>
+				<tr style="text-align: center;">
+					<th>Name</th>
+					<th>email</th>
+					<th>message</th>
+					<th></th>
+				</tr>
+				</thead>
+				<tbody id="book-list"></tbody>
+			</table>
+		</div>
+			</center>
+			<br>
+	    <hr>
+		<p style="padding:10px; text-align:center;">Copyright © 2021, Template by <span>website.com</span>.</p>
+		</div>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script>
+		new WOW().init();
+		</script>
+		<script src="script.js"></script>
+	</body>
+</html>
