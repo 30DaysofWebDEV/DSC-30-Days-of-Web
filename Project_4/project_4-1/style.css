@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.formtoadd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(1, 72, 119);
+    color: white;
+}
+
+.Listtask {
+    margin-top: 1%;
+}
+
+.Listtask ul {
+    list-style: none;
+    width: 100%;
+}
+
+.Listtask ul li {
+    background-color: rgb(1, 72, 119);
+    width: 100%;
+    padding: 12px 8px 12px 40px;
+    color: white;
+    position: relative;
+    transition: 1s;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Listtask ul li:nth-child(odd) {
+    background: #087cca;
+    transition: 1s;
+}
+
+
+/* Darker background-color on hover */
+
+.Listtask ul li:hover {
+    background: rgb(0, 111, 185);
+    transition: 1s;
+}
+
+
+/* When clicked on, add a background color and strike out text */
+
+.Listtask ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+    transition: 1s;
+}
+
+
+/* Add a "checked" mark when clicked on */
+
+.Listtask ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 16px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    color: white;
+    transition: 1s;
+}
+
+.close:hover {
+    background-color: #FFF;
+    color: black;
+    transition: 1s;
+}
+
+#alert {
+    display: none;
+    color: red;
+}
+
+#altdiv {
+    margin-top: 10px;
+}

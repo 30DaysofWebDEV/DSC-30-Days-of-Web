@@ -1,0 +1,271 @@
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fira+Sans+Condensed:ital,wght@1,300&display=swap');
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Caveat', cursive;
+        font-family: 'Fira Sans Condensed', sans-serif;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    #header {
+        background: url("https://cdn.wallpapersafari.com/16/2/dyrlvz.jpg") no-repeat top;
+        background-size: cover;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 30px;
+        color: white;
+    }
+    
+    #aboutme {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: url("https://cutewallpaper.org/21/white-background-wallpaper/72+-Hd-White-Wallpapers-on-WallpaperPlay.jpg");
+        background-size: cover;
+        margin-top: 3px;
+    }
+    
+    #menubar {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        box-shadow: 0px 0px 10px 0px black;
+    }
+    
+    #menubar a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    
+    .amdesp {
+        width: 80% !important;
+        float: left;
+        font-size: 28px;
+        margin: auto;
+    }
+    
+    .amimg {
+        width: 20%;
+        float: left;
+    }
+    
+    .amimg img {
+        border-radius: 50%;
+    }
+    
+    .portfolio {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .portfolio .card {
+        margin-top: 100px;
+        margin-bottom: 5px;
+        padding-top: 100px;
+        box-shadow: 2px 3px 15px -3px gray;
+        position: relative;
+    }
+    
+    .portfolio .card .card-img-top {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        border-radius: 50%;
+        top: -30%;
+        left: 22%;
+    }
+    
+    .portfolio .card:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+        background: black;
+        color: white;
+    }
+    
+    .portfolio .card:hover .card-img-top {
+        border: 10px white solid;
+        transition: 1s;
+    }
+    
+    #connectwithme {
+        padding-bottom: 40px;
+    }
+    
+    #footer {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background: white;
+        box-shadow: 2px 3px 15px -3px gray;
+    }
+    
+    #footer ul {
+        margin-bottom: 0px;
+    }
+    
+    #footer ul li {
+        display: inline-block;
+    }
+    
+    .buttontop {
+        position: fixed;
+        right: 0px;
+        bottom: 7%;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .mailme {
+        position: fixed;
+        top: 20%;
+        left: -2px;
+        background-color: gray;
+        color: white;
+        padding: 5px;
+    }
+    
+    .mailme i {
+        color: #FFFF
+    }
+    
+    #mymail {
+        display: none;
+    }
+    
+    .mailme:hover {
+        background: rgb(0, 69, 133) !important;
+        transition: 1s;
+    }
+    
+    .mailme:hover #mymail {
+        display: inline-block;
+        font-size: 20px;
+        transition: 2s;
+    }
+    /* Blog Page */
+    
+    .myjorny {
+        box-shadow: 0px 0px 27px -9.5px grey;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    .myjornyimg {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    
+    .myjornydes {
+        font-size: 20px;
+    }
+    
+    .myjornycard {
+        max-width: 30% !important;
+        box-shadow: 0px 0px 27px -9.5px grey;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    @media (min-width: 991px) {
+        .navbar-nav {
+            margin: 0 auto;
+        }
+    }
+    
+    @media (max-width: 992px) {
+        .navbar {
+            position: fixed;
+            width: 100%;
+            z-index: 9999;
+            background: white !important;
+            top: -2px;
+        }
+        .myjornycard {
+            max-width: 100% !important;
+        }
+    }
+    
+    @media(max-width: 576px) {
+        .portfolio .card .card-img-top {
+            width: 100px;
+            height: 100px;
+            top: -15%;
+            left: 25%;
+        }
+        .portfolio .card {
+            margin-top: 50px;
+            margin-bottom: 5px;
+            padding-top: 50px;
+            box-shadow: 2px 3px 15px -3px gray;
+            position: relative;
+        }
+    }
+    
+    @media only screen and (min-width:576px) and (max-width: 768px) {
+        .portfolio .card .card-img-top {
+            width: 150px;
+            height: 150px;
+            top: -23%;
+            left: 25%;
+        }
+        .portfolio .card {
+            margin-top: 75px;
+            margin-bottom: 5px;
+            padding-top: 75px;
+            box-shadow: 2px 3px 15px -3px gray;
+            position: relative;
+        }
+    }
+    
+    @media only screen and (min-width:768px) and (max-width: 992px) {
+        .portfolio .card .card-img-top {
+            width: 150px;
+            height: 150px;
+            top: -29%;
+            left: 31%;
+        }
+        .portfolio .card {
+            margin-top: 75px;
+            margin-bottom: 5px;
+            padding-top: 75px;
+            box-shadow: 2px 3px 15px -3px gray;
+            position: relative;
+        }
+    }
+    
+    @media only screen and (min-width:992px) and (max-width:1200px) {
+        .portfolio .card .card-img-top {
+            width: 150px;
+            height: 150px;
+            top: -30%;
+            left: 20%;
+        }
+        .portfolio .card {
+            margin-top: 76px;
+            margin-bottom: 5px;
+            padding-top: 66px;
+            box-shadow: 2px 3px 15px -3px gray;
+            position: relative;
+        }
+    }
