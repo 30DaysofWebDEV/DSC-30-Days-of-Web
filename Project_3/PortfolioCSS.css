@@ -1,0 +1,701 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* overflow:hidden; */
+}
+body{
+    overflow:hidden;
+}
+/******************* navigation bar ********************/
+.navbar{
+    background-color:#f9fafb29;
+}
+.navbar-nav{
+    margin-left:auto;
+}
+.navbar-brand{
+    margin-left:10px;
+}
+.nav-item{
+    margin-left:10px;
+    margin-right:20px;
+    font-size:17px;
+}
+/******************** background-image ********************/
+#header{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url(headerpic.jpg) center center no-repeat fixed;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    z-index:-1; 
+}
+/******************** home section ********************/
+.home-container{
+    width: 60%;
+    height: 60vh;
+    position: absolute;
+    top:20%;
+    left:20%;
+    right:20%;
+}
+#home .home-container h4{
+    font-size:22px;
+    margin-top:100px;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(140, 0, 255);
+}
+#home .home-container h1{
+    font-size:70px;
+    margin-top:10px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+#home .home-container p{
+    font-size:15px;
+    display: inline;
+    color:white;
+    margin-right:10px;
+    margin-top:50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#home .home-container .info{
+    margin-top: -50px;
+}
+#home .home-container hr{
+    display:hidden;
+}
+#home .home-container .seperator{
+    color:rgb(140, 0, 255);
+    margin-right:10px;
+}
+#home .home-container .btn{
+    border: 2px solid rgb(219, 219, 219);
+    margin:auto;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#home .home-container .btn a{
+    text-decoration: none;
+    color:rgb(131, 31, 212);
+}
+/******************** social menu ********************/
+#socials{
+    height:60px;
+    width:372px;
+    padding-top:5px;
+    background-color:rgba(128, 128, 128, 0.192);
+    margin:auto;
+    margin-top:-100px;
+    border-radius:5px;
+    color:whitesmoke;
+}
+.fa {
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-facebook {
+    color: white;
+    margin:0px 10px;
+}
+
+.fa-google {
+    color: white;
+    margin:0px 10px;
+}
+
+.fa-linkedin {
+    margin:0px 10px;
+    color: white;
+}
+.fa-instagram {
+    color: white;
+    margin:0px 10px;
+}
+.fa-github {
+    color: white;
+    margin:0px 10px;
+}
+  /******************** introduction-area ********************/
+#introduction{
+    height:170vh;
+    width:100%;
+    background-color:rgb(255, 255, 255);
+    margin-top:40px;
+} 
+#introduction .intro{
+    display:relative;
+    margin:auto;
+    width:70%;
+    height:170vh;
+    background-color:rgb(255, 255, 255);
+}
+#introduction .intro h1{
+    color:blueviolet;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top:100px;
+    font-size: 22px;
+}
+#introduction .intro h2{
+    color:rgb(31, 30, 30);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top:30px;
+    font-size: 32px;
+    margin-bottom:20px;
+}
+#introduction .intro .row img{
+    width:120px;
+    border-radius:50%;
+    margin-left:50%;
+    margin-top:30px;
+}
+#introduction .intro .row p{
+    margin-top:25px;
+    margin-left:40px;
+    margin-right:40px;
+    font-size:18px;
+    line-height: 1.8;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(31, 30, 30);
+}
+#introduction #profile-box{
+    margin-top:70px;
+}
+/* profile */
+.profile{
+    padding:5px;
+    width:100%;
+    height:100vh;
+}
+#introduction #profile-box .profile h3{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    margin-bottom:15px;
+    color:black;
+    padding-left:30px;
+}
+#introduction #profile-box .profile h5{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    margin-bottom:15px;
+}
+#introduction #profile-box .profile p{
+    margin-top:10px;
+    margin-left:30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:17px;
+    color:rgb(71, 71, 71);
+}
+#introduction #profile-box .profile .profile-list{
+    margin-top:30px;
+    list-style-type: none;
+}
+#introduction #profile-box .profile .profile-list li h5{
+    font-family: 'Poppins', sans-serif;
+    font-size:17px;
+    margin-bottom:2px;
+    margin-top:20px;
+}
+#introduction #profile-box .profile .profile-list li h6{
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    color:rgb(71, 71, 71);
+    margin-bottom:10px;
+    margin-top:0px;
+}
+/* skills */
+#introduction #profile-box .skills{
+    padding:5px;
+    width:100%;
+    height:100vh;
+}
+#introduction #profile-box .skills h3{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    margin-bottom:15px;
+    padding-left:30px;
+}
+#introduction #profile-box .skills p{
+    margin-top:10px;
+    margin-left:30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:17px;
+    color:rgb(71, 71, 71);
+}
+#introduction #profile-box .skills .skills-list{
+    margin-top:30px;
+    list-style-type: none;
+}
+#introduction #profile-box .skills .skills-list li h5{
+    font-family: 'Poppins', sans-serif;
+    font-size:17px;
+    margin-bottom:2px;
+    margin-top:36px;
+}
+/******************** Work Experience ********************/
+#work-experience{
+    width:100%;
+    height: 120vh;
+    background-color:rgb(233, 233, 233);
+}
+#work-experience .work{
+    position:relative;
+    margin:auto;
+    width:70%;
+    height: 120vh;
+}
+#work-experience .work h1{
+    color:blueviolet;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding-top: 100px;
+}
+#work-experience .work table{
+    background-color:rgb(233, 233, 233);
+    width:100%;
+    height:90vh;
+    margin-top:-10px;
+}
+#work-experience .work table h2{
+    font-size:20px;
+}
+#work-experience .work table td{
+    width:50%;
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+#work-experience .work table .work-title{
+    text-align: right;
+    padding-right:50px;
+    padding-top:15px;
+}
+#work-experience .work table .work-title h2{
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+#work-experience .work table .work-title h6{
+    margin-top:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:15px;
+    color:rgb(78, 77, 77);
+}
+#work-experience .work table .work-info h2{
+    font-size:19px;
+    font-family: 'Poppins', sans-serif;
+}
+#work-experience .work table .work-info p{
+    margin-top:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:17px;
+    color:rgb(78, 77, 77);
+}
+/********************* education section *********************/
+#education {
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(255, 255, 255);
+}
+#education .edu{
+    position:relative;
+    margin:auto;
+    width:70%;
+    height:119vh;
+}
+#education .edu h1{
+    color:blueviolet;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding-top: 100px;
+}
+#education .edu table{
+    position:relative;
+    background-color:rgb(255, 255, 255);
+    width:100%;
+    height:90vh;
+    margin-top:-10px;
+}
+
+#education .edu table h2{
+    font-size:20px;
+}
+#education .edu table td{
+    width:50%;
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+#education .edu table .edu-title{
+    text-align: right;
+    padding-right:50px;
+    padding-top:15px;
+}
+#education .edu table .edu-title h2{
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+#education .edu table .edu-title h6{
+    margin-top:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:15px;
+    color:rgb(78, 77, 77);
+}
+#education .edu table .edu-info h2{
+    font-size:19px;
+    font-family: 'Poppins', sans-serif;
+}
+#education .edu table .edu-info p{
+    margin-top:0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:17px;
+    color:rgb(78, 77, 77);
+}
+/********************* contact section *********************/
+#contact-me{
+    background-color:#151515;
+    width: 100%;
+    height: 180vh;
+    margin-top:-10px;
+}
+#contact-me .contact{
+    position:relative;
+    margin:auto;
+    width:70%;
+    height:130vh;
+}
+#contact-me .contact .contact-para{
+    margin:auto;
+    width:100%;
+    height:55vh;
+}
+#contact-me .contact .contact-para h1{
+    padding-top:100px;
+    color:rgb(140, 0, 255);
+    font-size:22px;
+    font-family: 'Poppins', sans-serif;
+}
+#contact-me .contact .contact-para h2{
+    padding-top:10px;
+    color:rgb(255, 255, 255);
+    font-size:35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#contact-me .contact .contact-para p{
+    padding-top:10px;
+    color:rgb(255, 255, 255);
+    font-size:16px;
+    padding: 10px 23%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/************* contact form *************/
+#contact-me .contact form{
+    width:70%;
+    margin:auto;
+}
+#contact-me .contact form button{
+    width:100%;
+    background-color: rgb(140, 0, 255);
+    border-color: rgb(140, 0, 255);
+}
+#contact-me   h1{
+    font-size: 20px;
+    padding-top:15px;
+    color:rgb(140, 0, 255);
+    font-family: 'Poppins', sans-serif;
+}
+#contact-me   h2{
+    font-size: 14px;
+    padding-top:10px;
+    color:rgb(99, 99, 99);
+    font-family: 'Poppins', sans-serif;
+}
+#contact-me .material-icons{
+    color:white;
+    font-size:50px;
+}
+
+/************************ footer *************************/
+#footer{
+    width: 100%;
+    height:10vh;
+    background-color:#151515;
+}
+#footer .footer-container{
+    display:flex;
+    width: 50%;
+    height:10vh;
+    margin:auto;   
+}
+#footer .footer-container  h1{
+    font-size: 16px;
+    /* padding-top:10px; */
+    color:rgb(53, 53, 53);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* responsiveness */
+
+@media screen and (max-width:1094px ){
+    .home-container {
+        height: 55vh;
+        top: 10%;
+    }
+
+}
+@media screen and (max-width:941px ){
+    #introduction {
+        height: 185vh;
+    }
+
+    #introduction .intro {
+        height: 184vh;
+    }
+    #introduction .intro h1 {
+        padding-top: 50px;
+    }
+    #introduction .intro .row img {
+        margin-left: 25%;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:780px ){
+    #introduction .intro h1 {
+        padding-top: 50px;
+    }
+    #introduction .intro .row p {
+        font-size: 17px;
+    }
+    #introduction {
+        height: 190vh;
+    }
+    #introduction .intro .row img {
+        margin-left:0px;
+        margin-top: 20px;
+    }
+    #contact-me   h1{
+        font-size: 18px;
+        padding-top:15px;
+        color:rgb(140, 0, 255);
+        font-family: 'Poppins', sans-serif;
+    }
+    #contact-me   h2{
+        font-size: 13px;
+        padding-top:10px;
+        color:rgb(99, 99, 99);
+        font-family: 'Poppins', sans-serif;
+    }
+    #contact-me .material-icons{
+        color:white;
+        font-size:40px;
+    }
+    #introduction .intro {
+        height: 184vh;
+        width: 80%;
+    }
+    #work-experience .work {
+        width: 85%;
+    }
+    #education .edu {
+        width: 85%;
+    }
+} 
+
+@media screen and (max-width:665px ){
+    .home-container {
+        top: 0;
+    }
+    #introduction .intro {
+        height: 184vh;
+        width: 90%;
+    }
+    #work-experience .work {
+        width: 90%;
+    }
+    #education .edu {
+        width: 90%;
+    }
+    #introduction #profile-box {
+        margin-top: 40px;
+    }
+    #footer .footer-container h1 {
+        font-size: 13px;
+    }
+    #home .home-container .seperator {
+        margin-right: 0px;
+    }
+    #home .home-container p {
+        font-size: 14px;
+        margin-right: 0px;
+    }
+    #socials {
+        width: 300px;
+    }
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        margin: 0px 3px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+@media screen and (max-width:577px ){
+    #introduction .intro .row p {
+        font-size: 15px;
+    }
+    #introduction {
+        height: 260vh;
+    }
+    #introduction .intro {
+        height: 260vh;
+    }
+    #introduction #profile-box .profile .profile-list {
+        margin-top: 0px;
+    }
+    .profile {
+        height: 90vh;
+    }
+    #contact-me .material-icons {
+        font-size: 25px;
+    }
+    #contact-me h1 {
+        font-size: 13px;
+    }
+    #contact-me h2 {
+        font-size: 11px;
+    }
+    #find-me-container .find-me-boxes{
+        width:33%;
+    }
+}
+@media screen and (max-width:380px ){
+    #introduction {
+        height: 290vh;
+    }
+    .profile {
+        height: 94vh;
+    }
+    #education {
+        height: 157vh;
+    }
+    #work-experience {
+        height: 110vh;
+    }
+    #work-experience .work {
+        height: 110vh;
+    }
+    #work-experience .work table .work-title h2 {
+        font-size: 16px;
+    }
+    #work-experience .work table .work-info h2 {
+        font-size: 16px;
+    }
+    #work-experience .work table .work-info p {
+        font-size: 14px;
+    }
+    #education .edu h1 {
+        padding-top: 58px;
+    }
+    #education {
+        height: 110vh;
+    }
+    #education .edu{
+        height: 110vh;
+    }
+    #education .edu table .edu-title h2 {
+        font-size: 16px;
+    }
+    #education .edu table .edu-info h2 {
+        font-size: 16px;
+    }
+    #education .edu table .edu-info p {
+        font-size: 14px;
+    } 
+    #work-experience .work h1 {
+        padding-top: 58px;
+    }
+    #contact-me .contact form {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:320px ){
+    #home .home-container h1 {
+        font-size: 50px;
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    #introduction .intro h2 {
+        font-size: 25px;
+    }
+    #introduction .intro .row p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #introduction #profile-box .profile .profile-list li h5{
+        font-size: 15px;
+    }
+    #introduction #profile-box .profile .profile-list li h6{
+        font-size: 14px;
+    }
+    #introduction #profile-box .skills p {
+        font-size: 16px;
+    }
+    #introduction #profile-box .skills .skills-list li h5 {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    #work-experience .work table .work-title h2 {
+        font-size: 13px;
+    }
+    #work-experience .work table .work-title h6 {
+        font-size: 12px;
+    }
+    #work-experience .work table .work-info h2 {
+        font-size: 13px;
+    }
+    #work-experience .work table .work-info h6 {
+        font-size: 12px;
+    }
+    #education {
+        height: 132vh;
+    }
+    #contact-me .contact .contact-para h1 {
+        padding-top: 50px;
+        font-size:18px;
+    }
+    #contact-me .contact .contact-para h2 {
+        font-size: 17px;;
+    }
+    #contact-me .contact .contact-para p {
+        font-size: 14px;
+        padding: 15px 0%;
+    }
+    #contact-me .contact .contact-para {
+        height: 40vh;
+    }
+    #contact-me .contact form {
+        width: 100%;
+        margin: auto;
+    }
+    #contact-me h1 {
+        font-size: 9px;
+    }
+    #contact-me h2 {
+        font-size: 8px;
+    }
+    #contact-me {
+        height: 170vh;
+    }
+    #footer .footer-container h1 {
+        font-size: 8px;
+    }
+}
