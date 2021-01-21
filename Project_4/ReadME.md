@@ -13,3 +13,4 @@ Solution : https://geekgrave.github.io/project4--1-js/
   * Whenever they enter a new thing, it will have a small fade in effect.
   * Animations and functionalities.
 
+Solution : https://geekgrave.github.io/project4--2-js/
