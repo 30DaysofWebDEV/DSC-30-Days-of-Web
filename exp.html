@@ -222,6 +222,14 @@
     <footer class=" blockquote">
       <p> <mark> ©Copyright : Namrata Bose </mark></p>
     </footer>
-    <script src="exp.js"></script>
+    <script>
+        var clearToDoButton=document.getElementById("clearBtn");
+        var paragraph=document.getElementById("frm1");
+
+        clearToDoButton.addEventListener('click',function(){
+        paragraph.innerText="";
+        })
+
+    </script>
   </body>
 </html>
