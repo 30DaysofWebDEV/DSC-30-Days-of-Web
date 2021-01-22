@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <title>TODOLIST</title>
+</head>
+
+<body class="body">
+    <form id="myDIV" class="header" onsubmit="newElement(event)">
+    
+        <h2 class="space">TO-DO-LIST</h2>
+        <input type="text" id="myInput" placeholder="Add action item, press add...">
+        <button class="addBtn">ADD</button>
+        
+    </form>
+    <br><br>
+    <div class="background">
+        <h4 class="center">CHECK THE TASK COMPLETED AND LOOK AT THE PROGRESS &#128522</h4>
+    </div>
+
+    <!--PROGRESS BAR-->
+    <div class="progress">
+        <div class="progress__fill"></div>
+        <span class ="progress__text">0%</span>
+    </div>
+    <br><br>
+    <div class="backgroundofplan">
+        <h4 class="center">TODAY'S PLAN OF ACTION</h4>
+    </div>
+    <ul id="myUL">
+        <li>Coding</li>
+        <li>Online classes</li>
+    </ul>
+    <script src="home.js"></script>
+</body>
+</html> 

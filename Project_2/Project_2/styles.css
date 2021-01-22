@@ -1,0 +1,120 @@
+.h1{
+    color: yellowgreen;
+    text-decoration: underline;
+
+    font-size: 50px;
+}
+.body{
+    background-color: white;
+}
+.img{
+    width: fit-content;
+    background: #e74c3c;
+    color: brown
+}
+.top-right {
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    top: 8px;
+    right: 16px;
+    font-size: 50px;
+    color: brown;
+    text-decoration:overline underline;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.center{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: blueviolet;
+}
+.h3{
+    font-size: 30px;
+    color: black;
+}
+.table{
+    font-size: large;
+}
+
+.input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+.input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+.bookmarks{
+    width: 500px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    display: block;
+    left:50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+.col-md-4{
+    width: 900px!important;
+    padding: none!important;
+}
+.site{
+    width: 120px;
+    height:120px;
+    border-radius: 5px;
+
+}
+.site:hover{
+    background-color:#f5f5f5;
+    cursor: pointer;
+}
+.site p{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.site .fa{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 35px;
+    text-align: center;
+    background-color: burlywood;
+    padding: 12px;
+}
+.fa-envelope-o{
+    color:brown;
+}
+.fa-linkedin{
+    color:yellow;
+}
+.fa-facebook-square{
+    color:blue;
+}
