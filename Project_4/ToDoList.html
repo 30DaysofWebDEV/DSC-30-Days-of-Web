@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="ToDoList.css">
+    </head>
+    <body>
+        <div id="myDIV" class="header">
+            <h2 style="margin:5px">My To Do List</h2>
+            <input type="text" id="myInput" placeholder="Watch Netflix">
+            <span onclick="newElement()" class="addBtn">Add To List</span>
+        </div>
+        <div class="list">
+            <ul id="myUL">
+                <li>Hit the gym</li>
+                <li class="checked">Play Games</li>
+                <li>Go for Shopping</li>
+                <li>Solve GATE Questions</li>
+                <li>Practice Coding</li>
+                <li>Take Online Class</li>
+            </ul>    
+        </div>
+        
+        <script src="ToDoList.js"></script>
+    </body>
+</html>
