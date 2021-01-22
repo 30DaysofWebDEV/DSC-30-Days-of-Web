@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet"> 
+    <title>portfolio</title>
+    <style>
+      input:focus,textarea:focus{
+        background-color: rgb(41, 185, 252);
+      }
+      body{
+        background-color: cornsilk;
+      }
+      h1{
+        text-align: center;
+        font-size: 80px;
+        font-family:Sedgwick Ave Display;
+        word-spacing: 20px;
+        font-style: italic;
+        padding: 5%;
+        margin:0px;
+        text-shadow:8px 8px 5px green ;
+      }
+      
+      section {
+        background-color: blanchedalmond;
+        border: 8px solid black;
+        margin:15px;
+        overflow: hiddenSS;
+      }
+      h2 {
+        font-size: 40px;
+        color: blue;
+        text-decoration: underline;
+        text-decoration-color: black;
+        padding: 10px;
+      }
+      table,
+      th,
+      td {
+        border:2px solid black;
+        text-align: center;
+        border-spacing: 1px;
+        padding:0px;
+        margin: 30px;
+      }
+      
+      nav {
+        text-decoration: none;
+        background-color:black;
+        font-size: x-large;
+        padding: 2%;
+        text-decoration-color: #e2d9d9;
+      }
+      nav a {
+        text-decoration: underline;
+        color: beige;
+        padding: 18px;
+      }
+      div img{
+          border: 40px double black; border-radius: 50px;
+          margin-top:20px;
+      }
+      
+      a:hover{
+          color: blue;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header style="background-color: rgb(67, 225, 236)">
+      <br><br><br><h1><em>MY PORTFOLIO</em></h1>
+      <nav class="fixed-top nav justify-content-center" >
+        <a href="card.html"> Home </a>
+        <a href="#About"> About </a>
+        <a href="#Education"> Education </a>
+        <a href="#Skills"> Skills </a>
+        <a href="#Contact"> Contact</a>
+    </nav>
+    </header>
+    <main class="container-fit">
+      <div>
+        <img src="Namrata.png" alt="Profile picture" class="mx-auto d-block" style="margin-bottom: 0px;" width="300" >
+        <h1>Namrata Bose</h1>
+      </div>
+      <section>
+        <h2 id="About">About</h2>
+        <p style="font-size: 150%;">
+          My name is <strong> Namrata Bose </strong> and I'm from Ranchi, Jharkhand. I'm a
+          1st year Information Technology student of BP Poddar Institute of Management and
+          Technology.
+        </p>
+        <br>
+      </section>
+      <br>
+      <section class="container-fit table-responsive">
+        <h2 id="Education">Education</h2>
+        <table class ="table table-hover  ">
+          <thead class="thead-dark">
+            <th>Sl No.</th>
+            <th>Institute</th>
+            <th>Qualification</th>
+            <th>Year of passing</th>
+            <th>Marks Obtained</th>
+          </thead>
+          <tr>
+            <td>1.</td>
+            <td>
+              Bishop Westcott Girls's School,<br />
+              Doranda, Ranchi
+            </td>
+            <td>10th</td>
+            <td>2018</td>
+            <td>88.8%</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Kairali School, Dhurwa, Ranchi</td>
+            <td>12th</td>
+            <td>2020</td>
+            <td>92%</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>
+              BP Poddar Institute of Management <br />
+              & Technology, Kolkata
+            </td>
+            <td>B. Tech</td>
+            <td>2024</td>
+            <td>----</td>
+          </tr>
+        </table>
+        <br />
+      </section>
+      <br>
+      <section>
+        <h2 id="Skills">Skills</h2>
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <br />
+          <li>
+            Hackkerrank
+            <a href="https://www.hackerrank.com/namratabose" target="_blank"
+              >Profile</a
+            >
+          </li>
+          <li>
+            GreeksForGreeks
+            <a
+              href="https://auth.geeksforgeeks.org/user/namratabose32"
+              target="_blank"
+              >Profile</a
+            >
+          </li>
+        </ul>
+        <br />
+      </section>
+      <br />
+      <section>
+        <h2 id="Contact">Contact</h2>
+        <p style="padding-left: 5%;">
+          
+          <a
+            href="https://www.linkedin.com/in/namrata-bose-8574541bb/"
+            target="_blank"
+          ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png" alt="Profile" width="50">
+          <br> LinkedIn</a><br /><br>
+          <a href="https://namratabose32@gmail.com" target="_blank"><img src="https://images.idgesg.net/images/article/2018/05/gmail_logo-100758589-large.jpg" alt="namratabose32@gmial.com" width="50">
+          <br>namratabose32@gmail.com</a>
+        </p><br>
+
+        <!-- contact form -->
+
+        <h2 style="color: darkgreen; margin-top: 0px;">Contact me for further information</h3>
+        <a href="#demo" class="btn btn-primary" data-toggle="collapse">Click here</a>
+        <div id="demo" class="collapse">
+        
+          <b><br>
+          <div class="alert alert-info alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Warning! </strong>The fields with "*" are mandatory
+          </div>
+          <section>
+          <form action="" style="background: burlywood; " id="frm1" >
+          <label for="fname"> First name:*</label>
+          <input type="text" id="fname" name="fname" required  placeholder="Enter First Name"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" placeholder="Enter Last Name"><br>
+          <label for="gender">Gender : </label></b> 
+           Male<input type="radio" name="gender" id="male" >
+           Female<input type="radio" name="gender" id="female">
+           Other<input type="radio" name="gender" id="other"><br><b>
+          <label for="DOB">Date of birth:</label>
+          <input type="date" name="DOB" id="DOB"><br><br>
+          <label for="email" >E-mail : *</label>
+          <input type="email" id="email" name="email" required  placeholder="Enter email-id"><br><br>
+          <label for="phnNo">Phone No. :*</label>
+          <input type="number" id="PhnNo" name="PhnNo"  min="999999999" required  max="10000000000" placeholder="Enter your phone no."><br><br>
+          <label for="query">Query</label>
+          <textarea name="Query" id="query"  cols="30" rows="10" placeholder="Enter your queries"></textarea>
+          </b><br><br>
+          </section>
+          <div>
+            <input type="submit" value="Submit" id="Submit" onclick="myFunction()">
+            <button id="clearBtn" > Clear List</button>
+          </div>
+      </form>
+      </div>
+      </section>
+    </main>
+    <br>
+    <p id="demo"></p>
+    <footer class=" blockquote">
+      <p> <mark> ©Copyright : Namrata Bose </mark></p>
+    </footer>
+    <script src="exp.js"></script>
+  </body>
+</html>
