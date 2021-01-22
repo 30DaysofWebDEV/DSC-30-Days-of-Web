@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		#body {
+	        background-image: url("bg.jpg");
+	        background-repeat: no-repeat;
+	        background-attachment: fixed;
+	        color: white;
+    	}
+		#head {
+			text-align: center;
+			color: white;
+			text-decoration: bold;
+		}
+		#form {
+			padding: 40px;
+			text-align: center;
+		}
+		#video {
+			padding: 40px;
+			text-align: center;
+		}
+		
+	</style>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<title>Home</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Home"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Aboutme"><b>About Me</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects"><b>Projects</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <b>Contact</b>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#Helpline"><b>Helpline</b></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#Contactus"><b>Contact Us</b></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info" type="submit"><b>Search</b></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<div id="body">
+	<header>
+		<div id="head">
+            <center>
+                <h1>
+                    <div class="badge bg-info text-wrap text-dark" style="width: 16rem;">About Me</div>
+                </h1>
+            </center><br>
+		<h2>Hi! My name is Shaheer Hasan.</h2>
+		<h3>I am a Web Developer from Bengaluru.</h3>
+		</div>
+	</header>
+	<br>
+	<div align="center">
+		<img src="me.jpg" height="200" width="200">
+	</div>
+	<br>
+	<div id="table">
+        <h3 align="center"><i>Here are my skills: </i></h3>
+        <table style= "background-color: black"border="1" align="center" width="400px" bordercolor="white">
+            <tr style="background-color: blue"><th>Domain</th><th>Skills</th></tr>
+            <tr><td>Front-end</td><td>HTML,CSS,Bootstrap</td>
+            <tr><td>Back-end</td><td>Django</td>
+            <tr><td>Database</td><td>MySQL</td>
+            <tr><td>Programming</td><td>C,C++,Python</td>
+            <tr><td>Others</td><td>Github and Linux</td>
+        </table>
+    </div>
+    <br>
+    <div id="projects">
+    	<center>
+    		<h3><div class="badge bg-dark text-wrap text-white"><strong>Here are my projects: </strong></div></h3>
+    	</center>
+    	 <div class="container-fluid">
+         <div class="row">
+      <div class="col-sm-6" style="background-color:black;">
+      	<h4 align="center">Online Exam System</h4>
+      	<p align="center"> An Online Exam System built using Python, HTML, CSS, JS and Bootstrap. </p>
+      	<center><button type="button" class="btn btn-info" href="https://github.com/Shaheer-rossoneri14/Online-Exam-System">Link</button></center><br>
+      </div>
+      <div class="col-sm-6" style="background-color:black;">
+      	<h4 align="center">Quiz App</h4>
+      	<p align="center"> A Quiz App built using Python, HTML, CSS, JS and Bootstrap. </p>
+      	<center><button type="button" class="btn btn-info" href="hhttps://github.com/Shaheer-rossoneri14/CMRIT-Quiz-App">Link</button></center><br>
+      </div>
+
+      <div class="container-fluid">
+         <div class="row">
+      <div class="col-sm-6" style="background-color:black;">
+      	<h4 align="center">Bus Reservation System</h4>
+      	<p align="center"> A Command Line C++ appllication to Book a seat, Check reservation status and Bus details. </p>
+      	<center><button type="button" class="btn btn-info" href="https://github.com/Shaheer-rossoneri14/Bus-Reservation-System">Link</button></center>
+      </div>
+      <div class="col-sm-6" style="background-color:black;">
+      	<h4 align="center">Rock, Paper and Scissors</h4>
+      	<p align="center"> Rock, Paper and Scissor game with Python </p>
+      	<center><button type="button" class="btn btn-info" href="https://github.com/Shaheer-rossoneri14/Rock-Paper-Scissors">Link</button></center>
+      </div>
+    </div>
+    <br>
+    </div>
+
+    <h3 style="text-align: center;"><i>Checkout Bootstrap tutorial of 30 days of Web Development here: </i></h3>
+    <div id="video">
+        <iframe width="460" height="315" src="https://www.youtube.com/watch?v=CC7IC_yF4jo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <form>
+	  <div class="form-row">
+	    <div class="form-group col-md-2">
+	      <label for="inputname">First Name</label>
+	      <input type="name" class="form-control" id="inputname">
+	    </div>
+	    <div class="form-group col-md-2">
+	      <label for="inputsurname">Surname</label>
+	      <input type="name" class="form-control" id="inputsurname">
+	    </div>
+	  </div>
+	  <div class="form-group">
+	  	<div class="form-group col-md-4">
+	    <label for="inputAddress">Address</label>
+	    <input type="name" class="form-control" id="inputAddress">
+	  </div>
+	  <div class="form-row">
+	    <div class="form-group col-md-3">
+	      <label for="inputCity">City</label>
+	      <input type="text" class="form-control" id="inputCity">
+	    </div>
+	    <div class="form-group col-md-2">
+	      <label for="inputState">State</label>
+	      <select id="inputState" class="form-control">
+	        <option selected>Choose...</option>
+	        <option>Andhra Pradesh</option>
+	        <option>Karnataka</option>
+	        <option>Assam</option>
+	        <option>Bihar</option>
+	        <option>Chhattisgarh</option>
+	        <option>Goa</option>
+	        <option>Tamil Nadu</option>
+	        <option>Kerela</option>
+	        <option>Jharkhand</option>
+	      </select>
+	    </div>
+	    <div class="form-group col-md-2">
+	      <label for="inputZip">Zip</label>
+	      <input type="text" class="form-control" id="inputZip">
+	    </div>
+	  </div>
+	  <br>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+	 <footer style="padding-top: 20px;padding-left: 20px;" align= "center">
+        <h5><b>Social Networks:</b></h5>
+        <a href="#">Gmail</a><br>
+        <a href="#">Github</a><br>
+        <a href="#">Linkedin</a><br>
+        <h4>Developed by Shaheer</h4>
+    </footer>
+</div>
+</body>
+</html>
