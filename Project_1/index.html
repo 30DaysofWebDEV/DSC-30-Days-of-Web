@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="/DSC-30-Days-of-Web/Project_2/style.css">
     <link rel="stylesheet" href="/DSC-30-Days-of-Web/Project_3/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -26,48 +27,66 @@
         </button>
 
         <div class="collapse navbar-collapse" id="collapse_target">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
+            <ul class="navbar-nav ml-5">
+                <li class="nav-item pl-5">
+                    <a href="#home" class="nav-link active">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                <li class="nav-item  pl-5">
+                    <a href="#about" class="nav-link">About</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Experience</a>
+                <li class="nav-item  pl-5">
+                    <a href="#experience" class="nav-link">Experience</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Projects</a>
+                <li class="nav-item  pl-5">
+                    <a href="#projects" class="nav-link">Projects</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Blogs</a>
+                <li class="nav-item  pl-5">
+                    <a href="#conta" class="nav-link">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-
-    <div class="container-fluid pt-4 my- 2 bg-dark text-white">
+    <!--
+        <section class="home">
+        <div class="name">
+            <p>
+                <span>Ashutosh Yadav</span>
+            </p>
+            <h2>
+                I'm a Frontend Developer
+            </h2>
+            <p class="one">Lorem, ipsum dolor sit amet consectetur adipisicing Lorem, ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing Lorem, ipsum dolor sit a</p>
+            <button class="btn"><p>DOWNLOAD CV</p</button>
+        </div>
+        </div>
+        <div class="image">
+            <img src="./Images/portrait.jpg" alt="tony stark">
+        </div>
+    </section>
+    -->
+    <div class="container-fluid pt-4 p-3 my- 2 bg-dark text-white" id="home">
         <div class="row">
-            <div class="col my-5">
+            <div class="col my-5 p-3 m-4 pl-3">
                 <h2 class="text-white">Ashutosh Yadav </h2>
                 <h1 class="text-success">I'm a Frontend Developer...</h1>
                 <p class="text-secondary">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad asperiores necessitatibus maxime dolores ducimus voluptas voluptatem repellat corrupti et.
                 </p>
+                <button class="btn btn-success" type="button">
+                    Download CV
+                </button>
             </div>
             <div class="col">
-                <img src="./Images/portrait.jpg" class="ing-fluid" alt="">
+                <img src="./Images/portrait.jpg" class="img-fluid" alt="">
             </div>
         </div>
         <div class="">
-            <button class="btn btn-success" type="button">
-                    Download CV
-            </button>
+
         </div>
 
     </div>
 
-    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white">
+    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white" id="about">
         <div>
             <h2 class="text-success"> About <span>Me...</span></h2>
             <p>
@@ -82,7 +101,7 @@
 
     </div>
 
-    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white">
+    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white" id="experience">
         <h2 class="text-success"> Experiences</h2>
         <p>
             I've been working on some of the mini-projects in college using Java, Swing and MySQL. <br /> I also have developed some good websites using HTML, CSS and a bit of JavaScript. <br /> Here are my skill ratings by myself:
@@ -131,7 +150,7 @@
                 </table>
             </div>
     </div>
-    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white">
+    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white" id="projects">
         <h2 class="text-success">Projects</h2>
         <div class="table-responsive">
             <table class="table-dark">
@@ -163,7 +182,7 @@
         </div>
     </div>
 
-    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white">
+    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white" id="contact">
         <div>
             <h2 class="text-success">Contact Me</h2>
             <form>
@@ -188,31 +207,25 @@
                 </div>
 
                 <div class="form-group">
-                    <button class="btn btn-success" type="submit">
-                        Submit
-                    </button>
+                    <label type="submit">
+                        <button class="btn btn-info" type="submit">
+                            Submit
+                        </button>
+                    </label>
                 </div>
             </form>
+            <div class="container-fluid ml-5 p-2 px-5" width="5px">
+                <i class="fab fa-github px-5 "></i>
+                <i class="fab fa-facebook px-5 "></i>
+                <i class="fab fa-linkedin-in px-5 "></i>
+                <i class="fab fa-twitter px-5"></i>
+                <i class="fab fa-instagram px-5 "></i>
+            </div>
         </div>
-    </div>
 
-    <!-- 
-    <section class="home">
-        <div class="name">
-            <p>
-                <span></span>
-            </p>
-            <h2>
-                I'm a Frontend Developer
-            </h2>
-            <p class="one">Lorem, ipsum dolor sit amet consectetur adipisicing Lorem, ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing Lorem, ipsum dolor sit a</p>
-            <button class="btn"><p>DOWNLOAD CV</p</button>
-        </div>
-        </div>
-        <div class="image">
-            <img src="./Images/portrait.jpg" alt="tony stark">
-        </div>
-    </section>
+
+        <!-- 
+    
 
     -- About Me --
     <section class="about">
