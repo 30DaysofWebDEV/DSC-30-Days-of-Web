@@ -1,5 +1,5 @@
 :root {
-    --primary: #8EFF00;
+    --primary: green;
     --dark: #161616;
     --pure: #ffffff;
     --ternary: #898989;
@@ -121,7 +121,7 @@ header li a:hover {
 }
 
 .one {
-    color: var(--ternary);
+    color: var(--primary);
     margin-top: -5rem;
 }
 
@@ -132,18 +132,18 @@ header li a:hover {
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: 600;
-    border: 2px solid transparent;
+    border: 2px solid var(--primary);
     border-radius: 2rem;
     outline: none;
     cursor: pointer;
     background: var(--primary);
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 .btn:hover {
     background: transparent;
     border-color: var(--primary);
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 
@@ -491,12 +491,12 @@ footer .copyright {
         margin-left: 1.5rem;
         margin-top: 0rem;
         font-weight: 600;
-        border: 2px solid transparent;
+        border: 2px solid va;
         border-radius: 2rem;
         outline: none;
         cursor: pointer;
         background: var(--primary);
-        color: var(--secondary);
+        color: var(--primary);
     }
     .home .image {
         width: 100%;
