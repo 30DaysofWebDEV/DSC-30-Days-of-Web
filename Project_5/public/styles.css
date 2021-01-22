@@ -4,7 +4,7 @@ body{
     text-decoration: none;
     line-height: 1.2cm;
     font-weight: 900;
-    background: url("../images/tic-tac-toe.png");
+    background: url("tic-tac-toe.png");
 }
 .content{
     max-width: 500px;
@@ -13,7 +13,7 @@ body{
     padding-bottom: 20px;
 }
 .active{
-    background-color:black;
+    background-color:rgb(97, 151, 11);
     text-decoration: none;
 }
 .ul {
@@ -34,12 +34,11 @@ li a {
     text-decoration: none;
 }
 li a:hover{
-    background-color:black;
+    background-color:rgb(97, 151, 11);
     text-decoration: none;
     color: white;
 }
 h3{
-    background-image: ;
     padding-top: 50px;
     max-width: 500px;
     padding-left: 38%;
