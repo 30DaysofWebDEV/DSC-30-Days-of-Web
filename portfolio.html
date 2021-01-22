@@ -5,86 +5,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .body {
-        margin: 0;
-        padding: 0;
-    }
 
-    .navbar {
-        display: block;
-    }
+<body>
+    <div class="bigbox">
+        <div class="container1" id="home">
 
-    .container {
-        height: 100vh;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-
-        text-align: center;
-        padding: 7px;
-        text-size-adjust: 25px;
-        background-image: url(images/background.jpg);
-    }
-
-    .footer {
-        text-align: center;
-        background-color: seashell;
-        font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .portfolio {
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 50px;
-        padding-top: 250px;
-        font-weight: 100;
-        font-variant: inherit;
-        
-        }
-</style>
-<body bgcolor="lightyellow">
-
-    <div class="container">
-
-        <div class="header">
             <div class="navbar">
                 <h2>
-                    <span style="padding:15px;"><a href="intro.html">Intro</a></span>
-                    <span style=" padding: 15px;"><a href="portfolio.html">Home</a></span>
-                    <span style="padding: 15px;"><a href="About.html">About</a></span>
-                    <span style=" padding: 15px; text-shadow: seashell;"><a href="contact.html">Contact</a></span>
+                    <span style="padding:15px;"><a href="#intro">Intro</a></span>
+                    <span style=" padding: 15px;"><a href="#home">Home</a></span>
+                    <span style="padding: 15px;"><a href="#skills">Skills</a></span>
+                    <span style=" padding: 15px;"><a href="#contact">Contact</a></span>
                 </h2>
             </div>
+
+            <div class="portfolio">
+
+                <strong>Hey there! <br>I'm Shratik<br>
+                </strong>
+            </div>
+
         </div>
+
+        <hr>
+
+        <div class="container2" id="intro">
+
+
+            <h1 class="intro"><strong>Intro</strong></h1>
+
+
+            <img src="images/me.jpg" alt="profile picture">
+
+            <div class="text">
+                <p>My Name is Shratik .<br>I'm from Nagpur.<br> I'm pursuving BCA
+                    degree from Nagpur University.<br>
+                    I am front-end devloper.i like coding.
+                    i like watching movies, at least once a month.<br>I played volleyball on weekends
+                    and chess whenever I get time. <br></p>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container-skill" id="skills">
+            <h2 class="sk" align="center">Skills</h2>
+            <div class="skills">
+
+
+                <img src="images/c-plus-plus-logo.png" alt="c++" class="p1">
+                <img src="images/html-5.png" alt="html-5" class="p2">
+                <img src="images/css 100 x 100.png" alt="css" class="p3">
+
+            </div>
+
+        </div>
+
+        <hr>
+
+
+        <div class="container3">
+            <h1 class="contact">Contact Me</h1>
+            <div class="form">
+                <form name="Contact Me" action="send.php" method="post" class="form">
+                    <table align="center">
+
+                        <tr>
+                            <td>First Name</td>
+                            <td><input type="text" name="fname" maxlength="50" /></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name</td>
+                            <td><input type="text" name="lname" maxlength="50" /></td>
+                        </tr>
+                        <tr>
+                            <td>Email </td>
+                            <td><input type="email" name="email" maxlength="50"></td>
+                        </tr>
+                        <tr>
+                            <td>Mob no</td>
+                            <td>
+                                <input type="tel" name="Mob no" maxlength="10" placeholder="+91">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Additional Comment</td>
+                            <td>
+
+                                <textarea name="comments" cols="45" rows="5"></textarea>
+
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="btn">
+                        <tr>
+                            <td>
+                                <input type="submit" name="submit" value="Submit" />
+                                <input type="reset" name="reset" value="Reset" />
+                            </td>
+                        </tr>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
         <div>
-        <table class="portfolio" align="center">
-            <tr>
-                <td>
+            <div>
+                <h2 align="center" font-size="24px" ;> </h2>
+            </div>
 
-                </td>
-                <td>
-                    Portfolio<br>
-                    Hello!
-                </td>
-            </tr>
-        </table>
+
+            <div class="container4" id="contact">
+                <h2 class="join">
+                    Join The Conversation Also On
+                </h2>
+                <div class="links">
+                    <!--  <img src="images/menu.png" class="menu"> -->
+
+                    <div class="link">
+                        <a href="https://www.facebook.com"> <img src="images/fb.png"></a>
+                        <a href="https://www.instagram.com/shratik121/?hl=en"> <img src="images/ig.png"></a>
+                        <a href="https://twitter.com/ShratikP"> <img src="images/tw.png"> </a>
+                        <a href="https://github.com/Shratik421"> <img src="images/gh ml.png"></a>
+                        <a href="https://www.linkedin.com/in/shratik-punde-ba41311a1"> <img
+                                src="images/iconld.png (1).png"></a>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <p><strong>
+                        Thanks For Visiting
+                </p></strong>
+            </footer>
         </div>
-<table>
-
-</table>
-    </div>
-
-    <div>
-        <footer class="footer">
-            <p>
-                Design by
-            </p>
-        </footer>
-    </div>
 </body>
 
 </html>
