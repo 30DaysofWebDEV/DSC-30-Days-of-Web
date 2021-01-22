@@ -1,0 +1,70 @@
+html{
+    background-color:Lavender;
+    color: #282828;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+nav{
+    background-color:Tan;
+    width: 80%;
+    height: 30px;
+    padding-top:10px;
+    margin: auto;
+   
+}
+
+nav a{
+    color: black ;
+}
+
+
+.intro,.relax{
+    padding: 50px;
+    text-align: center;
+}
+
+
+h4,h3,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+h2:hover{
+    color: LightSeaGreen;
+    font-weight: 500;
+}
+
+.name:hover{
+    color: LightSeaGreen;
+    font-weight: 500;
+}
+
+.form{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+hr{
+    background-image: url("pattern.jpg");
+    height: 8px;
+    /* border: solid; */
+
+}
+
+
+footer{
+    background-color:Tan;
+    width: 80%;
+    height: 45px;
+    padding-bottom:20px;
+    margin: auto;
+    text-align: center;
+}
+
+footer img{
+    padding: 10px;
+}
+
