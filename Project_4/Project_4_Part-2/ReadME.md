@@ -5,3 +5,6 @@
   * Do not allow repeated or empty fields.
   * Whenever they enter a new thing, it will have a small fade in effect.
   * Animations and functionalities.
+  
+  # link for the project.
+  # https://rajnish-pandey.github.io/JS_Project_2/
