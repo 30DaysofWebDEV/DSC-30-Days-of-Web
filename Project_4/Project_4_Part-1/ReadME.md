@@ -3,5 +3,5 @@
 
 # Github page link for this project-
 
-https://rajnish-pandey.github.io/Project_4_Part-1/
+https://rajnish-pandey.github.io/JS_1/
 
