@@ -7,4 +7,4 @@
   * Animations and functionalities.
   
   # link for the project.
-  # https://rajnish-pandey.github.io/JS_Project_2/
+   https://rajnish-pandey.github.io/JS_2/
