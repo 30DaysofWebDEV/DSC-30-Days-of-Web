@@ -144,6 +144,7 @@ table{
 }
 .blogcolor{
     color: rgb(236, 240, 13);
+    text-decoration: none;
 }
 .center1 { 
     margin: 3 auto; 
@@ -151,5 +152,8 @@ table{
     text-align: center;
     font-size: x-large;
     font-weight: bolder;
-    
+    text-decoration: none;
 }
+a:link{
+    text-decoration: none!important;
+  }

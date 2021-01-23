@@ -7,7 +7,6 @@ body{
     font-weight: 900;
     background:url("../images/geometric-leaves.png");
 }
-
 .content{
     max-width: 500px;
     margin: auto;
@@ -103,12 +102,10 @@ h3{
 #page-container {
     position: relative;
     min-height: 100vh;
-}
-  
+} 
 #content-wrap {
     padding-bottom: 2.5rem;    
 }
-  
 #footer {
     position: absolute;
     bottom: 0;
@@ -153,4 +150,6 @@ h3{
     font-weight: bolder;
     text-decoration: none;
 }
-
+a:link{
+    text-decoration: none!important;
+}

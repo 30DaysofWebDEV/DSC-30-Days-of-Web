@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 body{
     font-family: 'Roboto Mono', monospace;
@@ -102,13 +101,10 @@ h3{
 #page-container {
     position: relative;
     min-height: 100vh;
-}
-  
+} 
 #content-wrap {
     padding-bottom: 2.5rem;    
 }
-  
-
 .padding{
     padding: 2%;
 }
@@ -141,8 +137,13 @@ table{
 }
 .blogcolor{
     color: rgb(236, 240, 13);
+    text-decoration: none;
 }
 .center1 { 
+    text-decoration: none;
     margin: 3 auto; 
     width: 700px; 
 }
+a:link{
+    text-decoration: none!important;
+  }
