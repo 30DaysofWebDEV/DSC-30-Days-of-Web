@@ -19,7 +19,7 @@
 <!-- Adding a bootstrap Navbar -->
 
     <div id="nav">
-        <nav class="navbar bg-dark navbar-expand-sm navbar-light">
+        <nav class="navbar navbar-expand-sm">
 
             <h2 class="navbar-brand d-flex justify-content-start" style="color: #48D1CC;">Barebones Portfolio</h2><br>
 
@@ -44,10 +44,11 @@
     </div>
 
     <div class="header container-fluid row">
-        <div class="dflex justify-content-center col-sm-12">
+        <div class="col-lg-7">
             <h1>I'm KAUSHIK SRIRAM</h1>
             <h3> < Aspiring Developer | CS Undergrad /></h3>
     </div>
+    <img src="undraw_coding_6mjf.svg" class="col-lg-5">
 
     </div>
 
@@ -228,7 +229,7 @@
 
    #nav {
            margin: 0;
-           background-color: #16213e;
+           background-color:rgb(22, 21, 21);
        }
    #nav a {
            font-size: large;
@@ -240,22 +241,36 @@
            color:  #48D1CC;
        }
 
-.header {
+    .header {
            margin:0;
-           padding: 100px 0px 100px 0px;
-           background-color: #16213e;
+           padding: 150px 0px 50px 0px;
+           background-color:rgb(22, 21, 21);
            color: white;
-           text-align: center;
-           font-size: x-large;
+           text-align: left;
         }
+
+    .header h1{
+        font-size: 60px;
+        color: white;
+        transition: 1s;
+        display: block;
+        cursor: pointer;
+    }
+
+    .header h1:hover{
+        color: #48D1CC;
+    }
 
    .header h3 {
            color: #e94560;
+           font-size: 30px;
+           display: block;
        }
 
    #about{
+           box-shadow: 0 0 40px black;
            font-size:x-large;
-           padding: 50px 50px 0px 50px;
+           padding:60px;
        }
 
    #about h3{
@@ -265,7 +280,7 @@
     #education{
           font-size: larger;
            text-align: center;
-           padding: 50px;
+           padding: 100px;
     }   
 
     #education th{
