@@ -20,25 +20,24 @@
 <body>
 
     <!-- navbar-bootstrap -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-md navbar-custom sticky-top">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler " data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon custom"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="collapse_target">
             <ul class="navbar-nav ml-5">
                 <li class="nav-item pl-5">
                     <a href="#home" class="nav-link active">Home</a>
                 </li>
                 <li class="nav-item  pl-5">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link ">About</a>
                 </li>
                 <li class="nav-item  pl-5">
-                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#experience" class="nav-link ">Experience</a>
                 </li>
                 <li class="nav-item  pl-5">
-                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#projects" class="nav-link ">Projects</a>
                 </li>
                 <li class="nav-item  pl-5">
                     <a href="#conta" class="nav-link">Contact</a>
@@ -64,12 +63,12 @@
         </div>
     </section>
     -->
-    <div class="container-fluid pt-4 p-3 my- 2 bg-dark text-white" id="home">
+    <div class="container-fluid pt-4 p-3 my- 2 bg-custom text-custom" id="home">
         <div class="row">
             <div class="col my-5 p-3 m-4 pl-3">
                 <h2 class="text-white">Ashutosh Yadav </h2>
                 <h1 class="text-success">I'm a Frontend Developer...</h1>
-                <p class="text-secondary">
+                <p class="text-white">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad asperiores necessitatibus maxime dolores ducimus voluptas voluptatem repellat corrupti et.
                 </p>
                 <button class="btn btn-success" type="button">
@@ -77,23 +76,20 @@
                 </button>
             </div>
             <div class="col">
-                <img src="./Images/portrait.jpg" class="img-fluid" alt="">
+                <img src="./Images/portrait.jpg" class="img-fluid image" alt="">
             </div>
-        </div>
-        <div class="">
-
         </div>
 
     </div>
 
-    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white" id="about">
+    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-custom" id="about">
         <div>
             <h2 class="text-success"> About <span>Me...</span></h2>
-            <p>
+            <p class="text-white">
                 I'm Ashutosh Yadav, a tech enthusiast, a keen learner and a software-engineer by profession. <br> Also I'm in love with programming languages and web development. I'm also a beginner in competitive programming..
             </p>
         </div>
-        <div class="">
+        <div class="video">
             <video autoplay controls>
                 <source src="./video.mov" type="video/mp4">
             </video>
@@ -101,17 +97,14 @@
 
     </div>
 
-    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white" id="experience">
+    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-custom" id="experience">
         <h2 class="text-success"> Experiences</h2>
-        <p>
+        <p class="text-white">
             I've been working on some of the mini-projects in college using Java, Swing and MySQL. <br /> I also have developed some good websites using HTML, CSS and a bit of JavaScript. <br /> Here are my skill ratings by myself:
-        </p>
-
-        <p>
-            My skills include:
-            <div class="table-responsive">
-                <table class="table-dark">
-                    <tr>
+            <br> My skills include:
+            <div class="table-responsive ">
+                <table class="text-white">
+                    <tr class="text-success">
                         <th>Skills</th>
                         <th>Ratings</th>
                     </tr>
@@ -150,11 +143,11 @@
                 </table>
             </div>
     </div>
-    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white" id="projects">
+    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-custom" id="projects">
         <h2 class="text-success">Projects</h2>
         <div class="table-responsive">
-            <table class="table-dark">
-                <tr>
+            <table class="text-white">
+                <tr class="text-success">
                     <th>Name</th>
                     <th>Link</th>
                 </tr>
@@ -182,47 +175,47 @@
         </div>
     </div>
 
-    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-dark text-white" id="contact">
+    <div class="container-fluid pt-4 p-5 mx-0 my-0 bg-custom" id="contact">
         <div>
             <h2 class="text-success">Contact Me</h2>
             <form>
                 <div class="form-group">
-                    <label for="fname" id="label">First Name: </label>
+                    <label for="fname" id="label" class="text-white">First Name: </label>
                     <input type="text" id="input" name="fname" placeholder="Virat">
                 </div>
 
                 <div class="form-group">
-                    <label for="lname" id="label">Last Name: </label>
+                    <label for="lname" id="label" class="text-white">Last Name: </label>
                     <input type="text" id="input" name="lname" placeholder="Kohli">
                 </div>
 
                 <div class="form-group">
-                    <label for="lname" id="label">Last Email: </label>
+                    <label for="lname" id="label" class="text-white">Last Email: </label>
                     <input type="email" id="input" name="email" placeholder="xyz@gmail.com">
                 </div>
 
                 <div class="form-group">
-                    <label for="phoneNo" id="label">Phone No: </label>
+                    <label for="phoneNo" id="label" class="text-white">Phone No: </label>
                     <input type="number" id="input" name="phoneNo" placeholder="1234567890">
                 </div>
 
                 <div class="form-group">
                     <label type="submit">
-                        <button class="btn btn-info" type="submit">
+                        <button class="btn btn-custom" type="submit">
                             Submit
                         </button>
                     </label>
                 </div>
             </form>
-            <div class="container-fluid ml-5 p-2 px-5" width="5px">
-                <i class="fab fa-github px-5 "></i>
-                <i class="fab fa-facebook px-5 "></i>
-                <i class="fab fa-linkedin-in px-5 "></i>
-                <i class="fab fa-twitter px-5"></i>
-                <i class="fab fa-instagram px-5 "></i>
-            </div>
-        </div>
 
+        </div>
+        <div class="container-fluid mx-5 px-5">
+            <i class="fab fa-github mx-5 px-5"></i>
+            <i class="fab fa-facebook mx-5 px-5"></i>
+            <i class="fab fa-linkedin-in mx-5 px-5"></i>
+            <i class="fab fa-twitter mx-5 px-5"></i>
+            <i class="fab fa-instagram mx-5 px-5"></i>
+        </div>
 
         <!-- 
     
