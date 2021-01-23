@@ -5,7 +5,7 @@ body{
     text-decoration: none;
     line-height: 1.2cm;
     font-weight: 900;
-    background: url("../images/tic-tac-toe.png");
+    background:url("../images/geometric-leaves.png");
 }
 .content{
     max-width: 500px;
@@ -17,7 +17,7 @@ body{
     background-color:rgb(97, 151, 11);
     text-decoration: none;
 }
-.ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -134,7 +134,22 @@ table{
 	width: 100%;
 }
 .center { 
+    margin: 50 auto; 
+    width: 700px;
+    height: 40px; 
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(5, 2, 22);
+    color:white;
+}
+.blogcolor{
+    color: rgb(236, 240, 13);
+}
+.center1 { 
     margin: 3 auto; 
-    width: 700px; 
+    width: 800px; 
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
     
 }

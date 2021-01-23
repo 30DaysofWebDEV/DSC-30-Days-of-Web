@@ -5,8 +5,9 @@ body{
     text-decoration: none;
     line-height: 1.2cm;
     font-weight: 900;
-    background: url("../images/tic-tac-toe.png");
+    background:url("../images/geometric-leaves.png");
 }
+
 .content{
     max-width: 500px;
     margin: auto;
@@ -17,7 +18,7 @@ body{
     background-color:rgb(97, 151, 11);
     text-decoration: none;
 }
-.ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -117,14 +118,6 @@ h3{
 .padding{
     padding: 2%;
 }
-table{
-	margin-top: 50px;
-	text-align: center;
-	background:rgb(177, 118, 169);
-    color: rgb(6, 48, 44);
-    margin-left:auto; 
-    margin-right:auto;
-}
 
 #show th, #show td{
 	padding: 13px;
@@ -134,7 +127,30 @@ table{
 	width: 100%;
 }
 .center { 
-    margin: 3 auto; 
-    width: 700px; 
-    
+    margin: auto; 
+    width: 700px;
+    height: 40px; 
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(5, 2, 22);
+    color:white;
 }
+.blog1color{
+    color: rgb(236, 240, 13);
+    text-decoration: none;
+}
+
+.blog1color:hover {
+    text-decoration:none;
+    cursor:pointer;
+}
+.center1 { 
+    margin: 3 auto; 
+    width: 800px; 
+    text-align: center;
+    font-size: x-large;
+    margin: auto;
+    font-weight: bolder;
+    text-decoration: none;
+}
+

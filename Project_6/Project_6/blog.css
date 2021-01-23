@@ -17,7 +17,7 @@ body{
     background-color:rgb(97, 151, 11);
     text-decoration: none;
 }
-.ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -134,6 +134,20 @@ table{
 	width: 100%;
 }
 .center { 
+    margin: 50 auto; 
+    width: 700px;
+    height: 40px; 
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(5, 2, 22);
+    color:white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.blogcolor{
+    color: rgb(236, 240, 13);
+}
+.center1 { 
     margin: 3 auto; 
     width: 700px; 
     
