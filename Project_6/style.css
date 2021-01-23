@@ -1,0 +1,157 @@
+h1, h2, h3, h4 {
+  font-family: 'Potta One', cursive;
+}
+
+p, a {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color:black;
+  font-size: 1.5rem;
+}
+
+.nav-link, .navbar-brand {
+  font-family: 'Potta One', cursive;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.col {
+  font-size: 3.5rem;
+  text-align: center;
+  padding-top: 60px;
+}
+.home-image {
+  height: 415px;
+  width: 280px;
+  border-radius: 5%
+}
+
+.home-h1 {
+  padding-top: 1.5em;
+  font-size: 3.5rem;
+}
+
+.home {
+  padding: 95px 15px;
+  font-size: 3.5rem;
+  color: #fff;
+  background-color: black;
+  line-height: 1.5;
+}
+
+.aboutme {
+  color:black;
+  line-height: 1.5;
+  padding: 90px 25px;
+  background-color: white;
+  font-size: 20px;
+}
+
+.row {
+  text-align: center;
+}
+
+.skills {
+  background-color: black;
+  color: #fff;
+  padding: 80px 25px;
+}
+.skills-image {
+  padding-bottom: 15px;
+  width: 150px;
+}
+.education {
+  background-color:black;
+  color:white;
+  text-align: center;
+  padding: 80px 30px 0 30px;
+}
+
+.education-images {
+  height: 368px;
+  width: 716.8px;
+}
+
+.contact {
+  color: white;
+  padding: 67px 20px 35px 20px;
+  background-color:black;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media all and (max-width: 650px) {
+  .home-image {
+    width: 180px;
+    height: 266px;
+  }
+  .home-h1 {
+    font-size: 2.5rem;
+  }
+
+  .education-images {
+    width: 300px;
+    height: 121px;
+  }
+
+  .cs_main h1,h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+}
+
+.intro {
+  padding: 80px 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.intro h1 {
+  font-size: 3rem;
+}
+
+.intro img {
+  margin-top: 20px;
+  width: 70%;
+  border-radius: 25px;
+  height: 500px;
+}
+
+.quotes {
+  padding: 45px 45px 45px 190px;
+  background-image: url('https://images.pexels.com/photos/630754/autumn-orange-nature-red-630754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  text-align: left;
+}
+
+.cs_main{
+  padding: 90px 90px;
+  line-height: 1.5;
+}
+
+.cs_main h1,h3 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-decoration-style:wavy;
+  text-decoration: underline;
+}
+
+.cs_main p {
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.cs_main img {
+  display: block;
+  margin: 30px auto;
+  height: 280px;
+  width: 390px;
+  position: relative;
+}
+
+#cricket {
+  padding: 90px 30px;
+  line-height: 1.5;
+}
