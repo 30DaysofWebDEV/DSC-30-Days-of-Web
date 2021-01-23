@@ -6,14 +6,25 @@
     <title>Html project</title>
 
 </head>
-<body style="background-color: whitesmoke;">
-    <header style="padding:20px;background-color:lightgray;text-align: center;margin-bottom: 10px;">
+<body>
+    <header>
         <h1>Barebones Portfolio</h1>
     </header>
 
-    <h1>I'm KAUSHIK SRIRAM</h1>
+    <h1 style="text-align: center;">I'm KAUSHIK SRIRAM</h1>
 
-    <div id="table" style="padding: 20px;">
+
+        <div id="table">
+        <h3><i>Education details:</i></h3><br>
+        <table border="1">
+            <th>Education</th><th>Institute</th><th>CGPA</th><th>Time period</th>
+            <tr><td>Bachelors of technology(CSE)</td><td>Kommuri Prathap Reddy Institute of Technology, Hyderabad</td><td>7.0(present)</td><td>2018-2022</td></tr>
+            <tr><td>Intermediate</td><td>Nano Junior College, Hyderabad</td><td>8.0</td><td>2016-2018</td></tr>
+            <tr><td>Schooling</td><td>Mother Teresa Grammar High School, Hyderabad</td><td>9.3</td><td>2005-2016</td></tr>
+        </table>
+    </div>
+
+    <div id="table">
         <h3><i>Here are my skills: </i></p></h3>
         <table border="1">
             <tr><th></th><th>skills</th>
@@ -50,7 +61,7 @@
     </div>
 
     <h3><i>Checkout HTML tutorial of 30 days of Web Development here: </i></p></h3>
-    <div id="video" style="padding: 40px;background-color:black;text-align: center;">
+    <div id="video" style="padding: 40px;text-align: center;">
         <iframe width="460" height="315" src="https://www.youtube.com/embed/dfnOpzMkSno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
@@ -63,6 +74,23 @@
     </footer>
 </body>
     <style>
+
+        body{
+            background-color:azure;
+        }
+
+        h1,h3{
+            text-align: center;
+        }
+
+        header{
+            padding:20px;
+            text-align: center;
+            margin-bottom: 10px;
+            background-color:lightgray;
+        }
+        
+
         input[type="number"]::-webkit-outer-spin-button, 
         input[type="number"]::-webkit-inner-spin-button {
             -webkit-appearance: none;
@@ -71,14 +99,27 @@
         input[type="number"] {
             -moz-appearance: textfield;
         }
-        a{
-            color: black;
-            text-decoration: none;
-        }
+
         img{
             height: 150px;
             width: 200px;
             padding: 10px;
         }
+        #table{
+            text-align: center;
+            padding: 100px;
+        }
+        table{
+            width: 100%;
+        }
+
+        td,th{
+            padding: 10px;
+        }
+        
+        footer h3{
+            text-align: initial;
+        }
+
     </style>
 </html>
