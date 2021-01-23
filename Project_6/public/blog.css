@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 body{
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     line-height: 1.2cm;
     font-weight: 900;
-    background:url("../images/geometric-leaves.png");
+    background: url("tic-tac-toe.png");
 }
 .content{
     max-width: 500px;
@@ -17,7 +16,7 @@ body{
     background-color:rgb(97, 151, 11);
     text-decoration: none;
 }
-ul {
+.ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -106,14 +105,16 @@ h3{
 #content-wrap {
     padding-bottom: 2.5rem;    
 }
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;            
-}
 .padding{
     padding: 2%;
+}
+table{
+	margin-top: 50px;
+	text-align: center;
+	background:rgb(177, 118, 169);
+    color: rgb(6, 48, 44);
+    margin-left:auto; 
+    margin-right:auto;
 }
 
 #show th, #show td{
@@ -124,32 +125,25 @@ h3{
 	width: 100%;
 }
 .center { 
-    margin: auto; 
+    margin: 50 auto; 
     width: 700px;
     height: 40px; 
     text-align: center;
     text-decoration: none;
     background-color: rgb(5, 2, 22);
     color:white;
+    font-size: x-large;
+    font-weight: bolder;
 }
-.blog1color{
+.blogcolor{
     color: rgb(236, 240, 13);
     text-decoration: none;
 }
-
-.blog1color:hover {
-    text-decoration:none;
-    cursor:pointer;
-}
 .center1 { 
-    margin: 3 auto; 
-    width: 800px; 
-    text-align: center;
-    font-size: x-large;
-    margin: auto;
-    font-weight: bolder;
     text-decoration: none;
+    margin: 3 auto; 
+    width: 700px; 
 }
 a:link{
     text-decoration: none!important;
-}
+  }

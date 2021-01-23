@@ -1,10 +1,11 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 body{
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     line-height: 1.2cm;
     font-weight: 900;
-    background: url("../images/tic-tac-toe.png");
+    background: url("tic-tac-toe.png");
 }
 .content{
     max-width: 500px;
@@ -49,6 +50,7 @@ h3{
     font-weight: bolder;
     color:rgb(255, 0, 0);
     font-stretch: ultra-expanded;
+    z-index: 10;
 }
 .bookmarks{
     width: 500px;
@@ -101,9 +103,17 @@ h3{
 #page-container {
     position: relative;
     min-height: 100vh;
-} 
+}
+  
 #content-wrap {
     padding-bottom: 2.5rem;    
+}
+  
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            
 }
 .padding{
     padding: 2%;
@@ -125,25 +135,6 @@ table{
 	width: 100%;
 }
 .center { 
-    margin: 50 auto; 
-    width: 700px;
-    height: 40px; 
-    text-align: center;
-    text-decoration: none;
-    background-color: rgb(5, 2, 22);
-    color:white;
-    font-size: x-large;
-    font-weight: bolder;
-}
-.blogcolor{
-    color: rgb(236, 240, 13);
-    text-decoration: none;
-}
-.center1 { 
-    text-decoration: none;
     margin: 3 auto; 
     width: 700px; 
 }
-a:link{
-    text-decoration: none!important;
-  }
