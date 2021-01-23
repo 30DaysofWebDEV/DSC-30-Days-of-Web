@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <h1 class="w3-center w3-animate-top w3-animate-opacity w3-text-black">Contact Form</h1>
+    <div class="container">
+        <form class="w3-center w3-animate-top w3-animate-opacity">
+            <label class="w3-text-black">FIRST NAME</label><br>
+            <input type="text" id="firstname" class="w3-input w3-border w3-round" required /><br>
+            <label class="w3-text-black">LAST NAME</label><br>
+            <input type="text" id="lastname" class="w3-input w3-border w3-round" required /><br>
+            <label class="w3-text-black">EMAIL ID</label><br>
+            <input type="text" id="email" class="w3-input w3-border w3-round" required /><br>
+            <label class="w3-text-black">PASSWORD</label><br>
+            <input type="text" id="password" class="w3-input w3-border w3-round" required /><br>
+            <label class="w3-text-black">PHONE NUMBER</label><br>
+            <input type="tel" id="phone " class="w3-input w3-border w3-round" required /><br>
+            <label class="w3-text-black">ADDRESS</label><br>
+            <input type="text" id="ADDRESS" class="w3-input w3-border w3-round" required /><br>
+            <label for="inputState" class="w3-text-black">STATE</label><br>
+            <select id="inputState" class="w3-input w3-border w3-round">
+                <option>Chhattisgarh</option>
+                <option>West Bengal</option>
+                <option>Jammu and Kashmir</option>
+                <option>Andhra Pradesh</option>
+                <option>Goa</option>
+                <option>Bihar</option>
+                <option>Assam</option>
+                <option>Karnataka</option>
+                <option>Maharashtra</option>
+                <option>Uttarakhand</option>
+                <option>Madhya Pradesh</option>
+                <option>Uttar Pradesh</option>
+                <option>Rajasthan</option>
+                <option>Telangana</option>
+                <option>Tamil Nadu</option>
+                <option>Gujarat</option>
+                <option>Odisha</option>
+                <option>Nagaland</option>
+                <option>Mizoram</option>
+                <option>Arunachal Pradesh</option>
+                <option>Himachal Pradesh</option>
+                <option>Kerala</option>
+                <option>Jharkhand</option>
+                <option>Punjab</option>
+                <option>Manipur</option>
+                <option>Haryana</option>
+                <option>Sikkim</option>
+                <option>Lakshadweep</option>
+                <option>Andaman and Nicobar Islands</option>
+            </select>
+            <label class="w3-text-black"><br>CITY</label><br>
+            <input type="text" id="CITY" class="w3-input w3-border w3-round" required /><br>
+            <p>
+                <button class="w3-button w3-green">SUBMIT</button>
+            </p>
+
+        </form>
+    </div>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(function () {
+            $('.w3-input').script('load');
+            $('.destory').click(function () {
+                $('.w3-input').script('destory');
+            })
+        })
+
+    </script>
+
+</body>
+
+</html>

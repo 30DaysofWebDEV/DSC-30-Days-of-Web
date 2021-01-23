@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> <center> My Portfolio<br><br></center></h1>
+    </header>
+    <section>
+        <div class="navlist">
+            <center><a href="#aboutme">About Me</a> | <a href="#projects">Projects</a> | <a href="#contactme">Contact Me</a></center><br>
+        </div>
+        <hr class="line">
+        <div id="aboutme" class="center">
+            <center>
+                <h2><br>About Me</h2><br><br>
+                <h3>Name: ISHJOT SINGH MAKKER<br>
+                Address: Jabalpur,Madhya Pradesh,India<br>
+                Date of Birth: 15th October 2001</h3>
+                <center><p class="">Hello, I am Ishjot from Chhattisgarh Swami Vivekanand Technical University. <br>
+                     I am a student currently pursuing B.tech.<br>
+                     I'm currently learning everything<br>
+                     My intersets are in Web Development and Competivtive Coding. <br>
+                     I love to draw and play basketball</p></center>
+            </center>
+        </div>
+        <br><hr class="line">
+        <div id="projects">
+            <table width="100%" border="1px" class="skill">
+                <caption><h2><br>My Projects<br><br><br></h2></caption>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Project Name</th>
+                    <th>Project Image/Videos</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><b>My Shopping App</b></td>
+                    <td><center><img src="logo.png" title="App" class="logo"> </center></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><b>Rock Paper Scissor Game</b></td>
+                    <td><center><img src="game.jpg" title="Game" class="logo"></center></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><b>Tutorial Video Created By Me</b></td>
+                    <td>
+                        <center>
+                            <iframe width="280" height="150" src="https://www.youtube.com/embed/H1VK7rXXii4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </center>
+                    </td>
+                </tr>
+            </table><br><br>
+        </div>
+        <hr class="line">
+        <div id="contactme">
+            <center><h2><br>Contact Me</h2></center><br><br>
+             <center>
+                <form action="#" method="post" autocomplete="on">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="em">E-mail Id.: </label>
+                    <input type="email" id="em" name="em"><br><br>
+                    <label for="phone">Phone No.:</label>
+                    <input type="text" id="phone" name="phone"><br><br>
+                    <label for="desc">Description:</label>
+                    <textarea id="desc" name="desc" rows="4" cols="50"></textarea><br><br>
+                    <button class="button button1">SUBMIT</button>
+                    <button class="button button1">RESET</button>
+                </form> 
+            </center>
+        </div>
+    </section>
+    <footer>
+        <center>
+            &copy; Copyright 2021.
+        </center>
+    </footer>
+</body>
+</html>
