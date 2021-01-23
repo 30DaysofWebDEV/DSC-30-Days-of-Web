@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+        </script>
+    
+
+
+    <style>
+      body {
+			background-image: url(https://onlyvectorbackgrounds.com/wp-content/uploads/2018/09/Abstract-Ambient-Light-Background-Day-Blue.jpg);
+			-webkit-background-size: cover;
+  			-moz-background-size: cover;
+  			-o-background-size: cover;
+  			background-size: cover;			
+		    }
+
+        html {
+			scroll-behavior:smooth;
+          }
+          table, td, th {
+              border: 1px solid black;
+          }
+          
+          table{
+              border-collapse: collapse;
+            }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: rgb(191, 252, 252);
+            margin-top: 20px;
+          }
+
+    </style>
+    <title>PORTFOLIO!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lG navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><strong>ANKITA PRASAD</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#Education">Education</a>
+                <a class="nav-link" href="#Gallery">Gallery</a>
+                <a class="nav-link" href="#Contact">Contact Me</a>
+              </div>
+            </div>
+        </div>
+      </nav>
+    
+      <div class="container-fluid" style="background-color:slategray; height: 300px;">
+        <h1 style="font-size:x-large; font-style:normal; padding: 60px;">
+        <div><strong>A tech enthusiast, creative thinker and learner. </strong></div>
+        <div>Currently pursuing IT-Btech from Indira Gandhi Delhi Technical University for Women, Kashmere Gate.</div>
+        <div>Part of many societies, Innerve headcordinator and member of Develepors Student Club, IGDTUW. </div>
+    </div>
+      <div class="nav-link" id="Education"
+        <h2 style="font-size: larger; background-color:midnightblue; color:honeydew; padding:5px "><strong>EDUCATION</strong></h2>
+        <table class="table table-success table-striped ">
+            <center>
+                <tr style="font-size: xx-large">
+                    <th> S.No.</th>
+                    <th>School/University</th>
+                    <th>Percentage</th>
+                </tr>
+            
+                <tr>
+                    <td>1.</td>
+                    <td>Bal Bharati Public School, Noida -10th standard</td>
+                    <td>94%</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Salwan Public School , Delhi</td>
+                    <td>82%</td>
+                </tr>
+            
+                <tr>
+                    <td>3.</td>
+                    <td>IGDTUW</td>
+                    <td>--</td>
+                </tr>
+                </center>
+          </table>
+
+
+    </div>
+<BR>
+  <br>
+<!--Gallery-->
+<section>
+  <div class="container-fluid nav-link" id="Gallery">
+    <h2 style="font-size:medium; background-color:mediumaquamarine; color:honeydew; padding:15px "> <strong>GALLERY</strong></h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="Pictures/Profile.jpg" target="_blank">
+            <img src="Pictures/Profile.jpg"  alt="Hey, That was me!" style="width: 100%; height: 270px;">  
+          </a>
+          <br>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="Pictures/Adobe_1.jpg" target="_blank">
+            <img src="Pictures/Adobe_1.jpg" alt="Adobe workplace" style="width:100%">
+          </a>
+        </div>
+        <br>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="Pictures/Adobe_2.jpg" target="_blank">
+            <img src="Pictures/Adobe_2.jpg"  alt="Adobe workplace" style="width: 100%;">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+<br>  
+
+  <div class="container-fluid">
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/FKThzxye2gk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container-fluid nav-link" id="Contact">
+    <h2 style="color:darkred; background-color: darkseagreen;" class="navi" id="Contact">
+      Contact Me
+    </h2>
+    <form style="margin-left: 5cm;" id="form" onSubmit="myFunction()" action="javascript:DataEntry()">
+        <p>First Name: <input type="text" id="firstname" name="f_name" required></p>
+        <p>Last Name: <input type="text" id="secondname" name="l_name" required></p>
+        
+        <fieldset>
+        <legend>Gender: </legend>
+        <p>
+            Male <input type="radio" name="gender" required> Female<input type="radio" name="gender" required>
+        </p>
+    </fieldset>
+        <p>Age <input type="number" name="number" id="number" min=1 max=100 required></p>
+        <p>Contact Number <input type="text" name="number" id="text" min=10 max=13 required></p>
+        <p>
+            Email: <input type="email" name="email" id="email" required>
+        </p>
+        <p><button class="btn btn-secondary" type="submit"><strong>Submit</strong></p>
+        <button type="reset" class="btn btn-warning"><strong>Reset</strong></button>
+    </form>
+
+  </div>  
+</section>
+<hr>
+</body>
+    
+<script>
+  function DataEntry() {
+   document.cookie="firstname="+document.getElementById('f_name').value+" ; 
+   document.cookie="lastname="+document.getElementById('l_name').value+" ; 
+
+   var radio = document.getElementsByName('gender');
+
+   for (var i = 0, length = radio.length; i < length; i++) {
+     if (radio[i].checked) {
+         document.cookie="gender="+radio[i].value+"; 
+         break;
+     }
+    }
+  
+    document.cookie="number="+document.getElementById('number').value+"; 
+     document.cookie="email="+document.getElementById('email').value+"; 
+          alert('Data is Saved');
+  }
+          alert('SAVED DATA IS HERE: '+document.cookie);
+        </script>
+
+<hr>
+<footer class="scroll footer" id="MailMe">
+	<center>
+  <p style="font-weight:bolder; ">Developer: Ankita Prasad</p>
+  <p><a href="mailto:ankitaprasad67@gmail.com">Contact me</a></p>
+  	</center>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
