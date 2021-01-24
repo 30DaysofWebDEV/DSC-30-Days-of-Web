@@ -9,5 +9,5 @@
   * For each entry, create a new row with the details entered.
   * Do not allow repeated or empty fields.
   * Whenever they enter a new thing, it will have a small fade in effect.
-  * Animations and functionalities.
+  * Animations and functionalities. 
 
