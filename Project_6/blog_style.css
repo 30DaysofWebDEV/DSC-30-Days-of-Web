@@ -1,0 +1,82 @@
+body {
+    background: url("https://www.teahub.io/photos/full/42-424566_minimalist-wallpaper-4k.jpg") no-repeat
+      center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .navbar{
+      opacity: 90%;
+  }
+  .card-title{
+      text-align: center;
+      
+  }
+  .card{
+      background-color:rgb(15, 184, 184);
+      opacity: 85%;
+  }
+  
+ #propich{
+     border-radius:50%;
+ }  
+ #blogcolumn .row{
+    background-color: rgba(228, 161, 38, 0.685);
+    margin-bottom: 5px;
+}
+.blogtext{
+    color: rgb(43, 43, 43);
+}
+
+
+  
+
+  /* Contact logo css starts here */
+  #facebook {
+      width: 75px;
+      height: 50px;
+      border: none;
+      padding-left: 0;
+  }
+  #facebook:hover{
+      cursor: pointer;
+  }
+  #instagram {
+      width: 75px;
+      height: 50px;
+  }
+  #instagram:hover{
+      cursor: pointer;
+  }
+  #gmail {
+      width: 75px;
+      height: 50px;
+  }
+  #gmail:hover{
+      cursor: pointer;
+  }
+  #linkedin {
+      width: 75px;
+      height: 50px;
+  }
+  #linkedin:hover{
+      cursor: pointer;
+  }
+  #contact h4{
+      font-size: 1.5em;
+  }
+  #contact img{
+      padding: 0 0.8em;
+  }
+  #contact{
+      text-align: center;
+      padding-top: 1.5em;
+      background-color: rgba(247, 37, 133, 0.33);
+      border: 3px outset rgba(255, 37, 133, 0.44);
+      border-left: none;
+      border-top: none;
+      border-radius: 0.5em;
+  }
+  
+  /* Contact logos css ends here */
