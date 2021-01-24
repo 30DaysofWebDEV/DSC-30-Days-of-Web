@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">
+        <h2>Santy</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Home Section -->
+      <section id="home">
+        <h1>I'm Santhosh</h1>
+        <h3>Web Developer</h3>
+      </section>
+      <section class="about" id="about">
+        <h1>About Me:</h1>
+        <hr />
+        <p>I'm currently pursuing my B.E in Mechanical Engineering(3rd Year)</p>
+      </section>
+      <section class="hobbies" id="hobbies">
+        <ul>
+          <li>Listening to Music</li>
+          <img
+            src="./images/music.jpg"
+            alt="Person listening to Music"
+            height="150"
+            width="200"
+          />
+          <li>Playing Video Games</li>
+          <video
+            src="./images/videogames.mp4"
+            controls
+            autoplay
+            height="150px"
+          ></video>
+          <li>Reading Medium Articles</li>
+          <img
+            src="./images/reading.jpg"
+            alt="Reading"
+            height="150px"
+            width="200px"
+          />
+        </ul>
+      </section>
+      <section class="skills" id="skills">
+        <h1>My Skills:</h1>
+        <hr />
+        <table border="2px">
+          <thead>
+            <th>Skills</th>
+            <th>Percentages</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>90%</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>80%</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>70%</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td>40%</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="contact" id="contact">
+        <h1>Contact Me:</h1>
+        <hr />
+        <form action="#" method="GET">
+          <label for="first-name">First Name:</label>
+          <input
+            type="text"
+            id="first-name"
+            name="first-name"
+            required
+          /><br /><br />
+          <label for="last-name">Last Name:</label>
+          <input
+            type="text"
+            id="last-name"
+            name="last-name"
+            required
+          /><br /><br />
+          <label for="user-email">Email:</label>
+          <input
+            type="email"
+            name="user-email"
+            id="user-email"
+            required
+          /><br /><br />
+          <label for="cell-number">Phone Number:</label>
+          <input
+            type="text"
+            name="cell-number"
+            id="cell-number"
+            pattern="/(7|8|9)\d{9}/"
+          />
+          <br /><br />
+          <label for="random-number">Random Number:</label>
+          <input type="number" name="random-number" id="random-number" />
+          <br /><br />
+          <button>Contact Me!</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a href=""><img src="./images/instagram.svg" alt="instagram" /></a>
+      <a href=""><img src="./images/twitter.svg" alt="twitter" /></a>
+      <a href=""><img src="./images/github.svg" alt="github" /></a>
+    </footer>
+  </body>
+</html>

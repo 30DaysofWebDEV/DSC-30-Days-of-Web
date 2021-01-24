@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+  min-width: 600px;
+  background-image: linear-gradient(130deg, #ffffff, #1c3f80);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.container {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 1.5rem;
+  margin: auto;
+  align-items: center;
+}
+header .heading {
+  font-size: 5rem;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 3;
+}
+header p {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 5;
+}
+.main {
+  padding: 20px;
+}
+form {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+}
+input[type="text"] {
+  height: 30px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #474747;
+  flex-grow: 1;
+}
+button {
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+  color: #474747;
+}
+button:hover {
+  color: #e8175d;
+}
+.todoList {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 25px;
+
+  height: 100%;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  padding: 15px;
+  font-size: 1rem;
+}
+.clearAll {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 3px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.clearAll:hover {
+  color: #e8175d;
+}
+.todo-item {
+  flex-grow: 1;
+}
+i {
+  pointer-events: none;
+}
+.todoList ul li i {
+  padding: 0rem 1rem;
+}
+.todoList ul li .correct:hover {
+  color: #76ba1b;
+}
+.todoList ul li .delete:hover {
+  color: #ff0000;
+}
+.todo-list-item {
+  transition: all 0.5s ease-out;
+}
+.todo-list-item-fall {
+  transform: translateY(12rem) rotate3d(5, 5, 5, -10deg);
+  opacity: 0;
+}
+/* font-family: 'Sofia', cursive;
+font-family: 'Ubuntu', sans-serif; */
