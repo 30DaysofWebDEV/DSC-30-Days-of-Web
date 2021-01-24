@@ -40,7 +40,7 @@
                     <a href="#projects" class="nav-link ">Projects</a>
                 </li>
                 <li class="nav-item  pl-5">
-                    <a href="#conta" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
         </div>
@@ -219,7 +219,7 @@
         
     -->
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="name">
             <h2>About <span>Me...</span></h2>
             <p>
@@ -231,7 +231,7 @@
     </video>
     </section>
 
-    <section class="experience">
+    <section class="experience" id="experience">
         <h2>Experiences</h2>
         <p>
             I've been working on some of the mini-projects in college using Java, Swing and MySQL. <br /> I also have developed some good websites using HTML, CSS and a bit of JavaScript. <br /> Here are my skill ratings by myself:
@@ -283,7 +283,7 @@
                 </tr>
             </table>
         </p>
-        <div class="projects">
+        <div class="projects" id="projects">
             <h2>Projects</h2>
             <table>
                 <tr>
@@ -324,20 +324,42 @@
         </div>
     </section>
 
+    <section class="blog" id="blog">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, fugit quia labore sequi nostrum voluptates. Autem molestias doloremque sint, voluptates dolores ducimus quos dolore culpa distinctio perspiciatis ea, blanditiis officia?</p>
 
-    <section class="contact">
+            <div class="class-wrapper">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="" alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Lorem, ipsum dolor.</h1>
+                        </a>
+                        <span>May 12, 2020</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, ad!</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
         <h2>Contact Me</h2>
         <form class="input">
-            <label for="fname" id="label">First Name: </label>
-            <input type="text" id="input" name="fname" placeholder="Virat">
+            <label for="fname" id="label ">First Name: </label>
+            <input type="text" class="input1" id="firstName" name="fname" placeholder="Virat">
             <label for="lname" id="label">Last Name: </label>
-            <input type="text" id="input" name="lname" placeholder="Kohli">
+            <input type="text" class="input1" id="lastName" name="lname" placeholder="Kohli">
 
-            <label for="lname" id="label">Last Email: </label>
-            <input type="email" id="input" name="email" placeholder="xyz@gmail.com">
+            <label for="lname" id="label">Email: </label>
+            <input type="email" class="input1" id="email" name="email" placeholder="xyz@gmail.com">
             <label for="phoneNo" id="label">Phone No: </label>
-            <input type="number" id="input" name="phoneNo" placeholder="1234567890">
-            <input type="button" value="Submit" class="button">
+            <input type="number" class="input1" id="phoneNo" name="phoneNo" placeholder="1234567890">
+            <input type="button" onclick="sendContact();" value="Submit" class="button">
         </form>
     </section>
 
@@ -361,6 +383,7 @@
 
     </footer>
 -->
+    <script src="/DSC-30-Days-of-Web/Project_4/scriptOne.js"></script>
 </body>
 
 </html>
