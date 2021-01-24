@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHAMAN</title>
+    <!--links-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+    crossorigin="anonymous"
+  />   
+   <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body bgcolor="#131313">
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#" id="navbar__logo"><i class="fab fa-old-republic"></i>Shaman</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="Project_4_CSS_Bootstrap_JS_BareBone_Website.html" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="tech.html" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__links">Blog</a>
+          </li>
+          <li class="navbar__btn"><a href="signup.html" class="button">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>SHAMAN </h1>
+          <h2>SIDDIQUE</h2>
+          <p>Welcome To My Portfolio</p>
+          <button class="main__btn"><a href="#">Get Started!</a></button>
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="Assets/Shaman1.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services">
+      <h1><b>Learn More About Me.....</b></h1>
+      <div class="services__container">
+        <div class="services__card">
+          <img class="img1" src="Assets/webdev.png" width= "360">
+
+          <h2>My Web Dev Experience</h2>
+          <p>Lets see how it goes...</p>
+          <button>Get Started</button>
+        </div>
+        <div class="services__card">
+          <img class="img2" src="Assets/coding.png" width= "320">
+
+          <h2>My Coding Journey</h2>
+          <p>Take a Peek...</p>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </div>
+    <!-- Form -->
+    <form style="background-color:#131313" >
+      <div class ="Subscribe">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="First Name *" />
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Last Name *" />
+        <label for="age">Age:</label>
+        <input type="text" name="age" id="age" placeholder="Age"/>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="Email *" />
+       <span onclick="addRow()" class="addBtn">Add</span>
+     </form>
+
+      </div>
+      <br/><br/> 
+       <table border="1" >
+
+           <tr >
+               <th>First Name</th>
+               <th>Last Name</th>
+               <th>Age</th>
+               <th>Email</th>
+           </tr>
+
+           <tr>
+               <td>Brian</td>
+               <td>Rex</td>
+               <td>20</td>
+               <td>brain345@gmail.com</td>
+           </tr>
+
+       </table>
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#" id="footer__logo"><i class="fab fa-old-republic"></i></a>
+          </div>
+          <p class="website__rights">© Shaman 2021. All rights reserved</p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="mailto:shamanhussain@gmail.com"
+              target="_blank"
+              aria-label="Email"
+            >
+            <i class="fas fa-envelope-square"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://github.com/ShamanS1"
+              target="_blank"
+              aria-label="GitHub"
+            >
+            <i class="fab fa-github"></i>
+            </a>
+            
+            <a
+              class="social__icon--link"
+              href="https://www.linkedin.com/in/shaman-s-6a0a771ba/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
