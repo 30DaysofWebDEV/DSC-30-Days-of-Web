@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="design.css">
+  </head>
+  <title>MY TODO LIST PROJECT</title>>
+  <body>
+
+    <div class="header">
+      <h2 style="margin: 10px;">To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+      <li class="checked">HTML</li>
+      <li>CSS</li>
+      <li>BOOTSTRAP</li>
+      <li class="checked">JAVASRIPT</li>
+      <li>JQUERY</li>
+      <li>WEB DEVELOPMENT</li>
+      <li>PRACTISE</li>
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+
+    <script type="text/javascript" src="design.js"></script>
+
+  </body>
+</html>
