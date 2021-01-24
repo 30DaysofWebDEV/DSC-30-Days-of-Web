@@ -1,0 +1,52 @@
+body {
+  background: url("https://images.alphacoders.com/881/881287.jpg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar {
+  opacity: 70%;
+}
+#homeintro {
+  padding-top: 100px;
+  text-align: center;
+}
+#homeintro h1 {
+  color: rgb(8, 24, 117);
+}
+#homeintro h4 {
+  font-style: italic;
+  color: rgb(245, 229, 91);
+}
+
+#homeintro h5 {
+  padding-top: 150px;
+  color: rgb(9, 47, 97);
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button a {
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
