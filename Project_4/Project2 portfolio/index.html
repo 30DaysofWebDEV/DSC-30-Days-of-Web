@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namrutha Hari</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body bgcolor="#131313">
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">NAMRUTHA HARI</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#blog" class="navbar__links" id="blog-page"
+              >Blog</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#subscribe" class="button" id="subscribe">Subscribe</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Top Section -->
+    <div class="top" id="home">
+      <div class="top__container">
+        <h1 class="top__heading"> <span>Namrutha Hari</span></h1>
+        <p class="top__description">I believe in Possibilities</p>
+        <button class="main__btn"><a href="#">Explore</a></button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+        <div class="main__img--card"><img src="../assets/Namrutha Hari.jpg" width="500"></div>
+        </div>
+        <div class="main__content">
+          <h1>About</h1>
+          <h2>Welcome to my portfolio!</h2>
+          <p>Learn more about my professional journey here.</p>
+          <button class="main__btn"><a href="mailto:clickfornamz@gmail.com">Contact Me</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Section -->
+    <div class="blog" id="blog">
+      <h1>Blog Area</h1>
+      <div class="blog__wrapper">
+        <div class="blog__card">
+          <h2>DSC Technical Member</h2>
+          <p>DSC SRM Ramapuram</p>
+          <div class="blog__btn"><button>More</button></div>
+        </div>
+        <div class="blog__card">
+          <h2>Youtube Channel</h2>
+          <p>ClickForNamZ</p>
+          <div class="blog__btn"><button>More</button></div>
+        </div>
+        <div class="blog__card">
+          <h2>My first Hackathon</h2>
+          <p>Read about my experience</p>
+          <div class="blog__btn"><button>More</button></div>
+        </div>
+        <div class="blog__card">
+          <h2>Other Blogs</h2>
+          <p>Read about other blog posts</p>
+          <div class="blog__btn"><button>More</button></div>
+        </div>
+      </div>
+    </div>
+
+    <hr></hr>
+
+    <!-- Form -->
+    <div>
+      <form style="background-color:#131313" >
+        <div class ="Subscribe">
+          <label for="fname">First Name:</label>
+          <input type="text" name="fname" id="fname" placeholder="First Name *" />
+          <label for="lname">Last Name:</label>
+          <input type="text" name="lname" id="lname" placeholder="Last Name *" />
+          <label for="age">Age:</label>
+          <input type="text" name="age" id="age" placeholder="Age"/>
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" placeholder="Email *" />
+         <span onclick="addRow()" class="addBtn">Subscribe</span>
+       </form>
+       </div>
+       <br/><br/> 
+        <table border="1" id="table" >
+            
+            <tr >
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+            
+            <tr>
+                <td>Shawn</td>
+                <td>Will</td>
+                <td>20</td>
+                <td>shawn345@gmail.com</td>
+            </tr>
+            
+        </table> 
+      </div>
+    <br><br>  
+<hr></hr>
+ <!-- Footer -->
+ <div >
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"></a>
+          </div>
+          <p class="website__rights">© Namrutha 2020. All rights reserved</p>
+          <div class="social__icons">
+            <a href="https://www.instagram.com/clickfornamz/?hl=en" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/channel/UCS9e061iP7Fku8TzG6uqpRA" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/namrutha-hari-0376331b4/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://twitter.com/home?lang=en" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
