@@ -1,0 +1,25 @@
+<!DOCTYPE.html>
+<html>
+<head>
+    <style> 
+  #enteries,#form{float:centre}
+    </style> 
+    </head>
+    <body>
+    <div id="entries">
+    <form name ="entryform">
+    Enter name: <input type="text" name="nm"/><br>
+    Enter email: <input type="text" name="ag"/><br>
+    <input type="button" value="show" onclick="collect(this.form)"/>   
+</form>
+</head>
+    <div id="results"></div>
+    <script type="text/javascript">
+                
+    function collect(frm) { 
+    document.getElementById("results").innerHTML+="Name:"+frm.nm.value+"<br>Email:"+frm.ag.value+"<hr>"
+    frm.reset();
+    } 
+    </script>
+    </body>
+    </html>
