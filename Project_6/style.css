@@ -1,0 +1,319 @@
+*{
+    margin:0;
+}
+
+:root{
+    --header : rgb(255, 153, 0);
+    --bg_gradient  :  linear-gradient(90deg, rgba(28,117,188,0.7) 0, rgba(255, 153, 0,0.3));
+    --form_bg : rgb(78, 60, 195);
+
+}
+
+#bg{
+    position:fixed;
+    top:-1px;
+    left:-17px;
+    width:100vw;
+    height:200vh;
+    z-index:-2;
+    opacity: 0.2;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background: url("https://cdn.dribbble.com/users/211312/screenshots/6007441/artboard_3-100.jpg") ;
+}
+
+body{
+    outline:5px double rgb(115, 115, 115);
+    outline-offset: -70px ;
+}
+
+.nav-item{
+    align-self: center;
+    padding-right: 25px;
+    font-weight:600;
+}
+
+.nav-item a:hover{
+    border-bottom: 2px solid black;
+    transform: translateY(-2px);
+}
+
+.header{
+    box-shadow: 5px 10px rgba(64, 64, 64,0.4);
+    background-color:var(--header);
+    margin-top: 10px;
+}
+
+
+.name{
+    padding-top: 70px; 
+    padding-bottom: 70px;
+    color:white;
+}
+
+.tsm{
+    font-size: 4rem;
+    font-family: 'Bungee Outline', cursive;
+}
+
+.fullName{
+    letter-spacing: 10px;
+    font-family: 'Nunito', sans-serif;
+    align-self: center;
+    font-size:2rem;
+}
+
+
+.fullName span{
+    background-color: white;
+    display:inline-block;
+    color:var(--header);
+    font-size: 4rem;
+    letter-spacing: 4px;
+    animation:ani 0.6s linear;
+}
+
+.fullName .t{
+    animation: for_t 2s infinite;
+}
+
+        /* ==================================   About ME ========================================== */
+
+#about{
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+    color:snow;
+    padding:30px;
+    background-color:rgb(123, 108, 224);
+    outline: 1px solid rgba(250,250,250,0.8);
+    outline-offset: -10px;
+}
+
+#about p.p1,p.p2{
+    text-indent: 20vw;
+    line-height: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+ }
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+            font-family: 'Nunito', sans-serif;
+            text-shadow: 2px 4px rgb(120, 120, 120);
+            font-size: 4rem;
+            color:rgb(31, 61, 122);
+            display: inline-block;
+            white-space: nowrap;
+            overflow:hidden;
+            width:0%;
+            margin:0 auto;
+            animation: text 3s both steps(18);
+}
+
+.heading .cursor{
+    text-shadow: none;
+    font-size: 5rem;
+    color:black;
+    padding-left:1px;
+    animation:blink 0.7s 2s steps(2) infinite;
+}
+
+.heading h1 span{
+    font-family: 'Redressed', cursive; 
+    font-size:6rem;
+}
+ p.welcome{
+    margin-top: 30px;
+    padding:10px;
+    position: relative;
+    z-index: 2;
+    color:rgb(0, 96, 128);
+    font-family: 'Raleway', cursive; 
+    background-color: rgb(255, 255, 179);
+    outline:2px solid black;
+    outline-offset: -7px;
+    letter-spacing: 2px;
+}
+
+        /* ==================================   Academics  ========================================== */
+
+.education{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#edu h1,#skills h1,#contact h1{
+    color:rgb(51, 51, 77);
+}
+
+ .education img{
+    border-radius: 100px;
+    margin-top:10%;
+    margin-left: 30%;
+    width:10vw;
+    height:10vw;
+ }
+
+ .inter,.school,.btech{
+    background-color: rgb(255, 133, 51);
+    border:4px solid rgb(120,120,120);
+    border-radius: 20px;
+    margin-right: 30px;
+    color:white;
+ }
+
+        /* ==================================   Skills   ========================================== */
+
+#carousel{
+    background-color: rgb(115, 115, 115);
+    width:calc(100% - 70px);
+    height:350px;
+    text-align: center;
+    margin:auto auto;
+    outline: 5px ridge rgb(115, 115, 115);
+    outline-offset: 20px;
+}
+
+.carousel-item img{
+    margin:auto auto;
+    width:inherit;
+    height:350px;
+}
+
+.carousel-item h3{
+    background-color: rgb(230, 230, 230);
+    padding:10px;
+    border:2px solid black;
+    border-radius: 30px;
+    color: black;
+}
+
+        /* ==================================   Contact   ========================================== */
+ #contact{
+    background-color: rgba(255, 195, 77,0.8);
+    width:80vw;
+    border:3px solid white;
+    border-radius: 20px;
+    margin: auto auto;
+}
+
+.form{
+   display: flex;
+   justify-content: center;
+   color:var(--form_bg);
+   font-weight: bold;
+   font-family: 'Nunito', sans-serif;
+}
+
+form div{
+   padding:20px;
+}
+
+input{
+   width:30vw;
+   margin: 5px 0 20px 0;
+   height:50px;
+   border:1px solid black;
+   border-radius: 10px;
+}
+
+textarea{
+   border:1px solid black;
+   border-radius: 10px;
+}
+
+.submit{
+   text-align: center;
+  
+}
+.submit input{
+   font-family:'Nunito', sans-serif; 
+   font-size: 1rem;
+   font-weight: bolder;
+   background-color: white;
+   color:var(--form_bg);
+}
+/* ========================================== D A T A  - C S S ======================================== */
+
+table{
+    width:80vw;
+    text-align: center;
+    padding:0 10px 0 10px;
+    border-collapse: separate;
+    border:4px double black;
+    border-spacing: 0 10px;
+}
+td,th{
+    border:1px solid black;
+}
+
+
+tr{
+    background-color: whitesmoke;
+    color:rgb(136, 77, 255);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+tr:not(:first-child){
+    opacity:0;
+}
+
+td{
+    padding:10px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+
+th{
+    background-color:  rgb(136, 77, 255);
+    height: 50px;
+    color:snow;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ========================================== F O O T E R - C S S ======================================== */
+footer{
+    background-color: rgba(51, 102, 204,0.8);
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color:white;
+    font-size: 0.9rem;
+    padding:30px 50px 20px 50px;
+    height:260px;
+  }
+  
+  .fa-facebook ,.fa-linkedin, .fa-google{
+      width:5px;
+      height:3px;
+      text-decoration: none;
+      margin-bottom: 5px;
+      border-radius:100px;
+      color: white;
+    }
+
+.foot_links:hover{
+   cursor: pointer;
+}
+
+@keyframes gets{
+    100%{opacity: 1;}
+}
+
+@keyframes text{
+    100%{width:600px;}
+}
+
+@keyframes blink{
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
