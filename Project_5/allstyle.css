@@ -1,0 +1,151 @@
+#welcome_text {
+  color: greenyellow;
+}
+.backgr_img {
+  background-image: url("https://wallpaperaccess.com/full/2187.jpg");
+}
+.backgr_img {
+  background-repeat: no-repeat;
+}
+
+.used_for_margin {
+  margin: 0px 50px 0px 50px;
+}
+
+.Intro img {
+  border-style: solid;
+  border-width: thick;
+}
+
+.Intro {
+  color: darkblue;
+  text-align: center;
+  font-weight: 900;
+  font-style: italic;
+}
+.My_def {
+  font-family: cursive;
+}
+.My_def a:hover {
+  color: orange;
+}
+.education li a:hover {
+  color: orange;
+}
+table,
+tr,
+th,
+td {
+  border: 2px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+#skilltable th {
+  background-color: deepskyblue;
+}
+#star {
+  background-color: darkgrey;
+}
+input[type="text"] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+input[type="password"] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+button {
+  color: rgb(236, 214, 10);
+  background-color: darkslategray;
+  font-weight: 900;
+  padding: 2mm;
+}
+#Subscription {
+  color: rgb(240, 227, 46);
+}
+.socials b {
+  text-align: center;
+}
+.socials {
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 46px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.6;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.border {
+  border: 2px solid rgba(106, 25, 212, 0.774);
+  padding: 2% 1%;
+  width: 250px;
+  height: 20px;
+  align-items: center;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#Register {
+  border: 2px solid rgb(255, 255, 255);
+  margin-left: 5em;
+  padding: 2% 2%;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 500px;
+}
+#Register th {
+  background-color: darkslategray;
+  padding: 2% 1%;
+  width: 250px;
+  height: 20px;
+  align-items: center;
+}
