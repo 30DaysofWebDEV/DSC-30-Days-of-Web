@@ -1,5 +1,5 @@
 :root {
-    --primary: 28a745;
+    --primary: yellowgreen;
     --dark: #161616;
     --pure: #ffffff;
     --ternary: #898989;
@@ -15,7 +15,7 @@
 
 h2 {
     font-family: 'Courier Prime', monospace;
-    color: var(--primary);
+    color: yellowgreen!important;
 }
 
 p {
@@ -26,7 +26,7 @@ p {
 /* header-start*/
 
 header {
-    background: var(--dark);
+    background: rgba(0, 0, 0, 0.5)!important;
     padding: 1rem;
     font-weight: 500;
     font-family: 'Courier Prime', monospace;
@@ -72,16 +72,16 @@ header li a:hover {
 /* header-end */
 
 .home {
-    background: var(--secondary);
+    background: #333!important;
     padding: 2rem;
-    color: white;
+    color: #F2F2F2!important;
     display: flex;
     justify-content: space-evenly;
 }
 
 .home h2 {
     font-size: 3rem;
-    color: var(--pure);
+    color: yellowgreen!important;
     padding: 2rem;
     margin-top: -2.5rem;
     font-weight: 400;
@@ -90,7 +90,7 @@ header li a:hover {
 }
 
 .home span {
-    color: var(--primary);
+    color: #fff!important;
     font-weight: bold;
 }
 
@@ -106,7 +106,7 @@ header li a:hover {
 .image img {
     width: 60%;
     border-radius: 4rem 1rem;
-    border: 7.5px double var(--primary);
+    border: 7.5px double yellowgreen!important;
     margin-left: 25%;
     margin-top: 5rem;
 }
@@ -121,7 +121,7 @@ header li a:hover {
 }
 
 .one {
-    color: var(--primary);
+    color: #fff!important;
     margin-top: -5rem;
 }
 
@@ -132,18 +132,23 @@ header li a:hover {
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: 600;
-    border: 2px solid var(--primary);
+    border: 2px solid yellowgreen!important;
     border-radius: 2rem;
     outline: none;
     cursor: pointer;
-    background: var(--primary);
+    background: yellowgreen!important;
     color: var(--primary);
+}
+
+.btn p {
+    padding: 1rem;
+    margin: 0;
 }
 
 .btn:hover {
     background: transparent;
-    border-color: var(--primary);
-    color: var(--secondary);
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
 }
 
 
@@ -155,8 +160,8 @@ header li a:hover {
 .about {
     padding: 2rem;
     padding-top: 0.5rem;
-    background: var(--dark);
-    color: var(--pure);
+    background: #222!important;
+    color: #F2F2F2!important;
     justify-content: space-evenly;
 }
 
@@ -172,8 +177,8 @@ header li a:hover {
     border: 2px solid transparent;
     border-radius: 2rem;
     background: transparent;
-    border-color: var(--primary);
-    color: var(--primary);
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
     padding: 4px 2px;
     padding-top: 6px;
 }
@@ -186,7 +191,7 @@ header li a:hover {
 
 video {
     width: 90%;
-    border: 5px double var(--primary);
+    border: 5px double yellowgreen!important;
     border-radius: 2rem 4rem;
     margin: 1rem 2rem;
 }
@@ -199,8 +204,8 @@ video {
 
 .experience {
     padding: 2rem;
-    color: var(--pure);
-    background: rgba(0, 0, 0, 1);
+    color: #F2F2F2!important;
+    background: #333!important;
 }
 
 .experience h2 {
@@ -210,8 +215,8 @@ video {
     border: 2px solid transparent;
     border-radius: 2rem;
     background: transparent;
-    border-color: var(--primary);
-    color: var(--primary);
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
     padding: 4px 2px;
     padding-top: 6px;
 }
@@ -240,7 +245,7 @@ table {
 .experience .bar-container {
     width: 100%;
     height: 20px;
-    background-color: var(--ternary);
+    background-color: #444!important;
     font-size: 1.5rem;
     margin-top: 1rem;
     border-radius: 1rem;
@@ -251,11 +256,10 @@ table {
 .bar-3,
 .bar-4 {
     width: 70%;
-    background: var(--primary);
+    background: yellowgreen!important;
     display: inline-block;
     height: 18px;
     border-radius: 1rem;
-    margin: 1px;
 }
 
 .bar-2 {
@@ -298,8 +302,8 @@ table {
 
 .contact {
     padding: 2rem;
-    color: var(--pure);
-    background: var(--dark);
+    color: #f2f2f2!important;
+    background: #222!important;
 }
 
 .contact h2 {
@@ -309,8 +313,8 @@ table {
     border: 2px solid transparent;
     border-radius: 2rem;
     background: transparent;
-    border-color: var(--primary);
-    color: var(--primary);
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
     padding: 4px 2px;
     padding-top: 6px;
 }
@@ -318,7 +322,7 @@ table {
 .contact form {
     margin-left: 2rem;
     margin-top: 2rem;
-    color: var(--primary);
+    color: yellowgreen!important;
     font-family: 'Courier Prime', monospace;
 }
 
@@ -366,14 +370,14 @@ table {
     border-radius: 2rem;
     outline: none;
     cursor: pointer;
-    background: var(--primary);
+    background: yellowgreen!important;
     color: var(--secondary);
 }
 
 .button:hover {
     background: transparent;
-    border-color: var(--primary);
-    color: var(--primary);
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
 }
 
 
@@ -382,7 +386,7 @@ table {
 footer {
     padding: 2rem;
     background: black;
-    color: var(--primary);
+    color: yellowgreen!important;
     font-family: 'Courier Prime', monospace;
 }
 
@@ -393,61 +397,32 @@ footer h2 {
     border: 2px solid transparent;
     border-radius: 2rem;
     background: transparent;
-    border-color: var(--primary);
-    color: var(--primary);
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
     padding: 4px 2px;
     padding-top: 6px;
 }
 
-footer ul {
-    margin-inline-start: auto;
-    width: 80%;
-    padding: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-footer ul li {
-    width: 100%;
-    margin-top: 2rem;
-    list-style: none;
-}
-
-footer ul li a img {
-    width: 25%;
-    padding: 1rem;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 10px;
-    border-radius: 50%;
-    font-weight: bolder;
-    background: var(--dark);
-}
-
-#email {
-    filter: invert(100%);
-    background: var(--light);
-}
-
-footer .copyright {
-    width: 90%;
-    margin: 2rem;
-    text-align: center;
-    font-size: 5px;
-    color: var(--ternary);
+footer i {
+    color: yellowgreen!important;
+    margin: 1rem;
+    margin-left: 1rem;
 }
 
 
 /* footer end*/
 
-@media (max-width:1024px) {
+@media (min-width:1024px) {
     .hamberger {
         display: none;
         padding: 1rem;
     }
+    h2 {
+        width: 25%;
+    }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 360px) {
     .hamberger {
         display: inline;
     }
@@ -470,7 +445,7 @@ footer .copyright {
     }
     .home h2 {
         width: 100%;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: var(--pure);
         font-weight: 400;
         line-height: 1;
@@ -487,7 +462,7 @@ footer .copyright {
         padding-left: 2rem;
     }
     .btn {
-        padding: 0.8rem 1rem;
+        padding: 0.8rem;
         margin-left: 1.5rem;
         margin-top: 0rem;
         font-weight: 600;
@@ -497,6 +472,10 @@ footer .copyright {
         cursor: pointer;
         background: var(--primary);
         color: var(--primary);
+    }
+    .btn p {
+        padding: 2px;
+        margin: 0;
     }
     .home .image {
         width: 100%;
@@ -523,6 +502,7 @@ footer .copyright {
         color: var(--primary);
         padding: 4px 2px;
         margin-left: 0;
+        font-size: 1.5rem;
     }
     .about .name p {
         font-size: 1rem;
@@ -548,6 +528,7 @@ footer .copyright {
         color: var(--primary);
         padding: 4px 2px;
         margin-left: 0;
+        font-size: 1.5rem;
     }
     .experience p {
         font-size: 1rem;
@@ -576,16 +557,18 @@ footer .copyright {
         color: var(--primary);
         padding: 4px 2px;
         padding-top: 6px;
+        font-size: 1.5rem;
     }
     .contact form {
         color: var(--primary);
         font-family: 'Courier Prime', monospace;
         margin: 1rem;
+        font-size: 1rem;
     }
     #input {
         width: 100%;
         margin: 0.5rem;
-        padding: 1rem;
+        padding: 0.5rem;
         border: none;
         border-top: 2px solid var(--ternary);
         border-bottom: 2px solid var(--ternary);
@@ -594,7 +577,7 @@ footer .copyright {
         outline: none;
         background: transparent;
         border-radius: 2rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: var(--primary);
     }
     .input {
@@ -603,16 +586,17 @@ footer .copyright {
         padding: 0;
     }
     .contact .button {
-        padding: 0.8rem 1rem;
-        margin-left: 5srem;
+        padding: 0.8rem;
+        margin: 0;
         margin-top: 1rem;
         font-weight: 600;
+        font-size: 1rem;
         border: 2px solid transparent;
         border-radius: 2rem;
         outline: none;
         cursor: pointer;
-        background: var(--primary);
-        color: var(--secondary);
+        background: yellowgreen!important;
+        color: black!important;
     }
     footer {
         padding: 1rem;
@@ -629,14 +613,11 @@ footer .copyright {
         background: transparent;
         border-color: var(--primary);
         color: var(--primary);
-        padding: 4px 2px;
+        padding: 2px;
         padding-top: 6px;
+        font-size: 1rem;
     }
-    footer ul {
-        width: 100%;
-        padding: 0;
-        margin-left: 1rem;
-        display: flex;
-        justify-content: space-evenly;
+    .footer i {
+        color: yellowgreen!important;
     }
 }
