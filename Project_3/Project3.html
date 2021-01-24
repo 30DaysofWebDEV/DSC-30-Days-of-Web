@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Project3.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+  <h1>PORTFOLIO</h1>
+  <div class ="container">
+    <form>
+        <h2>CONTACT FORM</h2>
+        <p>FIRST NAME: <input type="text" name="name" required></p>
+        <p>LAST NAME: <input type="text" name="name" required></p>
+        <p>Email: <input type="email" name="email" id="email" required></p>
+        <p>Mobile Number <input type="text" name="number" id="text" min=10 max=13 required></p>
+
+        <legend>Gender: </legend>
+            <p> 
+            Male <input type="radio" name="gender" required>
+            Female<input type="radio" name="gender" required>
+            Other<input type="radio" name="gender" required>
+            </p>
+        <p>Birthday<input type="date" name="bday"><input type="hidden" name="bday" value=""></p>
+        <p class="formsubmit">
+          <input onclick="formSubmitted()" 
+          type = "submit" class="submit"> 
+          </input>				
+        </p>
+    </form>
+    
+    <br><hr>
+    <h2>My Programming Skills</h2>
+    <div class="table-wrapper" tabindex="0">
+        <table >
+          <thead>
+            <tr>
+              <th>Languages</th>
+              <th>HackerRank</th>
+              <th>CodeChef</th>
+              <th>GitHub Contribution</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Python</td>
+              <td class="numeric">*****</td>
+              <td class="numeric">3*</td>
+              <td class="numeric">44%</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td class="numeric">***</td>
+              <td class="numeric">2*</td>
+              <td class="numeric">18%</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td class="numeric">**</td>
+              <td class="numeric">2*</td>
+              <td class="numeric">38%</td>
+            </tr>
+            <tr>
+              <td>Problem Solving</td>
+              <td class="numeric">***</td>
+              <td class="numeric">2*</td>
+              <td class="numeric">NA</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>    
+  
+      <section id="imgs" class="col-sm-12">
+          <h2>IMAGES</h2>
+          <img src="https://cdn.pixabay.com/photo/2016/02/19/10/00/laptop-1209008_1280.jpg" alt="img" style="width="560"; height="315";">
+          <img src="https://images.unsplash.com/photo-1536485255710-1bedfeea2d52?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1062&q=80" alt="img" style="width="560"; height="315";">
+      </section>
+      <br><br><br>
+      <section id="videos" class="col-sm-12">
+          <h2>Some of my liked youtube live videos</h2><br>
+          <iframe  src="https://www.youtube.com/embed/BD_guK9b64k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe  src="https://www.youtube.com/embed/vqgwkqrwfMY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe  src="https://www.youtube.com/embed/lIOizAIqZtc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+  </div>
+  <br><br>
+
+  <footer class="panel-footer">
+    <div class="row">
+        <div id="qna" class="col-sm-12">
+            <a href="#">QNA</span></a>
+            <a href="#">Terms and Privacy</a>
+            <a href="https://www.linkedin.com/in/aadityampaithane/" title="LinkedIn" class="ml-3 text-gray-500">Contact Me</a>
+            <a>&copy; Copyright 2021 by Aaditya</a>
+        </div>
+    </div>    
+  </footer>
+  
+</body>
+</html>
