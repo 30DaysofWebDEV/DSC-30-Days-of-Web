@@ -1,0 +1,354 @@
+nav a {
+	padding: 10px 30px 15px 30px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight:700;
+	color:brown
+}
+	nav a:hover {
+		color: orangered;
+	}
+
+.bckimg {
+	background-image: url('https://i.pinimg.com/originals/62/33/e6/6233e62fbb3238d659d84484813ccac8.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.intro {
+	text-align: center;
+	color:firebrick;
+	font-size: x-large;
+	font-style: initial;
+	font-stretch: semi-expanded;
+	font-family:cursive;
+
+	border-style:groove;
+	border-width: thick;
+	border-radius: 15px;
+	border-color:darkcyan;
+	overflow: hidden;
+
+	width: 1500px;
+	height: 100px;
+	background-color:lightgoldenrodyellow;
+	animation-name: border_anim;
+	animation-duration: 8s;
+}
+@keyframes border_anim {
+	0%   {background-color:greenyellow;}
+	25%  {background-color:gold;}
+	50%  {background-color:aqua;}
+	100% {background-color:firebrick;}
+  }
+
+.intro h1{
+	font-weight:bold
+}
+.multimedia {
+	text-align: center;
+}
+.describe a:hover {
+	color: orangered;
+}
+.describe{
+	color:cornsilk;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+	font-size:x-large;
+	font-weight: 400;
+	font: outline;
+	font-style: oblique;
+}
+.edu{
+	text-indent: 0rem;
+	color:cornsilk;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+	font-size:larger;
+	font-weight: 300;
+	font: outline;
+	font-style:italic;
+}
+.edu a:hover {
+	color: orangered;
+}
+
+
+table,tr,th,td{
+    border:  2px solid royalblue
+}
+table{
+    border-collapse: collapse;
+} 
+th{
+    background-color: maroon;
+}
+#star{
+    background-color: blue;
+}
+input[type=text] {
+    border: 2px solid cyan;
+    border-radius: 4px;
+}
+.table{
+	text-indent: 0rem;
+	color:cornsilk;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+	font-size:larger;
+	font-weight: 300;
+	font: outline;
+	font-style:italic;
+	text-align: center;
+
+}
+.center1 {
+	margin-left: auto;
+	margin-right: auto;
+}
+.center2{
+	margin-right: auto; 
+	margin-left: 0;
+	color:maroon;
+	}
+	
+/* .center2{
+	margin-left: auto; 
+	margin-right: 0;
+	}  */
+button{
+	font-weight: 900;
+	padding: 2mm;
+	color: rgb(25, 10, 236);
+
+	width: 100px;
+	height: 50px;
+	background:palegreen;
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+
+button:hover {
+	width: 300px;
+  }
+
+  #Subscription{
+	color:khaki;
+}
+.contact1{
+	text-indent: 0rem;
+	color:cornsilk;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+	font-size:larger;
+	font-weight: 300;
+	font: outline;
+	font-style:italic;
+	text-align: center;
+}
+.footer1{
+	text-indent:initial;
+	color:maroon;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+	font-size:larger;
+	font-weight: 300;
+	font: outline;
+	font-style:italic;
+	text-align: center;
+
+}
+  
+.footer a:hover {
+	color: orangered;
+}
+.info1{
+	font-weight: 700;
+	padding: 2mm;
+	
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	background:yellow;
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+@keyframes info1_anim {
+	from {background-color: red;}
+	to {background-color: yellow;}
+  }
+.info1:hover {
+	width: 300px;
+	height: 40px;
+	animation-name: info1_anim;
+	animation-duration: 2s;
+  }
+  .info2{
+	font-weight: 700;
+	padding: 2mm;
+	
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	background:yellow;
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+@keyframes info2_anim {
+	from {background-color: red;}
+	to {background-color: yellow;}
+  }
+.info2:hover {
+	width: 300px;
+	height: 40px;
+	animation-name: info2_anim;
+	animation-duration: 2s;
+  }
+
+  .info3{
+	font-weight: 700;
+	padding: 2mm;
+	
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	background:yellow;
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+@keyframes info3_anim {
+	from {background-color: red;}
+	to {background-color: yellow;}
+  }
+.info3:hover {
+	width: 300px;
+	height: 40px;
+	animation-name: info3_anim;
+	animation-duration: 2s;
+  }
+
+  .info4{
+	font-weight: 700;
+	padding: 2mm;
+	
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	background:yellow;
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+@keyframes info4_anim {
+	from {background-color: red;}
+	to {background-color: yellow;}
+  }
+.info4:hover {
+	width: 300px;
+	height: 40px;
+	animation-name: info4_anim;
+	animation-duration: 2s;
+  }
+
+  .info5{
+	font-weight: 700;
+	padding: 2mm;
+	
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	background:yellow;
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+@keyframes info5_anim {
+	from {background-color: red;}
+	to {background-color: yellow;}
+  }
+.info5:hover {
+	width: 300px;
+	height: 40px;
+	animation-name: info5_anim;
+	animation-duration: 2s;
+  }
+
+  #facebook {
+    width: 75px;
+    height: 50px;
+}
+#facebook:hover{
+    cursor: pointer;
+}
+#instagram {
+    width: 75px;
+    height: 50px;
+}
+#instagram:hover{
+    cursor: pointer;
+}
+#gmail {
+    width: 75px;
+    height: 50px;
+}
+#gmail:hover{
+    cursor: pointer;
+}
+#linkedin {
+    width: 75px;
+    height: 50px;
+}
+#linkedin:hover{
+    cursor: pointer;
+}
+#contact h4{
+    font-size: 1.5em;
+}
+#contact img{
+    padding: 0 0.8em;
+}
+#contact{
+    text-align: center;
+    padding-top: 1.5em;
+    border-left: none;
+    border-top: none;
+    border-radius: 0.5em;
+}
+
+.border{
+	border: 2px solid rgba(106, 25, 212, 0.774);
+	padding: 2% 1%;
+	width: 250px;
+	height: 20px;
+	align-items: center;
+
+	animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+	}
+	
+	#Register{
+	border: 2px solid rgb(24, 235, 171);
+	margin-left: 5em;
+	padding: 2% 2%;
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+	width: 500px;
+	} 
+
+	.thborder{
+		border: 2px solid white;
+		padding: 2% 1%;
+		width: 250px;
+		height: 20px;
+		align-items: center ;
+		}
+
+

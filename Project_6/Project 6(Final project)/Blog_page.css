@@ -1,0 +1,85 @@
+body {
+  background: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Blue-Nightmare-Grunge-Background.jpg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar{
+    opacity: 90%;
+}
+.card-title{
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    color: blue;
+}
+.card{
+    background-color: springgreen;
+}
+#propich{
+    border-radius: 50%;
+}
+
+
+/* Contact logo css starts here */
+#facebook {
+    width: 75px;
+    height: 50px;
+    border: none;
+    padding-left: 0;
+}
+#facebook:hover{
+    cursor: pointer;
+}
+#instagram {
+    width: 75px;
+    height: 50px;
+}
+#instagram:hover{
+    cursor: pointer;
+}
+#gmail {
+    width: 75px;
+    height: 50px;
+}
+#gmail:hover{
+    cursor: pointer;
+}
+#linkedin {
+    width: 75px;
+    height: 50px;
+}
+#linkedin:hover{
+    cursor: pointer;
+}
+#contact h4{
+    font-size: 1.5em;
+}
+#contact img{
+    padding: 0 0.8em;
+}
+#contact{
+    text-align: center;
+    padding-top: 1.5em;
+    background-color:  rgb(255, 208, 0);
+    border: 3px outset orange;
+    border-left: none;
+    border-top: none;
+    border-radius: 0.5em;
+}
+
+.blogtext{
+    font-size:xx-large;
+    font-weight:900;
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blogtext p{
+    font-size:large;
+    font-weight: 700;
+    color:white;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
