@@ -1,0 +1,145 @@
+nav a{
+    padding: 5px 25px 10px 25px;
+
+}
+.backgr_img nav a:hover{
+    background-color:black;
+    color:white;
+}
+.Intro{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}
+.Intro h1{
+
+    border-style: solid;
+    border-width: thick;
+    border-radius: 15px;
+    border-color: black;
+    background-color:black;
+    overflow: hidden;
+}
+.Intro img{
+    border-style: solid;
+  border-width: thick;
+}
+.Intro h1{
+
+    border-style: solid;
+    border-width: thick;
+    border-radius: 15px;
+    border-color: black;
+    background-color:black;
+    overflow: hidden;
+}
+
+.collage li a:hover{
+    color: orange;
+}
+table:hover{
+    border-collapse: collapse;
+    background-color:wheat;
+    box-shadow: 10px 7px 5px 2.5px black;
+    transform: translate(-5px, -5px);
+}
+} 
+th{
+    background-color: red;
+}
+#star{
+    background-color: darkgrey;
+}
+input[type=text] {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  button{
+    color: rgb(236, 214, 10);
+    background-color: darkslategray;
+    font-weight: 900;
+    padding: 2mm;
+}
+#Contact{
+    text-align:center; color:black; font-family: cursive;
+}
+#Contact a:hover{
+    color:black;
+
+}
+#Log{
+    text-align: center; font-family: cursive ;
+}
+.item1{
+    
+    font-family: cursive;
+}
+.container-fluid{
+    font-family: cursive;
+}
+.Skills{
+    margin-left: auto;
+  margin-right: auto;
+}
+.video{
+   text-align:center;
+    width:"345" height="245" 
+    
+}
+.icons{
+    text-align: center;
+} 
+.item1{
+    
+     justify-content: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    color: black;
+    
+  }
+.title {
+    color: grey;
+    font-size: 18px;
+  }
+.heading{
+    background-color: #dda15e;
+    display: flex;
+    flex-direction:row;    
+    justify-content: space-around;
+}
+.border{
+    border: 2px solid rgba(106, 25, 212, 0.774);
+    padding: 2% 1%;
+    width: 250px;
+    height: 20px;
+    align-items: center ;
+    animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+    
+}
+
+    
+#Register{
+    border: 2px solid rgb(24, 235, 171);
+    margin-left: 5em;
+    padding: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    }
