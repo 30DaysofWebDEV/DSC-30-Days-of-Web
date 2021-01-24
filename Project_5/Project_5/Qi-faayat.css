@@ -1,0 +1,92 @@
+body{
+    margin: 10px;
+    font-family: 'Dancing Script', cursive;
+  }
+.top-page{
+    height: 30vh;
+}
+
+header{
+	background: #B3B3B3;
+	font-size: 50px;
+	text-align: center;
+	color: #FFFFFF;
+	background-image: url(images/head.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+.logo{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 40px 30px 20px 30px;
+}
+h1{
+  font-family: 'Playfair Display', serif;
+}
+h6{
+  font-family: 'Dancing Script', cursive;
+}
+#main-heading{
+  padding: 50px 0;
+  float: left;
+}
+nav {
+    clear: both;
+    display: flex;
+    margin-bottom: 0px;
+}
+nav a{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.search-bar{
+    float: right;
+}
+@media only screen and (max-width: 800px) {
+    nav a{
+        font-size: 0.7rem;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 800px) {
+    input[type=search]{
+        height: 38px;
+        width: 140px;
+    }
+}
+.cardbody{
+    margin: 50px 100px 100px 50px;
+}
+.card-box{
+    display: inline-block;
+}
+img.box-img{
+  width: 100%;
+  max-width: 25%;
+  height: auto;
+  float: right;
+  border-radius: 9px;
+}
+p.content{
+    float: left;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 20px;
+}
+.card-head{
+  height: 60px;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+#footer{
+  margin: 0px;
+  padding: 0px;
+  background-color: #233833
+}
+video{
+  height: 15vh;
+  width: 100%;
+}

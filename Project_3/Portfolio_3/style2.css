@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    height: 180px;
+    width:250px;
+}
+
+body{
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    font-weight: normal;
+    margin: auto;
+    background-color: rgb(240, 239, 239);
+    border: 10px solid #f19914;
+}
+
+h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.line{
+    height: 6px;
+    background-color: black;
+}
+table{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid black;   
+}
+.skill{
+    width: 80%;
+    text-align: center;
+    padding: 8px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navlist a{
+    text-decoration: none;
+    color: blue;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: #d80c0c; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+background-color:  #6352f5;
+color: black; 
+}
+.button1:hover {
+    background-color:#000000;
+    color: white;
+}
