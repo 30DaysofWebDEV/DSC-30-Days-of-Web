@@ -1,0 +1,93 @@
+body {
+  background: url("https://www.wallpapertip.com/wmimgs/184-1849465_4k-cartoon-wallpaper-for-laptop.jpg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar{
+    opacity: 90%;
+}
+.card-title{
+    text-align: center;
+}
+
+
+
+.card{
+    text-align: center;
+    background-color: rgb(166, 231, 36);
+}
+
+
+#blogcolumn img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5em;
+}
+
+#blogcolumn .row{
+    background-color: rgba(228, 161, 38, 0.685);
+    margin-bottom: 5px;
+}
+.blogtext{
+    color: rgb(43, 43, 43);
+}
+
+
+
+
+
+
+
+
+
+
+/* Contact logo css starts here */
+#facebook {
+    width: 40px;
+    height: 50px;
+    border: none;
+}
+#facebook:hover{
+    cursor: pointer;
+}
+#instagram {
+    width: 40px;
+    height: 50px;
+}
+#instagram:hover{
+    cursor: pointer;
+}
+#gmail {
+    width: 40px;
+    height: 50px;
+}
+#gmail:hover{
+    cursor: pointer;
+}
+#linkedin {
+    width: 40px;
+    height: 50px;
+}
+#linkedin:hover{
+    cursor: pointer;
+}
+#contact h4{
+    font-size: 1.5em;
+}
+#contact img{
+    padding: 0 0;
+}
+#contact{
+    text-align: center;
+    padding-top: 1.5em;
+    background-color: rgba(213, 241, 54, 0.562);
+    border: 3px outset rgba(255, 37, 133, .5);
+    border-left: none;
+    border-top: none;
+    border-radius: 0.5em;
+}
+
+/* Contact logos css ends here */
