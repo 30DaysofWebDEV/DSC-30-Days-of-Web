@@ -1,0 +1,82 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-family: 'Merriweather', serif;
+    background-color: rgba(91, 16, 242, .25);
+}
+.navbar{
+    /* background-color: rgba(91, 16, 242, .30); */
+    border-bottom: 3px solid rgba(91, 16, 242,.5);
+    padding: 5px 5px;
+}
+#propic{
+width: 200px;
+height: 200px;    
+margin-top: 10%;
+border-radius: 50%;
+}
+
+#propic:hover{
+    background-color: #f1dcc2;
+    /* box-shadow: 10px 7px 5px 2.5px #f1dcc2; */
+    transform: translate(-5px, -5px);
+    border: 1px solid indigo;
+}
+caption{
+    padding: 10px;
+    caption-side: bottom;
+    text-align: center;
+}
+a{
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: lightcoral;
+}
+#facebook {
+    width: 75px;
+    height: 50px;
+}
+#facebook:hover{
+    cursor: pointer;
+}
+#instagram {
+    width: 75px;
+    height: 50px;
+}
+#instagram:hover{
+    cursor: pointer;
+}
+#gmail {
+    width: 75px;
+    height: 50px;
+}
+#gmail:hover{
+    cursor: pointer;
+}
+#linkedin {
+    width: 75px;
+    height: 50px;
+}
+#linkedin:hover{
+    cursor: pointer;
+}
+#contact h4{
+    font-size: 1.5em;
+}
+#contact img{
+    padding: 0 0.8em;
+}
+#contact{
+    text-align: center;
+    padding-top: 1.5em;
+    background-color: rgba(247, 37, 133, 0.33);
+    border: 3px outset rgba(255, 37, 133, 0.44);
+    border-left: none;
+    border-top: none;
+    border-radius: 0.5em;
+}
+
+

@@ -1,0 +1,44 @@
+body{
+    background: url("https://cdna.artstation.com/p/assets/images/images/004/187/762/large/alena-aenami-7p-m-1k.jpg?1481159743") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar{
+    /* background-color: rgba(91, 16, 242, .30); */
+    border-bottom: 3px solid rgba(91, 16, 242,.5);
+    padding: 5px 5px;
+}
+
+#homeimg{
+    text-align: center;
+}
+
+.specialbtn{
+    background: none;
+    border: 2px solid;
+    color: rgb(179, 253, 7);
+    padding: 1em 1em;
+    font-size: 1em;
+    border-radius: 10%;
+}
+.specialbtn:hover{
+    color: rgb(255, 255, 255);
+    border-color:rgb(179, 253, 7);
+    box-shadow: 0 0.5em 0.5em -0.4em  rgb(179, 253, 7);
+    transform: translateY(-0.25em);
+}
+
+.heading{
+    text-align: center;
+    color: rgb(229, 255, 0);
+}
+#propich{
+width: 200px;
+height: 200px;    
+margin-top: 10%;
+border-radius: 50%;
+}
+
