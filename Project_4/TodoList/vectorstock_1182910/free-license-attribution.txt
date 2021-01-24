@@ -1,0 +1,50 @@
+# Free License Terms
+
+You can use this image for any purpose *as long as you clearly attribute the artist*. This is done by adding a link or tagline in a prominent position to where you're using the artwork.
+
+If you can't or don't want to attribute the artist, you can buy a Standard or Expanded license to meet your needs.
+
+
+---
+
+# How to Attribute
+
+## For: Websites, Social Media, Email Newsletters
+
+Display the title of the image and artist name with a link to the vector image on VectorStock.com.
+
+Example:
+<a href="https://www.vectorstock.com/royalty-free-vector/smoky-mountain-sunset-vector-1182910" target="_blank">Vector image by VectorStock / originalhirevs</a>
+
+## For: Printed Material
+
+Display an attribution title with the artist name and image ID. Place it in a visible space next to the image being used.
+
+Example:
+Designed by originalhirevs (Image #1182910 at VectorStock.com)
+
+## Video
+
+List the title of the image and the artist name. Include an attribution to the vector image in the credits section as well as a link to the image on VectorStock.com if you embed the video online (eg. in the description field on YouTube.com).
+
+For example:
+Smoky mountain sunset image designed by originalhirevs at VectorStock.com
+https://www.vectorstock.com/royalty-free-vector/smoky-mountain-sunset-vector-1182910
+
+## Apps
+
+Display an attribution title with the artist name and image ID. Include an attribution to the vector image in the credits screen as well as a link to the image on VectorStock.com anywhere you offer the app for download (eg. in the description field on an App Store).
+
+For example:
+Designed by originalhirevs (Image #1182910 at VectorStock.com)
+https://www.vectorstock.com/royalty-free-vector/smoky-mountain-sunset-vector-1182910
+
+---
+
+# Any Questions?
+
+See these entries in our FAQ for more information on licensing and terms:
+
+* https://www.vectorstock.com/faq/members/free-license
+* https://www.vectorstock.com/faq/members/how-do-i-attribute-an-artist
+* https://www.vectorstock.com/faq/members/membership-content-license-agreement
