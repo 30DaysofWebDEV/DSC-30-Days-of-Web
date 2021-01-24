@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset ="UTF-8">
+    <title>To Do App</title>
+    <link rel="icon" href="https://img.icons8.com/nolan/96/to-do.png" type="image/gif" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="To-do-list.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">TO-DO APP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myDIV"><i class="fa fa-check-square-o" aria-hidden="true"></i> To-Do list</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#addnote"><i class="fa fa-sticky-note" aria-hidden="true"></i> Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="fa fa-address-book" aria-hidden="true"></i> Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <h3 style="margin-top: 30px;margin-bottom: 30px; text-align: center;color: aqua;font-size: x-large;">“You've got to get up every morning with determination if you're going to go to bed with satisfaction.”</h3>
+    </div>
+    <div class="container-todo">
+        <div id="myDIV" class="header">
+            <h2>To-Do List</h2>
+            <input type="text" id="myInput" placeholder="Add items...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+        <ul id="myUL">
+            <li id="todo">Solve some coding problems</li>
+            <li id="todo" class="checked">learn more about cloud</li>
+            <li id="todo">Chill with friends</li>
+            <li id="todo">Work on project5</li>
+            <li id="todo">Take some break and & do what you wanna do?</li>
+            <li id="todo">Write your blog</li>
+        </ul>
+    </div>
+    <div class="container-my-3" id="addnote">
+        <h2>Notes</h2>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Add a note, Here</h5>
+                <div class="form-group">
+                    <textarea class="form-control" id="addTxt" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary" id="addBtn">Add Your Note</button>
+            </div>
+        </div>
+        <hr>
+        <h2>Your Notes</h2>
+        <hr>
+        <div id="notes" class="row container-fluid"> </div>
+    </div>
+    <footer class="contact" id="con">
+        <h4 style="color: black; font-size: 12px ;">you can contact me through different social platforms</h4>
+        <div>
+            <a href="https://www.linkedin.com/in/abhishek-sharma-802a83192"><i class="fa fa-linkedin-square" aria-hidden="true" id="linkedin"></i></a>
+            <a href="mail to:abhisheksharma7389@gmail.com"><i class="fa fa-google-plus-official" aria-hidden="true" id="google"></i></a>
+            <a href="https://img.shields.io/twitter/follow/Abhishek_7389"><i class="fa fa-twitter" aria-hidden="true" id="twitter"></i></a>
+            <a href="https://instagram.com/abhisheksharma7389"><i class="fa fa-instagram" aria-hidden="true" id="instagram"></i></a> 
+            <a href="https://github.com/abhishek7389/abhishek7389"><i class="fa fa-github" aria-hidden="true" id="github"></i></a>
+         </div>
+        <h3 style="font-size: 10px;">Created by &copy; Abhishek sharma</h3>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript" src="To-do-list.js"></script>  
+</body>
+</html>
