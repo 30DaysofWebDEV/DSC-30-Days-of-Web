@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./Project6.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+     <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active"  href="#PORTFOLIO">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#MYSKILLS">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#CONTACT">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#ABOUTME">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Blog">Blog</a>
+            </li>
+    </ul>
+</nav>
+<br>
+<div class="container-fluid">
+<div id="PORTFOLIO">
+        <div class="heading">
+    <h1>PORTFOLIO</h1>
+</div>
+    <h3>Hello! My name is Smriti Srivastava</h2>
+        <p class="text-success">I'm a developer.</p>
+        <br>
+        <br>
+</div>
+<div id="ABOUTME">    
+    <div class="about">
+        <div class="aboutheading">
+            <h2><u>ABOUT ME-</u></h2>
+        </div>
+        <div class="imgcontainer">
+        <img class="img-thumbnail" src="Smriti_photo.jpg" alt="Cinque Terre">
+            <div class="overlay">
+                <div class="text">Hello Peeps!</div>"
+            </div>
+        </div>
+    <div class="intro">
+        <p>I'm Smriti.<br>
+            I'm currently pursuing B.Tech in Computer Science and Communication Enginnering at KIIT University, Bhubneshwar.
+            I have recently got into Web Development, committed to developing innovative material.</p>
+    </div>
+    </div>
+</div>
+<div id="MYSKILLS">
+    <div class="myskills">
+    <h2><u>MY SKILLS-</u></h2>
+<div class="jumbotron">
+    <div class="skills">
+        <p>C-programmming</p><br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 78%;">78%</div>
+        </div>
+        <br>
+        <p>C++ programming</p><br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width: 89%;">89%</div>
+        </div>
+        <br>
+        <p>HTML</p><br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 95%;">95%</div>
+        </div>
+        <br>
+        <p>CSS</p><br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 78%;">78%</div>
+        </div>
+        <br>
+        <p>Bootstrap</p><br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 70%;">70%</div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="CONTACT">
+    <div class="contacthead">
+        <script>
+            var fields={};
+
+            document.addEventListener("DOMContentLoaded", function(){
+                fields.firstName=document.getElementById('firstName');
+                fields.lastName=document.getElementById('lastName');
+                fields.email=document.getElementById('email');
+                fields.mobnumber=document.getElementById('mobnumber');
+                fileds.subject=document.getElementById('subject');
+            })
+            function isNotEmpty(value) {
+                if (value == null || typeof value == 'undefined') return false;
+                return(value.length>0);
+            }
+            function isNumber(num) {
+                return (num.lemgth>0 && !isNaN(num));
+            }
+            function isEmail(email) {
+                let regex = /^[a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0.61}[a-zA-Z0-9])?(:\.[a-zA-Z0-9-]{0.61}[a-zA-Z0-9])?)*$/;
+                return regex.test(String(email).toLowerCase());
+            }
+            function fieldValidation(field, validationFunction) {
+                if (field==null) return false;
+
+                let isFieldValid = validationFunction(field.value)
+                if (!isFieldValid){
+                    field.className='placeholderRed';               
+                } else {
+                    field.className='';
+                }
+                return isFieldValid;
+            }
+            function isValid() {
+                var valid=true;
+
+                valid&=fieldValidation(fields.firstName, isNotEmpty);
+                valid&=fieldValidation(fields.lastName, isNotEmpty);
+                valid&=fieldValidation(fields.email, isEmail);
+                valid&=fieldValidation(field.mobnumber, isNumber);
+                valid&=fieldValidation(fields.subject, isNotEmpty);
+                return valid;
+            }
+            class User {
+                constructor(firstName, lastName, email, mobnumber, subject){
+                    this.firstName=firstName;
+                    this.lastName=lastName;
+                    this.email=email;
+                    tjis.mobnumber=mobnumber;
+                    this.subject=subject;
+                }
+            }
+            function sendContact(){
+                if (isValid()) {
+                    let usr=new User(firstName.value, lastName.value, email.value, mobnumber.value)
+                    alert(`${usr.firstName} Thankyou for contacting.`)
+                } else {
+                    alert("There was an error")
+                }
+            }
+        </script>
+        <h2><u>CONTACT-</u></h2>
+    </div>
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="form-group">
+                    <label for="firstName">First name:</label><br>
+                    <input type="text" id="firstName" name="firstName" class="form-control" placeholder="Enter First Name" required>
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback">Please fill out this field</div>
+            </div>
+            <div class="form-group">
+                    <label for="lastName">Last name:</label>
+                    <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Enter Last Name" required>
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback">Please fill out this field</div>
+            </div>
+            <div class="form-group">
+                    <label for="email">Email-ID:</label>
+                    <input type="text" id="email" name="email" class="form-control" placeholder="Enter Email-id" required>
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback">Please fill out this field</div>
+            </div>
+            <div class="form-group">
+                    <label for="mobnumber">Mobile Number:</label>
+                    <input type="text" id="mobnumber" name="mobnumber" class="form-control" placeholder="Enter your contact no.">
+            </div>
+            <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" class="form-control" placeholder=" Write something.." style="height:200px"></textarea>
+            </div>
+                <button onclick="sendContact();" type="submit" class="btn btn-success">Submit</button>
+          </form>
+    </div>           
+</div>
+</div>
+<div id="Blog">
+    <div class="blogsession">
+        <div class="blogheading">
+            <h2>BLOG</h2>
+        </div>
+        <ul>
+            <li>My Experience throughout the 30DaysofWEB</li>
+        </ul>
+        <i class="fab fa-blogger" style="font-size: 28px;"></i>
+        <a href ="https://myexperience-30daysofweb.blogspot.com/2021/01/my-experience-throughout-30daysofweb.html"> &nbsp; &nbsp; https://myexperience-30daysofweb.blogspot.com/2021/01/my-experience-throughout-30daysofweb.html</a>
+    </div>
+</div>
+</body>
+</html>
