@@ -1,0 +1,61 @@
+nav a{
+    padding: 5px 25px 10px 25px;
+
+}
+nav a:hover{
+    background-color:black;
+    color:white;
+}
+.Intro{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}
+.Intro h1{
+
+    border-style: solid;
+    border-width: thick;
+    border-radius: 15px;
+    border-color: black;
+    background-color:black;
+    overflow: hidden;
+}
+.Intro img{
+    border-style: solid;
+  border-width: thick;
+}
+.Intro h1{
+
+    border-style: solid;
+    border-width: thick;
+    border-radius: 15px;
+    border-color: black;
+    background-color:black;
+    overflow: hidden;
+}
+.My_def{
+    font-family: cursive;
+}
+.collage li a:hover{
+    color: orange;
+}
+table{
+    border-collapse: collapse;
+} 
+th{
+    background-color: red;
+}
+#star{
+    background-color: darkgrey;
+}
+input[type=text] {
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  button{
+    color: rgb(236, 214, 10);
+    background-color: darkslategray;
+    font-weight: 900;
+    padding: 2mm;
+}

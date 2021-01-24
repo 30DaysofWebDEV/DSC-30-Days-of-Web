@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/007/198/563/large/alena-aenami-eclipse-1k.jpg?1504395238");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading{
+    text-align: center;
+    color:gold;
+    font-family: cursive;
+}
+.specialbtn{
+    background: none;
+    border: 2px solid;
+    color: rgb(179, 253, 7);
+    padding: 1em 1em;
+    font-size: 1em;
+    border-radius: 10%;
+    
+}
+.specialbtn:hover{
+    color: rgb(255, 255, 255);
+    border-color:rgb(179, 253, 7);
+    box-shadow: 0 0.5em 0.5em -0.4em  rgb(179, 253, 7);
+    transform: translateY(-0.25em);
+}
+#homeimg{
+    text-align: center;
+}
