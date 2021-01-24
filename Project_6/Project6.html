@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Project6.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="Project6.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/aadityamp01">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/aadityampaithane/">Contact</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1 class="animate__animated animate__pulse">PORTFOLIO</h1>
+  <div class ="container">
+    
+    <div class="img-container">
+      <img class="mySlides" src="https://cdn.pixabay.com/photo/2016/02/19/10/00/laptop-1209008_1280.jpg" alt="Norway" style="width:100%">
+      <br><br><br>
+
+      <div class="blog">
+        <h2 class="animate__animated animate__pulse" id="blog">BLOGS</h2>
+
+        <p style="font-size:25px;"><b><a href="https://medium.com/javarevisited/the-2019-web-developer-roadmap-ab89ac3c380e" 
+          target="_blank">The 2021 Full Stack Web Developer RoadMap</a></b></p>
+        <p>Hello Guys, if you want to learn to code or to become a Web Developer in 2021 then you have come to the right place. Earlier, 
+          I have shared 20 websites to learn coding and the best web development courses and today I have something special to share with you, the complete Full-stack Web Developer RoadMap.
+          This is an excellent illustration of how to become a full-stack web developer in 2021 and guide you on how you can learn and master 
+          Web Development in 2021.</p>
+        <p>It’s a collection of different paths to learning front-end, back-end, and full-stack, including all other things a 
+          Web developer should know. You will not just know about web development but about essential programming stuff which is important for 
+          all kinds of programmers....</p>
+
+        <p style="font-size:25px;"><b><a href="https://medium.com/better-programming/become-a-web-developer-in-180-days-without-cs-degree-e869395972e1" 
+          target="_blank">Web Developer in 180 Days (A guide to becoming a web developer)</a></b></p>
+        <p>The route into the web development world can seem obfuscated at times — there’s no clear path since there are multiple programming languages, hundred of frameworks, and thousands of libraries. 
+          Which ones should you learn and in what order?</p>
+        <p> I’m a self-taught programmer who worked as a senior engineer in multiple startups and large enterprises, one of them being the largest Swiss banks. Here’s what I learned and how you can take advantage of that knowledge. 
+          Anyone can become a web developer — it’s a question of persistence and effort. If you put the work into it, you can become a web developer.</p>
+          Without further ado, here’s how you can become a web developer in 180 days. 180 days is enough time to kick start your 
+          programming career in the web development field...</p>
+          
+      </div>
+    </div>
+    <hr>
+
+    <h2 class="animate__animated animate__pulse" id="contact">CONTACT FORM</h2>
+    <form>
+        <p>FIRST NAME: <input type="text" name="name" required></p>
+        <p>LAST NAME: <input type="text" name="lname" required></p>
+        <p>Email: <input type="email" name="email" id="email" required></p>
+        <p>Mobile Number <input type="text" name="number" id="text" min=10 max=13 required></p>
+
+        <div>Gender:<br>
+            Male <input type="radio" name="gender" required>
+            &nbsp; Female&nbsp;<input type="radio" name="gender" required>
+            &nbsp; Other&nbsp;<input type="radio" name="gender" required>
+        </div><br>
+        <p>Birthday<input type="date" name="bday"><input type="hidden" name="bday" value=""></p>
+        <p class="formsubmit">
+          <input onclick="formSubmitted()" 
+          type = "submit" class="submit"> 
+          </input>				
+        </p>
+    </form>
+    
+    <br><hr>
+
+    <h2 class="animate__animated animate__pulse">My Programming Skills</h2>
+    <div class="table-wrapper" tabindex="0">
+        <table >
+          <thead>
+            <tr>
+              <th>Languages</th>
+              <th>HackerRank</th>
+              <th>CodeChef</th>
+              <th>GitHub Contribution</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Python</td>
+              <td class="numeric">*****</td>
+              <td class="numeric">3*</td>
+              <td class="numeric">44%</td>
+            </tr>
+            <tr>
+              <td>C++</td>
+              <td class="numeric">***</td>
+              <td class="numeric">2*</td>
+              <td class="numeric">18%</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td class="numeric">**</td>
+              <td class="numeric">2*</td>
+              <td class="numeric">38%</td>
+            </tr>
+            <tr>
+              <td>Problem Solving</td>
+              <td class="numeric">***</td>
+              <td class="numeric">2*</td>
+              <td class="numeric">NA</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>    
+  </div>
+  <br><br>
+
+  <footer class="panel-footer">
+    <div class="row">
+        <div id="qna" class="col-sm-12">
+            <a href="https://medium.com/better-programming/become-a-web-developer-in-180-days-without-cs-degree-e869395972e1">Blog&nbsp;&ensp;</span></a>
+            <a href="#">QNA&nbsp;&ensp;</span></a>
+            <a href="#">Terms and Privacy&nbsp;</a>
+            <a href="https://www.linkedin.com/in/aadityampaithane/" title="LinkedIn" class="ml-3 text-gray-500">Contact Me&nbsp;&ensp;</a>
+            <a>&copy; Copyright 2021 by Aaditya</a>
+        </div>
+    </div>    
+  </footer>
+  
+</body>
+</html>
