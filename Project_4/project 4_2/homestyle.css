@@ -1,0 +1,18 @@
+body {
+  background-image: url("https://dargadgetz.com/wp-content/uploads/2018/03/image-3.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#homeintro {
+  padding-top: 100px;
+  text-align: center;
+}
+#homeintro h1 {
+  color: rgb(53, 53, 138);
+}
+#homeintro h4 {
+  padding-top: 150px;
+  font-style: italic;
+  color: rgb(70, 66, 59);
+}
