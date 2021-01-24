@@ -1,0 +1,71 @@
+body {
+  background: url("https://i0.wp.com/3minute.club/wp-content/uploads/2016/08/Yellow-background.png?ssl=1")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar {
+  opacity: 80%;
+}
+.card-title {
+  text-align: center;
+}
+
+/* Contact logo css starts here */
+#facebook {
+  width: 75px;
+  height: 50px;
+  border: none;
+  padding-left: 0;
+}
+#facebook:hover {
+  cursor: pointer;
+}
+#instagram {
+  width: 75px;
+  height: 50px;
+}
+#instagram:hover {
+  cursor: pointer;
+}
+#gmail {
+  width: 75px;
+  height: 50px;
+}
+#gmail:hover {
+  cursor: pointer;
+}
+#linkedin {
+  width: 75px;
+  height: 50px;
+}
+#linkedin:hover {
+  cursor: pointer;
+}
+#contact h4 {
+  font-size: 1.5em;
+}
+#contact img {
+  padding: 0 0.8em;
+}
+#contact {
+  text-align: center;
+  padding-top: 1.5em;
+  background-color: rgba(247, 37, 133, 0.33);
+  border: 3px outset rgba(255, 37, 133, 0.44);
+  border-left: none;
+  border-top: none;
+  border-radius: 0.5em;
+}
+#blogcolumn .row {
+  background-color: rgba(228, 161, 38, 0.685);
+  margin-bottom: 5px;
+}
+.card {
+  /* border: darkblue; */
+  background-color: rgba(10, 11, 85, 0.932);
+  color: aliceblue;
+}
+/* Contact logos css ends here */
