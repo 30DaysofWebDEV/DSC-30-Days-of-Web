@@ -1,0 +1,53 @@
+*{
+    font-family: 'Lobster', cursive;
+}
+/* html,body{
+    overflow-x:hidden;
+    max-width: 100%;
+} */
+html{
+    scroll-behavior: smooth;
+}
+.card {
+margin: 0 auto; 
+float: none; 
+margin-bottom: 10px; 
+align-items: center;
+margin-top: 10%;
+}
+
+img{
+    width: 100%;
+}
+.card1{
+    align-content: center;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+ui li{
+    margin-top:10px; 
+}
+
+.animated{
+	animation: up-down  2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+	0%{
+		transform: translateY(10px); 
+	}
+	100%{
+		transform: translateY(-10px); 
+	}
+}
+
+@keyframes up-down{
+	0%{
+		transform: translateY(10px); 
+	}
+	100%{
+		transform: translateY(-10px); 
+	}
+}
