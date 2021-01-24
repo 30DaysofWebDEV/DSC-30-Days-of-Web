@@ -22,6 +22,7 @@ ul {
 }
 
 li {
+	display: flex;
 	background: #fff;
 	height: 40px;
 	line-height: 40px;
