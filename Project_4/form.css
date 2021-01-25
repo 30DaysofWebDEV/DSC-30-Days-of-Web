@@ -1,0 +1,23 @@
+body{
+    /*background-image: linear-gradient(to bottom right, rgb(47, 101, 143), rgb(168, 235, 247));*/
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.container{
+    background-image: linear-gradient(to bottom right, rgb(243, 236, 174), rgb(168, 235, 247));
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+.flex{
+    border-collapse: collapse;
+}
+
+.container-table{
+    background-image: linear-gradient(to bottom right, rgb(0, 37, 66), rgb(168, 235, 247));
+    padding: 50px;
+    width: 100%;
+    color: azure;
+}
+
