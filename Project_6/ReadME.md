@@ -1,5 +1,5 @@
 # Project 6: Final Project
 
-**Add a blog section** to your portfolio to attract potential employers.
+Added a blog section in my project
 
-_Note_: CMS (Optional) (No marks awarded)
+my websute link:https://portfoliosite-dev.web.app/
