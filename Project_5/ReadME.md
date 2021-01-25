@@ -7,5 +7,7 @@ Some things to consider:
 * get a hosting
 * make your website dynamic
 
+# The project is completed.
+
 # Hosted Link:
 https://mou123das.github.io/Project-5/
