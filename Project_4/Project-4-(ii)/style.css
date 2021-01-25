@@ -91,8 +91,8 @@
 	text-decoration: none;
 	color:white;
 	box-shadow: 10px 10px 68px 12px rgba(141,31,31,1);
--webkit-box-shadow: 10px 10px 68px 12px rgba(141,31,31,1);
--moz-box-shadow: 10px 10px 68px 12px rgba(141,31,31,1);
+	-webkit-box-shadow: 10px 10px 68px 12px rgba(141,31,31,1);
+	-moz-box-shadow: 10px 10px 68px 12px rgba(141,31,31,1);
 }
 
 
@@ -142,8 +142,8 @@
 	-webkit-backdrop-filter: blur( 20.0px );
 	border-radius:10px;
 	box-shadow: -1px 3px 38px 6px rgba(6,0,0,0.83);
--webkit-box-shadow: -1px 3px 38px 6px rgba(6,0,0,0.83);
--moz-box-shadow: -1px 3px 38px 6px rgba(6,0,0,0.83);
+	-webkit-box-shadow: -1px 3px 38px 6px rgba(6,0,0,0.83);
+	-moz-box-shadow: -1px 3px 38px 6px rgba(6,0,0,0.83);
 }
 
 
@@ -179,9 +179,9 @@
     align-self:center;
 	text-align:center;
 	box-shadow: -1px 3px 74px 18px rgba(0,0,0,0.8);
--webkit-box-shadow: -1px 3px 74px 18px rgba(0,0,0,0.8);
--moz-box-shadow: -1px 3px 74px 18px rgba(0,0,0,0.8);
-text-shadow: 4px 4px 7px rgba(11,10,10,1);
+	-webkit-box-shadow: -1px 3px 74px 18px rgba(0,0,0,0.8);
+	-moz-box-shadow: -1px 3px 74px 18px rgba(0,0,0,0.8);
+	text-shadow: 4px 4px 7px rgba(11,10,10,1);
 }
 
 
