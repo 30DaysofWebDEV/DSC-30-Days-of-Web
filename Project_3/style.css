@@ -1,0 +1,120 @@
+/* Animate */
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+
+body{
+  background-color: #212529;
+}
+/* Heading */
+.heading{
+    padding: 25px;
+    text-align: center;
+    background: #1abc9c;
+    color:#0477BD;
+    font-family: 'Proza Libre', sans-serif;
+  }
+  
+  
+      table {
+        font-family: 'Proza Libre', sans-serif;
+        color:#0f4c81;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid #0f4c81;
+        padding: 8px;
+      }
+      
+      tr {background-color: #8bbcd8;}
+      
+      tr:hover {background-color: #acadbc;}
+      
+      th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #6bbbab;
+        color: #32334c;
+      }
+
+      .lead{
+        color: white;
+      }
+      .subheading{
+        text-decoration: underline;
+        color: #0477BD;
+        font-family: 'Playfair Display', serif;
+      }
+      .img2{
+          margin-bottom: 10px;
+      }
+      
+      .footer{
+        color: #0477BD;
+        font-family: 'Playfair Display', serif;
+        background: #ddd;
+      }
+     
+      input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: 'Playfair Display', serif;
+      }
+
+     
+      input[type=submit] {
+        width: 100%;
+        background-color: #1abc9c;
+        color: white;
+        padding: 14px 20px;
+        margin: 15px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: 'Playfair Display', serif;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #acadbc;
+        font-family: 'Playfair Display', serif;
+      }
+
+      .form1{
+        width: 350px;
+        height: 120px;
+        border-radius: 5px;
+        background-color: #8bbcd8;
+        border: 2px solid #8bbcd8;
+        padding: 20px;
+      }
+      
+      .form2{
+        width: 300px;
+        height: 560px;
+        border-radius: 5px;
+        background-color: #8bbcd8;
+        border: 2px solid #8bbcd8;
+        padding: 20px;
+        margin: 10px;
+      }
+      
+      .img1{
+        overflow-x: auto;
+      }
+
+      .video1{
+        overflow-x: auto;
+      }
+}
+      
+      
+
+      

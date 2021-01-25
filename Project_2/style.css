@@ -1,0 +1,133 @@
+/* Animate */
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+
+/* Heading */
+.heading{
+    padding: 25px;
+    text-align: center;
+    background: #1abc9c;
+    color:#0477BD;
+    font-family: 'Proza Libre', sans-serif;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    display: flex;
+    background-color: #231F20;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #0477BD;
+    color: black;
+  }   
+      table {
+        font-family: 'Proza Libre', sans-serif;
+        color:#0f4c81;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid #0f4c81;
+        padding: 8px;
+      }
+      
+      tr {background-color: #8bbcd8;}
+      
+      tr:hover {background-color: #acadbc;}
+      
+      th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #6bbbab;
+        color: #32334c;
+      }
+
+      .line1{
+        color: #c4bebe;
+        font-family: 'Playfair Display', serif;
+        border-radius: 25px;
+        border: 2px solid #1abc9c;
+        padding: 20px;
+        width: 1290px;
+        height: 160px;
+      }
+      .subheading{
+        text-decoration: underline;
+        color: #0477BD;
+        font-family: 'Playfair Display', serif;
+      }
+      .img2{
+          margin-bottom: 10px;
+      }
+      
+      .footer{
+        color: #0477BD;
+        font-family: 'Playfair Display', serif;
+        background: #ddd;
+      }
+     
+      input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: 'Playfair Display', serif;
+      }
+
+     
+      input[type=submit] {
+        width: 100%;
+        background-color: #1abc9c;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: 'Playfair Display', serif;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #acadbc;
+        font-family: 'Playfair Display', serif;
+      }
+
+      .form1{
+        width: 350px;
+        height: 120px;
+        border-radius: 5px;
+        background-color: #8bbcd8;
+        border: 2px solid #8bbcd8;
+        padding: 20px;
+      }
+      
+      .form2{
+        width: 300px;
+        height: 450px;
+        border-radius: 5px;
+        background-color: #8bbcd8;
+        border: 2px solid #8bbcd8;
+        padding: 20px;
+      }
+      
+}
+      
+      
+
+      
