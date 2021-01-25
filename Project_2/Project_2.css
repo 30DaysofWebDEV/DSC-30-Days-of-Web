@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp5553134.jpg);
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    background-color: rgba(23, 67, 88, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    color: #072F5F;
+    background-color: #ffffff;
+}
+nav a{
+    font-size: larger;
+    display: inline-block;
+    padding: 20px 110px;
+    text-decoration: none;
+}
+nav :hover{
+    color: #ffffff;
+    background-color: #4F96D8;
+}
+img{
+    display: none;
+}
+.me{
+    padding: 20px 100px;
+    font-size: large;
+    color: #ffffff;
+    align-items: center;
+    display: inline-block;
+    background-color: rgba(23, 67, 88, 0.5);
+}
+h3{
+    text-align: center;
+}
+table{
+    width: 100%;
+    align-self: center;
+}
+td{
+    text-align: center;
+}
+.Achievements, .MyPlaylist, .contact{
+    padding-top: 70px;
+}
+li{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+footer{
+    float: right;
+    font-size: larger;
+}
+
