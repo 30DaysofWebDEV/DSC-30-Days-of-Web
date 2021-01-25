@@ -1,0 +1,169 @@
+@media only screen and (max-width: 725px) {
+	
+	.nav-bar ul,.r{
+	flex-flow: column wrap;
+	justify-content:center;
+	align-self: center;
+	}
+	
+	#a{
+	font-size:90px;
+	}
+
+	#b{
+		font-size:50px;
+	}
+
+	#c{
+		font-size:39px;
+	}
+	
+	.sign{
+	font-size:30px;
+    }
+	
+	#about h1, #education h1, #skills h1, #projects h1, #contact h1{
+	font-size:60px;
+    }
+	
+	input[type=submit] ,input[type=reset] {
+	  font-size:24px;
+	  width:40%;
+	}
+	
+	
+	.blog-card{
+		width:80%;
+	}
+
+}
+
+
+@media only screen and (max-width: 494px) {
+	
+	#about p{
+	font-size:30px;
+	color:white;
+	width:84%;
+	
+	}
+	
+	#about h1, #education h1, #skills h1, #projects h1, #contact h1{
+	font-size:33px;
+    }
+	
+	
+	
+	#tab div{
+	
+	width:70%;
+}
+
+}
+
+@media only screen and (max-width: 361px) {
+	
+	input[type=submit] ,input[type=reset] {
+	  font-size:20px;
+	}
+	
+	#about h1, #education h1, #skills h1, #projects h1, #contact h1{
+	font-size:35px;
+    }
+	
+	.card {
+    width: 14rem;
+	}
+	
+	.sign{
+	font-size:30px;
+	margin-bottom:10px;
+    }
+	
+	#but{
+		display:flex;
+		flex-flow:column wrap;
+		justify-content:space-around;
+	}
+	
+	#tab div{
+	font-size:16px;
+	width:100%;
+    }
+	
+	#about p{
+	font-size:20px;
+	width:100%;
+
+	}
+	
+	#r1 div{
+		width:90%;
+	}
+	
+	#r1 div p {
+    font-size: 24px;
+	}
+	
+	.card-text {
+    font-size: 24px;
+}
+	
+	#r1 div h2 {
+    font-size: 28px;
+}
+
+}
+
+
+@media only screen and (min-width: 340px) {
+
+
+.nav-bar{	
+	box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.82);
+-webkit-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.82);
+-moz-box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.82);
+
+}
+
+}
+
+
+
+@media only screen and (max-width: 349px) {
+
+#about p,#tab div,.card,.card-body,#r1 div,.blog-card,.form-display{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	}
+	
+	.card {
+    width: 12rem;
+	}
+	
+	
+	#about h1, #education h1, #skills h1, #projects h1, #contact h1{
+	font-size:27px;
+    }
+	
+	#r1 div{
+		width:97%;
+	}
+	
+	#r1 div p {
+    font-size: 18px;
+	}
+	
+	#r1 div h2 {
+    font-size: 28px;
+}
+
+}
+
+.card-title{
+	font-size:20px;
+}
+
+}
