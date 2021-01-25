@@ -80,10 +80,11 @@ header li a:hover {
 }
 
 .home h2 {
+    margin-left: 1.5rem;
     font-size: 3rem;
     color: yellowgreen!important;
-    padding: 2rem;
-    margin-top: -2.5rem;
+    margin-top: -1.5rem;
+    margin-bottom: -1rem;
     font-weight: 400;
     line-height: 1;
     padding-bottom: 4rem;
@@ -146,7 +147,7 @@ header li a:hover {
 }
 
 .btn:hover {
-    background: transparent;
+    background: transparent!important;
     border-color: yellowgreen!important;
     color: yellowgreen!important;
 }
@@ -283,6 +284,12 @@ table {
     margin-bottom: 1rem;
 }
 
+.experience p {
+    font-size: 1.75rem;
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+}
+
 .projects a {
     margin-bottom: 1rem;
     text-decoration: none;
@@ -298,12 +305,105 @@ table {
 /* end */
 
 
+/* blog */
+
+section.blog {
+    padding: 2rem;
+    color: #F2F2F2!important;
+    background: #222!important;
+}
+
+section.blog .container {
+    padding-top: 1rem;
+}
+
+section.blog .container h2 {
+    width: 25%;
+    margin-left: 35%;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    background: transparent;
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
+    padding: 4px 2px;
+    padding-top: 6px;
+}
+
+section.blog .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+section.blog .card-wrapper .card {
+    background: #f2f2f2;
+    border-radius: 1rem;
+}
+
+section.blog .card-wrapper .card .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+section.blog .card-wrapper .card .card-content {
+    padding: 1rem 2rem;
+}
+
+section.blog .card-wrapper .card .card-content h1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+section.blog .card-wrapper .card .card-content a {
+    text-decoration: none;
+    color: #222;
+}
+
+section.blog .card-wrapper .card .card-content a:hover {
+    color: yellowgreen;
+}
+
+section.blog .card-wrapper .card .card-content span {
+    color: #333;
+    font-size: 0.8rem;
+}
+
+section.blog .card-wrapper .card .card-content p {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    margin: 1rem 0;
+}
+
+section.blog .card-wrapper .card .card-content a.read-more {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 1024px) {
+    section.blog .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    section.blog {
+        padding-bottom: 6rem;
+    }
+}
+
+
+/* blog-end */
+
+
 /* contact-start */
 
 .contact {
     padding: 2rem;
     color: #f2f2f2!important;
-    background: #222!important;
+    background: #333!important;
 }
 
 .contact h2 {
@@ -337,7 +437,7 @@ table {
     font-size: 1.5rem;
 }
 
-#input {
+.input1 {
     width: 100%;
     margin: 1rem 0.5rem;
     padding: 1rem;
@@ -350,12 +450,13 @@ table {
     background: transparent;
     border-radius: 2rem;
     font-size: 1.5rem;
-    color: var(--primary);
+    color: yellowgreen!important;
 }
 
-#input:hover {
+.input1:hover,
+.input1:active {
     background: transparent;
-    color: var(--primary);
+    color: yellowgreen!important;
 }
 
 .button {
@@ -371,11 +472,11 @@ table {
     outline: none;
     cursor: pointer;
     background: yellowgreen!important;
-    color: var(--secondary);
+    color: black!important;
 }
 
 .button:hover {
-    background: transparent;
+    background: #222!important;
     border-color: yellowgreen!important;
     color: yellowgreen!important;
 }
@@ -503,6 +604,21 @@ footer i {
         padding: 4px 2px;
         margin-left: 0;
         font-size: 1.5rem;
+    }
+    section.blog .container h2 {
+        width: 100%;
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 1rem;
+        background: transparent;
+        border-color: var(--primary);
+        color: var(--primary);
+        padding: 1rem;
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+    section.blog {
+        padding-bottom: 6rem;
     }
     .about .name p {
         font-size: 1rem;
