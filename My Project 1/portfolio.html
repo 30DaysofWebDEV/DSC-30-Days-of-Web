@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        .imgt {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
+        body {
+            background-image: url('pb2.jpg');
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2 align="center">Neha Yadav</h2>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Introduction</h2>
+                <h5>jan 20, 2020</h5>
+                <div class="fakeimg">Image</div>
+                <img src="p1.jpg " atl="pen" class="imgt">
+                <p align="center">My name is Neha Yadav, and my portfolio is a representation of all that<br> I've learned and accomplished as a computer Application student.after doing 30 days of web development by dsc
+                </p>
+            </div>
+        </div>
+        <h2 align="center">Form </h2>
+        <div class="forms">
+            <form action="/action_page.php">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="Submit"><br><br>
+                <label for="Number">Number :</label>
+                <input type="number" id="Number" name="Number"><br><br>
+                <label for="Firstname">Firstname:</label><br><br>
+                <input type="text" id="Firstname" name="Firstname"><br><br>
+                <label for="Lastname">Lastname:</label><br><br>
+                <input type="text" id="Lastname" name="Lastname"><br><br>
+                <input type="submit" value="Submit"><br>
+                <input type="reset"><br>
+            </form>
+        </div>
+        <br><br><br>
+        <h2 align="center">Table</h2>
+        <table style="width:100%;background-color:lightseagreen">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Neha</td>
+                <td>Yadav</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>James</td>
+                <td>bond</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Sabita</td>
+                <td>Singh</td>
+                <td>25</td>
+            </tr>
+        </table>
+        <div class="rightcolumn">
+            <div class="card ">
+                <h2 align="center">About Me</h2>
+                <div class="fakeimg " "></div>
+                <p align="center ">I am from Institute of Engineering and Management and I am currently pursuing my bachelors of computer application <br>
+                In 30 days of web development i gained a lot most amazing was firebase hosting i got a better idea of real-time database and cloud firestore.
+            <br>I started my learning on skillenza on 25 decemeber 2020 and I have gained lot. I was able to do the projects on my own which was a great experience 
+        for me.<br> I learned html,css,boostrap,javascript,firebase.</p>
+            </div>
+            <div class="card ">
+
+                <div class="fakeimg "><img src="a.jpg "></div><br>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer ">
+        <h2>
+            <p align="center " class="author ">Author: Neha Yadav<br>
+            </p>
+        </h2>
+    </div>
+
+</body>
+<script>
+    document.getElementById("demo ").innerHTML = 
+    "The full URL of this page is:<br>" + window.location.href; document.getElementById("demo").innerHTML = "Page hostname is: " + window.location.hostname;
+
+                    </script>
+                    <!-- The core Firebase JS SDK is always required and must be listed first -->
+                    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+                    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+                    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+
+                    <script>
+                        // Your web app's Firebase configuration
+                        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+                        var firebaseConfig = {
+                            apiKey: "AIzaSyAEeVsf2Qp75KOoNT7tkypofWCHEN96Be8",
+                            authDomain: "portfolio-31580.firebaseapp.com",
+                            projectId: "portfolio-31580",
+                            storageBucket: "portfolio-31580.appspot.com",
+                            messagingSenderId: "933513410495",
+                            appId: "1:933513410495:web:f959918e818dfd33fed30a",
+                            measurementId: "G-5QJ3W7363R"
+                        };
+                        // Initialize Firebase
+                        firebase.initializeApp(firebaseConfig);
+                        firebase.analytics();
+                    </script>
+
+</html>
