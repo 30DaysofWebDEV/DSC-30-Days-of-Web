@@ -3,3 +3,5 @@
 **Add a blog section** to your portfolio to attract potential employers.
 
 _Note_: CMS (Optional) (No marks awarded)
+
+Solution : https://geekgrave.github.io/project6/
