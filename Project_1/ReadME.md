@@ -9,3 +9,11 @@
 * Video
 * Images
 
+### Note from participant:
+
+- [x] Used every element mentioned (buttons, email input, number input, first name and last name)
+- [x] Used table elements for displaying my skills and education details
+- [x] Built a simple contact form using form elements
+- [x] Used only basic CSS like text-align to make website look better 
+- [x] Added a youtube video of one of the live sessions of this program using "iframe"
+- [x] Added some images
