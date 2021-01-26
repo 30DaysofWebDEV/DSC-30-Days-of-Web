@@ -5,7 +5,7 @@ Refer [CSSZenGarden.com](http://www.csszengarden.com/) and understand how it wor
 
 ## Note from the Participant:
 
-* ### Added styling to existing HTML project: 
+* ### Added styling to existing HTML project using CSS: 
 
    - [x] Added required padding and margins to the elements
    - [x] Used background colours
