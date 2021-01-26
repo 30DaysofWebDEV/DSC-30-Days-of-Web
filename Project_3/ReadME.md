@@ -3,3 +3,10 @@
 Now that you have added style to your portfolio site, it **lacks the modern feel** of a website made in 2020.
 
 **Use Bootstrap** in addition to, or in replacement to, your CSS to make your website modern!
+
+## Note from the Participant
+  
+  * Used Bootstrap to add styling to elements
+    - [x] Added Bootstrap elements like navbar, card, buttons.
+    - [x] Used Bootstrap classes to style Tables and Form inputs.
+    - [x] Made the website responsive to some extent using Bootstrap.
