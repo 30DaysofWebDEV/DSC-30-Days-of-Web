@@ -6,3 +6,7 @@ Some things to consider:
 * Get a domain
 * get a hosting
 * make your website dynamic
+
+Hosted website link:
+
+https://soumayan-pal01.github.io/Portfolio-website/
