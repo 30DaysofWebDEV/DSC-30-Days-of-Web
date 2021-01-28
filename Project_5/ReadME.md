@@ -7,4 +7,4 @@ Some things to consider:
 * get a hosting
 * make your website dynamic
 
-**(Important note from participant: I've embedded CSS and javascript using "style" tags and "script" tags code into a single HTML page, I didn't keep seperate files for them)**
+**(Important note from participant: I've embedded CSS and Javascript code using "<style>" tags and "<script>" tags into a single HTML page, I didn't keep seperate files for them)**
