@@ -12,7 +12,9 @@
   * Animations and functionalities.
 
 ## Note from the Participant:
- 
+
+**(Important note: I've embedded CSS and Javascript code using "style" tags and "script" tags into a single HTML page, I didn't keep seperate files for them)**
+
   ### First project :-
    
    - [x] Made a TODO List Website using HTML,CSS,Javascript and Bootstrap
