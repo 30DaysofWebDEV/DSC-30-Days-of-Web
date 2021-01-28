@@ -14,4 +14,5 @@ Refer [CSSZenGarden.com](http://www.csszengarden.com/) and understand how it wor
    - [x] Added styling to Tables to look good
    - [x] Added styling to Form elements
    
+**(Important note: In this projects I've embedded CSS using "<style>" tags into a single HTML page, I didn't keep seperate files for CSS)**   
 
