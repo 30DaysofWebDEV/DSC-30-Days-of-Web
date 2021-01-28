@@ -60,10 +60,10 @@ section .aboutme h2{
     font-weight: 400;
     color: #999999; */
 span{
-    font-weight: 600;
+    font-weight: 900;
     color: #000000;
     width: 130px;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 
@@ -121,7 +121,7 @@ th, td {
     text-align: left;
     border-bottom: 1px solid #ddd;
   }
-
+  
   tr:hover {background-color: #f1e7e7;}  
 
   .education{
