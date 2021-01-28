@@ -13,7 +13,7 @@
 
 ## Note from the Participant:
 
-**(Important note: I've embedded CSS and Javascript code using "style" tags and "script" tags into a single HTML page, I didn't keep seperate files for them)**
+**(Important note: For both of the projects I've embedded CSS and Javascript code using "<style>" tags and "<script>" tags into a single HTML page, I didn't keep seperate files for them)**
 
   ### First project :-
    
