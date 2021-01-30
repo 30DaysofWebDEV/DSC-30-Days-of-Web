@@ -1,0 +1,220 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(156 156 156 / 43%);
+}
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(66, 65, 65);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/*navigation bar logo and image */
+
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 60px;
+    margin: 3px 6px;
+    cursor:pointer;
+}
+
+#logo img:hover{
+    height: 110px;
+    background-color:white;
+
+}
+
+#navbar ul{
+    display: flex;
+}
+
+
+
+
+#navbar ul li{
+    color: rgb(23, 230, 23);
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+} 
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.photo{
+    height: 100%;
+    width: 100;
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+    margin: 15px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    /* border: 2px solid green; */
+
+}
+
+.heading{
+    margin: 15px;
+    padding: 30px;
+    font-family: 'Asset', cursive;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 40px;
+
+}
+
+.normal{
+    text-align: left;
+
+}
+
+.places{
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+}
+.box{
+    padding: 23px 12px;
+    margin: 30px;
+    width:300px ;
+    height: 300px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50%;
+    /* border: 2px solid red; */
+}
+
+#box1{
+    background: url("photos/rashtrapati-bhavan-1.jpg") no-repeat center center/cover;
+    cursor:pointer;
+
+}
+
+#box1:hover{
+    width:310px ;
+    height: 310px;
+    box-shadow: 10px 13px 10px rgb(151, 156, 151);
+}
+
+#box2{
+    background: url("photos/india-gate-1.jpg") no-repeat center center/cover;
+    cursor:pointer;
+
+}
+#box2:hover{
+    width:310px ;
+    height: 310px;
+    box-shadow: 10px 13px 10px rgb(151, 156, 151);
+}
+#box3{
+    background: url("photos/red-fort-1.jpg") no-repeat center center/cover;
+    cursor:pointer;
+
+}
+#box3:hover{
+    width:310px ;
+    height: 310px;
+    box-shadow: 10px 13px 10px rgb(151, 156, 151);
+}
+#box4{
+    background: url("photos/lotus-temple-1.jpg") no-repeat center center/cover;
+    cursor:pointer;
+
+}
+#box4:hover{
+    width:310px ;
+    height: 310px;
+    box-shadow: 10px 13px 10px rgb(151, 156, 151);
+}
+#box5{
+    background: url("photos/akshardham-mandir.jpg") no-repeat center center/cover;
+    cursor:pointer;
+
+}
+#box5:hover{
+    width:310px ;
+    height: 310px;
+    box-shadow: 10px 13px 10px rgb(151, 156, 151);
+}
+#box6{
+    background: url("photos/jama-masjid-1.jpg") no-repeat center center/cover;
+    cursor:pointer;
+
+}
+#box6:hover{
+    width:310px ;
+    height: 310px;
+    box-shadow: 10px 13px 10px rgb(151, 156, 151);
+} 
+
+.hrall{
+    
+    width: 80%;
+    margin: auto;
+    color: "black";
+
+}
+
+
+
+#submit{
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.about{
+    font-family: 'Raleway', sans-serif;
+    margin: 15px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.foot{
+    font-size: 20px;
+    text-align: center;
+
+}
