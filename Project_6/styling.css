@@ -1,0 +1,16 @@
+p{
+    font-weight: 800;
+    color:darkred;
+    background-color:lightblue ;
+}
+body
+{
+    font-weight: bold;
+    font-style: italic;
+    background-image: -webkit-radial-gradient();
+}
+head
+{
+    font-style: inherit;
+    font-size: 0vw;
+}
