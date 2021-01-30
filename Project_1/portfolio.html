@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anvesh portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style type="text/css">
+		body{
+			background-color: #252525;
+		}
+		ul {
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  background-color: grey;
+  border-radius: 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #933ded;
+}
+
+.about {
+	border-radius: 25px;
+border:1px solid white;
+  padding: 50px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 2%;
+}
+
+span{
+	color: skyblue;
+}
+.name{
+color: #933ded;
+font-size: 30px;
+}
+p{
+	font-size: 20px;
+	}
+table{
+	margin: auto;
+	border-radius: 10px;
+	border:1px solid #933ded;
+	color: white;
+	
+}
+tr,td{
+	padding: 15px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p,a{
+	color: white;
+	text-decoration: none;
+}
+
+.send{
+	background-color: #933ded;
+}
+.send:hover{
+	background-color: orange;
+}
+.Contact{
+	margin-top: 3%;
+	border: 1px solid #933ded;
+	border-radius: 2%;
+}
+legend{
+	color: #933ded;
+}
+h2,h5{
+	color: white;
+}
+li{
+	margin-right: 1%;
+}
+label{
+	color: white;
+}
+</style>
+
+</head>
+<body class="w3-container w3-cursive">
+<ul>
+  <li><a href="#about">Home</a></li>
+  <li><a href="#Education">Education</a></li>
+  <li style="float:right;margin: 0;"><a class="active" href="#Contact">Contact</a></li>
+</ul>
+
+<header>
+	<section class="about">
+  <h1 ><span>A</span>bout Me</h1>
+  <p class ="name">Anvesh Duddu</p>
+  <p>I'm an computer science engineer pursuing at hindustan university,coupled with a vibrant presentation skills and an analytical approach.i am waiting for an opportunity to prove my skillsets in the computer science.
+
+To strive for excellence, secure a challenging position where I can effectively contribute my skills as an engineer with a proactive approach and dedication.</p>
+</section>
+
+<section class="Education">
+	<table>
+  <tr>
+  	<th>S.No</th>
+  	<th>Instution name</th>
+  	<th>grade</th>
+    <th>Year</th>
+    <th>Percentage</th>
+  </tr>
+  <tr>
+  	<td>1</td>
+  	<td>Chegu vidyalayam</td>
+    <td>10th</td>
+    <td>2015</td>
+    <td>8.8</td>
+  </tr>
+  <tr>
+  	<td>2</td>
+  	<td>Sri Chaitnya Junior College</td>
+    <td>12th</td>
+    <td>2017</td>
+    <td>92.5</td>
+  </tr>
+  <tr>
+  	<td>2</td>
+  	<td>HITS</td>
+    <td>B.Tech</td>
+    <td>2021</td>
+    <td>--</td>
+  </tr>
+
+</table>
+</section>
+<section>
+	<h2 >Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Ms.office</li>
+            <li>AngularJs</li>
+        </ul>
+ 
+</section>
+<section class="vedios">
+	<h2>Learn web development </h2>
+	<iframe width="460" height="215" src="https://www.youtube.com/embed/dfnOpzMkSno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="460" height="215"  src="https://www.youtube.com/embed/SWb_0IXjm-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="460" height="215" src="https://www.youtube.com/embed/Eq5XuC6cEek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<section class="Contact" style="background-image: url('https://news.harvard.edu/wp-content/uploads/2020/03/F1.large-2-1200x800.jpg');">
+	<div class="row">
+  <div class="column">
+    <h5>Contact Me:</h5>
+    <p>anvesh81255@gmail.com</p>
+    <p>+917989515257</p>
+    <p class="links">Follow me:<a href="https://twitter.com/DudduAnvesh">Twitter,</a>
+   <a href="https://github.com/anveshduddu/">github,</a>
+   <a href="https://www.linkedin.com/in/anvesh-duddu-866b531a6/">LinkedIn,</a>
+   <a href="https://anveshduddu.github.io/">Personal-portfolio.</a>  </p>
+  </div>
+  <div class="column">
+  <form>
+	  		<fieldset>
+                <legend><h3 >Contact Us</h3></legend>
+                <label for="first_name">First Name:</label>
+                <input id="first_name" type="text"  placeholder="First Name">&nbsp;&nbsp;
+                <label for="last_name">Last Name:</label>
+                <input id="last_name" type="text"  placeholder="Last Name"><br><br>
+                <label for="mail_id">Email:</label>
+                <input id="mail_id" type="email" placeholder="example@domain.com" required><br><br>
+                <label for="tel_no">Mobile No:</label>
+                <input id="tel_no" type="tel" placeholder="+119999999999" pattern="[+0-9]{3}[0-9]{10}" required><br><br>
+                <center>
+					<input type="submit" name="submit">
+                    <input type="reset" onclick="alert('This will clear all the data')">
+                </center>
+            </fieldset>
+		</form>
+  </div>
+  </div>
+
+</section>	
+</header>
+
+
+<footer>
+	<center>
+    	<a href="#bottom">FAQ</a>&nbsp;&nbsp;
+    	<a href="#bottom">Contact Us</a>&nbsp;&nbsp;
+    	<a href="#bottom">Terms of Use</a>&nbsp;&nbsp;
+    	<a href="#bottom">Privacy Policy</a>&nbsp;&nbsp;
+    	&copy; 2020 | Anvesh duddu</a>
+	</center>
+</footer>
+</body>
+</html>
