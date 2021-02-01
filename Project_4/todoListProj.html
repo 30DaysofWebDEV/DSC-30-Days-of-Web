@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <title>TodoList</title>
+
+</head>
+<body>
+    <div class="header">
+        <h1>My Todo List App</h1> 
+    </div>
+
+    <div class="add">
+        <input type="text" id="inputfield" class="form-control">
+        <input type="button" value="add" id="addbtn" class="btn btn-primary">
+        <input type="button" value="clear all" id="clearbtn" class="btn btn-danger">
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+            Click on the Todo text to make it checked and double click on it to uncheck</p>
+    </div>
+
+    <div>
+        <div id="todolist">
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+<script>
+    
+
+        let textField = document.getElementById("inputfield");
+        let todoContainer = document.getElementById("todolist");
+        let addbtn = document.getElementById("addbtn");
+        let clearbtn = document.getElementById("clearbtn");
+
+            addbtn.addEventListener('click',function(){
+            
+            var todoItem = document.createElement('div');
+            todoItem.className = "todoItem"
+
+            var paragraph = document.createElement('p');
+
+            var removebtn = document.createElement('button');
+
+            removebtn.innerHTML = "X"
+            removebtn.className = "btn btn-danger btn-sm panel-body"
+            paragraph.innerText = textField.value;
+            
+            if (textField.value=="") {
+                alert("you have to type something");
+            } else {
+                todoContainer.style.visibility = "visible";
+                todoItem.appendChild(paragraph);
+                todoItem.appendChild(removebtn);
+
+                todoContainer.appendChild(todoItem);
+                textField.value = "";
+                a=1;
+            }
+            
+            paragraph.addEventListener('click', function(){
+                paragraph.style.textDecoration = "line-through";
+            })
+
+            paragraph.addEventListener('dblclick',function(){
+                paragraph.style.textDecoration = "none";
+            })
+
+             removebtn.addEventListener('click', function(){
+                todoItem.style.display =  "none";
+            })
+
+            clearbtn.addEventListener('click', function(){
+                    location.reload();
+            })
+
+        })
+    
+
+</script>
+
+<style>
+
+    * {
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .header{
+        padding: 50px;
+        background-color: #0f3057;
+        color:white;
+        font-family: 'Lobster', cursive;
+    }
+
+
+    input[type=text]{
+        width: 50%;
+        display: inline;
+    }
+
+    body{
+        text-align: center;
+        align-content: center;
+        background-color: white;
+    }
+
+    .add{
+        padding: 20px 20px 0px 20px;
+        background-color: #008891;
+    }
+
+    .add p{
+        color: white;
+        padding-bottom: 5px;
+        cursor: initial;
+        padding-top: 10px;
+        margin: 0;
+        font-size: medium;
+        display: block;
+        font-family: initial;
+    }
+
+
+    p{
+        text-align: center;
+        cursor: pointer;
+        display: inline;
+        font-family: 'Playball', cursive;
+        font-size: x-large;
+    }
+
+
+    .btn{
+        margin-left: 20px;
+        display: inline;
+    }
+
+
+    .todoItem{
+        position: relative;
+        padding: 10px;
+        border-bottom: 1px solid black ;
+    }
+
+    .todoItem .btn{
+        margin: 2px;
+        display: inline;
+        font-size: x-small;
+        width: min-content;
+        float: right;
+    }
+    #todolist{
+        width: 80%;
+        margin:0 200px 0 200px;
+        text-align: center;
+    }
+
+
+</style>
