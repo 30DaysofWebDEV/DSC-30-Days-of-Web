@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Barebones Portfolio Homepage</title>
+    <style>
+        body {        
+        max-width: 700px;margin: 20px;padding: 40px;
+        border: 5px solid greenyellow;
+        text-align: justify;background-color: black;
+       
+        }
+        
+        table {border-collapse: collapse;width: 50%;text-align: 
+            center;background-color: darkgrey;border-radius: 40px;
+            font-family: 'Fredericka the Great', cursive;
+        }
+        p.one { font-size: 20px;
+        color: rgb(10, 10, 10);
+        opacity: .90;
+        height:auto;
+        max-width: 700px;min-width: 350px;
+        border: solid 2px chartreuse;
+        border-radius: 5px;
+        display: inline-block;padding: 5px 5px;
+        background-color: cadetblue;
+        }
+
+        h2 { font-size: 25px;
+        color: rgb(239, 247, 252);
+        max-width: 350px;
+        background-color: aqua; text-shadow: 1px 1px 5px rgb(17, 56, 71);
+        font-family: 'Lato', sans-serif;
+        font-family: 'Permanent Marker', 'Fredericka the Great', cursive; font-variant: small-caps;
+        }
+
+        input { 
+        border: 0px;border-radius: 5px; text-align: center;display: inline-block;font-family: 'Fredericka the Great', cursive;
+        font-size:15px ;}
+
+        input[type=submit], input[type=reset] {background-color: rgb(32, 160, 160);
+        }
+        
+        a{ text-decoration: none; color: rgb(250, 244, 244);}
+        a:hover{ color: rgb(58, 112, 114);}
+
+        div.gallery {margin: 5px;float: inherit; border: 3px solid rgb(84, 138, 160);
+        max-width :180px; border-radius: 3px; }
+        div.desc{ padding-top: 15px; text-align: center;font-family: 'Lato', sans-serif;
+        font-family: 'Permanent Marker', 'Fredericka the Great', cursive; font-variant: small-caps;font-size: large;
+        color: antiquewhite;border-top: 1px solid rgb(84, 138, 160);
+        }
+        strong{background-color: burlywood;border-radius: 5px;padding: 5px;
+        display: inline;}
+        p.about, p.two , p.email {color:whitesmoke;font-family: 'Fredericka the Great', cursive;}
+       
+        div.phone{color: antiquewhite; font-family: 'Fredericka the Great', cursive;}
+
+    </style>
+</head>
+<body>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+    <header>
+        <h2>This is Anurag's Html project</h2>
+    </header>
+
+    <div class="gallery">
+     <img src="Anurag.jpeg" style="width:180px;height:180px">
+       <div class="desc"> Hi there,I am Anurag </div> 
+    </div><br>
+
+    <form action="/action_page.php">
+        <strong>Contact Information:-</strong>
+        <div>
+         
+            <p class="one">
+                First Name: <input type="text" name="first_name" value="Anurag"/><br>
+                Last Name: <input type="text" name = "last_name" value="Nigam"/><br>
+                Mobile number: <input type="number" name="mobile_number" value="9129057390"/><br>
+                Email: <input type="email" name="email" value="anuraga091@gmail.com"/><br>
+            
+            </p>
+        
+        
+            <p><strong>Skills</strong>
+                <table>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Multisim</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>AutoCAD</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Intermediate</td>
+                    </tr>
+                
+                </table>
+            </p>
+
+            <p class=two>
+                Click here to<br>
+                <input type="submit" name="submit" input="Submit"/>
+                <input type="reset" name="reset" input="Reset"/>
+            </p>
+        </div>
+    </form>
+    <footer>
+        <p class= about> Contact me:-</p>
+             <strong>Anurag Nigam</strong>
+        <p class=email>   Email: <a href="mailto:anuraga091@gmail.com">anuraga091@gmail.com</a>
+         <div class=phone>   Phone Number: <a href="9129057390">9129057390</a></div> <br>
+            <a href="https://www.linkedin.com/in/anuraga091/">LinkedIn</a>
+
+        </p>
+        
+    </footer>
+    
+</body>
+</html>
