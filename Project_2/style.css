@@ -1,0 +1,235 @@
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .1;
+    width: 50%;
+    background: #3e64ff;
+}
+.navigation-bar{
+    width: 100%;  /* i'm assuming full width */
+    height: 200px; /* change it to desired width */
+   
+}
+.logo {
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: top;
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 30px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar ul{
+    border-radius: 10px;
+    margin-top: 71px;
+    margin-right: 40px;
+    padding : 20px 30px 20px 30px;
+    float: right;
+    overflow: hidden;
+    background-color: rgb(83, 81, 81);
+}
+.navigation-bar ul li{
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+.navigation-bar ul li a {
+    border-radius: 10px;
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 16px;
+    /* if you want it vertically middle of the navbar */
+}
+.navigation-bar > ul li a:hover{
+    background-color: #ddd;
+    color: black;
+}
+*{
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.text-center span{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    color: #3e64ff;
+    letter-spacing: 4px;
+}
+
+.text-center h1{
+    font-size: 60px;
+    font-weight: 800px;
+}
+.text-center h2{
+    line-height: 1.5;
+
+}
+/* Next */
+section .myimg{
+    float:left;
+    margin-left: 287px;
+}
+section .aboutme{
+    float: left;
+    margin-left: 100px;
+}
+section .aboutme h2{
+    font-size: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+/*  font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999; */
+.info > span{
+    font-weight: 600;
+    color: #000000;
+    width: 130px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.info ul li{
+    list-style: none;
+    margin-bottom: 10px;    
+}
+
+.value{
+   
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+.value a{
+    text-decoration: none;
+    color: inherit;
+}
+ul li span{
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 800;
+    color: #000000;
+}
+/* Next */
+.content{
+    clear: both;
+    text-align: center;
+    margin-top: 100px;
+}
+.content h1,.form h1{
+    font-size: 40px;
+    font-weight: 800px;
+}
+.content h3{
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+/* table{
+    border-radius: 3px;
+    border-collapse: collapse;
+   
+} */
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {background-color: #f1e7e7;}  
+
+  .education{
+      float: left;
+      margin-left: 70px;
+      vertical-align: top;
+  }
+  .youtube-video{
+      margin-left: 40px;
+      margin-right:40px;
+  }
+  .contactme{
+      vertical-align: top;
+      float: right;
+      margin-right: 200px;
+      margin-top: 63px;
+  }
+
+  .form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin:10px 10px 10px 10px;
+  }
+.vl {
+  border-left: 1px solid rgb(206, 209, 206);
+  height: 500px;
+  position: absolute;
+  left: 55%;
+  margin-left: -3px;
+  top: 1910px;
+
+}
+  .form > button {
+    clear: both;
+    background: #1bb1dc;
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 30px;
+    color: #fff;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+.media-link{
+    clear: both;
+    text-align: center;
+}
+.media-link > a{
+    text-decoration: none;
+    color: #000000;
+}
+.media-link > a:hover{
+    color: #ddd;
+    background-color: #000000;
+    padding: 5px 5px 5px 5px;
+}
+
+.form button:hover{
+      background-color: #06576d;
+}
+

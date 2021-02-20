@@ -1,0 +1,246 @@
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .1;
+    width: 50%;
+    background: #3e64ff;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+}
+
+    /* text at centre  */
+.text-center{
+    margin-top: 100px;
+}
+
+.text-center span {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    color: #3e64ff;
+    letter-spacing: 4px;
+}
+.text-center h1{
+    font-size: 60px;
+    font-weight: 800px;
+}
+.text-center h2{
+    line-height: 1.5;
+}
+
+/* Next */
+.myimg{
+    float:left;
+    margin-left: 215px;
+}
+.aboutme{
+    margin-top: 290px;
+
+}
+section .aboutme h2{
+    font-size: 50px;
+    position:absolute
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+/*  font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999; */
+span{
+    font-weight: 900;
+    color: #000000;
+    width: 130px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.info ul li{
+    list-style: none;
+    margin-bottom: 10px;    
+}
+
+.value{
+   
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+.value a{
+    text-decoration: none;
+    color: inherit;
+}
+ul li span{
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 800;
+    color: #000000;
+}
+/* Next */
+.content{
+    clear: both;
+    text-align: center;
+    margin-top: 100px;
+}
+.content h1,.form h1{
+    font-size: 40px;
+    font-weight: 800px;
+}
+.content h3{
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+/* table{
+    border-radius: 3px;
+    border-collapse: collapse;
+   
+} */
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {background-color: #f1e7e7;}  
+
+  .education{
+    align-items: center;
+  }
+  .youtube-video{
+      margin-left: 40px;
+      margin-right:40px;
+  }
+  .contactme{
+      vertical-align: top;
+      float: right;
+      margin-right: 200px;
+      margin-top: 63px;
+  }
+
+  .form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin:10px 10px 10px 10px;
+  }
+
+  .form > button {
+    clear: both;
+    background: #1bb1dc;
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 30px;
+    color: #fff;
+    transition: 0.3s;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+.media-link{
+    text-align: center;
+}
+
+
+.form button:hover{
+      background-color: #06576d;
+}
+
+@media (max-width: 400px) {
+    .container {
+      padding:0;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+    .aboutme {
+      margin-top: 0;
+    }
+    .row
+    {
+        float:left;
+    }
+}
+
+
+/* contact us form css */
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.form-contro{
+    position: relative;
+    padding-bottom: 20px; 
+ }
+ 
+.form-contro label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-contro input{
+    display: block;
+}
+.form-contro i{
+    position: absolute;
+    top: 50px;
+    right: 20px ;
+    visibility: hidden ;
+}
+.form-contro small{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    color: rgb(207, 0, 0);
+}
+
+.form .su i.fa-check-circle{
+    visibility: visible;
+    color: rgb(69, 233, 54);
+}
+
+.form .error i.fa-exclamation-circle{
+    visibility: visible;
+    color: rgb(207, 0, 0);
+}
+
+.form .su input{
+    border-color: rgb(69, 233, 54);
+}
+
+.form .error input{
+    border-color: rgb(207, 0, 0) ;
+}
