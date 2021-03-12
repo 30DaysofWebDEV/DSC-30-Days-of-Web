@@ -1,0 +1,169 @@
+
+    .bigbox{
+        background-color:white;   
+            }
+    
+    
+    .body {
+        margin: 0;
+        padding: 0;
+       
+            }
+
+    .navbar {
+        display: inline-block;
+      
+        position: relative;
+        font-family: 'Times New Roman', Times, serif;
+        
+        text-decoration: none;
+        font-size: larger;
+        font-weight: 200;
+            }
+   
+    .portfolio{
+        font-size: 3.5rem;
+        margin-top: 96px;
+        padding-top: 34px;
+            }
+   
+
+    .container1 {
+        height: 80vh;
+        background-position: center;
+        background-size: cover;
+       background-color: tomato;
+      color: lightcyan;
+        text-align: center;
+        padding: 20px;
+        font-size: larger;
+        /*background-image: url(images/background.jpg);*/
+            }
+
+    .container2{
+        text-align: center;
+        font-size: 2em;
+        font-family: cursive;
+             }
+    
+   .img{
+        border: solid black;
+        align-items: center;
+        height: 318px;
+
+         }
+               /* skill container*/     
+    .container-skill{
+            width: 100%;
+            height: 262px;
+            background-color: tomato;
+            display: block;
+            text-align: center;
+            padding-top: 1px;
+       }
+
+    .sk{
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+        
+.p1{
+    padding-right: 5px;
+    justify-content: center;
+   
+     
+}
+.p2{
+align-items: center;
+padding-left: 15%;
+border-spacing: 5px;
+}
+.p3{
+    align-items:Right;
+    padding-left: 15%;
+}
+        .skills{
+
+            width: 150px;
+            content: center;
+            padding: 5px;
+            display: inline;
+        }
+
+
+    .container3{
+
+        height: 65vh;
+        width: auto;
+        text-align: center;
+       background-color:white;
+            }
+
+    .contact{
+        font-size: 2.5em;
+        padding-top: 30px;
+        font-family: cursive;
+
+            }
+
+    .form{
+      margin: 0 auto;
+      width: 100%;
+       font-size: x-large;
+       align-items: center;
+       size: 2rem;
+                
+    
+    }
+
+    .btn{
+
+        align-items: center;
+        font-size: 66px;
+        padding-top: 6px;
+        font-weight: bold;
+    }
+         
+    .join{
+       
+        font-size: 30px;
+        font-family: cursive;
+        text-align: center;
+    }
+
+    .container4{
+        height: 185px;
+        padding-bottom: 5px;
+        padding-top: 2px;
+        
+}
+
+    
+    .links{
+        text-align: center;
+        background: #000;
+        content: fit;
+        white-space: nowrap;
+        
+    }
+    
+    
+    .footer {
+        text-align: center;
+        background-color: seashell;
+        color:#000;
+        font-size: 34px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+ 
+
+
+
+
+
+

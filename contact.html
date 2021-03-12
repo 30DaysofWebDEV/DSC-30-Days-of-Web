@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  .header {
+        
+
+        text-align: center;
+        padding: 7px;
+        text-size-adjust: 25px;
+  }
+
+</style>
+
+<body bgcolor="lightgray">
+    <div class="header">
+        <!-- <div class="navbar">-->
+             <h2>
+                 <span style="padding:15px;"><a href="intro.html">Intro</a></span>
+                 <span style=" padding: 15px;"><a href="portfolio.html">Home</a></span>
+                 <span style="padding: 15px;"><a href="About.html">About</a></span>
+                 <span style=" padding: 15px; text-shadow: seashell;"><a href="contact.html">Contact</a></span>
+             </h2>
+         </div>
+     </div>
+    <h1 align="center">Contact Me</h1>
+    <form name="Contact Me" action="send.php" method="post">
+        <table width="600" align="center" top-padding="30px" border="1" cellspacing="2" cellpadding="2">
+            <tr>
+
+
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="fname" maxlength="50" /></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lname" maxlength="50" /></td>
+            </tr>
+            <tr>
+                <td>Email </td>
+                <td><input type="email" name="email" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>Mob no</td>
+<td>
+    <input type="tel" name="Mob no" maxlength="10" placeholder="+91">
+</td>
+            </tr>
+            <tr>
+                <td>Additional Comment</td>
+                <td>
+
+                    <textarea name="comments" cols="45" rows="5"></textarea>
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+
+                    <input type="submit" name="submit" value="Submit" />
+                    <input type="reset" name="reset" value="Reset" />
+
+
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
