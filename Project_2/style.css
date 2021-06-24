@@ -1,0 +1,739 @@
+:root {
+    --primary: yellowgreen;
+    --dark: #161616;
+    --pure: #ffffff;
+    --ternary: #898989;
+    --light: #F2F2F2;
+    --secondary: #070606;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Courier Prime', monospace;
+    color: yellowgreen!important;
+}
+
+p {
+    font-family: 'Courier Prime', monospace;
+}
+
+
+/* header-start*/
+
+header {
+    background: rgba(0, 0, 0, 0.5)!important;
+    padding: 1rem;
+    font-weight: 500;
+    font-family: 'Courier Prime', monospace;
+}
+
+header ul {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header li a {
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--pure);
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header li a:hover {
+    color: black;
+    background: var(--primary);
+}
+
+.hamberger {
+    margin: 2rem;
+    background: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.hamberger img {
+    width: 30px;
+}
+
+
+/* header-end */
+
+.home {
+    background: #333!important;
+    padding: 2rem;
+    color: #F2F2F2!important;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home h2 {
+    margin-left: 1.5rem;
+    font-size: 3rem;
+    color: yellowgreen!important;
+    margin-top: -1.5rem;
+    margin-bottom: -1rem;
+    font-weight: 400;
+    line-height: 1;
+    padding-bottom: 4rem;
+}
+
+.home span {
+    color: #fff!important;
+    font-weight: bold;
+}
+
+.home .name {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.home .image {
+    width: 50%;
+}
+
+.image img {
+    width: 60%;
+    border-radius: 4rem 1rem;
+    border: 7.5px double yellowgreen!important;
+    margin-left: 25%;
+    margin-top: 5rem;
+}
+
+.home p {
+    font-size: 1.75rem;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 4rem;
+    font-weight: 200;
+    line-height: 1;
+}
+
+.one {
+    color: #fff!important;
+    margin-top: -5rem;
+}
+
+.btn {
+    padding: 0.8rem 1rem;
+    margin-left: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid yellowgreen!important;
+    border-radius: 2rem;
+    outline: none;
+    cursor: pointer;
+    background: yellowgreen!important;
+    color: var(--primary);
+}
+
+.btn p {
+    padding: 1rem;
+    margin: 0;
+}
+
+.btn:hover {
+    background: transparent!important;
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
+}
+
+
+/* home-end */
+
+
+/* about-start */
+
+.about {
+    padding: 2rem;
+    padding-top: 0.5rem;
+    background: #222!important;
+    color: #F2F2F2!important;
+    justify-content: space-evenly;
+}
+
+.about div {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.about h2 {
+    width: 25%;
+    margin-left: 35%;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    background: transparent;
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
+    padding: 4px 2px;
+    padding-top: 6px;
+}
+
+.about .name p {
+    font-size: 1.75rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+video {
+    width: 90%;
+    border: 5px double yellowgreen!important;
+    border-radius: 2rem 4rem;
+    margin: 1rem 2rem;
+}
+
+
+/* about-end */
+
+
+/* experience-start */
+
+.experience {
+    padding: 2rem;
+    color: #F2F2F2!important;
+    background: #333!important;
+}
+
+.experience h2 {
+    width: 25%;
+    margin-left: 35%;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    background: transparent;
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
+    padding: 4px 2px;
+    padding-top: 6px;
+}
+
+.experience p {
+    font-size: 1.75rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.experience ul {
+    padding-left: 4rem;
+    padding-top: 10px;
+    list-style: inside;
+}
+
+table {
+    width: 90%;
+    padding: 2rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-family: 'Courier Prime', monospace;
+}
+
+.experience .bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: #444!important;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.bar-container .bar-1,
+.bar-2,
+.bar-3,
+.bar-4 {
+    width: 70%;
+    background: yellowgreen!important;
+    display: inline-block;
+    height: 18px;
+    border-radius: 1rem;
+}
+
+.bar-2 {
+    width: 60%;
+}
+
+.bar-3 {
+    width: 40%;
+}
+
+.bar-4 {
+    width: 75%;
+}
+
+.bar {
+    width: 100%;
+    height: 20px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.experience p {
+    font-size: 1.75rem;
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+}
+
+.projects a {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: var(--ternary);
+    cursor: pointer;
+}
+
+.experience a:hover {
+    text-decoration: underline;
+}
+
+
+/* end */
+
+
+/* blog */
+
+section.blog {
+    padding: 2rem;
+    color: #F2F2F2!important;
+    background: #222!important;
+}
+
+section.blog .container {
+    padding-top: 1rem;
+}
+
+section.blog .container h2 {
+    width: 25%;
+    margin-left: 35%;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    background: transparent;
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
+    padding: 4px 2px;
+    padding-top: 6px;
+}
+
+section.blog .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+section.blog .card-wrapper .card {
+    background: #f2f2f2;
+    border-radius: 1rem;
+}
+
+section.blog .card-wrapper .card .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+section.blog .card-wrapper .card .card-content {
+    padding: 1rem 2rem;
+}
+
+section.blog .card-wrapper .card .card-content h1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+section.blog .card-wrapper .card .card-content a {
+    text-decoration: none;
+    color: #222;
+}
+
+section.blog .card-wrapper .card .card-content a:hover {
+    color: yellowgreen;
+}
+
+section.blog .card-wrapper .card .card-content span {
+    color: #333;
+    font-size: 0.8rem;
+}
+
+section.blog .card-wrapper .card .card-content p {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    margin: 1rem 0;
+}
+
+section.blog .card-wrapper .card .card-content a.read-more {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 1024px) {
+    section.blog .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    section.blog {
+        padding-bottom: 6rem;
+    }
+}
+
+
+/* blog-end */
+
+
+/* contact-start */
+
+.contact {
+    padding: 2rem;
+    color: #f2f2f2!important;
+    background: #333!important;
+}
+
+.contact h2 {
+    width: 25%;
+    margin-left: 35%;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    background: transparent;
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
+    padding: 4px 2px;
+    padding-top: 6px;
+}
+
+.contact form {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: yellowgreen!important;
+    font-family: 'Courier Prime', monospace;
+}
+
+.input {
+    width: 80%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding-left: 5rem;
+}
+
+#label {
+    font-size: 1.5rem;
+}
+
+.input1 {
+    width: 100%;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    border: none;
+    border-top: 2px solid var(--ternary);
+    border-bottom: 2px solid var(--ternary);
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+    background: transparent;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    color: yellowgreen!important;
+}
+
+.input1:hover,
+.input1:active {
+    background: transparent;
+    color: yellowgreen!important;
+}
+
+.button {
+    padding: 0.5rem 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    font-family: 'Courier Prime', monospace;
+    border-radius: 2rem;
+    outline: none;
+    cursor: pointer;
+    background: yellowgreen!important;
+    color: black!important;
+}
+
+.button:hover {
+    background: #222!important;
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
+}
+
+
+/* Follow Me */
+
+footer {
+    padding: 2rem;
+    background: black;
+    color: yellowgreen!important;
+    font-family: 'Courier Prime', monospace;
+}
+
+footer h2 {
+    width: 25%;
+    margin-left: 40%;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    background: transparent;
+    border-color: yellowgreen!important;
+    color: yellowgreen!important;
+    padding: 4px 2px;
+    padding-top: 6px;
+}
+
+footer i {
+    color: yellowgreen!important;
+    margin: 1rem;
+    margin-left: 1rem;
+}
+
+
+/* footer end*/
+
+@media (min-width:1024px) {
+    .hamberger {
+        display: none;
+        padding: 1rem;
+    }
+    h2 {
+        width: 25%;
+    }
+}
+
+@media (max-width: 360px) {
+    .hamberger {
+        display: inline;
+    }
+    header {
+        width: auto;
+    }
+    nav {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .home {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        padding-top: -5m;
+    }
+    .home h2 {
+        width: 100%;
+        font-size: 1.5rem;
+        color: var(--pure);
+        font-weight: 400;
+        line-height: 1;
+    }
+    .home .name {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .home p {
+        font-size: 1rem;
+        font-weight: 200;
+        line-height: 1;
+        padding: 1.5rem;
+        padding-left: 2rem;
+    }
+    .btn {
+        padding: 0.8rem;
+        margin-left: 1.5rem;
+        margin-top: 0rem;
+        font-weight: 600;
+        border: 2px solid va;
+        border-radius: 2rem;
+        outline: none;
+        cursor: pointer;
+        background: var(--primary);
+        color: var(--primary);
+    }
+    .btn p {
+        padding: 2px;
+        margin: 0;
+    }
+    .home .image {
+        width: 100%;
+    }
+    .image img {
+        width: 90%;
+        border-radius: 2rem 1rem;
+        border: 7.5px double var(--primary);
+        margin: 1rem;
+    }
+    .about {
+        padding: 1rem;
+        background: var(--dark);
+        color: var(--pure);
+        justify-content: space-evenly;
+    }
+    .about h2 {
+        width: 100%;
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 2rem;
+        background: transparent;
+        border-color: var(--primary);
+        color: var(--primary);
+        padding: 4px 2px;
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+    section.blog .container h2 {
+        width: 100%;
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 1rem;
+        background: transparent;
+        border-color: var(--primary);
+        color: var(--primary);
+        padding: 1rem;
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+    section.blog {
+        padding-bottom: 6rem;
+    }
+    .about .name p {
+        font-size: 1rem;
+    }
+    video {
+        width: 90%;
+        border: 5px double var(--primary);
+        border-radius: 1rem 2rem;
+        margin: 1rem;
+    }
+    .experience {
+        padding: 1rem;
+        color: var(--pure);
+        background: rgba(0, 0, 0, 1);
+    }
+    .experience h2 {
+        width: 100%;
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 2rem;
+        background: transparent;
+        border-color: var(--primary);
+        color: var(--primary);
+        padding: 4px 2px;
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+    .experience p {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    table {
+        width: 90%;
+        font-size: 1rem;
+        padding: 0;
+        margin: 1rem;
+        font-family: 'Courier Prime', monospace;
+    }
+    .contact {
+        padding: 1rem;
+        color: var(--pure);
+        background: var(--dark);
+    }
+    .contact h2 {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 2rem;
+        background: transparent;
+        border-color: var(--primary);
+        color: var(--primary);
+        padding: 4px 2px;
+        padding-top: 6px;
+        font-size: 1.5rem;
+    }
+    .contact form {
+        color: var(--primary);
+        font-family: 'Courier Prime', monospace;
+        margin: 1rem;
+        font-size: 1rem;
+    }
+    #input {
+        width: 100%;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border: none;
+        border-top: 2px solid var(--ternary);
+        border-bottom: 2px solid var(--ternary);
+        border-left: 0;
+        border-right: 0;
+        outline: none;
+        background: transparent;
+        border-radius: 2rem;
+        font-size: 1rem;
+        color: var(--primary);
+    }
+    .input {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+    .contact .button {
+        padding: 0.8rem;
+        margin: 0;
+        margin-top: 1rem;
+        font-weight: 600;
+        font-size: 1rem;
+        border: 2px solid transparent;
+        border-radius: 2rem;
+        outline: none;
+        cursor: pointer;
+        background: yellowgreen!important;
+        color: black!important;
+    }
+    footer {
+        padding: 1rem;
+        background: black;
+        color: var(--primary);
+        font-family: 'Courier Prime', monospace;
+    }
+    footer h2 {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 2rem;
+        background: transparent;
+        border-color: var(--primary);
+        color: var(--primary);
+        padding: 2px;
+        padding-top: 6px;
+        font-size: 1rem;
+    }
+    .footer i {
+        color: yellowgreen!important;
+    }
+}

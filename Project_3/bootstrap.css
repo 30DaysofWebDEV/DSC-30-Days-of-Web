@@ -1,0 +1,107 @@
+.navbar-custom {
+    background-color: black;
+    color: white;
+}
+
+.navbar-custom button {
+    color: yellow;
+    border: 2px solid yellowgreen;
+}
+
+.navbar-custom ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-custom a {
+    color: white;
+    font-family: 'Courier Prime', monospace;
+    padding: 10px;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.navbar-custom a:hover {
+    background: greenyellow;
+    color: black;
+    font-family: 'Courier Prime', monospace;
+    border-radius: 1rem;
+    transition: .5s all;
+}
+
+.navbar-toggler-icon .custom {
+    background: no-repeat center greenyellow;
+    background-size: 100% 100%;
+}
+
+.bg-custom {
+    background: rgba(0, 0, 0, 0.8);
+    color: greenyellow;
+}
+
+.bg-custom .text-success {
+    color: greenyellow!important;
+}
+
+.text-success {
+    color: greenyellow;
+}
+
+.bg-custom .btn {
+    background: greenyellow!important;
+    color: black;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1rem;
+}
+
+.bg-custom .text-secondary {
+    color: white;
+}
+
+.bg-custom .image {
+    width: 50%;
+    border: 2px solid yellowgreen;
+    border-radius: 2rem;
+    margin: 1rem;
+    margin-left: 10rem;
+    vertical-align: middle;
+    padding: 1rem;
+}
+
+.video video {
+    border: 5px dashed greenyellow;
+}
+
+.btn-custom {
+    margin-top: 0rem;
+    padding: 1rem;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Courier Prime', monospace;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 1rem;
+}
+
+@media (max-width: 360px) {
+    .image {
+        display: none;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: black;
+        padding-left: -1rem;
+    }
+}

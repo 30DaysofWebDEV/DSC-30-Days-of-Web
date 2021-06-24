@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 75%;
+    color: yellowgreen;
+}
+
+section {
+    padding: 5% 10%;
+    border: 2px solid greenyellow;
+    margin: 35% 55%;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+section p {
+    font-size: 1rem;
+}
+
+h1 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#inputField {
+    padding: .5rem;
+    margin-bottom: 1rem;
+    height: 2.05rem;
+    font-size: 1rem;
+    border: 2px solid yellowgreen;
+    border-radius: 1rem;
+}
+
+#inputField:hover {
+    border: 2px inset black;
+}
+
+.container {
+    margin: 0;
+}
+
+#addToDo {
+    width: 20%;
+    padding: .35rem;
+    margin-bottom: 1rem;
+    margin-left: .5rem;
+    height: auto;
+    font-size: 1rem;
+    border: 2px solid yellowgreen;
+    border-radius: 2rem;
+    background: yellowgreen;
+    outline: none;
+    background: greenyellow;
+    color: black;
+}
+
+#addToDo:hover {
+    border: 2px solid black;
+    background: yellowgreen;
+    border-radius: 2rem;
+    color: black;
+}
+
+.paragraph-styling {
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+    font-size: 1rem;
+    color: black;
+    border: 2px solid greenyellow;
+    border-radius: 2rem;
+    padding: .35rem;
+    margin-bottom: 1px;
+}
+
+.paragraph-styling:hover {
+    background: rgba(173, 255, 47, 0.8);
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+.name {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-left: 43rem;
+    margin-top: -15rem;
+}
+
+@media (max-width: 1280px) {
+    .name {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-left: 42rem;
+        margin-top: -15rem;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        margin: 2rem 1.4rem;
+        padding: 1rem;
+        width: max-content;
+        border: none;
+    }
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0;
+        margin: 1rem;
+        margin-left: 1.7rem;
+    }
+    p {
+        font-size: 1rem;
+        text-align: left;
+        padding: 0;
+        margin: 1rem;
+        margin-left: inherit;
+    }
+    .container {
+        text-align: center;
+        display: inline-block;
+        margin-left: inherit;
+    }
+    .name {
+        margin: 0;
+        padding: 0;
+        margin-left: 7rem;
+        width: 100%;
+    }
+}
