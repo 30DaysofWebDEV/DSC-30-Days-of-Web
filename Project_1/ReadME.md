@@ -8,4 +8,3 @@
 * Table 
 * Video
 * Images
-
