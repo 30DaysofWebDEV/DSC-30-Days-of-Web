@@ -1,0 +1,63 @@
+.container p{
+   text-align: center; 
+}
+.container h1{
+    margin-top: 120px;
+}
+
+header{
+    background-image: url("bg7.jpg");
+    background-size: cover;
+    height: 550px;
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.box p{
+    margin-top: 50px;
+    opacity: 0.8;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgba(255, 249, 222, 1);
+    padding-top:10px;
+    padding-bottom: 22px;
+}
+
+h2{
+    text-align: center;
+    background-color: rgba(241, 169, 160, 0.8);
+}
+
+.gradient{
+    background-image: linear-gradient(to bottom right, rgb(143, 71, 172),rgb(230, 216, 250));
+}
+
+img{
+  width: 220px;
+  height:400px;
+  float: left;
+  margin-right:100px;
+  margin-left: 30px;
+  border: solid black;
+
+}
+
+video{
+    float: left;
+   width: 220px;
+   height:300px;
+   margin:50px;
+   padding: 3px;
+}
+
+audio{
+    margin-top: 180px;
+}
+footer{
+    clear: both;
+    background-color:rgba(254, 250, 212, 1);
+}
+
+
+
