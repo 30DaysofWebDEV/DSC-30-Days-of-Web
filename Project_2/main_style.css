@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+
+.navbar {
+    background: rgb(25, 108, 141);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+    padding: 20px 40px;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.7s ease-in-out;
+}
+
+.logo:hover {
+    color: white;
+}
+
+.logo span {
+    color: goldenrod;
+    transition: all 0.7s ease-in-out;
+}
+
+.logo span:hover {
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 14px;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Nunito";
+    color: whitesmoke;
+    transition: all 0.7s ease;
+}
+
+.navbar ul a:hover {
+    font-weight: 700;
+}
+
+.navbar ul a:active {
+    font-weight: 100;
+}
+
+.navbar i {
+    display: none;
+}
+
+@media(max-width:670px) {
+    .navbar ul li {
+        display: none;
+    }
+    .navbar i {
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 15px;
+        transition: all 0.7s ease-in-out;
+        color: white;
+        padding: 10px;
+        font-size: 30px;
+        border: 1px solid white;
+        border-radius: 15px;
+        justify-content: center;
+    }
+    .navbar i:hover {
+        background-color: black;
+        position: absolute;
+    }
+}
+
+.about,
+.skills,
+.projects,
+.contact {
+    padding-top: 100px;
+    height: : auto;
+}
+
+@media (max-width: 670px) {
+    .home,
+    .about,
+    .skills,
+    .contact {
+        padding-top: 80px;
+    }
+}
+
+.home {
+    background: #111;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: white;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.about {
+    background-color: grey;
+}
+
+.text1,
+.text2,
+.text3 {
+    max-width: 1000px;
+    color: whitesmoke;
+    padding-left: 200px;
+}
+
+.text1 {
+    color: whitesmoke;
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+    padding-top: 22vh;
+    justify-content: left;
+}
+
+.text2 {
+    display: inline-block;
+    color: rgb(168, 160, 160);
+    font-size: 35px;
+}
+
+.text2 span {
+    display: inline;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 42px;
+    font-style: italic;
+}
+
+.text3 {
+    font-size: 40px;
+    color: white;
+}
+
+.text3 span {
+    color: skyblue;
+}
+
+.home h3 {
+    display: inline-block;
+    flex-direction: column-reverse;
+}
+
+.home img {
+    position: absolute;
+    right: 100px;
+    height: 400px;
+    width: 340px;
+}
+
+.info h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 0;
+    color: whitesmoke;
+}
+
+.info p {
+    text-align: right;
+    color: aliceblue;
+    word-spacing: 2px;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-right: 35px;
+}
+
+.home ul li i {
+    padding: 10px 20px;
+    color: white;
+    font-size: 35px;
+    opacity: 0.6;
+}
+
+.home ul li i:hover {
+    opacity: 1;
+}
+
+.home ul {
+    text-align: center;
+}
+
+.home ul li {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.skills {
+    background-image: url("Images/BG1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+}
+
+.skills h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 0;
+    color: whitesmoke;
+}
+
+.skills p {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(47, 91, 109);
+    border-radius: 5px;
+    padding: 2px 40px;
+    color: darkgrey;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    background-color: aqua;
+    transition: all 0.5s ease-in-out;
+}
+
+.skills p:hover {
+    color: grey;
+    background: none;
+}
+
+.skills p span {
+    color: deeppink;
+}
+
+.skills .html {
+    width: 92%;
+}
+
+.skills .css {
+    width: 85 %;
+}
+
+.skills .python {
+    width: 90%;
+}
+
+.skills .c {
+    width: 95%;
+}
+
+.skills .deep {
+    width: 80%;
+}
+
+.projects {
+    color: #fff;
+    background: url(Images/bg2.jpg);
+    background-size: cover;
+}
+
+.projects .carousel .card {
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover {
+    background: rgb(25, 108, 141);
+}
+
+.projects .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover .box {
+    transform: scale(1.05);
+}
+
+.projects .carousel .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.projects .carousel .card img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(25, 108, 141);
+    transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover img {
+    border-color: #fff;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 108, 141)!important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+    background: rgb(25, 108, 141)!important;
+}
+
+.contact {
+    background-image: url("Images/bg4.jpg");
+    color: whitesmoke;
+}
+
+.contact .contact-content .column {
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .left p {
+    text-align: justify;
+}
+
+.contact .contact-content .left .icons {
+    margin: 10px 20px;
+}
+
+.contact .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .row .info {
+    margin-left: 30px;
+}
+
+.contact .contact-content .row i {
+    font-size: 25px;
+    color: rgb(25, 108, 141);
+}
+
+.contact .contact-content .info .head {
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title {
+    color: wheat;
+}
+
+.contact .right form .fields {
+    display: flex;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .right form .textarea {
+    height: 80px;
+    width: 100%;
+}
+
+.contact .right form .name {
+    margin-right: 10px;
+}
+
+.contact .right form .email {
+    margin-left: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus {
+    border-color: #b3b3b3;
+}
+
+.contact .right form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact .right form .button {
+    height: 47px;
+    width: 170px;
+}
+
+.contact .right form .button button {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(25, 108, 141);
+    background: rgb(25, 108, 141);
+    color: #fff;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact .right form .button button:hover {
+    color: rgb(25, 108, 141);
+    background: none;
+}
+
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+section .title::after {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(25, 108, 141);
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a {
+    color: rgb(25, 108, 141);
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
