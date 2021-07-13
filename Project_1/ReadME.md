@@ -1,11 +1,11 @@
 # Project 1: HTML Project (Barebones Portfolio)
 
-### Create a barebones HTML portfolio website of your own using the following features: 
+This is a simple responsive Portfolio Website using HTML no CSS is used.
 
-* Header
-* Footer
-* Contact form with **buttons, email input, number input, first name and last name**
-* Table 
-* Video
-* Images
+## Preview: https://dushyant029.github.io/Portfolio-Only-HTML/
+
+* Name: K. Dushyant Reddy
+* Github Id: Dushyant029
+* Email: dushireddy291@gmail.com
+
 
