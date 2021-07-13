@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1145px) {
+	#To-do-body{
+		width:53%;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+	#To-do-body{
+		width:73%;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+	#List-of-todos li{
+	display:flex;
+	flex-flow:column wrap;
+	justify-content:space-around;
+	padding:10px;
+}
+
+}	

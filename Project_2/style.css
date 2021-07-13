@@ -1,0 +1,303 @@
+*{
+	margin:0px;
+}
+
+.header{
+	width:100wh;
+	background:linear-gradient(rgba(0,0,0,0.1),#120E43),url(Images/back.jpeg);
+	background-size:cover;
+}
+
+.nav-bar {
+	position:relative;
+	width:100%;
+	z-index: 4;
+	opacity:80%;
+}
+
+.nav-bar ul {
+	list-style: none;
+	background:linear-gradient(#253898,#5710D6);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.nav-bar ul a, .sign a {
+	display: block;
+	font-size:20px;
+	font-weight: 400;
+	letter-spacing: .3rem;
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+	padding: 25px;
+
+}
+
+.nav-bar ul a:hover{
+	background-color:#12B0E8;
+}
+
+#sub-header{
+	
+	display:flex;
+	flex-direction:column;
+	justify-content: space-around;
+}
+
+#write{
+	position: relative;
+	top:40px;
+	color:white;
+	z-index:4;
+	font-weight:500;
+	align-self: center;
+	margin:30px;
+	text-align: center;
+}
+
+#a{
+	font-size:130px;
+}
+
+#b{
+	font-size:70px;
+}
+
+#c{
+	font-size:50px;
+}
+
+.sign{
+
+	background-color:#B4161B;
+	padding:10px;
+	color:white;
+	border-radius:7px;
+	text-decoration: none;
+	margin:10px;
+	text-align:center;
+	font-size:30px;
+}
+
+.sign:hover{
+	background-color:#E21717;
+	text-decoration: none;
+	color:white;
+	box-shadow: 10px 10px 68px 12px rgba(141,31,31,1);
+	-webkit-box-shadow: 10px 10px 68px 12px rgba(141,31,31,1);
+	-moz-box-shadow: 10px 10px 68px 12px rgba(141,31,31,1);
+}
+
+
+#but{
+	position:relative;
+	z-index:4;
+	align-self: center;
+	margin:55px;
+	padding:20px;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+}
+
+#about{
+	background:linear-gradient(rgba(0.6,0,0,0.4),#120E43),url(Images/back2.jpeg);
+	background-size:cover;
+	position:relative;
+	top:0px;
+	left:0px;
+	padding:40px;
+}
+
+#about h1, #education h1, #skills h1, #projects h1, #contact h1{
+	font-size:80px;
+	color:white;
+	letter-spacing: .8rem;
+	padding:20px;
+	margin:0px 30px 30px 30px;
+	text-align:center;
+	padding-top:60px;
+}
+
+#about h1:hover, #education h1:hover, #skills h1:hover, #projects h1:hover, #contact h1:hover{
+	border-bottom: 2px solid #03203C;
+}
+
+#about p{
+	font-size:30px;
+	color:white;
+	width:60%;
+	height:80%;
+	letter-spacing: .2rem;
+	padding:40px;
+	background: rgba( 166, 10, 10, 0.15 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 20.0px );
+	-webkit-backdrop-filter: blur( 20.0px );
+	border-radius:10px;
+}
+
+
+#education
+{
+	background:linear-gradient(rgba(0.6,0,0,0.4),#120E43),url(Images/back3.jpeg);
+	background-size:cover;
+    overflow:auto;
+	padding:20px;
+}
+
+#tab{
+	display: flex;
+	flex-flow:column wrap;
+	margin:auto;
+	justify-content:space-around;
+}
+
+#tab div{
+	
+	font-size:26px;
+	background: rgba( 173, 191, 191, 0.35 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 20.0px );
+	-webkit-backdrop-filter: blur( 20.0px );
+	border-radius:20px;
+	color:white;
+	padding:30px;
+	width:40%;
+	margin-bottom:20px;
+	text-align:center;
+	align-self:center;
+}
+
+
+#skills{
+	background:linear-gradient(rgba(0.6,0,0,0.4),#120E43),url(Images/back4.jpeg);
+	background-size:cover;
+	padding:20px;
+}
+
+.r{
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+	font-size:30px;
+	text-align:center;
+	color:white;
+}
+
+.r div{
+	margin:40px;
+}
+
+#projects{
+	background:linear-gradient(rgba(0.6,0,0,0.4),#120E43),url(Images/back5.jpg);
+	background-size:cover;
+	padding:20px;
+}
+
+#r1{
+	display:flex;
+	flex-flow:column wrap;
+	justify-content:space-around;
+	align-items:center;
+	color:white;
+	padding:30px;
+}
+
+#r1 div{
+	margin:20px;
+	background: rgba( 239, 37, 21, 0.35 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 20.0px );
+	-webkit-backdrop-filter: blur( 20.0px );
+	border-radius: 10px;
+	width:90%;
+	height:60%;
+	
+}
+
+#r1 div:hover{
+	background: rgba( 239, 37, 21, 0.65 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 20.0px );
+	-webkit-backdrop-filter: blur( 20.0px );
+	border-radius: 20px;
+	pointer:cursor;
+}
+
+#r1 div h2{
+	font-size:40px;
+	padding :20px;
+	text-align:center;
+	border-bottom: 2px solid #3944F7;
+}
+
+#r1 div p{
+	font-size:30px;
+	padding:10px;
+	margin:10px;
+	text-align:center;
+}
+
+
+#contact{
+	background:linear-gradient(rgba(0.6,0,0,0.4),#120E43),url(Images/back6.jpg);
+	background-size:cover;
+	padding-bottom:7%;
+}
+
+input[type=text],textarea,input[type=email] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #02B290;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+input[type=submit] ,input[type=reset] {
+  background: #03203C;
+  color: white;
+  padding:16px;
+  border: none;
+  text-align:center;
+  font-size:20px;
+  cursor: pointer;
+  margin:10px;
+  width:30%;
+  border-radius:10px;
+}
+
+input[type=submit]:hover,input[type=reset]:hover
+
+{
+	background-color:#2827CC;
+}
+
+#form1 {
+  border-radius: 5px;
+  background:linear-gradient(#23C4ED,#50DBB4);
+  padding:40px;
+  width:50%;
+  margin:auto;
+  border-radius:60px;
+  color:black;
+  font-size:18px;
+  padding-bottom:20px;
+  opacity:90%;
+}
+
+
+footer{
+	background:linear-gradient(#00BC40, #F4CE6A);
+	text-align:center;
+	font-size:30px;
+	padding:10px;
+	color:white;
+	font-weight:300;
+}
+
