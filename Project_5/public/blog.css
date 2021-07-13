@@ -1,0 +1,83 @@
+body {
+    padding:0;
+    margin:0;
+    background: rgb(17,218,245);
+    background: linear-gradient(139deg, rgb(10, 198, 255) 0%, rgb(21, 247, 198) 100%);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+.body1{
+    padding:0;
+    margin:0;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(250,3,232,1) 0%, rgba(0,212,255,1) 100%);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.body2{
+  padding:0;
+    margin:0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(254,20,0,1) 0%, rgba(140,0,255,1) 100%);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+  h1, .para{
+      padding-top:10px;
+      color:white;
+      font-size:36px;
+  }
+  .heading{
+      font-weight: bold;
+      color:white;
+      font-size:24px;
+  }
+  .paragraph{
+    color:white;
+    font-size:18px;
+    width:80%;
+    text-align:justify;
+}
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  .card {
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }
+  
+  .card-img {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .card-title {
+    margin-bottom: 0.3rem;
+  }
+  
+  .cat {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .fa-users {
+    margin-left: 1rem;
+  }
+  
+  .card-footer {
+    font-size: 0.8rem;
+  }
+  .btn-sm{
+    background-color: rgb(255, 255, 255,0.7);
+  }

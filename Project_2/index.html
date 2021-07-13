@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My portfolio</title>
+		<!--font awesome-->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
+		/>
+		<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+		<link rel="stylesheet" href="responsive.css" />
+		<!--google fonts-->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			* {
+				font-family: "Poppins", sans-serif;
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			body {
+				color: #888888;
+			}
+			.top-wrapper {
+				background-image: url("windows-C6T6vr1sQI0-unsplash.jpg");
+				background-repeat: no-repeat;
+				background-attachment: scroll;
+				background-size: cover;
+				padding: 393px 0 360px 0;
+			}
+			.top-wrapper-content {
+				position: absolute;
+				content: "";
+				width: 100%;
+				z-index: 5;
+				background: rgba(23, 26, 29, 0.85);
+				height: 100%;
+				top: 0;
+				bottom: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+				color: white;
+				word-spacing: 5px;
+			}
+			.container {
+				max-width: 1170px;
+				margin: 0 auto;
+				width: 100%;
+			}
+			.heading {
+				font-size: 40px;
+				background: -webkit-linear-gradient(#3ae010, rgb(255, 251, 32));
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+			pre {
+				color: #888888;
+			}
+			.icon {
+				margin: 20px;
+				padding: 16px 18px;
+				color: #b4b4b4;
+				font-size: 24px;
+				border: 1px #b4b4b4 solid;
+				border-radius: 50%;
+			}
+			.fa-twitter:hover {
+				color: #1da1f2;
+				border-color: #1da1f2;
+			}
+			.fa-facebook {
+				padding: 16px 21px;
+			}
+			.fa-facebook:hover {
+				color: #43609c;
+				border-color: #43609c;
+			}
+			.fa-instagram:hover {
+				color: #e1306c;
+				border-color: #e1306c;
+			}
+			.fa-linkedin:hover {
+				color: #0077b5;
+				border-color: #1da1f2;
+			}
+			.fa-github:hover {
+				color: #000;
+				border-color: #000;
+			}
+			header {
+				height: 65px;
+				text-align: center;
+				font-weight: bold;
+				display: flex;
+				justify-content: center;
+				background-color: #e4e4e4;
+				background-position: fixed;
+			}
+			.link {
+				color: black;
+				text-decoration: none;
+				padding: 20px 30px;
+			}
+			.link:hover {
+				color: #1df228;
+			}
+			.head1, .head3 {
+				margin: 27px;
+				font-size: 36px;
+				text-align: center;
+				color: black;
+			}
+			p {
+				color: #888888;
+			}
+			.section-left {
+				float: left;
+				width: 30%;
+				padding: 60px;
+			}
+			.section-right {
+				float: right;
+				width: 50%;
+				padding: 40px;
+			}
+			strong {
+				font-size: 30px;
+				padding-bottom: 10px;
+				color: black;
+			}
+			ul {
+				list-style-type: none;
+			}
+			
+			#content{
+				background-color:black;
+				height:500px;
+			}
+			.head2, .head4{
+				text-align:center;
+				color:white;
+				padding:50px 50px 30px 50px ;
+				font-size:36px;
+			}
+			.lesson{
+				width:25%;
+				float: left;
+			}
+			.txt-content{
+				margin:20px;
+			}
+			.font{
+				font-size:70px;
+				border-bottom:1px dotted #3ae010;
+				margin:30px;
+				padding-bottom: 20px;
+				width:50%;
+				background: -webkit-linear-gradient(#3ae010, rgb(255, 251, 32));
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+			.flex-list{
+				display:flex;
+				flex-wrap:wrap;
+			}	
+			.li1{
+				flex:auto;
+				width:25%;
+			}
+			#contact-me{
+				background-color: black;
+			}
+			.contact{
+				display:flex;
+			}
+			.contact-left, .contact-right{
+				flex:auto;
+				width:50%;
+				padding:80px 80px 80px 230px;
+			}
+            .para{
+				color:#fff;
+			}
+			input[type="text"], input[type="email"], textarea{
+				border:1px solid #888888;
+				padding:18px;
+				background:transparent;
+				width:90%;
+				color:white;
+			}
+			input:focus, textarea:focus{
+				outline:none;
+    border-color:#3ae010;
+    box-shadow:0 0 10px #3ae010;
+			}
+			span{
+				background: -webkit-linear-gradient(#3ae010, rgb(255, 251, 32));
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+			.button{
+				padding:10px 40px;
+				background-image: linear-gradient( 105deg,  rgba(45,223,35,1) 16.3%, rgba(242,242,28,1) 95.1% );
+				font-weight:bold;
+				color:white;
+				margin:0 0 0 285px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top-wrapper">
+			<div class="top-wrapper-content">
+				<div class="container wow zoomIn">
+					<h1>HI, I AM DIKSHA</h1>
+					<br />
+					<h1 class="heading">FRONTEND DEVELOPER</h1>
+					<br />
+					<pre>
+    Tempora exercitationem aliquam ratione error officia dolore saepe architecto!
+  At quos incidunt eveniet autem placeat suscipit repudiandae.
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+</pre>
+					<br />
+					<div class="icons">
+						<a href="#"><i class="fa fa-twitter icon animate__animated animate__bounce"" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook icon animate__animated animate__bounce"" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram icon animate__animated animate__bounce"" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-linkedin icon animate__animated animate__bounce"" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-github icon animate__animated animate__bounce"" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header>
+			<a href="#" class="link">HOME</a>
+			<a href="#" class="link">ABOUT</a>
+			<a href="#" class="link">SKILLS</a>
+			<a href="#" class="link">PROJECTS</a>
+			<a href="#" class="link">CONTACT</a>
+		</header>
+		<section id="about us">
+			<div class="container animate__wow animate__fadeInLeft">
+				<h1 class="head1">Who Am I?</h1>
+				<center>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+						ipsam.
+					</p>
+				</center>
+				<div class="section-left">
+					<img src="undraw_working_late_pukg.svg" width="500" />
+				</div>
+				<div class="section-right">
+					<strong>I am a Web Developer.</strong>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+						illum incidunt dolor dolorum et voluptatum quis aut explicabo nisi
+						natus!
+					</p>
+					<br />
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio iure
+						atque nemo rem cumque dolorem qui, earum beatae delectus non aliquam
+						libero quisquam quae at officia quasi?
+					</p>
+					<br />
+					<ul>
+						<li>
+							<i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Eum, maiores?
+						</li>
+						<li>
+							<i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing
+							elit. Asperiores!
+						</li>
+						<li>
+							<i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Explicabo, tempore quisquam.
+						</li>
+						<li>
+							<i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing
+							elit.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<section id="content">
+		<div class="container">
+			<h1 class="head2">SKILLS</h1>
+		<div class="lessons">
+			<div class="lesson"><center>
+				<i class="fa fa-android" aria-hidden="true"></i>
+				<p class="txt-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique asperiores, accusamus tenetur perferendis aut tempora sed quos optio? Perferendis, recusandae!</p>
+		</center>	</div>
+			<div class="lesson"><center>
+				<i class="fa fa-html5 font" aria-hidden="true"></i>
+				<p class="txt-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique asperiores, accusamus tenetur perferendis aut tempora sed quos optio? Perferendis, recusandae!</p>
+		</center>	</div>
+			<div class="lesson"><center>
+				<i class="fa fa-css3 font" aria-hidden="true"></i>
+				<p class="txt-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique asperiores, accusamus tenetur perferendis aut tempora sed quos optio? Perferendis, recusandae!</p>
+		</center>	</div>
+			<div class="lesson"><center>
+				<i class="fa fa-code font" aria-hidden="true"></i>
+				<p class="txt-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique asperiores, accusamus tenetur perferendis aut tempora sed quos optio? Perferendis, recusandae!</p>
+			</center>	</div>
+		</div>
+	</div>
+	</section>
+	<section id="projects">
+		<h1 class="head3">PROJECTS</h1>
+		<br>
+		<br>
+		<ul class="flex-list">
+			<li class="li1"><img src="https://media4.picsearch.com/is?ZJ2Vn60iOCXKOXVzFizB7jilglVHD6xBV_JneeRUHBc&height=250" width:"400"></li>
+			<li class="li1"><img src="https://media1.picsearch.com/is?CsJ6_QrGopZv6QyCpwqnU1IdqtOmXVUa0qvZKRuBs3M&height=300"></li>
+			<li class="li1"><img src="https://media1.picsearch.com/is?CsJ6_QrGopZv6QyCpwqnU1IdqtOmXVUa0qvZKRuBs3M&height=300"></li>
+			<li class="li1"><img src="https://media5.picsearch.com/is?a-saCxroD8DgXrfnrOXOzNrngMzwJsqE5aRnhut_3C0&height=250"></li>
+			<li class="li1"><img src="https://media4.picsearch.com/is?ZJ2Vn60iOCXKOXVzFizB7jilglVHD6xBV_JneeRUHBc&height=250" width:"400"></li>
+			<li class="li1"><img src="https://media1.picsearch.com/is?CsJ6_QrGopZv6QyCpwqnU1IdqtOmXVUa0qvZKRuBs3M&height=300"></li>
+			<li class="li1"><img src="https://media1.picsearch.com/is?CsJ6_QrGopZv6QyCpwqnU1IdqtOmXVUa0qvZKRuBs3M&height=300"></li>
+			<li class="li1"><img src="https://media2.picsearch.com/is?mbXXBxg_cMeVzmW6p2IQMgwKmdUpokCDQOu9Mu6RnZc&height=250"></li>
+		</ul>
+	</section>
+	<section id="contact-me">
+		<h1 class="head4">Get In Touch</h1>
+		<center><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, doloremque!</p></center>
+		<div class="contact">
+			<div class="contact-left">
+			   <p>Diksha</p>
+			   <br>
+			   <p class="para">132, Uttar pradesh, India</p>
+			   <br>
+			   <br>
+			   <p>Call us</p>
+			   <br>
+			   <p class="para">+1 234567890</p>
+			   <br>
+			   <br>
+			   <p>E-mail</p>
+			   <br>
+			   <p class="para">support.sitename@gmail.com</p>
+			</div>
+			<div class="contact-right">
+				  <p>Full Name:</p>
+			  <input type="text" id="fname" name="fname" placeholder="Name" required>
+			  <br>
+			  <br>
+			  <br>
+			  <p>E-mail:</p>
+			  <input type="email" id="email"name="email" placeholder="email" required>
+			  <br>
+			  <br>
+			  <br>
+			  <p>Message:</p>
+			  <textarea name="message" id="message" cols="60" rows="9" placeholder="Add some text..." maxlength="90"></textarea>
+			  <br>
+			  <input type="submit" class="button" value="Send">
+			</div>
+		</div>
+	    <hr>
+		<p style="padding:10px; text-align:center;">Copyright © 2021, Template by <span>website.com</span>.</p>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+	</body>
+</html>
