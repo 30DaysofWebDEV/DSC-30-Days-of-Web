@@ -1,0 +1,377 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #133B5C;
+    overflow-x:hidden;
+}
+.navbar{
+    height: 40px;
+    background-color: #022C43;
+    position: relative;
+    top: -20px;
+    padding-bottom: 45px;
+    
+}
+.navitems{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav li{
+    list-style-type: none;
+  padding-top: 28px;
+  font-size: 20px;
+}
+
+.resume{
+    background-color: #F7CA18;
+    margin-top: 20px;
+    padding: 10px 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 15px 50px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color:  #F7CA18;
+}
+.resume a:hover{
+    color: black;
+}
+.introduction{
+    background-color:  #022C43;
+    height: 500px;
+    position: relative;
+    top: -80px;
+    padding-left: 150px;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+#myLine{
+    color:  #F7CA18;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+}
+.introduction h2{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria;
+    margin-top: -10px;
+}
+.introduction h4{
+    font-size: 30px;
+    color: white;
+    font-family:-apple-system;
+    margin-top: -30px;
+}
+#description{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: -20px;
+    display: inline-block;
+    width: 600px;
+}
+.image{
+    position: relative;
+    top: -580px;
+    right: -840px;
+    
+}
+.contactme{
+    position: absolute;
+    top: 500px;
+    left: 140px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    color: #F7CA18;;
+    border: 1px solid #F7CA18;
+    box-shadow: 5px 5px #f7ca1852;
+    cursor: pointer;
+}
+.contactme:active{
+    box-shadow: 0 0;
+}
+#intro{
+    margin-top: -350px;
+    margin-left: 240px;
+    font-size: 25px;
+    font-family:'Segoe UI';
+    color:  #F7CA18;
+    margin-bottom: -5px;
+}
+.intro h2{
+    margin-left: 200px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Georgia;
+    color: white;
+    margin-top: 5px;
+
+}
+.about{
+    display: inline-block;
+    width: 550px;
+    margin-left: 600px;
+    margin-top: -200px;
+    padding-top: -200px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+.myInterest{
+    margin-left: 600px;
+    font-size: 25px;
+    color:  #F7CA18;
+    font-family:'Segoe UI';
+    font-weight: normal;
+    margin-top: 2px;
+
+}
+.interests{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 530px;
+    margin-left: 510px;
+    color: white;
+    font-size: 15px;
+    font-family:sans-serif;
+    margin-top: -20px;
+
+}
+.techno h3{
+    color: white;
+    font-family: Georgia;
+    font-size: 38px;
+    margin-left: 90px;
+    margin-top: 150px;
+}
+.item{
+    list-style-type: none;  
+    color: #F7CA18;
+    font-size: 25px;
+    font-family: sans-serif;
+    vertical-align: middle;
+}
+.tech{
+    margin-left: 150px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 50px;
+   
+}
+.contact{
+    margin-left: 20px;
+}
+.contactInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact h3, .touch h3{
+    margin-left: 580px;
+    color: white;
+    font-size: 35px;
+    font-family: Georgia;
+    margin-top: 90px;
+}
+.linkedin, .email, .location{
+    background-color: #022C43;
+    display: inline-block;
+    width: 200px;
+    padding: 40px 60px;
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-template-rows: 40px 40px;
+    grid-gap: 10px 10px;
+    border-radius: 15px;
+    margin-left: -10px;
+}
+.email img, .location img{
+    margin-left: -10px;
+}
+.linkedin h4, .email h4, .location h4{
+    font-size: 30px;
+    color: white;
+    font-family:Georgia;
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-left: -20px;
+}
+.email p, .location p{
+    margin-left: 50px;
+    color: #F7CA18;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 3px;
+
+}
+.linkedin p{
+    margin-top: 6px;
+}
+.linkedin img{
+    margin-left: -15px;
+    height: 60px;
+    width: 70px;
+    margin-top: 2px;
+}
+.linkedin h4{
+    margin-left: -10px;
+}
+.linkedin a{
+    margin-left: 90px;
+    color: #F7CA18;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.email h4{
+    margin-top: 10px;
+    
+}
+.location h4{
+    margin-top: 10px;
+}
+.email p{
+    margin-left: 32px;
+
+}
+.location p{
+    margin-left: 35px;
+
+}
+.touchInfo{
+    margin-left: 350px;
+}
+.name, input[type = "email"]{
+
+    border: 1px solid #F7CA18;
+    background-color: transparent;
+    margin-bottom: 10px;
+    height: 30px;
+    color: white;
+    width : 350px;
+
+}
+
+input[type = "text"]:focus, input[type = "email"]:focus, textarea:focus, .subj:focus{
+    outline: none;    
+}
+::placeholder{
+    color:rgb(170, 165, 165);
+}
+textarea{
+    text-align:center;
+    border: 1px solid #F7CA18;
+    background-color: transparent;
+    margin-bottom: 10px;
+    height: 170px;
+    color: white;
+    width : 709px;
+    font-size: 15px;
+}
+.subj{
+    width: 708px;
+    border: 1px solid #F7CA18;
+    background-color: transparent;
+    margin-bottom: 10px;
+    color: white;
+    height: 30px;
+}
+.messagebtn{
+    margin-left: 630px;
+    background-color: #022C43;
+    width: 150px;
+    height: 15px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.messagebtn p{
+    color: #F7CA18;
+    margin: 0px 12px;
+    font-size: 20px;
+    font-family:Georgia;
+}
+.talk{
+    margin-top: 90px;
+}
+.talkText h3{
+    color: white;
+    font-family: Georgia;
+    font-size: 30px;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+.connectIcon{
+    list-style-type: none;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.connectIcon li{
+    padding: 10px 20px;
+}
+.wish{
+    color: white;
+    font-size: 25px;
+    font-family:Georgia;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
