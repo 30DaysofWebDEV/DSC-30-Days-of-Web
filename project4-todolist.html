@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aashwin-portfolio-todo-list</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/project3.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">about </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/form.html">applicantion form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/project4-todolist.html">todo list</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/project4_part-2.html">project-4 JS(2)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/project6blogs.html">Blogs</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            topics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">html</a></li>
+                            <li><a class="dropdown-item" href="#">css</a></li>
+                            <li><a class="dropdown-item" href="#">bootstrap</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-success text-white p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1>To-Do List</h1>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-mx-auto col-md-8 mt-3 text-center">
+                <div class="alert text-capitalize feedback">
+                    write value for item
+                </div>
+                <form id="itemform" class="my-3">
+                    <h3 class="text-capitalize mb-4">ToDo List</h3>
+                    <div class="input-group">
+                        <input type="text" class="form-control text-capitalize" id="iteminput" placeholder="name...">
+                        <div class="input-group-append">
+                            <button class="btn btn-green text-capitalize" type="submit">add item</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="item-container">
+                    <div class="item-list my-5"></div>
+                    <button class="btn btn-green my-3 text-capitalize" type="button" id="clear-list">clear
+                        items</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+  <script src="project4_part-1.js"></script>
+
+</body>
+
+</html>

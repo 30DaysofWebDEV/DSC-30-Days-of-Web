@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aashwin-portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/project3.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">about </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/form.html">applicantion form</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/project4-todolist.html">todo list</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/project4_part-2.html">project-4 JS(2)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/project6blogs.html">Blogs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              topics
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">html</a></li>
+              <li><a class="dropdown-item" href="#">css</a></li>
+              <li><a class="dropdown-item" href="#">bootstrap</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1 class="w3-center w3-animate-top w3-animate-opacity w3-text-black">Contact Form</h1>
+  <div class="container">
+      <form class="w3-center w3-animate-top w3-animate-opacity">
+          <label class="w3-text-black form">FIRST NAME</label><br>
+          <input type="text" id="firstname" class="w3-input w3-border w3-round" required /><br>
+          <label class="w3-text-black">LAST NAME</label><br>
+          <input type="text" id="lastname" class="w3-input w3-border w3-round" required /><br>
+          <label class="w3-text-black">EMAIL ID</label><br>
+          <input type="text" id="email" class="w3-input w3-border w3-round" required /><br>
+          <label class="w3-text-black">PASSWORD</label><br>
+          <input type="text" id="password" class="w3-input w3-border w3-round" required /><br>
+          <label class="w3-text-black">PHONE NUMBER</label><br>
+          <input type="tel" id="phone " class="w3-input w3-border w3-round" required /><br>
+          <label class="w3-text-black">ADDRESS</label><br>
+          <input type="text" id="ADDRESS" class="w3-input w3-border w3-round" required /><br>
+          <label for="inputState" class="w3-text-black">STATE</label><br>
+          <select id="inputState" class="w3-input w3-border w3-round">
+              <option>Chhattisgarh</option>
+              <option>West Bengal</option>
+              <option>Jammu and Kashmir</option>
+              <option>Andhra Pradesh</option>
+              <option>Goa</option>
+              <option>Bihar</option>
+              <option>Assam</option>
+              <option>Karnataka</option>
+              <option>Maharashtra</option>
+              <option>Uttarakhand</option>
+              <option>Madhya Pradesh</option>
+              <option>Uttar Pradesh</option>
+              <option>Rajasthan</option>
+              <option>Telangana</option>
+              <option>Tamil Nadu</option>
+              <option>Gujarat</option>
+              <option>Odisha</option>
+              <option>Nagaland</option>
+              <option>Mizoram</option>
+              <option>Arunachal Pradesh</option>
+              <option>Himachal Pradesh</option>
+              <option>Kerala</option>
+              <option>Jharkhand</option>
+              <option>Punjab</option>
+              <option>Manipur</option>
+              <option>Haryana</option>
+              <option>Sikkim</option>
+              <option>Lakshadweep</option>
+              <option>Andaman and Nicobar Islands</option>
+          </select>
+          <label class="w3-text-black"><br>CITY</label><br>
+          <input type="text" id="City" class="w3-input w3-border w3-round" required /><br>
+          <p>
+              <button class="w3-button w3-green">SUBMIT</button>
+          </p>
+
+      </form>
+  </div>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+      $(function () {
+          $('.w3-input').script('load');
+          $('.destory').click(function () {
+              $('.w3-input').script('destory');
+          })
+      })
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
