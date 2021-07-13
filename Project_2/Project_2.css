@@ -1,0 +1,141 @@
+body{
+    background-color: rgba(201, 76, 76, 0.3);
+    margin:0%
+}
+header{
+    background-color: cadetblue;
+    padding-top:1%;
+    padding-bottom: 3%;
+}
+nav{
+    padding-top:3%;
+    text-decoration: none;
+}
+h1{
+    font-family: Georgia, serif;
+}
+h1,h2{
+    text-align: center;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    align-self: center;
+}
+li{
+    display:block;
+    padding-right:3%;
+    text-align:center;
+    list-style-position: none;
+    font-size: 15px;
+}
+nav a{
+    text-decoration: none;
+    padding-bottom: 2%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 2%;
+    color:#000000;
+}
+nav a:hover{
+    border-radius: 10px;
+    border-style: double;
+    border-color:#000000;
+    background-color: #ffffff;
+}
+p{
+    font-style:italic; 
+}
+.about{
+    font-size:20px;
+}
+table{
+    width:100%;
+    table-layout: auto;
+}
+table,th,td{
+    border: 1px dotted;
+    border-collapse: collapse;
+}
+th{
+    font-size:20px;   
+    background-color: #555;
+    color:#ffffff;
+}
+td{
+    padding-top:0.5%;
+    font-size: 18px;
+}
+
+tr{
+    text-align: center;
+    font-size: 15px;
+}
+caption{
+    font-size: large ;
+    font-weight: bold;
+}
+span{
+    display:inline;
+}
+img{
+    width:46%;
+    float:left;
+    padding-left:2%;
+    padding-right:2%;
+    border-radius: 5%;
+}
+video{
+    padding-left:36%;
+    width:25%;
+}
+.ul{
+    text-decoration: underline;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+form{
+    text-align: center;
+    padding-bottom:3%;
+}
+button{
+    cursor: pointer;
+    background-color: #000000;
+    color:#ffffff;
+    border-radius: 10%;
+    padding:10px;
+    width:40%;
+    font-size: 15px;
+    opacity:0.9;
+}
+button:hover{
+    background-color: cadetblue;
+}
+.form{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    background-color: #000000;
+    padding: 5%;
+}
+.footlinks{
+    color:#ffffff;
+    text-decoration: none;
+}
+.foot {
+    display:inline;
+    color:white;
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(204, 154, 154);
+}
+li a:hover{
+    text-decoration: dotted;
+    background-color: rgb(138, 134, 126);
+    color:brown;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset ="UTF-8">
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="form.css">
+    <style>
+        .login-box {
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  padding-bottom:45px;
+}
+html {
+  height: 100%;
+  width:100%;
+}
+body {
+  margin:50px;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
+.flex{
+    border-collapse: collapse;
+}
+label{
+    color: #ffffff;
+}
+button{
+    text-align:center;
+    margin-left:50%;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color:#000000;
+}
+  button:hover{
+      background-color: #ffffff;
+      color:#000000;
+        background: #36ff24;
+        transition: all 0.5s;
+        border-radius: 10px;
+        box-shadow: 5px 2px 2px 2px #ffffff;
+        padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+  }
+h1{
+    color:#ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+}
+.table{
+    padding-top: 10%;
+    color:#ffffff;
+}
+</style>
+</head>
+<body>
+    <h1>Login Form</h1>
+<form>
+    <div class="login-box">
+<div class="container">
+<div class="row"  id="flex">
+    <div class="col py-3 px-lg-5  ">
+        <label for="Inputfn">First Name</label>
+    </div>
+    <div class="col-8 py-3 px-lg-5  ">
+        <input type="text" class="form-control is-invalid" id="Inputfn" placeholder="First name">
+        <div class="invalid-feedback">
+          This is a required field.
+        </div>
+    </div>
+  </div>
+<div class="row"  id="flex">
+    <div class="col py-3 px-lg-5">
+        <label for="Inputln">Last Name</label>
+    </div>
+    <div class="col-8 py-3 px-lg-5  ">
+        <input type="text" class="form-control is-invalid" id="Inputln" placeholder="Last name">
+        <div class="invalid-feedback">
+          This is a required field.
+        </div>
+    </div>
+  </div>
+<div class="row"  id="flex">
+    <div class="col py-3 px-lg-5  ">
+        <label for="InputEmail">Email address</label>
+    </div>
+    <div class="col-8 py-3 px-lg-5 ">
+        <input type="email" class="form-control is-invalid" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+        <div class="invalid-feedback">
+          Please choose a valid Email-id.
+        </div>
+    </div>
+</div>
+<div class="row"  id="flex">
+    <div class="col py-3 px-lg-5 ">
+        <label for="Inputnumber">Phone Number</label>
+    </div>
+    <div class="col-8 py-3 px-lg-5  ">
+        <input type="Number" class="form-control is-invalid" id="Inputnumber" placeholder="Phone Number">
+        <div class="invalid-feedback">
+          Numerical input only.
+        </div>
+    </div>
+</div>
+  <div class="row"  id="flex">
+    <div class="col py-3 px-lg-5  ">
+        <label for="Inputpassword">Password</label>
+    </div>
+    <div class="col-8 py-3 px-lg-5 m-control is-valid" id="Inputpassword" placeholder="Enter password">
+        <div class="valid-feedback">
+            Min 8 digits password. 
+        </div>
+            <input type="Password" class="form-control is-invalid" id="Inputpassword" placeholder="Password">
+        </div>
+</div>
+<button class="btn-lg" oncick="myFunction()" type="submit">Submit form</button>
+</div>
+</div>
+</form>
+<div class="table">
+<div class="container">
+    <div class="row"  id="flex">
+        <div class="col py-3 px-lg-5 border ">
+            <p >First Name</p>
+            <ul class="listfn">
+                <li class="lst">Shruti</li>
+            </ul>
+        </div>
+        <div class="col py-3 px-lg-5 border ">
+            Last Name
+            <ul>
+                <li>Gavali</li>
+                </ul>
+        </div>
+        <div class="col py-3 px-lg-5 border ">
+            Email
+            <ul>
+                <li>gavalishruti21@</li>
+                </ul>
+        </div>
+        <div class="col py-3 px-lg-5 border ">
+            Contact Number
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+  var lst = document.createElement("li");
+  var inputValue = document.getElementById("Inputfn").value;
+  var t = document.createTextNode(inputValue);
+  lst.appendChild(t);
+  if (inputValue === '') {
+    alert("You must write something!");
+  } else {
+    document.getElementById("listfn").appendChild(lst);
+  }
+  document.getElementById("Inputfn").value = "";
+}
+    </script>
+</body>
+</html>
