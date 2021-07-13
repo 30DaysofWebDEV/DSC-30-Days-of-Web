@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<nav class="navbar navbar-expand-lg navbar-light back">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">Menu</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#image">Image Gallery</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#video">Video Gallery</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#customers">Customers</a>
+	        </li>
+	      </ul>
+	      <span class="navbar-text">
+	        <a class="nav-link" href="#contact">Contact Us</a>
+	      </span>
+	    </div>
+	  </div>
+	</nav>
+	<header>
+		<h1><u><em>Life In The Wild</em></u></h1>
+	</header>
+	<h3 id="image">Image Gallery</h3>
+	<div class="img_container">
+		<img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" width="33%">
+		<img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg" width="33%">
+		<img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg" width="33%">
+		<!-- <br> -->
+		<img src="https://static.pexels.com/photos/	158471/ibis-bird-red-animals-158471.jpeg" width="33%">
+		<img src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg" width="33%">
+		<img src="https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg" width="33%">
+		<br>
+		<br>
+		<br>
+	</div>
+
+	<h3 id="video">Video Gallery</h3>
+	<div class="vid_container">
+		
+		<video width="33%" controls>
+  			<source src="tiger.mp4" type="video/mp4" >
+		</video>
+		<video width="33%" controls>
+  			<source src="cheetah.mp4" type="video/mp4" >
+		</video>
+		<video width="33%" controls>
+  			<source src="python.mp4" type="video/mp4" >
+		</video>
+	</div>
+	<!-- <hr> -->
+	<br><br><br>
+	<hr>
+	<div>
+		<form>
+	  		<fieldset>
+                <legend><h3 id="contact">Contact Us</h3></legend>
+                <label for="first_name">First Name:</label>
+                <input id="first_name" type="text" size="20" placeholder="First Name">&nbsp;&nbsp;
+                <label for="last_name">Last Name:</label>
+                <input id="last_name" type="text" size="20" placeholder="Last Name"><br><br>
+                <label for="mail_id">Email:</label>
+                <input id="mail_id" type="email" placeholder="example@domain.com" required><br><br>
+                <label for="tel_no">Mobile No:</label>
+                <input id="tel_no" type="tel" pattern="[0-9]{10}" required><br><br>
+                <center>
+					<input class="btn btn-primary" type="submit" formaction="thank.html" value="Submit">
+					<input class="btn btn-primary" type="reset" value="Reset">
+                </center>
+            </fieldset>
+		</form>
+		<br>
+	</div>
+	<hr>
+	<!-- <hr> -->
+	<br>
+	<div>
+		<h3 id="customers">Our Top Customers :</h3>
+		<table class="table">
+		  <thead class="thead-dark">
+		    <tr>
+		      <th scope="col">#</th>
+		      <th scope="col">Company</th>
+		      <th scope="col">Contact</th>
+		      <th scope="col">Country</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">1</th>
+		      <td>Centro comercial Moctezuma</td>
+		      <td>Francisco Chang</td>
+		      <td>Mexico</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">2</th>
+		      <td>Alfreds Futterkiste</td>
+		      <td>Maria Anders</td>
+		      <td>Germany</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">3</th>
+		      <td>Ernst Hadel</td>
+		      <td>Island Trading</td>
+		      <td>Austria</td>
+		    </tr>
+		  </tbody>
+		</table>
+	</div>
+</body>
+<footer>
+	<center>
+    	<a href="#bottom">FAQ</a>&nbsp;&nbsp;
+    	<a href="#bottom">Contact Us</a>&nbsp;&nbsp;
+    	<a href="#bottom">Terms of Use</a>&nbsp;&nbsp;
+    	<a href="#bottom">Privacy Policy</a>&nbsp;&nbsp;
+    	&copy; 2020 | Life in the wild</a>
+	</center>
+</footer>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+	<nav class="nav sticky">
+		<ul class="main-nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#image">Image Gallery</a></li>
+			<li><a href="#video">Video Gallery</a></li>
+			<li><a href="#customers">Customers</a></li>
+			<li class="push"><a href="#contact">Contact Us</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h1><u><em>Life In The Wild</em></u></h1>
+	</header>
+	<h3 id="image">Image Gallery</h3>
+	<div class="img_container">
+		<img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" width="33%">
+		<img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg" width="33%">
+		<img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg" width="33%">
+		<!-- <br> -->
+		<img src="https://static.pexels.com/photos/	158471/ibis-bird-red-animals-158471.jpeg" width="33%">
+		<img src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg" width="33%">
+		<img src="https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg" width="33%">
+		<br>
+		<br>
+		<br>
+	</div>
+
+	<h3 id="video">Video Gallery</h3>
+	<div class="vid_container">
+		
+		<video width="33%" controls>
+  			<source src="tiger.mp4" type="video/mp4" >
+		</video>
+		<video width="33%" controls>
+  			<source src="cheetah.mp4" type="video/mp4" >
+		</video>
+		<video width="33%" controls>
+  			<source src="python.mp4" type="video/mp4" >
+		</video>
+		<br>
+		<br>
+	</div>
+	<hr>
+	<div>
+		<form>
+	  		<fieldset>
+                <legend><h3 id="contact">Contact Us</h3></legend>
+                <label for="first_name">First Name:</label>
+                <input id="first_name" type="text" size="20" placeholder="First Name">&nbsp;&nbsp;
+                <label for="last_name">Last Name:</label>
+                <input id="last_name" type="text" size="20" placeholder="Last Name"><br><br>
+                <label for="mail_id">Email:</label>
+                <input id="mail_id" type="email" placeholder="example@domain.com" required><br><br>
+                <label for="tel_no">Mobile No:</label>
+                <input id="tel_no" type="tel" placeholder="+119999999999" pattern="[+0-9]{3}[0-9]{10}" required><br><br>
+                <center>
+					<button type="Submit" formaction="thank.html">Submit</button>
+                    <input type="reset" onclick="alert('This will clear all the data')">
+                </center>
+            </fieldset>
+		</form>
+		<br>
+	</div>
+	<hr>
+	<div>
+		<h3 id="customers">Our Top Customers :</h3>
+		<table border style="text-align: center" width="100%" height="200">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Ernst Hadel</td>
+                <td>Island Trading</td>
+                <td>Austria</td>
+            </tr>
+        </table>
+		<br>
+		<hr>
+	</div>
+</body>
+<footer>
+	<center>
+    	<a href="#bottom">FAQ</a>&nbsp;&nbsp;
+    	<a href="#bottom">Contact Us</a>&nbsp;&nbsp;
+    	<a href="#bottom">Terms of Use</a>&nbsp;&nbsp;
+    	<a href="#bottom">Privacy Policy</a>&nbsp;&nbsp;
+    	&copy; 2020 | Life in the wild</a>
+	</center>
+</footer>
+</html>
