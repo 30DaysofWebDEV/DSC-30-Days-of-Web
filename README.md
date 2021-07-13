@@ -1,5 +1,7 @@
 # DSC-30-Days-of-Web 💻
 
+Hi this is cherish
+
  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome" /> <a href="https://github.com/30DaysofWebDEV/DSC-30-Days-of-Web/pulls" target="_blank">
 
 <!-- TABLE OF CONTENTS -->
