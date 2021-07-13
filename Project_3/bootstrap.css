@@ -1,0 +1,219 @@
+.navbar {
+    overflow:visible;
+    background-color: #f1f1f1;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav-link {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background-color: #111111;
+}
+
+.active {
+    background-color: #4caf50;
+}
+
+.heading {
+    box-align: center;
+    font-size: 48px;
+    background-color: rgba(138,223,189,0.5);
+    border-style: none;
+    border-width: thick;
+    height: 120px;
+    width: auto;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 4px 4px grey;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 150px;
+}
+
+ h3, p.text-success, p.intro {
+     text-align: center;
+     font-style: italic;
+     font-size: 36px;
+ }
+
+
+body{
+    background-color: seashell;
+}
+
+body,h1,h3,h2,p.intro {
+    font-family: "Montserrat", serif;
+    color: black;
+}
+
+.imgcontainer {
+    position: relative;
+    width: 73%;
+}
+
+.img {
+    display: block;
+    width: 73%;
+    height: 50%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #008cba;
+    overflow: hidden;
+    width: 50%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.imgcontainer:hover .overlay {
+    height: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.intro {
+    float: right;
+}
+
+.about {
+    text-align: left;
+    margin: 10px 30px;
+    padding-left: 30px;
+}
+
+.aboutheading {
+    font-family: "Algerian", bold, sans-serif;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+.myskills {
+    text-align: left;
+    margin: 10px 30px;
+    padding-left: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display:inline-block;
+}
+
+input {
+    width: 50%;
+}
+
+input[type=text], select, textarea {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    resize: vertical;
+}
+
+input[type=text]:focus{
+    border: 3px solid #555555;
+}
+
+input[type=submit] {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    width: 25%;
+} 
+
+button:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: "Montserrat",bold, sans-serif;
+    font-size: 22px;
+    text-decoration: bold;
+}
+
+.form-control {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+}
+
+.form-group{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .form-group, .form-control, button {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  p.skiils {
+      font-family: "Montserrat", sans-serif;
+      text-align: left;
+      font-size: 32px;
+      text-decoration: solid;
+  }
+
+  .progress {
+      float: left;
+      width: 70%;
+      border: 2px solid black;
+  }
+
+  .contacthead {
+      font-family: "Algerian", bold, sans-serif;
+      text-decoration: underline;
+    text-align: left;
+    font-size: 32px;
+    margin: 10px 30px;
+    padding-left: 30px;
+  }
