@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>javascript-project1</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <style>
+    #particles-js{
+      background: #262626;
+      z-index: -1;
+    }
+    h1{
+      margin: 0 auto;
+      color: white;
+      background: none;
+      margin-left: 30%;
+      position: absolute;
+      
+    }
+    body{
+      background: #262626;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+    .panel {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 1.3em;
+    position: absolute;
+    z-index: 10;
+    width: 400px;
+    
+    background: white;
+    top: 40%;
+    left: 50%;
+    margin: -130px 0 0 -17%;
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+#addButton{
+  margin-left: 10px;
+  margin-bottom: 5px;
+ 
+}
+
+li{
+  cursor: pointer;
+  
+}
+
+
+  </style>
+  
+</head>
+<body>
+
+  <h1 class="display-1">To-Do List</h1>
+  <div class="panel" style="display: block;">
+    <input id="textInput" type="text" placeholder="add some new to your list"><button type="button" class="btn btn-secondary" id="addButton">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"></path>
+          </svg>
+          <span class="visually-hidden">Button</span>
+        </button>
+    <ul id="sortable">
+      
+
+    </ul>
+  </div>
+
+
+
+  <div id="particles-js" style=" background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;"><canvas class="particles-js-canvas-el" width="500" height="833" style="width: 100%; height: 100%;"></canvas></div>
+  
+<script src="../particles.js"></script>
+<script src="js/app.js"></script>
+
+
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+
+<script>
+  $(function(){
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  });
+  function generateRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
+  $("#addButton").click(function(){
+    
+    $("#sortable").append('<li class="ui-state-default " ><span class="ui-icon ui-icon-arrowthick-2-n-s" style="color:'+generateRandomColor()+';">'+$("#textInput").val()+'</span></li>');
+    $("#textInput").val("");
+    
+  });
+
+</script>
+</body>
+</html>
