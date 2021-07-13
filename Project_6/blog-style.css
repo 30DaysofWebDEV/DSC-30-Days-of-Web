@@ -1,0 +1,177 @@
+*{
+    margin:0;
+}
+
+.bg{
+    position: fixed;
+    top:-1px;
+    width:100vw;
+    height:200vh;
+    z-index:-2;
+    opacity: 0.2;
+    background: url("https://cdn.dribbble.com/users/211312/screenshots/6007441/artboard_3-100.jpg") ;
+}
+
+.head{
+    height:300px;
+    background-color: lemonchiffon;
+    background: url("https://images.unsplash.com/photo-1513106021000-168e5f56609d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80") ;
+    background-repeat: no-repeat;
+     background-size:100%;
+}
+
+.nav button{
+    padding:8px;
+    border:1px solid black;
+    border-radius:10px;
+    background-color: rgb(255, 255, 179);
+    margin:20px;
+    font-weight: bold;
+}
+.nav a{
+    text-decoration: none;
+    padding:10px;
+}
+
+.blog-heading .my{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 3rem;
+    
+}
+
+
+.blog-heading .blog{
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 5em;
+    font-weight: bold;
+    color:white;
+    -webkit-text-stroke: 1px black;
+}
+
+.body .item{
+    align-items: center;
+    width:90%;
+    margin: 5%; 
+    background-color: rgba(255, 255, 255,0.7);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+
+.content{
+    display:flex;
+    min-height:390px;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    padding:20px;
+    justify-content: center;
+}
+
+.content .date{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.content p:first-child{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.item:nth-child(even) img{
+    float:right;
+}
+
+.item:nth-child(odd) img{
+    float:left;
+    margin-right: 18px;
+}
+
+.item:nth-child(even){
+    border-left: 10px solid  rgba(51, 102, 204,0.8);
+}
+
+.item:nth-child(odd){
+    border-right: 10px solid  rgba(51, 102, 204,0.8);}
+
+.content button{
+    text-decoration: none;
+    background: none;
+    border:unset;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.moremm{
+    display:none;
+}
+
+.sub{
+    align-items: center;
+    border-top:1px solid black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding:80px;
+    margin:auto auto;
+    background: url("https://media.gettyimages.com/photos/beautiful-monstera-flower-in-a-white-pot-stands-on-a-wooden-table-on-picture-id1205923840?k=6&m=1205923840&s=612x612&w=0&h=KpMnZxU4IA4y7ZL4gVSVQoD0moggpxhVGCEAU-vVRQ0=");
+    background-repeat: no-repeat;
+    background-color:  rgb(242, 242, 242);
+}
+
+.sub h1{
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    -webkit-text-stroke: 0.3px black;
+    color:white;
+}
+
+.sub p{
+    display: inline;
+    padding:10px;
+    background-color: khaki;
+}
+
+.sub input{
+    text-align: center;
+    height:30px;
+    width:300px;
+    border-radius: 10px;
+}
+
+.sub button{
+    height:35px;
+    padding:5px;
+    border-radius: 10px;
+    background-color: navajowhite;
+    color:white;
+    -webkit-text-stroke: 1px black;
+}
+
+footer{
+    background-color: rgba(51, 102, 204,0.8);
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color:white;
+    font-size: 0.9rem;
+    padding:30px 50px 20px 50px;
+    height:260px;
+  }
+  
+  .fa-facebook ,.fa-linkedin, .fa-google{
+      width:5px;
+      height:3px;
+      text-decoration: none;
+      margin-bottom: 5px;
+      border-radius:100px;
+      color: white;
+    }
+
+.foot_links:hover{
+   cursor: pointer;
+}

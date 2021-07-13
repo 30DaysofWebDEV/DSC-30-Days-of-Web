@@ -1,0 +1,364 @@
+*{
+    margin :0 ;
+}
+
+:root{
+    --header : rgb(255, 153, 0);
+    --bg_gradient  :  linear-gradient(90deg, rgba(28,117,188,0.7) 0, rgba(255, 153, 0,0.3));
+    --form_bg : rgb(78, 60, 195);
+
+}
+
+body{
+    margin:3%;
+    font-size:20px;
+    border : 4px double black;
+    padding:15px 10px 15px 10px;
+    background: var(--bg_gradient)
+}
+
+#bg{
+    position:fixed;
+    top:-1px;
+    left:-17px;
+    width:100vw;
+    height:200vh;
+    z-index:-2;
+    opacity: 0.2;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background: linear-gradient(90deg, rgba(28,117,188,0.7) 0, rgba(255, 153, 0,0.3)), url("https://cdn.dribbble.com/users/211312/screenshots/6007441/artboard_3-100.jpg") ;
+}
+/* ========================================== H E A D E R   - C S S ======================================== */
+
+header{
+    box-shadow: 25px 15px rgba(242, 242, 242,0.9);
+    padding: 2vw;
+    display:flex;
+    align-items: center;
+    color: white;
+    border:3px solid white;
+    border-radius: 10px;
+    transform: translateX(-25px);
+    background-color: var(--header);
+}
+
+header .fullName{
+
+    width:calc(60% - 40px);
+    letter-spacing: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size:2rem;
+}
+
+header .fullName b{
+    font-size: 4rem;
+    display: inline-block;
+    width:90px;
+    letter-spacing:9px;
+    color:var(--header);
+    background-color: white;
+    height:90px;
+    border:1px solid white;
+    border-radius:400% ;
+}
+
+header .tsm{
+    width:calc(50% - 40px);
+    font-size: 4rem;
+    font-family: 'Bungee Outline', cursive;
+}
+
+.head_border{
+    position: absolute ;
+    top:80px;
+    left:8vw;
+    height:96vh;
+    width:80vw;
+    border:5px solid rgb(142, 37, 37);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+@media only screen and (max-width : 768px){
+    header{
+        display: block;
+        align-items: center;
+    }
+    header .fullName, header .tsm{
+        width:100%;
+    }
+    .head_border{
+        border:unset;
+    }
+    #skills .back div p{
+        display: none;
+    }
+    #contact .form{
+        display:block;
+        justify-content: unset;
+    }
+    
+}
+
+/* ========================================== N A V B A R  - C S S ======================================== */
+
+nav{
+    position: relative;
+   
+}
+
+nav  button{
+     width:15vw;
+     height:50px;
+     border:1px solid var(--header);
+     margin-right: 20px;
+     border-radius: 100px;
+     font-weight:600;
+
+}
+
+nav a{
+    display:flex;
+    width:100%;
+    height:105%;
+    border-radius: inherit;
+    justify-content: center;
+    align-items: center;
+    color:var(--header);
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1rem;
+}
+
+nav a:hover{
+    color:white;
+}
+
+button:hover{
+    background-color: var(--header) ;
+    box-shadow: 2px 4px rgb(0,0,0,0.6);
+    transform: translateY(-6px);
+}
+
+#about{
+    position: relative;
+    z-index: -2;
+    margin-top: 50px;
+    color:snow;
+    padding:30px;
+    background-color:rgba(78, 60, 195,0.7);
+    box-shadow: 5px 5px rgba(242, 242, 242,0.9);
+    border-radius: 10px;
+}
+
+#about p.welcome{
+    margin-top: 50px;
+    font-family: 'Raleway', cursive; 
+}
+
+#about p.p1,p.p2{
+   text-indent: 20vw;
+   line-height: 30px;;
+   font-family: 'Nunito', sans-serif;
+}
+
+#about h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 4rem;
+}
+
+#about h1 span{
+    font-family: 'Redressed', cursive; 
+    font-size:6rem;
+}
+
+/* ========================================== A C A D E M I C S - C S S ======================================== */
+
+#edu h1{
+    font-family: 'Raleway', cursive;
+    color:white;
+    text-shadow: 2px 4px #808080;
+}
+
+#edu .education{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#edu .school,.inter,.btech{
+    margin-left: 30px;
+    width:25vw;
+    height:60vh;
+    background-color: rgb(255, 133, 51);
+    border:4px solid white;
+    border-radius: 20px;
+    
+}
+
+.education p{
+    text-align: center;
+    color:white;
+    line-height: 30px;
+    font-family:'Nunito', sans-serif; 
+    
+}
+
+#edu img{
+    border-radius: 100px;
+    margin-top:20px;
+    margin-left: 30%;
+    width:10vw;
+    height:10vw;
+}
+
+/* ========================================== S K I L L S - C S S ======================================== */
+
+#skills .lang{
+    position:relative;
+}
+
+
+#skills h1{
+    font-family: 'Raleway', cursive;
+    color:white;
+    text-shadow: 2px 4px #808080;
+}
+
+
+#skills .front img:hover{
+    transform: translateY(-30%); 
+    transition: 10ms;
+}
+
+#skills .back{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    position: absolute;
+    top:0;
+    z-index:-1;
+}
+
+#skills .back div{
+    width: 150px;
+    height:150px;
+    margin-right:5vw;
+    border-radius: 200px;
+   
+}
+
+#skills .back div p{
+    position: relative;
+    bottom:-105px;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 2px 4px rgb(0,0,0);
+    font-size:1.7rem ;
+}
+
+#skills img {
+    width: 150px;
+    height:150px;
+    margin-right:5vw;
+}
+
+
+#skills .C,#skills .web{
+    border-radius: 200px;
+}
+
+/* ========================================== C O N T A C T . M E - C S S ======================================== */
+
+#contact{
+     background-color: rgba(255, 195, 77,0.8);
+     width:80vw;
+     border:3px solid white;
+     border-radius: 20px;
+     margin: auto auto;
+}
+
+#contact h1{
+    font-family: 'Raleway', cursive;
+    color:white;
+    text-shadow: 2px 4px #808080;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    color:var(--form_bg);
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+form div{
+    padding:20px;
+}
+
+input{
+    width:30vw;
+    margin: 5px 0 20px 0;
+    height:50px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+textarea{
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+.submit{
+    text-align: center;
+   
+}
+.submit input{
+    font-family:'Nunito', sans-serif; 
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: white;
+    color:var(--form_bg);
+}
+
+.submit input:hover{
+    background-color: var(--form_bg);
+    box-shadow: 2px 4px rgb(0,0,0,0.6);
+    transform: translateY(-6px);
+    cursor: pointer;
+    color:white;
+}
+
+/* ========================================== F O O T E R - C S S ======================================== */
+footer{
+  background-color: rgba(51, 102, 204,0.8);
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  color:white;
+  font-size: 0.9rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding:30px 50px 20px 50px;
+  height:180px;
+}
+
+.fa-facebook ,.fa-linkedin, .fa-google{
+    width:5px;
+    height:3px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius:100px;
+    color: white;
+  }
+
+  
+
+
+
+
+  
+
+
+
+

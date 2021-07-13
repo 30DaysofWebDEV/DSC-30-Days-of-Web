@@ -1,0 +1,403 @@
+*{
+    margin:0;
+    color:white
+
+}
+
+#front{
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    top:0px;
+    width:100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25vh;
+}
+
+.todo,.td{
+    position: relative;
+    top:0px;
+    font-size: 1rem;
+    padding: 30px;
+    font-family:'Righteous',cursive;
+    border:3px solid rgb(255, 102, 0);;
+    animation:todo both ease 1.4s .1s,todo1 ease-in both 2s 1.7s,ins ease both 1s 2s;
+} 
+.todo ins{
+    font-size: 7rem;
+}
+
+
+.list{
+    position: relative;
+    left:0px;
+    font-size: 4rem;
+    margin-left: 29px;
+    font-family: 'Luckiest Guy',cursive;
+    letter-spacing: 5px;
+    animation:list ease both 1.6s 1s;
+}
+
+#front button,#name_card .submit{
+    color:white;
+    background-color: rgb(255, 102, 0);
+    padding:20px;
+    width: 230px;
+    font-family:fantasy;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px black;
+    border:2px solid white;
+    border-radius: 100px;
+    opacity: 0;
+    animation:gets both 2s 2s;
+}
+
+
+/* =========================================================== K E Y F R A M E S ======================================= */
+
+@keyframes todo{
+    0%{top:-600px;}
+}
+
+@keyframes gets{
+    100%{opacity: 1;}
+}
+
+@keyframes list{
+    0%{left:600px;}
+    50%{left:-40px;}
+    100%{left:10px;}
+
+}
+
+@keyframes ins{
+    100%{font-size:7rem;
+        border:unset;
+        -webkit-text-stroke: 2px black;
+    }
+}
+
+@keyframes todo1{
+    100%{background-color: white; 
+    color:black;}
+
+}
+
+@keyframes text{
+    100%{width:80%;}
+}
+
+@keyframes card{
+     100%{top:-105vh;}
+}
+
+@keyframes blink{
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
+
+
+/* =========================================================== N A M E C A R D ======================================= */
+#name_card{
+    position:absolute;
+    top:0px;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(30, 30, 30);
+}
+
+.card{
+     width:350px;
+     height: 300px;
+     background-color: khaki;
+     margin:auto auto;
+     margin-top:15vh;
+     box-sizing: border-box;
+     padding:50px 5px 50px 5px;
+     text-align: center;
+     
+}
+
+label{
+    color:darkblue;
+    font-size: 2.4rem;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    -webkit-text-stroke:1px whitesmoke;
+}
+
+input{
+    margin-top: 20px;
+    width:330px;
+    height: 50px;
+    border-radius: 20px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+#name_card .submit{
+      animation: unset;
+      opacity: 1;
+      padding:10px;
+      width:170px;
+}
+
+.submit:hover,#front button:hover{
+    cursor: pointer;
+    transform: translateY(-4px);
+    box-shadow: 2px 2px black;
+}
+/* =========================================== S I T E ======================================= */
+#bg{
+    position: fixed;
+    top:0px;
+    width:100vw;
+    height:100vh;
+    background: url(https://img.freepik.com/free-vector/blank-photo-frame-set-hanging-clip_185004-137.jpg?size=626&ext=jpg) no-repeat;
+    background-size: 100vw 100vh;
+    opacity: 0.1;
+    z-index: -2;
+}
+
+.nav{
+    margin-right: 70px;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    border:1px solid white;
+    align-items: center;
+}
+
+#site{
+    position: absolute;
+    top:0px;
+    width:100vw;
+    height:100vh;
+    overflow-y:auto;
+    z-index:-1;
+    background-color: black;
+}
+
+.td{
+    animation: none;
+    margin:50px;
+    padding: 20px;;
+    display: inline-block;
+}
+
+.td ins{
+    font-size: 3rem;
+}
+header button{
+    margin-right: 20px;
+    border:none;
+    background: none;
+}
+
+header button a{
+    margin-right: 10px;
+    background-color: none;
+    font-size: 2rem;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color:rgb(201, 109, 47);
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.nav button:hover{
+     border-bottom: 2px solid white;
+     transform: translateY(-5px);
+
+}
+
+.nav span{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.about1{
+     display:none; 
+     text-align: center;
+     font-size: 1rem;
+     margin:40px 20px 10px 20px ;
+     border:2px solid white;
+     border-radius: 20px;
+     font-family: 'Ubuntu';
+     padding:50px;
+}
+
+.about1 h1{
+    font-family: Impact,  'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    color:wheat;
+}
+
+.about1 h1 span{
+    color:rgb(201, 109, 47);
+}
+
+
+.flowdiv .flow{
+    font-size:4.6rem;
+    display: inline-block;
+    align-content: center;
+    white-space: nowrap;
+    overflow:hidden;
+    width:0%;
+    margin:0 auto;
+    font-family: monospace;
+    font-weight: bolder;
+    animation: text 6s both steps(35);
+} 
+
+.flowdiv{
+    text-align: center;
+    margin-top: 80px;
+    margin-left:0;
+}
+
+.flowdiv span{
+    position: relative;
+    top:-20px;
+    font-size: 4.6rem;
+    font-weight: bolder;
+    color:white;
+    padding-left:1px;
+    animation:blink 0.7s 2s steps(2) infinite;
+}
+
+
+
+.task{
+    padding:0;
+    text-align: center;
+    margin-top:80px;
+}
+
+
+.task input{
+    margin:0;
+    width:400px;
+    border-radius: unset;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.task button{
+    color:white;
+    background-color:midnightblue;
+    position: relative;
+    bottom:2px;
+    font-size: 1rem;
+    border:2px solid white;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    width:70px;
+    height:55px;
+}
+
+.task button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.taskmanager{
+    display:grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr;
+    border:4px double rgb(201, 109, 47);
+    grid-auto-rows: minmax(200px,auto);
+    grid-gap: 40px;
+    padding:50px;
+}
+
+.taskmanager div:nth-child(odd){
+    background-color: rgb(243, 235, 165);
+}
+
+.taskmanager .task_item{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(234, 220, 98);
+    color:black;
+    border-radius: 30px;
+    border:2px solid white;
+}
+
+.taskmanager .task_item .div1{
+    height:50px;
+    background-color: rgb(30, 63, 123);
+    width:inherit;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: 2px solid white;
+    padding-right: 10px;
+}
+
+.div2{
+    padding:30px;
+    font-size: 2rem;
+    color:black;
+    font-family: 'Ubuntu',cursive;
+}
+
+.green{
+    background-color: springgreen;
+}
+
+.div1 button:hover{
+    transform: translateY(-3px);
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.red{
+    background-color: tomato;
+}
+
+.task_item .div1 button{
+    float:right;
+    margin-top:15px;
+    border:none;
+    margin-right: 10px;
+    border-radius: 100px;
+    /* padding:15px; */
+
+}
+
+
+footer{
+    background-color: rgba(51, 102, 204,0.8);
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color:white;
+    font-size: 0.9rem;
+    padding:30px 50px 20px 50px;
+  }
+  
+  .fa-facebook ,.fa-linkedin, .fa-google{
+      width:5px;
+      height:3px;
+      text-decoration: none;
+      margin-bottom: 5px;
+      border-radius:100px;
+      color: white;
+    }
+
+.foot_links:hover{
+   cursor: pointer;
+}
+
