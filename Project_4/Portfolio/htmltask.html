@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sonali's Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="E:\Project1\myStyle.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">My Portfolio</span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#carouselExampleCaptions">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#myTable">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#myTable">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#myTable">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactMe">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+   
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<div class="intro">
+		<h1 class="intro">I am Sonali Bedade</h1>
+		<p> Welcome to my Website!</p>
+	</div><br><br>
+	<center><img src="E:\Project1\hello.jpg"></center><br><br>
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="E:\Project1\blue.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Hello, I'm Sonali !</h5>
+        <p>I'm a second year Engineering student. I like to learn new skills and technologies.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="E:\Project1\flower.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Technical Interests</h5>
+        <p>I am a coding and Web Development enthusiast and like to work on interesting projects. </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="E:\Project1\third.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Other interests and hobbies</h5>
+        <p>I love to paint, dance and listen to music.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div><br><br>
+<div class="table-responsive">
+	<table id="myTable" class="table table-hover table-dark"style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col">SKILLS</th>
+			<th scope="col">PROJECTS</th>
+			<th scope="col">ACHIEVEMENTS</th>
+		</tr>
+	</thead>
+		<tr>
+			<td>C++</td>
+			<td>Bookshop Management System</td>
+			<td>Academic exams</td>
+		</tr>
+		<tr>
+			<td>HTML and CSS</td>
+			<td>Portfolio Website</td>
+			<td>Internships</td>
+		</tr>
+		<tr>
+			<td>Python</td>
+			<td>Programming</td>
+			<td>Competitions</td>
+		</tr>
+	</table></div><br>
+	<center><h1>Contact Form</h1></center>
+	<div class="contact-form">
+		<div id="error"></div>
+	<form id="form" action="/" method="GET">
+  <div class="form-group row">
+    <label for="firstName" class="col-sm-2 col-form-label">FirstName</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="firstName" placeholder="First Name">
+    </div>
+  </div><br>
+  <div class="form-group row">
+    <label for="lastName" class="col-sm-2 col-form-label">LastName</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+    </div>
+  </div><br>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div><br>
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Female" checked>
+          <label class="form-check-label" for="gridRadios1">
+            Female
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Male">
+          <label class="form-check-label" for="gridRadios2">
+            Male
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="Other">
+          <label class="form-check-label" for="gridRadios3">
+            Other
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <div class="form-group row">
+    <div class="col-sm-2">Checkbox</div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Example Checkbox
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Type your message here:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <center>
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</center>
+</form>
+	</div>
+	<br><br>
+	<center><video width="320" height="240" controls>
+		<source src="Pexels Videos 1851190.mp4" type="video/mp4">
+	</video><br><h2>LET'S CONNECT !<br></center>
+	<div id="contactMe" class="bg">
+		<center><p>Contact me on :</p></center>
+		<div class="block-icon">
+			<div class="icon"><a href="mailto:sonalibedade15@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></div>
+			<div class="icon"><a href="https://www.linkedin.com/in/sonali-bedade-0519071ab/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></div>
+			<div class="icon"><a href="https://github.com/sonaliBedade"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></div>
+		</div>
+	</div>
+<footer>
+		<p>By Sonali Bedade</p>
+</footer>
+
+<script defer src="app.js"></script>
+</body>
+</html>
