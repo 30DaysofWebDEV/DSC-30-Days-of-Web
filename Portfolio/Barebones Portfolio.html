@@ -1,0 +1,761 @@
+<!---Project 1: HTML Project (Barebones Portfolio)
+Create a barebones HTML portfolio website of your own using the following features:
+Header
+Footer
+ form with buttons, email input, number input, first name and last name
+Table
+Video
+Images
+ Second Project
+Add to your portfolio:-
+Save contact form details in a variable, Tabular structure with flex boxes.
+For each entry, create a new row with the details entered.
+Do not allow repeated or empty fields.
+Whenever they enter a new thing, it will have a small fade in effect.
+Animations and functionalities.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+ <title>My Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title style="font-size:150%;">Personal Portfolio</title>
+
+
+
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,500&display=swap" rel="stylesheet">
+<!--CSS Stylesheet-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+<!--Awesome Fonts-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
+
+<link media="all" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+
+
+<body>
+    <section  class="coloured-section" id="title">
+        <div class="container-fluid">
+            <!-- Nav Bar-->
+            <div class="background-color:dark"></div>
+            <nav class="navbar navbar-expand-md navbar-dark">
+              <a class="navbar-brand" style=" color: black;" href="">TechnoWorld</a>
+              <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+              <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" style=" color: black;" href="">HOW WE WORK</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" style=" color: black;"  href="">RESOURCES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style=" color: black;" href="">ARTICLES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style=" color: black;" href="">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style=" color: black;" href="">VIEW PLANS</a>
+                </li>
+                  <li class="nav-item">
+                      <a class="nav-link"style=" color: black;"  href="">ACCOUNT</a>
+                  </li>
+
+
+
+ <!-- A grey horizontal navbar that becomes vertical on small screens -->
+ <nav class="navbar navbar-expand-sm bg-light fixed-top">
+    <!-- Brand -->
+  <a class="navbar-brand" href="#"></a>
+
+    <!-- Links
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOW WE WORK</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">RESOURCES</a>
+      </li>
+      <li class="nav-item">
+        <a  class="nav-link" href="#">ARTICLES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">VIEW PLANS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ACCOUNT</a>
+      </li>-->
+      <!-- Toggler/collapsibe Button
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+-->
+  <!-- Navbar links
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>-->
+  </div>
+      <!-- Search
+      <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>-->
+      <!-- Dropdown
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">MORE</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">SUBSCRIPTION</a>
+          <a class="dropdown-item" href="#">MY COURSES</a>
+          <a class="dropdown-item" href="#">WISHLIST</a>
+          <a class="dropdown-item" href="#">CART</a>
+          <a class="dropdown-item" href="#">HELP</a>
+        </div>
+      </li>-->
+      <form class="form-inline" action="/action_page.php">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">  @</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Username">
+        </div>
+      </form>
+    </ul>
+
+  </nav>
+
+
+    <div class="div1" class=" col-md-6 col-lg-12">
+    <table cellspacing="50">
+        <tr>
+
+            <td><img class="img-fluid" src="images/Robot.jpg" width="600" height="600"></td>
+            <td><img class="img-fluid" src="images/robot3.jpg" width="600" height="600"></td>
+            <td><img class="img-fluid" src="images/robots2.jpg" width="600" height="600"></td>
+               <h1  style="color:whitesmoke;font-size:300%">Full of Tech Senses</h1>
+                <p style="color:whitesmoke"><strong>Once a new technology rolls over you, if you're not part of the steamroller, you're part of the road.</strong>.</p>
+               <p style="color:whitesmoke"><strong>If future generations are to remember us more with gratitude than sorrow, we must achieve more than just the miracles of technology. We must also leave them a glimpse of the world as it was created, not just as it looked when we got through with it.</strong></p>
+             </td>
+
+        </tr>
+    </table>
+</div>
+    <hr>
+    <div >
+        <h3 class="header" style="color:blanchedalmond" > New Technologies</h3>
+ <p style="color:whitesmoke">Web development is the building and maintenance of websites; it’s the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.Web developers, or ‘devs’, do this by using a variety of coding languages. The languages they use depends on the types of tasks they are preforming and the platforms on which they are working.Web development skills are in high demand worldwide and well paid too – making development a great career option. It is one of the easiest accessible higher paid fields as you do not need a traditional university degree to become qualified.</p>
+ <p style="color:whitesmoke">Programming is fun, programming is an exercise for your brain, programming is a mental sport and when this sport is held over the internet involving sport programmer as a contestant then it is called Competitive Programming</p>
+ <p style="color:whitesmoke">Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values.</p>
+ <p style="color:whitesmoke">The Internet of Things, or IoT, refers to the billions of physical devices around the world that are now connected to the internet, all collecting and sharing data</p>
+    </div>
+    <hr>
+    <em style="font-size:300%; color:whitesmoke" style="color:whitesmoke"> Want to know more....Watch this...</em>
+    <div >
+        <iframe width="640" height="520"
+        src="https://www.youtube.com/embed/Cx5aNwnZYDc" ></iframe>
+        <!---  src="https://www.youtube.com/embed/<VideoID>" -->
+</div>
+    <hr>
+    <h3 class="header3" style="color:blanchedalmond"><strong> What is information technology and what does it encompass?</strong></h3>
+    <p style="color:whitesmoke">Information technology is the study, design, development, implementation, support or management of computer-based information systems—particularly software applications and computer hardware. IT workers help ensure that computers work well for people.Nearly every company, from a software design firm, to the biggest manufacturer, to the smallest “mom & pop” store, needs information technology workers to keep their businesses running smoothly, according to industry experts.Most information technology jobs fall into four broad categories: computer scientists, computer engineers, systems analysts and computer programmers. HR managers responsible for recruiting IT employees increasingly must become familiar with the function and titles of the myriad job titles in demand today.
+        </p>
+    <ul class="Info1">
+        <li style="color:whitesmoke">Database administration associate</li>
+        <li style="color:whitesmoke">Information systems operator/analyst</li>
+        <li style="color:whitesmoke">Interactive digital media specialist</li>
+        <li style="color:whitesmoke">Network specialist</li>
+        <li style="color:whitesmoke">Programmer/analyst</li>
+        <li style="color:whitesmoke">Software engineer</li>
+        <li style="color:whitesmoke">Technical support representative</li>
+    </ul>
+    <hr>
+    <h3  style="color:blanchedalmond" style="font-size:300%"><strong>Why is information technology important?</strong>.</h3>
+    <ol class="Info2">
+        <li style="font-size:150%;color:whitesmoke">Data overload: Businesses need to process huge amounts of data. This requires large amounts of processing power, sophisticated software and human analytical skills.</li>
+            <li style="font-size:150%;color:whitesmoke">Bandwidth for video hosting: Videoconferencing solutions have become more and more popular, so more network bandwidth is needed to support them sufficiently.</li>
+        <li style="font-size:150%;color:whitesmoke"> Mobile and wireless usages: More employers are offering remote work options that require smartphones, tablets and laptops with wireless hotspots and roaming ability.</li>
+        <li style="font-size:150%;color:whitesmoke">Cloud services: Most businesses no longer operate their own “server farms” to store massive amounts of data. Many businesses now work with cloud services—third-party hosting platforms that maintain that data.</li>
+    </ol>
+
+     <hr>
+    <table cellspacing=:15"><!--No commas(,) in between border="1px" cellspacing=:15"-->
+        <h3  style="font-size:300%; color:blanchedalmond"><strong>Most Demanded Technologies:</strong>.</h3>
+        <th style="font-size:150%;  color:whitesmoke"><strong>NAME</strong></th>
+        <th style="font-size:150%;color:whitesmoke"><strong>RATINGS</strong></th>
+        <tr>
+            <td  style="font-size:150%;color:whitesmoke">Web Development</td>
+           <td style="font-size:150%;"> ⭐⭐⭐⭐⭐</td>       <!--For emoji use WIN and. or WIN and ;-->
+        </tr>
+        <tr>
+            <td  style="font-size:150%;color:whitesmoke">Machine Learning</td>
+            <td  style="font-size:150%;"> ⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td style="font-size:150%;color:whitesmoke">Internet of Things</td>
+            <td style="font-size:150%;"> ⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td style="font-size:150%;color:whitesmoke">Competitive Coding</td>
+            <td style="font-size:150%;"> ⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td style="font-size:150%;color:whitesmoke">Javascript</td>
+            <td style="font-size:150%;"> ⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td style="font-size:150%;color:whitesmoke">Reactjs</td>
+            <td style="font-size:150%;"> ⭐⭐⭐⭐⭐</td>
+        </tr>
+         <tr>
+            <td style="font-size:150%;color:whitesmoke">Firebase</td>
+            <td style="font-size:150%;"> ⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td style="font-size:150%;color:whitesmoke">C Programming</td>
+            <td style="font-size:150%;"> ⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td style="font-size:150%;color:whitesmoke">Python</td>
+            <td style="font-size:150%;">⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td style="font-size:150%;color:whitesmoke">Java</td>
+            <td style="font-size:150%;">⭐⭐⭐⭐</td>
+        </tr>
+
+
+    </table>
+    <hr>
+
+</div>
+
+    <ul>
+    <div>
+
+            <!-- Press -->
+<h1 style="color :blanchedalmond; font-size: larger">SPONSERED BY</h1>
+  <section  class="coloured-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+  <hr>
+<!--
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <!--
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/person1.jpg" alt="Chania">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>“It was a wonderful journey with several practical learning experiences. It made me realize that the best way to learn is by doing. I experienced the power of systematic coding, test-driven development, and scientific debugging. The constant support and push from mentors were marvelous. I honed my skills in software development, problem-solving, and debugging.”</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/person2.jpg" alt="Chicago">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>When I applied for this program I thought it might be similar to the other programs in the market - watching assigned videos and implementing things. But I was wrong.The modules were designed in such a way that without learning about the concepts enough, you won't be able to implement it. There's no shortcut. Proper time must be allotted to reading documentation, tutorials, blogs and more to cross the modules. The program made sure you get out of your comfort zone and thrive."</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/person3.jpg" alt="New York">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>"The past 10 weeks were nothing short of a roller coaster ride to me. From solving those tough real world problems to those countless nights that I have spent brainstorming, everything was extremely useful and will surely help me in my future.In terms of learning the program is well formed and organised. The Micro-Experiences that are lined up have well organised modules covering in-demand interview and industry relevant skills.I would highly recommend this program to anyone who wants to learn the art of "learning by doing" and wants to get an internship-like experience."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+   <!--  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>-->
+
+
+  <div id="SimpleCarouselExample" class="carousel slide" data-ride="carousel">
+
+
+    <div class="carousel-inner">
+
+
+    <div class="carousel-item active">
+      <h1 class="testimonial-section">“It was a wonderful journey with several practical learning experiences. It made me realize that the best way to learn is by doing. I experienced the power of systematic coding, test-driven development, and scientific debugging. The constant support and push from mentors were marvelous. I honed my skills in software development, problem-solving, and debugging.”</h1>
+    <img src="images/person1.jpg" class="d-block w-100" alt="...">
+    <em>Pebbles, New York</em>
+    </div>
+
+
+    <div class="carousel-item">
+      <h2  class="testimonial-section" class="testimonial-text"> When I applied for this program I thought it might be similar to the other programs in the market - watching assigned videos and implementing things. But I was wrong.The modules were designed in such a way that without learning about the concepts enough, you won't be able to implement it. There's no shortcut. Proper time must be allotted to reading documentation, tutorials, blogs and more to cross the modules. The program made sure you get out of your comfort zone and thrive."</h2>
+    <img src="images/person2.jpg" class="d-block w-100" alt="...">
+    <em>Beverly, Illinois</em>
+    </div>
+
+
+    <div class="carousel-item">
+      <h3  class="testimonial-section" class="testimonial-text"> The past 10 weeks were nothing short of a roller coaster ride to me. From solving those tough real world problems to those countless nights that I have spent brainstorming, everything was extremely useful and will surely help me in my future.In terms of learning the program is well formed and organised. The Micro-Experiences that are lined up have well organised modules covering in-demand interview and industry relevant skills.I would highly recommend this program to anyone who wants to learn the art of "learning by doing" and wants to get an internship-like experience."</h3>
+    <img src="images/person3.jpg" class="d-block w-100" alt="...">
+    <em>Central Park, New York</em>
+    </div>
+
+
+    </div>
+
+
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+
+
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+
+
+    </div>
+
+
+<!--
+<div class="container-quiz">
+  <div id="question-container" class="hide">
+    <div id="question">Questions</div>
+    <div id="answer-button" class="btn-grid">
+      <button class="btn">Answer 1</button>
+       <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+         <button class="btn">Answer 4</button>
+    </div>
+  </div>
+  <div class="controls">
+    <button id="start-btn" class="start-btn btn">Start</button>
+  <button id="next-btn" class="next-btn btn">Next</button>
+  </div>
+</div>
+<script>
+
+const startButton = document.getElementById("start-btn");
+const nextButton = document.getElementById("next-btn");
+const questionContainerElement = document.getElementById("question-container");
+const questionElement = document.getElementById("question");
+const answerButtonsElement = document.getElementById("answer-buttons");
+
+let shuffledQuestions, currentQuestionsIndex;
+
+startButton.addEventListener("click", startButton);
+nextButton.addEventListener("click", () => {
+  currentQuestionsIndex++;
+  setNextQuestion();
+});
+function startGame() {
+  console.log("Started");
+  startButton.classList.add("hide");
+  shuffledQuestions = questions.sort(() => Math.random() - 0.5);
+  currentQuestionIndex = 0;
+  questionContainerElement.classList.remove("hide");
+  setNextQuestion();
+}
+function setNextQuestion() {
+  resetState();
+  ShowQuestion(shuffledQuestions[currentQuestionsIndex]);
+}
+function showQuestion(question) {
+  questionContainerElement.innerText = question.question;
+  question.answers.forEach(answer => {
+    const button = document.createElement("button");
+    button.innerText = answer.text;
+    button.classList.add("btn");
+    if (answer.correct) {
+      button.dataset.correct = answer.correct;
+    }
+    button.addEventListener("cilick", selectAnswer);
+    answerButtonsElement.appendChild(button);
+  });
+}
+function resetState() {
+  clearStatusClass(document.body)
+  nextButton.classList.add("hide");
+  while (answerButtonsElement.firstChild) {
+    answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+  }
+}
+function selectAnswer(e) {
+  const selectedButton = e.target;
+  const correct = selectedButton.dataset.correct;
+  setStatusClass(document.body, correct);
+  Array.from(answerButtonsElement.children).forEach(button => {
+    setStatusClass(button, button.dataset.correct);
+  });
+  if (shuffledQuestions.length > currentQuestionsIndex + 1) {
+    nextButton.classList.remove("hide");
+  } else {
+    startButton.innerText = "Restart";
+    startButton.classList.remove("hide");
+  }
+  nextButton.classList.remove("hide");
+}
+function setStatusClass(element, correct) {
+  clearStatusClass(element);
+  if (correct) {
+    element.classList.add("correct");
+  } else {
+    element.classList.add("wrong");
+  }
+}
+function clearStatusClass(element) {
+  element.classList.remove("correct");
+  element.classList.remove("wrong");
+}
+const questions = [
+  {
+    question: "What is 2+2",
+    answer: [
+      { text: "4", correct: true },
+      { text: "2222", correct: false },
+      { text: "2323", correct: false },
+      { text: "22", correct: false }
+    ]
+  },
+  {
+    question: "What is 2+2",
+    answer: [
+      { text: "4", correct: true },
+      { text: "2222", correct: false },
+      { text: "2323", correct: false },
+      { text: "22", correct: false }
+    ]
+  },
+  {
+    question: "What is 2+2",
+    answer: [
+      { text: "4", correct: true },
+      { text: "2222", correct: false },
+      { text: "2323", correct: false },
+      { text: "22", correct: false }
+    ]
+  },
+  {
+    question: "What is 2+2",
+    answer: [
+      { text: "4", correct: true },
+      { text: "2222", correct: false },
+      { text: "2323", correct: false },
+      { text: "22", correct: false }
+    ]
+  },
+  {
+    question: "What is 2+2",
+    answer: [
+      { text: "4", correct: true },
+      { text: "2222", correct: false },
+      { text: "2323", correct: false },
+      { text: "22", correct: false }
+    ]
+  },
+  {
+    question: "What is 2+2",
+    answer: [
+      { text: "4", correct: true },
+      { text: "2222", correct: false },
+      { text: "2323", correct: false },
+      { text: "22", correct: false }
+    ]
+  },
+  {
+    question: "What is 2+2",
+    answer: [
+      { text: "4", correct: true },
+      { text: "2222", correct: false },
+      { text: "2323", correct: false },
+      { text: "22", correct: false }
+    ]
+  }
+];
+
+</script>-->
+
+<!--
+  <section  class="coloured-section" id="testimonials">
+    <div class="container-fluid">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false" >
+      <div class="carousel-inner">
+
+        <div class="carousel-item active" >
+   <h1 class="testimonial-section">“It was a wonderful journey with several practical learning experiences. It made me realize that the best way to learn is by doing. I experienced the power of systematic coding, test-driven development, and scientific debugging. The constant support and push from mentors were marvelous. I honed my skills in software development, problem-solving, and debugging.”</h1>
+    <img class="testimonial-image" src="images/person1.jpg" >
+    <em>Pebbles, New York</em>
+        </div>
+
+        <div class="carousel-item" >
+          <h2  class="testimonial-section" class="testimonial-text"> When I applied for this program I thought it might be similar to the other programs in the market - watching assigned videos and implementing things. But I was wrong.The modules were designed in such a way that without learning about the concepts enough, you won't be able to implement it. There's no shortcut. Proper time must be allotted to reading documentation, tutorials, blogs and more to cross the modules. The program made sure you get out of your comfort zone and thrive."</h2>
+    <img class="testimonial-image" src="images/person2.jpg" >
+    <em>Beverly, Illinois</em>
+        </div>
+
+        <div class="carousel-item" >
+          <h3  class="testimonial-section" class="testimonial-text"> The past 10 weeks were nothing short of a roller coaster ride to me. From solving those tough real world problems to those countless nights that I have spent brainstorming, everything was extremely useful and will surely help me in my future.In terms of learning the program is well formed and organised. The Micro-Experiences that are lined up have well organised modules covering in-demand interview and industry relevant skills.I would highly recommend this program to anyone who wants to learn the art of "learning by doing" and wants to get an internship-like experience."</h3>
+    <img class="testimonial-image" src="images/person3.jpg" >
+    <em>Central Park, New York<em>
+        </div>
+
+        </div>
+        <a class="left carousel-control" href="#testimonial-carousel"  data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="right carousel-control" href="#testimonial-carousel"  data-slide="next">
+          <span class="carousel-control-next-icon" ></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </section>
+
+         -->
+    </div>
+
+
+<h2 class="quizHeader">Take a Quiz!</h2>
+
+	<table style="width:583px">
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">1.)
+What is part of a database that holds only one type of information?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">A.	Field</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>B.	Report</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>C.	Record</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>D.	File</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">2.)'OS' computer abbreviation usually means ?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>	A.Order of Significance</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">B.	Operating System</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>C.	Open Software</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>D.	Optical Sensor</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">3.)'.MOV' extension refers usually to what kind of file?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>A.	Image file</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">B.	Animation/movie file	</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>C.	Audio file</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>D.	MS Office document</label>
+	    	</ul>
+		</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">4.)	In which decade was the American Institute of Electrical Engineers (AIEE) founded?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>A. 1850s</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">B.	1880s	</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>C.	1930s</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>D.	1950s</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	</table>
+<br/>
+  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+
+<!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+
+<!--show score upon submit-->
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+
+
+      <h2>WHAT CAN WE DO?</h2>
+      <p id="demo">Provide many learning materials....</p>
+<p id="memo" style="display:none">JOIN US NOW!!</p>
+<script>
+  <button
+    type="button"
+    onclick='document.getElementById("demo").innerHTML="QUIZZES AND CERTIFICATES" '
+  >
+    CLICK ME
+  </button>
+  </script>
+  <button
+    type="button"
+    onclick="document.getElementById('memo').style.display='block' "
+  >
+    CLICK ME
+  </button>
+</script>
+
+
+    <form action="http://google.co.in"></form>
+
+    <div align="center">
+
+        <h1 style="font-size:150%; color:blanchedalmond">Employee Interests Survey form</h1>
+        <h1 style="color:whitesmoke">Enter your name:</h1>
+        <input type="text" name="UserName" size=35 maxlength=35 value=""  >
+        <br>
+        <h1 style="color:whitesmoke"> Email Id: </h1>
+        <input type="text" name="UserName" size=35 maxlength=35 value=""  >
+
+        </br></br>
+        <h1 style="color:whitesmoke">Enter your department:</h1>
+        <input type="text" name="Deptt" size=35 maxlength=35 value=""  > </br> </br>
+       <h1 style="color:whitesmoke"> Tell us a little about yourself:</h1>
+
+        <textarea name="Comments" cols:15 rows=4 ></textarea> </br> </br>
+       <h1 style="color:whitesmoke" >Do you exercise at home?</h1>
+
+        <input type="radio" name="exe" value=1 ><h1 style="color:whitesmoke" >Yes</h1>
+        <input type="radio" name="exe" value=2 ><h1 style="color:whitesmoke" >No</h1>
+        </p>
+
+        <h1 style="color:whitesmoke">What genre of movies do you like?</h1>
+
+        <select name="moviepref" ><option>
+        <option value=1 selected = "true" style="color:whitesmoke">comedy
+        <option value=2 style="color:whitesmoke" >romance
+        <option value=3 style="color:whitesmoke">thriller
+        <option value=4 style="color:whitesmoke">horror
+        <option value=5 style="color:whitesmoke">biopic
+        </select>
+        </br></br>
+
+        <input " type=submit size=35 maxlength=35 value="Submit form">
+        </div>
+
+
+    <body background ="images/background.png" width="100%">
+
+
+
+    </form>
+
+</header>
+
+
+
+ <p id="cemo"></p>
+<p id="nemo"></p>
+<script src="script.js"></script>
+</body>
+<!-- Footer -->
+
+  <footer class="coloured-section" id="footer">
+
+    <div class="container-fluid">
+
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+       <p>© Copyright 2021 TechnoWorld</p>
+     </div>
+     </footer>
+
+</html>
