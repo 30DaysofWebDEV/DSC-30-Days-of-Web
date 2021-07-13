@@ -9,3 +9,7 @@
 * Video
 * Images
 
+### Did Project 1
+Email: voidmain2001@gmail.com
+Github username: pritam-de
+Final fork repo link after changes: https://github.com/pritam-de/DSC-30-Days-of-Web
