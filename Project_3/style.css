@@ -1,0 +1,114 @@
+a {
+    color: #5fcf80;
+  }
+  a:hover {
+    color: #86db9f;
+    text-decoration: none;
+    border: solid;
+  }
+  #Home {
+    width: 100%;
+    height: 80vh;
+    background: url("lap2.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+div ul li a{
+    margin-right: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(63,14,199);
+    font-size: 15px;
+    font-weight: 800;
+
+}
+.jumbotron {
+  background-image: url("lap22.jpg");
+  background-size: cover;
+  height: 600px;
+}
+.jumbotron .text-left{
+  margin-top: 130px;
+}
+.jumbotron .text-left h1{
+  color:rgb(233, 233, 61);
+}
+.jumbotron .text-left h3{
+  color: rgb(140, 188, 230);
+}
+.about-header{
+  font-family: Geneva, Tahoma, sans-serif;
+  text-align:center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.about-header:hover
+{
+  color: #5fcf80;
+}
+.content{
+  
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eaeaea;
+  font-family: cursive;
+  letter-spacing: 1pxs;
+  text-align:justify;
+  line-height: 30px;
+  border-style: solid double;
+}
+.content{
+    overflow: auto;
+}
+.content p{
+  margin:10% 10% 10% 10%;
+  
+}
+.content .a{
+  text-indent: 30px;
+
+}
+.logo{
+  background-color: #eaeaea;
+  border-top: solid;
+  border-bottom: solid;
+  height: 500px;
+}
+tr:nth-child(even)
+{
+    background-color:  rgba(170, 153, 153, 0.404);
+}
+table tr:hover
+{
+  color: #5fcf80;
+  border: solid;
+
+}
+.text-name
+{
+  text-align: center;
+}
+.card:hover,.content .a:hover,.content .b:hover,.hov:hover
+{
+  color: #5fcf80;
+}
+.btn:hover{
+color: chartreuse;
+}
+.foot-name{
+  font-family:cursive;
+  font-size: x-large;
+  color: black;
+  font-weight: bold;
+  letter-spacing: .5px;
+}
+.social ul li a{
+
+  text-transform: uppercase;
+  font-size: large;
+}
