@@ -1,0 +1,46 @@
+body{
+    background-color: aliceblue;
+    font-family: Helvetica, sans-serif;
+    max-width: 100%;
+}
+
+.field{
+    text-align: center;
+    float: right;
+    margin-right: 25px;
+    width: 40%;
+    
+}
+
+.form{
+    text-align: justify;
+}
+
+.section{
+    position: absolute;
+    text-align: justify; 
+    width: 40%; 
+    margin: 4px 4px;
+    padding: 0px 10px;
+    float: left;
+}
+
+.side-icon{
+    position: relative;
+    margin: 10px 10%;
+    border: solid 4px yellowgreen;
+    border-radius: 50%;
+}
+
+
+.marquee{
+    background-color: thistle;
+    color: teal;
+    margin-top: 10px;
+}
+.footer{
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 2px 0px;
+}

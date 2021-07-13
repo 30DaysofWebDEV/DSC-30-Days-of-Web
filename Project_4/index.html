@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Project 3</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script>
+        function saveData() {
+         document.cookie="fname="+document.getElementById('fname').value+"; expires=Thu, 18 Dec 2019 12:00:00 UTC";
+         document.cookie="email="+document.getElementById('email').value+"; expires=Thu, 18 Dec 2019 12:00:00 UTC";
+       
+         var radios = document.getElementsByName('gender');
+       
+         for (var i = 0, length = radios.length; i < length; i++) {
+           if (radios[i].checked) {
+               document.cookie="gender="+radios[i].value+"; expires=Thu, 18 Dec 2019 12:00:00 UTC";
+               break;
+           }
+       }
+        alert('Data Saved!');
+       }
+        alert('SAVED DATA: '+document.cookie);
+       </script>
+    <style>
+        header h1 {
+            text-align: center;
+            font-size: 40px;
+            color: black;
+        }
+
+        h2,
+        h3,
+        h4 {
+            margin: 0 30% 0 30%;
+            text-decoration: underline;
+        }
+
+        body {
+            max-width: 100vh;
+            text-align: center;
+            background: linear-gradient(#b6f256, #2f80ed);
+            margin: 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .jumbotron {
+            background-color: teal;
+            margin: 0 25px 0 25px;
+            color: #fff;
+
+
+        .field{
+            text-align: center;
+        } 
+
+        .form{
+            text-align: justify;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            padding: 10px;
+
+        }
+
+        img {
+            padding: 5px;
+            width: 550px;
+        }
+
+        .con{
+            text-decoration: none;
+            color: turquoise;
+            text-transform: uppercase;
+        }
+
+        footer {
+            background-color: black;
+            color: bisque;
+            overflow: hidden;
+        }
+
+        .center {
+            margin: 0;
+        }
+
+        .footer{
+        background-color: gainsboro;
+        overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <header>
+        <h1 class="justify-content">PORTFOLIO</h1>
+    </header>
+
+    <div class="jumbotron container">
+
+    <fieldset class="field"> <h3 class="con">Contact Us</h3>
+        <table class="form" align ="center" cellpadding="6" cellspacing ="6">
+            <form action="submit.html" >
+            <tr> 
+                <td> <label for="name"> First Name </label></td> 
+                <td> <input type="text" placeholder="Enter First Name"> </td> 
+            </tr>
+            <tr> 
+                <td> Last Name </td> 
+                <td> <input type="text" placeholder="Enter Last Name"> </td> 
+            </tr>
+            <tr> 
+                <td> Mobile No. </td>
+                <td> <input type="number" size =10 placeholder="Enter Mobile No."> </td> 
+            </tr> <br> 
+            
+            <tr> 
+                <td> Email ID: </td>
+                <td> <input type="email" placeholder="Enter Email ID"> </td> 
+            </tr>
+            <tr> 
+                <td> Gender </td> 
+                <td> <input type="radio" name="a1">Male <input type="radio" name="a1">Female </td>
+            </tr>
+                <td></td>
+                <td>
+                    <!-- <button type="reset">Reset</button> -->
+                    <input class="btn btn-sm btn-info" type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    </div>
+    <br>
+
+    <h4>IMAGES AND VIDEOS</h4>
+    <div class= "row" >
+        <div class="card">
+            <div class="card-body">
+                
+
+                </div>
+            </div>
+    </div>
+        <!-- <div class="col"><img src="img.jpg" alt="..."></div> -->
+    <div class="col">
+        <iframe width="1280px" height="540px" src="https://www.youtube.com/embed/DcN_hcHXR_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+
+
+    <br>
+<!-- Footer -->
+    <div class="footer">
+        <div class="pt-3 justify-content-center">
+            <div class="row justify-content-center">
+                <h3>Follow us on</h3>
+            </div>
+            <div class="row justify-content-center"> 
+                <div class="pt-2 pb-2 px-2">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/fbicon.png" alt="facebook" class="card-img"></a>
+                </div>
+                <div class="pt-2 pb-2 px-2">
+                <a href="https://www.instagram.com/highly_insane._/" target="_blank"><img src="images/insta.png" alt="Instagram" class="card-img"></a>
+                </div>
+                <div class="pt-2 pb-2 px-2">
+                <a href="https://www.linkedin.com/in/komalgupta185/" target="_blank"><img src="images/linkedin.png" alt="linkedIn" class="card-img"></a>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-2">
+            <p>Copyright &copy; 2020 | Designed by Komal Gupta</p>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

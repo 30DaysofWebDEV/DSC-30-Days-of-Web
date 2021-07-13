@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>To Do List</title>
+    <style>
+        body{
+            background: linear-gradient(#86a4cf, #282f6e) no-repeat;
+            font-family: Verdana, Helvetica, Tahoma, sans-serif;
+        }
+        .jumbotron{
+            margin-top: 10%;
+            margin-bottom: 30%;
+            background: transparent;
+        }
+        #toDoContainer{
+            border-radius: 50%;
+            padding-top: 10px;
+            font-size: larger;
+        }
+
+        .form-control{
+            border: 2px solid blue;
+        }
+
+        #addbtn{
+            border-radius: 20px;
+            font-size: larger;
+            background:blue;
+            color: #fff !important;
+            font-size: 16px !important;
+            font-weight: 600 !important;
+            padding: 8px 24px !important;
+            border: 1px solid black !important;
+        }
+        #addbtn:hover{
+            background-color: rgb(0, 6, 97);
+            color:white !important;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"><br>
+        <div class="jumbotron">
+        <h1><strong>To Do List </strong></h1><br>
+        <div class="row">
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="task_input" placeholder="Enter your task to do...">
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="btn btn-success" id="addbtn">Add Task</a>
+            </div><br>
+            <div class="col-md-8">
+                <div class="to-dos" id="toDoContainer">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

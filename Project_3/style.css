@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    
+    
+}
+
+.jumbotron {
+    color: white;
+    background-image: url('images/bg2.jpg');
+    
+    background-position: 100vw;
+}
+
+.card-img{
+    height: 40px;
+    width: 40px;
+    
+}
+.center{
+    align-content: center;
+    text-align: center;
+}
+
+.button{
+    border-radius: 30px;
+}
+
+.unlink{
+    text-decoration: none;
+    color:#000;
+
+}
+
+.my-card:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    transition-duration:  0.4s;
+}
+
+.right{
+    float: left;
+    border-radius: 50%;
+}
+.footer{
+    background-color: gainsboro;
+    overflow: hidden;
+}
