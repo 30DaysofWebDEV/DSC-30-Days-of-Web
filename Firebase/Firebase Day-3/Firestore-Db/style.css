@@ -1,0 +1,160 @@
+/* @Dsc web development for 30 Days - Firebase Day-2 By Pranav Agarwal-DSC MRIIRS  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+  --primary-color: #2899f5;
+  --secondary-color: #fa3131;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding-bottom: 2rem;
+  -webkit-box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75);
+}
+
+header {
+  width: 100%;
+  background: var(--primary-color);
+  padding: 1rem;
+}
+
+header h3 {
+  color: #fff;
+  margin-left: 1.5rem;
+}
+
+.table-users {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+}
+
+.table-users th, .table-users td {
+  text-align: left;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: .5rem;
+}
+
+.table-users th {
+  background: #fafafa;
+  padding: 1rem auto;
+}
+
+.btn {
+  background: transparent;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  outline: none;
+  transition: all .5s ease;
+}
+
+.btn-edit {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn-edit:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-delete {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-delete:hover {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
+.table-wrapper {
+  text-align: center;
+}
+
+.btn-add {
+  width: 6rem;
+  height: 2rem;
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+}
+
+/* Modal */
+.modal-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #24232354;
+  display: none;
+}
+
+.modal {
+  position: relative;
+  background: #fff;
+  text-align: center;
+  width: 25rem;
+  margin: 5rem auto;
+  -webkit-box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 22px -6px rgba(0,0,0,0.75);
+  animation-name: animatetop;
+  animation-duration: .4s;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px; opacity: 0;
+  }
+  to {
+    top: 0; opacity: 1;
+  }
+}
+
+.modal-show {
+  display: block;
+}
+
+.modal-header {
+  margin-bottom: 1rem;
+  background: #f8fafb;
+  padding: 2rem;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.btn-modal {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  width: 9rem;
+}
+
+input {
+  width: 100%;
+  height: 2.2rem;
+  margin-bottom: 1rem;
+  text-indent: .5rem;
+  outline: none;
+}

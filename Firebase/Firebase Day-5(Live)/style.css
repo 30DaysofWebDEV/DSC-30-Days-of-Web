@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-color: rgb(233, 231, 231);
+}
+
+.head{
+    text-align: center;
+    display: none;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.chat-box{
+    background-color: white;
+    padding: 30px;
+    width: 50%;
+    min-height: 200px;
+}

@@ -1,0 +1,22 @@
+body{
+    margin:0;
+}
+
+#ls{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(238, 235, 235);
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: white;
+    padding: 30px;
+    justify-content: space-evenly;
+    border-radius: 8px;
+}
